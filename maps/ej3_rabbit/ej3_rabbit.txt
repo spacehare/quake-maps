@@ -1,0 +1,56 @@
+Obtuse Myopericarditis
+by Rabbit
+	https://hare.itch.io
+	https://github.com/spacehare
+
+for Explore Jam 3, hosted by AlexUnder
+
+= = = = =
+
+compile settings
+	ericw-tools v0.18.1-32-g6660c5f
+	QBSP:	-splitturb -bsp2
+	VIS:	-noambient
+	LIGHT:	-extra
+
+made in:	TrenchBroom v2023.1
+tested on:	Quakespasm 0.95.0
+	
+Textures by:	https://www.slipseer.com/index.php?resources/makkon-textures.28/ (except for the hidden ones)
+				https://www.quaddicted.com/files/wads/ - 'liquids.wad' for *water07
+				https://web.archive.org/web/20230121043915/http://khreathor.xyz/site/prototype/ (during dev)
+				
+Skybox by:		https://www.slipseer.com/index.php?resources/makkon-skyboxes.139/ (mak_bluesky2_)
+
+= = = = =
+
+🐇
+
+= = = = =
+
+This is version 5
+
+5 --- compiled on 2023-05-27
+- fixed misaligned texture in Slope area
+- fixed a visible SKIP texture (thanks comfy)
+- fixed a cliff face having misaligned vertices in Surf area
+- adjusted minlight of some vertical platforms near Platforms area
+4 --- compiled on 2023-05-27
+- fixed a softlock in Bunnyhopping area (thanks riktoi)
+- fixed an unlit texture in Bunnyhopping area
+- added tele brush over water in Platforms area (thanks 8ball/Rowan)
+- made 2 func_doors into 1 func_door to prevent desync in Platforms area
+3
+- fixed gap in water by the Pistons area intro pit
+- raised up a wall at the upper Pistons area to prevent an easy skip, like a big jerk
+- fixed incorrect teleport target & incorrectly grouped teleport brushes in Surf area
+- fixed visible SKIP in Bunnyhopping area
+- fixed black edges on door in Corner jumping area
+2
+- fixed z-fighting on spiral stairs, shifted them up 16 units
+
+= = = = =
+
+DON'T WORRY -- BE FURRY
+
+...and don't forget to drink water, stay hydrated

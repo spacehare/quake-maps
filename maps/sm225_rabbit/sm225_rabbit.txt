@@ -1,0 +1,47 @@
+Octadic Cactoid
+by Rabbit
+	https://hare.itch.io
+	https://github.com/spacehare
+
+for "sm225 Randomizer Special 2", hosted by spootnik
+
+= = = = =
+seed
+	Your map must include:		
+		at least	6	func_button
+		at least	9	monster_knight
+		at least	4	func_plat
+		exactly		4	trigger_push
+		at most		12	monster_zombie
+			
+	Your map must be of theme 		
+		cr8		
+			
+	And also…		
+		You may only use 8 textures, including skies and liquids (but not including skips/trigger/clip).		
+= = = = =
+compile settings
+	ericw-tools-v0.18.1-2059-g0a5debd2-win6
+		QBSP:	-splitturb -bsp2
+		VIS:	-noambient
+		LIGHT:	-extra
+
+made in:	TrenchBroom v2023.1
+tested on:	ironwail-0.6.0-win64, quakespasm-0.95.0_win64
+	
+Textures:	cr8 by Speedy
+Music: 		"Maraxus - Leave No Man Behind" from Ratchet: Deadlocked
+Sounds:		"screammachine.wav" from Half-Life
+= = = = =
+
+🐇
+
+= = = = =
+
+This is version 1 - 2023-06-08 (YYYY-MM-DD)
+
+= = = = =
+
+DON'T WORRY -- BE FURRY
+
+...and don't forget to drink water, stay hydrated

@@ -1,0 +1,20 @@
+info:
+  stem: rm_myopia
+  message: nascent myopia
+  by: rabbit
+  mod: remobilize
+  version: 2
+  made with: TrenchBroom-Win64-v2024.1-Release
+  tested with: quakespasm-0.95.0_win64
+  compiled with:
+    tool: ericw-tools-2.0.0-alpha7-win64
+    args:
+      qbsp: -leaktest -splitturb -bsp2 mapsrc/${MAP_BASE_NAME}.map maps/${MAP_BASE_NAME}.bsp
+      vis: -noambient -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp
+      light: -extra4 -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp
+credit:
+  textures:
+    - name: makkon textures
+      by: makkon
+      url: https://www.slipseer.com/index.php?resources/makkon-textures.28/
+note: "DON'T WORRY — BE FURRY"

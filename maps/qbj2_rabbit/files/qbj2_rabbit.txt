@@ -1,0 +1,21 @@
+"<<>>" by Rabbit
+
+credit:
+- textures........Makkon
+- music...........<<>> by <<>> from the Command & Conquer: Tiberian Sun soundtrack
+
+compiled with.....ericw-tools-v0.18.1-32-g6660c5f-win64
+tested with.......quakespasm-0.95.0_win64
+
+notable compile info:
+- splitturb
+- bsp2
+- extra
+- nombient
+
+thank you
+
+(\_(\
+(='.')
+C(")")
+

@@ -1,0 +1,26 @@
+autosave/
+*.zip
+*.7z
+
+*.log
+# bsp is like dist/build, ignore it
+*.bsp 
+*.lit
+*.prt
+*.texinfo
+*.texinfo.json
+*.vis
+*.pts
+*-compile.map
+*-crash*.map
+*-crash*.txt
+mapsrc/
+
+# */maps/**
+# !*/maps/*.bsp
+# !*/maps/*.lit
+
+# can't commit music because i don't own it
+music/
+
+_ignore

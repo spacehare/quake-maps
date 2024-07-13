@@ -1,0 +1,60 @@
+newmtl *64_water1_2
+map_Kd 
+
+newmtl *lava_64_1
+map_Kd 
+
+newmtl *lavaskip
+map_Kd 
+
+newmtl *waterskip
+map_Kd 
+
+newmtl +0button_0
+map_Kd 
+
+newmtl +0button_2
+map_Kd 
+
+newmtl 128_cyan_3
+map_Kd 
+
+newmtl 128_grey_3
+map_Kd 
+
+newmtl 128_honey_2
+map_Kd 
+
+newmtl 32_grey_3
+map_Kd 
+
+newmtl 64_grey_3
+map_Kd 
+
+newmtl 64_honey_2
+map_Kd 
+
+newmtl blue_3
+map_Kd 
+
+newmtl grey_1
+map_Kd 
+
+newmtl grey_3
+map_Kd 
+
+newmtl honey_2
+map_Kd 
+
+newmtl key_gold_1
+map_Kd 
+
+newmtl skip
+map_Kd 
+
+newmtl sky_blue_1
+map_Kd 
+
+newmtl trigger
+map_Kd 
+

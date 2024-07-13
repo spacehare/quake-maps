@@ -1,0 +1,21 @@
+BARKNEST
+= = = = =
+by				rabbit
+for				dogjam
+hosted by		riktoi
+- ~ - ~ -
+
+CREDIT
+
+dog models credit:
+	* Chillo's Model Pack 1.7
+	* Keep 0.50
+^ links for above models in the progs_dump manual
+	* Kebby_
+
+sound credit:
+	* half-life
+	
+textures and skybox by Makkon
+
+- ~ - ~ -

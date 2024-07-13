@@ -1,0 +1,20 @@
+~ iterating on ideas from bonk_rabbit. . .
+~ see bonk_rabbit's readme for things like compile args
+
+~ ~ ~ ~ ~
+
+- prototype textures created by khreathor
+- blue prototype textures (the ones that teleport you) from LibreQuake, provided to me on Discord by Chuma
+- foliage textures packed by mrtaufner; i have no idea what they're sourced from
+- dirt/grass textures (part of makkon_nature_legacy) by Makkon
+- track81 is "You Are Not Part of the Control Group" from the Portal 2 soundtrack
+
+- - - - - 
+
+shoutouts to Cavern of Dreams and Pseudoregalia
+
+(\_(\
+(=^.^)
+C(")')
+
+DON'T WORRY - BE FURRY

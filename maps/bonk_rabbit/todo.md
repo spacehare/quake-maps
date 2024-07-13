@@ -1,0 +1,52 @@
+- [x] graybox
+- [x] changelevel is set to start
+- [x] texture
+- [x] water texture
+- [x] seal
+- [x] lighting WITH FLUX OFF
+- [x] secrets (try to make at least 3 !)
+- [x] playtest and balance
+  - [x] easy
+  - [x] normal
+    - seems fine? i need someone else to playtest this tbh, but i don't have time now
+  - [x] hard
+    - lots of HP but w/e
+- [x] info_intermission, 1 or more
+- [x] autosaves / checkpoints
+- [x] phongs, phong_groups
+- [x] sfx
+- [x] test in QS
+- [x] test in IW
+  - end portal layered parallax is broken. maybe bc (func_bobbing or not structural)? idgaf.
+- [x] music
+  - The Temple, Abe's Oddysee New N Tasty
+  - Box Has Key Temple Ruins, Baba is You
+  - X Pokitaru, Scenic Sewers, rac1
+  - -> The Temple, jak 1
+- [x] no MAP issues in TrenchBroom console
+- [x] readme
+- [x] replace proto textures
+
+---
+
+- [x] item_runeshard on critical path
+- [x] floor button prefab corners should be func_detail
+- [x] floor button prefab should be sealed underneath !
+- doors
+  - [x] texture the inner faces of the door triangles
+  - [x] door sides (columns) need to be ungrouped and have trims manually adjusted
+  - [-] minlight on da doors
+  - [x] on wide doors, figure out wtf to do with the sides (where they meet the walls...)
+- [x] more healthkits
+- [x] see if i can get ogres and brutes to NOT drop rockets...
+  - ammo_nails = -3
+- [-] ceiling detailing
+- [-] fix music loop
+  - sounds fine in foobar, but maybe quake lags restarting it or sth, idc
+- [x] penumbra = 7? 10? 14?
+  - 10 is OK
+- [x] hallway parallel to loop plats -- 8 says blue dim light, check it. orange is in scrap layer
+  - [x] playtest this too
+- [x] test hallway on trains
+- [x] ladder tut lighting
+- [x] FINAL PLAYTEST !!

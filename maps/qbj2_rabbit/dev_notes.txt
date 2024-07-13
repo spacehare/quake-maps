@@ -1,0 +1,55 @@
+concrete
+- gry1
+- moss1
+? rebar
+
+industrial
+- grey1
+OR rst4
+
+urban
+- grey1
+- gry0
+OR rst4
+
+
+
+music
+Scout
+Ion Storm
+Gloom
+Dusk Hour
+Approach
+
+
+name ideas
+abscission
+	Natural shedding of an organ that is mature or aged, as of a ripe fruit or an old leaf.[4]
+aculeate
+	Armed with prickles,[13] e.g. the stem of a rose.
+adventive
+	Introduced accidentally[13] (usually referring to a weed).
+androgynous
+	Having male and female flowers in the same inflorescence.
+caducous
+	Falling off early, e.g. the sepals of poppies, which fall off when the petals begin to open. Compare persistent and fugacious.
+haustorium
+	parasitic plants, a structure developed for penetrating the host's tissues.
+monomorphic
+	Of one type, rather than several. See also dimorphic (two types) and polymorphic (many types).
+neophyte
+	A plant that has recently been introduced to a geographic area. Contrast archaeophyte.
+obligate
+	(of parasites) Unable to survive without a host. Contrast facultative.
+saprophyte
+adj. saprophytic
+	A plant, or loosely speaking, a fungus or similar organism, deriving its nourishment from decaying organic matter such as dead wood or humus, and usually lacking chlorophyll. Compare parasite, saprotroph, and epiphyte.
+saprotroph
+adj. saprotrophic
+	An organism deriving its nourishment from decaying organic matter. Contrast parasite and epiphyte.
+epiphyte
+	A plant, alga or fungus that grows on another plant without deriving nourishment from it but using it for support.
+epiphytic
+	Of an epiphyte; living on the surface of a plant. Compare epilithic, lithophytic.
+vestigial
+	Reduced in form and function from the normal or ancestral condition.

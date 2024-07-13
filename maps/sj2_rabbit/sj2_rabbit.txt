@@ -1,0 +1,31 @@
+requirements
+. Alkaline
+
+compiled with
+. TrenchBroom-Win64-v2022.1-Release
+. ericw-tools-v0.18.1-32-g6660c5f-win64
+
+	qbsp	splitturb
+	qbsp	bsp2
+	light	extra
+	vis		noambient
+
+tested on
+. quakespasm-0.95.0_win64
+. alkdevkit-1.2beta5
+
+music
+	track	title				source
+	250		Sewer Attempt 1		Beyond Good & Evil
+	251		Sewer Attempt 2		Beyond Good & Evil
+	252		Aquatos Sewers		Ratchet & Clank: Up Your Arsenal
+	253
+	254
+	255
+	
+wads
+	Makkon
+	
+sfx
+	Rayman 2
+	Half Life 1

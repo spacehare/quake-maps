@@ -1,0 +1,2 @@
+- [ ] link to jam pages on slipseer
+- [ ] link above maps to their respective folders using markdown
