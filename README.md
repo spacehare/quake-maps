@@ -4,8 +4,8 @@ inspired by Chuma to put my maps on github too
 
 | stem                                     | status | slipseer                                                                   |
 | ---------------------------------------- | :----: | -------------------------------------------------------------------------- |
-| [bonk_rabbit](./maps/bonk_rabbit/)       |   ✅   | https://www.slipseer.com/index.php?threads/bonk-jam.519/                   |
-| [bonk_rabbit2](./maps/bonk_rabbit2/)     |   ✅   | https://www.slipseer.com/index.php?threads/bonk-jam.519/                   |
+| [bonk_rabbit](./maps/bonk_rabbit/)       |   ✅   | https://www.slipseer.com/index.php?resources/bonk-jam.373/                 |
+| [bonk_rabbit2](./maps/bonk_rabbit2/)     |   ✅   | https://www.slipseer.com/index.php?resources/bonk-jam.373/                 |
 | [dogjam_rabbit](./maps/dogjam_rabbit/)   |   ❌   |                                                                            |
 | [ej3_rabbit](./maps/ej3_rabbit/)         |   ✅   | https://www.slipseer.com/index.php?resources/explore-jam-3.228/            |
 | [lim_rabbit](./maps/lim_rabbit/)         |   ✅   | https://www.slipseer.com/index.php?resources/liminal-spaces-jam.359/       |
