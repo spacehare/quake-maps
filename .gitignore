@@ -24,3 +24,5 @@ mapsrc/
 music/
 
 _ignore
+
+*.blend1
