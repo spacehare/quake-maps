@@ -9,6 +9,7 @@ inspired by Chuma to put my maps on github too
 | [dogjam_rabbit](./maps/dogjam_rabbit/)   |   ❌   |                                                                            |
 | [ej3_rabbit](./maps/ej3_rabbit/)         |   ✅   | https://www.slipseer.com/index.php?resources/explore-jam-3.228/            |
 | [lim_rabbit](./maps/lim_rabbit/)         |   ✅   | https://www.slipseer.com/index.php?resources/liminal-spaces-jam.359/       |
+| [meat_rabbit](./maps/meat_rabbit)        |        |                                                                            |
 | [qbj_rabbit7250](./maps/qbj_rabbit7250/) |   ✅   | https://www.slipseer.com/index.php?resources/quake-brutalist-jam.126/      |
 | [qbj2_rabbit](./maps/qbj2_rabbit/)       |   ❌   |                                                                            |
 | [rm_myopia](./maps/rm_myopia/)           |   ✅   | https://www.slipseer.com/index.php?resources/re-mobilize.239/              |

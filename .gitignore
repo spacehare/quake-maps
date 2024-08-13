@@ -1,4 +1,5 @@
 autosave/
+build/
 *.zip
 *.7z
 
