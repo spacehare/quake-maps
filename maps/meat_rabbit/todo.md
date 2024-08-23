@@ -15,8 +15,10 @@
 - [x] autosaves / checkpoints
 - [ ] phongs, phong_groups
 - [ ] sfx
-  - chomp sfx for conc hallway mouth
-  - snap sfx for breaking tendon door shortcuts
+  - [x] chomp sfx for conc hallway mouth
+  - [x] snap sfx for breaking tendon door shortcuts
+  - [x] CONVERT WAVS TO MONO
+  - sfx on looped pillars
 - [x] music
   - RAC2 "Tabora - Mining Area"
   - RAC3 "Obani Gemini"
@@ -25,6 +27,9 @@
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] replace all proto textures
+- make sure mouth works on re-entering the area from the elevator
+- looped pillars should not be squares
+- run through map and make sure everything that needs to be detail is func_detail or func_detail_wall
 
 ---
 
@@ -38,26 +43,42 @@
 > 5 sun: playtesting, polish
 > 6 mon: submit -- try to be done before this...
 
+speed up phong pass by selecting every func_detail and func_detail_wall and adding phong 1, phong_group 1
+then every func_group w same as above
+then every structural brush into a func_group w same above
+
 aug 21
 art pass
+aug 22
+sfx, art pass
+aug 23
+art pass
+aug 24
+==
+aug 25
+==
+
+---
 
 - A = CONC
-- belly, after tube
-  - underwater section
-- 3 bridges
-- after 3 bridges
-- remobilize rm_myopia copycat area
-- uterus
+  - vent creaking sfx
+  - vent crashing sfx
+- AS = belly, after tube
+  - AS = underwater section
+- AS = 3 bridges
+- AS (EXCEPT FOR CELING TUBE) = after 3 bridges
+- AS (EXCEPT FOR CONNECTION TO UTERUS) = remobilize rm_myopia copycat area
+- AS (ESCEPT FALLOPIAN TUBE JUNCTION TO ELEVATOR AND BELLY) = uterus
 - teeth forest until ear
-  - underwater section
+  - secret underwater section
 - ear
 - 3 bosses
 - mini respite platforming after 3 bosses
-- face
-- junction between temple and shortcuts
-- elevator
-- temple
-  - arena
+- S = face
+- S = junction between temple and shortcuts
+- S = elevator
+- S = temple
+  - S = arena
 
 ---
 
@@ -69,7 +90,7 @@ art pass
 # playtester feedback and demo insights
 
 - mopey confused by rings, should i change them?
-- health should respawn in final arena
+- [x] health should respawn in final arena
 - [?] lyd wants more shotty ammo before-or-during teeth forest
 - [x] add way back from temple
 - [x] add way back from temple arena after you win

@@ -14,13 +14,12 @@
 - [eggpeel.wav](https://freesound.org/people/dav0r/sounds/176754/)
 - [pasta.wav](https://freesound.org/people/duckduckpony/sounds/130521/)
 - [eggstep.wav](https://freesound.org/people/dav0r/sounds/176758/)
+- [twig_d.wav](https://freesound.org/people/deleted_user_7146007/sounds/383721/)
+- [twig3.wav](https://freesound.org/people/earthsounds/sounds/101494/)
+- [twig2.wav](https://freesound.org/people/earthsounds/sounds/101493/)
+- [celery1.wav](https://freesound.org/people/sonictechtonic/sounds/242215/)
 
 [Jeschke](https://www.furaffinity.net/gallery/jeschke/folder/412941/Sound-Assets/) ⚠ NSFW - this is a furaffinity account of a furry vore artist. i warned you. ⚠
 
 - jeschke_squish3.wav (wet towel)
 - jeschke\*.wav (pumpkin)
-
-[Rayman 2](https://www.sounds-resource.com/pc_computer/rayman2thegreatescape/sound/7553/)
-
-- bones\*.wav - rayman 2
-- goutte\*.wav - rayman 2
