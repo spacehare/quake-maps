@@ -36,7 +36,7 @@
 - make sure mouth works on re-entering the area from the elevator
   - mouth is broken -- instead of trigger_multiple, just block that hallway w a togglewall. i don't have time to fuck with broken rotaters
 - uterus floor trim
-- uterus entrance (when you turn around after entering)
+- [x] uterus entrance (when you turn around after entering)
 
 ---
 
@@ -63,17 +63,18 @@ art pass
 aug 24
 wrap up geo and tex, seal map and then move onto lighting
 aug 25
+lighting
 ==
 
 ---
 
-- A = CONC
-  - vent creaking sfx
-  - vent crashing sfx
-- AS = belly, after tube
-  - AS = underwater section
-- AS = 3 bridges
-- AS (EXCEPT FOR CELING TUBE) = after 3 bridges
+- ASL = CONC
+  - [x] vent creaking sfx
+  - [x] vent crashing sfx
+- ASL = belly, after tube
+  - ASL = underwater section
+- ASL = 3 bridges
+- ASL = after 3 bridges
 - AS = remobilize rm_myopia copycat area
 - AS (ESCEPT FALLOPIAN TUBE JUNCTION TO ELEVATOR AND BELLY) = uterus
 - AS = teeth forest until ear
