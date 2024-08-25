@@ -3,6 +3,9 @@
 - [ ] texture
 - [ ] seal
 - [ ] lighting
+  - colors to consider:
+    - colder colors in concrete area (white, blue, maybe amber tho?)
+    - peach, mango, beet
 - [x] secrets
 - playtest and balance
   - [ ] QuakeSpasm
@@ -67,18 +70,19 @@ aug 25
   - AS = underwater section
 - AS = 3 bridges
 - AS (EXCEPT FOR CELING TUBE) = after 3 bridges
-- AS (EXCEPT FOR CONNECTION TO UTERUS) = remobilize rm_myopia copycat area
+- AS = remobilize rm_myopia copycat area
 - AS (ESCEPT FALLOPIAN TUBE JUNCTION TO ELEVATOR AND BELLY) = uterus
-- teeth forest until ear
-  - secret underwater section
-- ear
-- 3 bosses
-- mini respite platforming after 3 bosses
-- S = face
-- S = junction between temple and shortcuts
+- AS = teeth forest until ear
+  - AS = secret underwater section
+- AS = ear
+- AS = 3 bosses
+- AS = mini respite platforming after 3 bosses
+- AS = face
+  - ear pond
+- AS = junction between temple and shortcuts
 - S = elevator
-- S = temple
-  - S = arena
+- AS = temple
+  - AS = arena
 
 ---
 
