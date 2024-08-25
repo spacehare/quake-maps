@@ -1,8 +1,9 @@
 - [x] graybox
 - [x] changelevel is set to start
-- [ ] texture
-- [ ] seal
+- [x] texture
+- [x] seal
 - [ ] lighting
+  - doors should have some minlight and/or dirt -1
   - colors to consider:
     - colder colors in concrete area (white, blue, maybe amber tho?)
     - peach, mango, beet
@@ -10,7 +11,7 @@
 - playtest and balance
   - [ ] QuakeSpasm
   - [ ] IronWail
-  - other players playtested; count: 2
+  - other players playtested; count: 3
   - [ ] 0 easy
   - [ ] 1 normal
   - [ ] 2 hard
@@ -30,9 +31,12 @@
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] replace all proto textures
-- make sure mouth works on re-entering the area from the elevator
-- looped pillars should not be squares
+- [x] looped pillars should not be squares
 - run through map and make sure everything that needs to be detail is func_detail or func_detail_wall
+- make sure mouth works on re-entering the area from the elevator
+  - mouth is broken -- instead of trigger_multiple, just block that hallway w a togglewall. i don't have time to fuck with broken rotaters
+- uterus floor trim
+- uterus entrance (when you turn around after entering)
 
 ---
 
@@ -57,7 +61,7 @@ sfx, art pass
 aug 23
 art pass
 aug 24
-==
+wrap up geo and tex, seal map and then move onto lighting
 aug 25
 ==
 
