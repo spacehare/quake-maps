@@ -20,7 +20,6 @@ jam hosted by **ComfyByTheFire**
 
 - [banana.wav](https://freesound.org/people/aglinder/sounds/264484/)
 - [eggpeel.wav](https://freesound.org/people/dav0r/sounds/176754/)
-- [pasta.wav](https://freesound.org/people/duckduckpony/sounds/130521/)
 - [eggstep.wav](https://freesound.org/people/dav0r/sounds/176758/)
 - [twig_d.wav](https://freesound.org/people/deleted_user_7146007/sounds/383721/)
 - [twig3.wav](https://freesound.org/people/earthsounds/sounds/101494/)
