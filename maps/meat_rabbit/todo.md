@@ -30,7 +30,7 @@
   - -> RACSM "Ryllus Temple"
 - [x] no MAP issues in TrenchBroom console
 - [x] readme
-- [ ] replace all proto textures
+- [x] replace all proto textures
 - [x] looped pillars should not be squares
 - [x] run through map and make sure everything that needs to be detail is func_detail or func_detail_wall
 - [-] make sure mouth works on re-entering the area from the elevator
