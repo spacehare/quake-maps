@@ -8,7 +8,7 @@
     - colder colors in concrete area (white, blue, maybe amber tho?)
     - peach, mango, beet
 - [x] secrets
-- playtest and balance
+- [x] playtest and balance
   - [x] QuakeSpasm
   - [x] IronWail
   - other players playtested; count: 3
@@ -16,8 +16,9 @@
   - [x] 1 normal
   - [x] 2 hard
 - [x] info_intermission, 1 or more
+  - quoth only supports 1! yippeeeee!!!!!!
 - [x] autosaves / checkpoints
-- [ ] phongs, phong_groups !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+- [x] phongs, phong_groups !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 - [x] sfx
   - [x] chomp sfx for conc hallway mouth
   - [x] snap sfx for breaking tendon door shortcuts
@@ -35,6 +36,7 @@
 - [x] run through map and make sure everything that needs to be detail is func_detail or func_detail_wall
 - [-] make sure mouth works on re-entering the area from the elevator
   - mouth is broken -- instead of trigger_multiple, just block that hallway w a togglewall. i don't have time to fuck with broken rotaters
+  - ok actually, just deleting the model seems OK enough, less confusing than the path being suddenly blocked
 - [x] uterus floor trim
   - i am tired of working on this. i'm gonna have it skew into the acid and call it a day lol
 - [x] uterus entrance (when you turn around after entering)
@@ -43,6 +45,7 @@
 - [x] playthrough on easy, getting all secrets
 - [x] playthrough on normal with light/phong debug and check the env geo
 - after zipping, run through the unzipped map to make sure all sfx are correct and stuff
+- i playtested it so many fucking times myself. oh my god.
 
 ---
 
