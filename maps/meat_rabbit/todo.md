@@ -2,41 +2,47 @@
 - [x] changelevel is set to start
 - [x] texture
 - [x] seal
-- [ ] lighting
+- [x] lighting
   - doors should have some minlight and/or dirt -1
   - colors to consider:
     - colder colors in concrete area (white, blue, maybe amber tho?)
     - peach, mango, beet
 - [x] secrets
 - playtest and balance
-  - [ ] QuakeSpasm
-  - [ ] IronWail
+  - [x] QuakeSpasm
+  - [x] IronWail
   - other players playtested; count: 3
-  - [ ] 0 easy
-  - [ ] 1 normal
-  - [ ] 2 hard
-- [ ] info_intermission, 1 or more
+  - [x] 0 easy
+  - [x] 1 normal
+  - [x] 2 hard
+- [x] info_intermission, 1 or more
 - [x] autosaves / checkpoints
-- [ ] phongs, phong_groups
-- [ ] sfx
+- [ ] phongs, phong_groups !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+- [x] sfx
   - [x] chomp sfx for conc hallway mouth
   - [x] snap sfx for breaking tendon door shortcuts
   - [x] CONVERT WAVS TO MONO
-  - sfx on looped pillars
+  - [-] sfx on looped pillars
 - [x] music
   - RAC2 "Tabora - Mining Area"
   - RAC3 "Obani Gemini"
   - RepCom "RV Alpha"
   - -> RACSM "Ryllus Temple"
-- [ ] no MAP issues in TrenchBroom console
-- [ ] readme
+- [x] no MAP issues in TrenchBroom console
+- [x] readme
 - [ ] replace all proto textures
 - [x] looped pillars should not be squares
-- run through map and make sure everything that needs to be detail is func_detail or func_detail_wall
-- make sure mouth works on re-entering the area from the elevator
+- [x] run through map and make sure everything that needs to be detail is func_detail or func_detail_wall
+- [-] make sure mouth works on re-entering the area from the elevator
   - mouth is broken -- instead of trigger_multiple, just block that hallway w a togglewall. i don't have time to fuck with broken rotaters
-- uterus floor trim
+- [x] uterus floor trim
+  - i am tired of working on this. i'm gonna have it skew into the acid and call it a day lol
 - [x] uterus entrance (when you turn around after entering)
+- make sure "sounds" (meant to be silent, like doors) are set to 0 and not -1, or else you get a sv precache console warning
+
+- [x] playthrough on easy, getting all secrets
+- [x] playthrough on normal with light/phong debug and check the env geo
+- after zipping, run through the unzipped map to make sure all sfx are correct and stuff
 
 ---
 
@@ -53,6 +59,7 @@
 speed up phong pass by selecting every func_detail and func_detail_wall and adding phong 1, phong_group 1
 then every func_group w same as above
 then every structural brush into a func_group w same above
+^ ended up not actually doing this
 
 aug 21
 art pass
@@ -63,8 +70,8 @@ art pass
 aug 24
 wrap up geo and tex, seal map and then move onto lighting
 aug 25
-lighting
-==
+lighting, minor tex and geo
+submit
 
 ---
 
@@ -75,19 +82,19 @@ lighting
   - ASL = underwater section
 - ASL = 3 bridges
 - ASL = after 3 bridges
-- AS = remobilize rm_myopia copycat area
-- AS (ESCEPT FALLOPIAN TUBE JUNCTION TO ELEVATOR AND BELLY) = uterus
-- AS = teeth forest until ear
-  - AS = secret underwater section
-- AS = ear
-- AS = 3 bosses
-- AS = mini respite platforming after 3 bosses
-- AS = face
+- ASL = remobilize rm_myopia copycat area
+- ASL = uterus
+- ASL = teeth forest until ear
+  - ASL = secret underwater section
+- ASL = ear
+- ASL = 3 bosses
+- ASL = mini respite platforming after 3 bosses
+- ASL = face
   - ear pond
-- AS = junction between temple and shortcuts
-- S = elevator
-- AS = temple
-  - AS = arena
+- ASL = junction between temple and shortcuts
+- ASL = elevator
+- ASL = temple
+  - ASL = arena
 
 ---
 
