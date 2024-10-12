@@ -1,18 +1,24 @@
-- [ ] graybox
-- [ ] changelevel is set to start
+- [x] graybox
+- [x] changelevel is set to start
 - [ ] texture
-- [ ] seal
+  - floors (road)
+  - interior of tower
+  - water texture
+- [x] seal
 - [ ] lighting
-- [ ] secrets
+  - minlight && \_surface on laser floors ?
+  - `minlight 50` on doors
+- [~] secrets
 - playtest and balance
-  - [ ] QuakeSpasm
-  - [ ] IronWail
-  - other players playtested; count: 0
+  - ~~[ ] QuakeSpasm~~
+  - ~~[ ] IronWail~~
+  - other players playtested; count: 2
+    - no negative feedback o_o
   - [ ] 0 easy
   - [ ] 1 normal
   - [ ] 2 hard
-- [ ] info_intermission, 1 or more
-- [ ] autosaves / checkpoints
+- [x] info_intermission, 1 or more
+- [s] autosaves / checkpoints
 - [ ] phongs, phong_groups
 - [ ] sfx
 - [ ] music
