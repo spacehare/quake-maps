@@ -1,13 +1,10 @@
 - [x] graybox
 - [x] changelevel is set to start
-- [ ] texture
+- [x] texture
   - floors (road)
   - interior of tower
   - water texture
 - [x] seal
-- [ ] lighting
-  - minlight && \_surface on laser floors ?
-  - `minlight 50` on doors
 - [~] secrets
 - playtest and balance
   - ~~[ ] QuakeSpasm~~
@@ -19,9 +16,15 @@
   - [ ] 2 hard
 - [x] info_intermission, 1 or more
 - [s] autosaves / checkpoints
-- [ ] phongs, phong_groups
+- [x] phongs, phong_groups
+- [~] no MAP issues in TrenchBroom console
+
+---
+
+- [ ] lighting
+  - minlight && \_surface on laser floors ?
+  - `minlight 50` on doors
 - [ ] sfx
 - [ ] music
-- [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] replace all proto textures
