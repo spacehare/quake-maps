@@ -18,15 +18,16 @@
 - [s] autosaves / checkpoints
 - [x] phongs, phong_groups
 - [~] no MAP issues in TrenchBroom console
-
----
-
 - [x] lighting
   - minlight && \_surface on laser floors ?
   - `minlight 50` on doors
     - somehow all the doors have a bright underside now, instead of black. WITHOUT MINLIGHT. i don't understand. i'm not going to fuck with it.
   - minlight to drawings ?
+
+---
+
 - [ ] sfx
 - [ ] music
+  - ensure track255 is commited on github
 - [ ] readme
 - [ ] replace all proto textures

@@ -18,13 +18,20 @@
 ## sfx
 
 - [freesound](https://freesound.org/)
-  - [hyd_noo.wav](https://freesound.org/people/nooly/sounds/331357/)
   - [hyd_rub.wav](https://freesound.org/people/rubberduck9999/sounds/678453/)
-  - [hyd_art.wav](https://freesound.org/people/Artninja/sounds/744171/)
 - Half-Life
   - `warn3.wav`
+- Half-Life 2
+  - `klaxon1.wav`
+  - `doormove*.wav`
+  - `default_stop.wav`
+  - `door_metal_large_close2.wav`
+  - `heavy_metal_stop1.wav`
+  - `elevator_move_loop1.wav`
 - ReMobilize 1.2
   - `laser_on.wav`
+- Ultrakill
+  - `ticktock.wav`
 
 # compile settings
 
