@@ -21,9 +21,11 @@
 
 ---
 
-- [ ] lighting
+- [x] lighting
   - minlight && \_surface on laser floors ?
   - `minlight 50` on doors
+    - somehow all the doors have a bright underside now, instead of black. WITHOUT MINLIGHT. i don't understand. i'm not going to fuck with it.
+  - minlight to drawings ?
 - [ ] sfx
 - [ ] music
 - [ ] readme
