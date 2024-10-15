@@ -13,7 +13,7 @@
 
 ## music
 
-- track255 by [twofold](https://soundcloud.com/2xtwofold), made in Ableton and mastered in REAPER
+- Loose Collar (track255 -- made just for this map!!) by [twofold](https://soundcloud.com/2xtwofold), made in Ableton and mastered in REAPER
 
 ## sfx
 
