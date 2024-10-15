@@ -22,12 +22,12 @@
   - minlight && \_surface on laser floors ?
   - `minlight 50` on doors
     - somehow all the doors have a bright underside now, instead of black. WITHOUT MINLIGHT. i don't understand. i'm not going to fuck with it.
+- [x] sfx
+- [x] music
+  - [x] ensure track255 is commited on github
   - minlight to drawings ?
 
 ---
 
-- [ ] sfx
-- [ ] music
-  - ensure track255 is commited on github
 - [ ] readme
 - [ ] replace all proto textures

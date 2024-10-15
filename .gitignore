@@ -22,7 +22,7 @@ mapsrc/
 # !*/maps/*.lit
 
 # can't commit music because i don't own it
-music/
+maps/*/music/**
 
 _ignore
 

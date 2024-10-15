@@ -13,7 +13,7 @@
 
 ## music
 
-- track255 by [twofold](https://soundcloud.com/2xtwofold), made in Ableton
+- track255 by [twofold](https://soundcloud.com/2xtwofold), made in Ableton and mastered in REAPER
 
 ## sfx
 
