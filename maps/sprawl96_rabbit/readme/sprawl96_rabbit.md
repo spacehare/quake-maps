@@ -1,19 +1,23 @@
 ## [map sources](https://github.com/spacehare/quake-maps/tree/main/maps)
 
-# Credit
+the link above contains the `.map` files and other related stuff for all my quake maps 🙂
+
+# credit
+
+> note: the art (by Ryukocha) and music (by twofold) were made just for this map :O
 
 ## textures
 
 - [Makkon textures](https://www.slipseer.com/index.php?resources/makkon-textures.28/) by Makkon
 
-## Secrets ⚠
+## secrets
 
 - Drawings by [Ryukocha](https://twitter.com/ryukocha_art), made in Procreate
 - [Rabbit Emoji](https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f407.svg); i'm not sure if this is the exact version of the rabbit SVG i used. . . but i converted it for Quake during my (abandoned) Sewer Jam 2 map
 
 ## music
 
-- Loose Collar (track255 -- made just for this map!!) by [twofold](https://soundcloud.com/2xtwofold), made in Ableton and mastered in REAPER
+- Loose Collar (track255) by [twofold](https://soundcloud.com/2xtwofold), made in Ableton and mastered in REAPER
 
 ## sfx
 
@@ -70,7 +74,24 @@ other ways i got references
 - some [pictures of seattle](https://x.com/dgollamaart/status/1840928546187067774)
   - if this link is dead, then the twitter user deleted the post 😝
 
----
+# ⚠ notes about the secrets, if you're curious
+
+They're all OCs! (original characters) -- (except for the bunny emoji, of course 😛)
+
+- Udon
+  - the black microraptor with red spots on his cheeks is Ryukocha's fursona
+- Io
+  - the 4-eyed 4-eared hare is my fursona; they're an alien robot!
+- Zif
+  - the gray goblin with a long tail and their hair in a bun is Zifix, my goblinsona and current primary sona
+- Finnio
+  - the scary looking deep gnome necromancer is my Baldur's Gate 3 character from a multiplayer playthrough. they fuckin' love worms.
+- Sprout
+  - the goblin in armor, with a shield and rapier, is my D&D character (a paladin of redemption) from around 2020-2023. they were a big inspiration for me to make Zif :)
+- Lavender Goblin
+  - the purple stick-figure goblin with a leaf on their head is my friend August's character. August helped with ideas and feedback! ex: using verticality more, adding lighting to help guide the player and make progression more clear
+
+# end
 
 DON'T WORRY — BE FURRY
 

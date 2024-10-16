@@ -11,9 +11,9 @@
   - ~~[ ] IronWail~~
   - other players playtested; count: 2
     - no negative feedback o_o
-  - [ ] 0 easy
-  - [ ] 1 normal
-  - [ ] 2 hard
+  - [x] 0 easy
+  - [x] 1 normal
+  - [x] 2 hard
 - [x] info_intermission, 1 or more
 - [s] autosaves / checkpoints
 - [x] phongs, phong_groups
@@ -29,5 +29,5 @@
 
 ---
 
-- [ ] readme
-- [ ] replace all proto textures
+- [x] readme
+- [x] replace all proto textures
