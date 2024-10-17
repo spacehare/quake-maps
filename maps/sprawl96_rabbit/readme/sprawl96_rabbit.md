@@ -9,6 +9,7 @@ the link above contains the `.map` files and other related stuff for all my quak
 ## textures
 
 - [Makkon textures](https://www.slipseer.com/index.php?resources/makkon-textures.28/) by Makkon
+- [skybox](https://www.slipseer.com/index.php?resources/makkon-skyboxes.139/) also by Makkon
 
 ## secrets
 
@@ -41,7 +42,8 @@ the link above contains the `.map` files and other related stuff for all my quak
 
 - `QBSP` `-leaktest -splitturb -bsp2 build/${MAP_BASE_NAME}.map maps/${MAP_BASE_NAME}.bsp`
 - `VIS` `-noambient -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`
-- `LIGHT` `-emissivequality high -extra4 -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp `
+- `LIGHT` `-emissivequality high -extra -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`
+  - i wanted to do `-extra4` but the compile was gonna take like 10 hours 😭
 
 # random notes
 
