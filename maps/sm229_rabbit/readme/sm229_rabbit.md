@@ -3,7 +3,8 @@
 # credit
 
 - textures by me LOL
-  - i made them all in Krita, the `.kra` file is included on github 😛
+  - i made them all in Krita with a "Star 03 V2" XP-PEN tablet -- the `.kra`, `.wad`, `.png` files are included on github 😛
+    - `_Charcoal_Pencil_Medium` my beloved
 
 # technical
 
