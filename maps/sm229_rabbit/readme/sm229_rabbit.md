@@ -2,7 +2,8 @@
 
 # credit
 
-- [Makkon textures](https://www.slipseer.com/index.php?resources/makkon-textures.28/) by Makkon
+- textures by me LOL
+  - i made them all in Krita, the `.kra` file is included on github 😛
 
 # technical
 
