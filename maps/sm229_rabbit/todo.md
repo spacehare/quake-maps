@@ -1,21 +1,21 @@
-- [ ] texture
-- [ ] seal
-- [ ] lighting
-- [ ] secrets
 - playtest and balance
-  - [ ] QuakeSpasm
-  - [ ] IronWail
+  - [x] QuakeSpasm
+  - [x] IronWail
   - other players playtested; count: 0
-  - [ ] 0 easy
-  - [ ] 1 normal
-  - [ ] 2 hard
-- [ ] info_intermission, 1 or more
-- [ ] phongs, phong_groups
-- [ ] sfx
-- [ ] no MAP issues in TrenchBroom console
+  - [x] 0 easy
+  - [x] 1 normal
+  - [x] 2 hard
 
 ---
 
+- [x] lighting
+- [x] no MAP issues in TrenchBroom console
+- [-] phongs, phong_groups
+- [x] seal
+- [x] sfx
+- [x] info_intermission, 1 or more
+- [x] secrets
+- [x] texture
 - [x] readme
 - [x] changelevel is set to start
 
