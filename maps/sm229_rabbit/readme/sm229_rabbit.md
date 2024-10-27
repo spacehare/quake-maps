@@ -2,7 +2,7 @@
 
 # credit
 
-- textures by me LOL (i used makkon textures originally, then recreated them)
+- textures by me (i used makkon textures originally, then recreated them)
   - i made them all in Krita with a "Star 03 V2" XP-PEN tablet -- the `.kra`, `.wad`, `.png` files are included on github 😛
     - `_Charcoal_Pencil_Medium` my beloved
 
