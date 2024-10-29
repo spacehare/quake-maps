@@ -1,20 +1,21 @@
 # quake-maps
 
-inspired by Chuma to put my maps on github too
+inspired by [Chuma](https://github.com/ChumaSuey) to put my maps on github too
 
-| stem                                       | status | slipseer                                                                   |
-| ------------------------------------------ | :----: | -------------------------------------------------------------------------- |
-| [bonk_rabbit](./maps/bonk_rabbit/)         |   ✅   | https://www.slipseer.com/index.php?resources/bonk-jam.373/                 |
-| [bonk_rabbit2](./maps/bonk_rabbit2/)       |   ✅   | https://www.slipseer.com/index.php?resources/bonk-jam.373/                 |
-| [dogjam_rabbit](./maps/dogjam_rabbit/)     |   ❌   |                                                                            |
-| [ej3_rabbit](./maps/ej3_rabbit/)           |   ✅   | https://www.slipseer.com/index.php?resources/explore-jam-3.228/            |
-| [lim_rabbit](./maps/lim_rabbit/)           |   ✅   | https://www.slipseer.com/index.php?resources/liminal-spaces-jam.359/       |
-| [meat_rabbit](./maps/meat_rabbit)          |   ✅   | https://www.slipseer.com/index.php?resources/meat-jam.392/                 |
-| [qbj_rabbit7250](./maps/qbj_rabbit7250/)   |   ✅   | https://www.slipseer.com/index.php?resources/quake-brutalist-jam.126/      |
-| [qbj2_rabbit](./maps/qbj2_rabbit/)         |   ❌   |                                                                            |
-| [rm_myopia](./maps/rm_myopia/)             |   ✅   | https://www.slipseer.com/index.php?resources/re-mobilize.239/              |
-| [sj2_rabbit](./maps/sj2_rabbit/)           |   ❌   |                                                                            |
-| [sm224_rabbit](./maps/sm224_rabbit/)       |   ❌   |                                                                            |
-| [sm225_rabbit](./maps/sm225_rabbit/)       |   ✅   | https://www.slipseer.com/index.php?resources/the-randomizer-special-2.232/ |
-| [tcj_rabbit](./maps/tcj_rabbit/)           |   ❌   |                                                                            |
-| [sprawl96_rabbit](./maps/sprawl96_rabbit/) |   ✅   |                                                                            |
+| stem                                       | status | date    | slipseer                                                                   |
+| ------------------------------------------ | :----: | ------- | -------------------------------------------------------------------------- |
+| [qbj_rabbit7250](./maps/qbj_rabbit7250/)   |   ✅   | 2022-09 | https://www.slipseer.com/index.php?resources/quake-brutalist-jam.126/      |
+| [sj2_rabbit](./maps/sj2_rabbit/)           |   ❌   | 2022-10 |                                                                            |
+| [tcj_rabbit](./maps/tcj_rabbit/)           |   ❌   | 2022-12 |                                                                            |
+| [sm224_rabbit](./maps/sm224_rabbit/)       |   ❌   | 2023-04 |                                                                            |
+| [dogjam_rabbit](./maps/dogjam_rabbit/)     |   ❌   | 2023-05 |                                                                            |
+| [ej3_rabbit](./maps/ej3_rabbit/)           |   ✅   | 2023-05 | https://www.slipseer.com/index.php?resources/explore-jam-3.228/            |
+| [sm225_rabbit](./maps/sm225_rabbit/)       |   ✅   | 2023-06 | https://www.slipseer.com/index.php?resources/the-randomizer-special-2.232/ |
+| [qbj2_rabbit](./maps/qbj2_rabbit/)         |   ❌   | 2023-10 |                                                                            |
+| [rm_myopia](./maps/rm_myopia/)             |   ✅   | 2024-06 | https://www.slipseer.com/index.php?resources/re-mobilize.239/              |
+| [lim_rabbit](./maps/lim_rabbit/)           |   ✅   | 2024-06 | https://www.slipseer.com/index.php?resources/liminal-spaces-jam.359/       |
+| [bonk_rabbit](./maps/bonk_rabbit/)         |   ✅   | 2024-07 | https://www.slipseer.com/index.php?resources/bonk-jam.373/                 |
+| [bonk_rabbit2](./maps/bonk_rabbit2/)       |   ✅   | 2024-07 | https://www.slipseer.com/index.php?resources/bonk-jam.373/                 |
+| [meat_rabbit](./maps/meat_rabbit)          |   ✅   | 2024-08 | https://www.slipseer.com/index.php?resources/meat-jam.392/                 |
+| [sprawl96_rabbit](./maps/sprawl96_rabbit/) |   ✅   | 2024-10 |                                                                            |
+| [sm229_rabbit](./maps/sm229_rabbit/)       |   ✅   | 2024-10 | https://www.slipseer.com/index.php?resources/sm229-six-textures-3.410/     |
