@@ -1,6 +1,6 @@
 - [ ] graybox
 - [ ] changelevel is set to start
-- [ ] texture
+- [-] texture
 - [ ] seal
 - [ ] lighting
 - [ ] secrets
@@ -18,19 +18,10 @@
 - [ ] music
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
-- [ ] replace all proto textures
+- [-] replace all proto textures
 
 ---
 
 1 = 32, <256
 2 = 96, <480
 3 = 160
-
-# music
-
-- vowel sounds, toki-pona pronounciation
-  - oh (o)
-  - ah (a)
-  - oo (u)
-  - bun tin tun tch-tch, shh shh
-  - throat singing
