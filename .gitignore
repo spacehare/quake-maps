@@ -23,6 +23,8 @@ mapsrc/
 
 # can't commit music because i don't own it
 maps/*/music/**
+# exceptions
+!maps/xmjr_rabbit/music/**
 
 _ignore
 
