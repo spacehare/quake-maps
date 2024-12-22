@@ -7,17 +7,18 @@
 - playtest and balance
   - [ ] QuakeSpasm
   - [ ] IronWail
-  - other players playtested; count: 0
+  - other players playtested; count: 2
   - [ ] 0 easy
   - [ ] 1 normal
   - [ ] 2 hard
-- [ ] info_intermission, 1 or more
-- [ ] autosaves / checkpoints
+- [x] info_intermission, 1 or more
+- [-] autosaves / checkpoints
+  - AD DOESN'T HAVE THIS FUNCTION?? LOLLLL ok man
 - [-] phongs, phong_groups
 - [ ] sfx
 - [x] music
-- [ ] no MAP issues in TrenchBroom console
-- [ ] readme
+- [x] no MAP issues in TrenchBroom console
+- [x] readme
 - [-] replace all proto textures
 
 ---
