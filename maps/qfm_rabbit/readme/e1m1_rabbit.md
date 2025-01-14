@@ -1,4 +1,4 @@
-- [map source on github](https://github.com/spacehare/quake-maps/tree/main)
+- [map source on github](https://github.com/spacehare/quake-maps)
 
 # tools used
 
@@ -7,16 +7,17 @@
 
 ## compile settings
 
-| tool  | args                                                                                |
-| ----- | ----------------------------------------------------------------------------------- |
-| QBSP  | `-leaktest -splitturb -bsp2 build/${MAP_BASE_NAME}.map maps/${MAP_BASE_NAME}.bsp`   |
-| VIS   | `-noambient -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                    |
-| LIGHT | `-extra4 -emissivequality high -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp` |
+| tool  | args                                                                         |
+| ----- | ---------------------------------------------------------------------------- |
+| QBSP  | `-litwater 0 -leaktest build/${MAP_BASE_NAME}.map maps/${MAP_BASE_NAME}.bsp` |
+| VIS   | `-threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                        |
+| LIGHT | `-threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                        |
 
 # notes about memories
 
 - i played e1m1 in 2022 during QBJ1
 - i watched a speedrun youtube video about e1m1 it in early 2024
+- on Discord, my friend would ask me to play through my maps on stream. i did this recurring bit, where after i beat my map and got sent to `start`, i would run over to e1m1 and play a few seconds of it
 
 i remember...
 
@@ -32,5 +33,6 @@ i remember...
 - a bridge above your head, leading to a nailgun
 - a bridge over acid
 - scarce 45 degree angles, mostly 90 degree angles
+- the speedrun video i watched mentioned how the grunts block your path a lot...
 
 # DON'T WORRY — BE FURRY
