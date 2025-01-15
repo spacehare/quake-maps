@@ -29,10 +29,11 @@ i remember...
   - a secret if you travel the river
   - big brown exterior facades
 - stairs leading to the exit with lots of grunts guarding the way out
+  - the speedrun video i watched mentioned how the plethora of grunts will block your path a lot...
   - a secret quad to fight the grunts
 - a bridge above your head, leading to a nailgun
 - a bridge over acid
 - scarce 45 degree angles, mostly 90 degree angles
-- the speedrun video i watched mentioned how the grunts block your path a lot...
+- weird angled ceiling lights
 
 # DON'T WORRY — BE FURRY

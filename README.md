@@ -20,4 +20,4 @@ inspired by [Chuma](https://github.com/ChumaSuey) to put my maps on github too
 | [sprawl96_rabbit](./maps/sprawl96_rabbit/) |   ✅   | 2024-10 |                                                                                        |
 | [sm229_rabbit](./maps/sm229_rabbit/)       |   ✅   | 2024-10 | [slipseer](https://www.slipseer.com/index.php?resources/sm229-six-textures-3.410/)     |
 | [xmjr_rabbit](./maps/xmjr_rabbit/)         |   ✅   | 2024-12 | [slipseer](https://www.slipseer.com/index.php?resources/christmas-jumper-jam.423/)     |
-| [e1m1_rabbit](./maps/qfm_rabbit/)          |   ✅   | 2025-01 |                                                                                        |
+| [e1m1_rabbit](./maps/e1m1_rabbit/)         |   ✅   | 2025-01 |                                                                                        |
