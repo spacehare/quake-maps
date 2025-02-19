@@ -25,6 +25,7 @@ mapsrc/
 maps/*/music/**
 # exceptions
 !maps/xmjr_rabbit/music/**
+!maps/mcj_rabbit/music/**
 
 _ignore
 
