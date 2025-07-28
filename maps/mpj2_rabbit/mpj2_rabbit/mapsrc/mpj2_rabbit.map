@@ -1,0 +1,73 @@
+// Game: Quake
+// Format: Valve
+// entity 0
+{
+"mapversion" "220"
+"wad" "I:\Quake\Dev\wad\lq_dev.wad"
+"classname" "worldspawn"
+"message" "TITLE GOES HERE"
+"_dirt" "1"
+"_dirtdepth" "128"
+"_dirtgain" "1"
+"_dirtscale" "1"
+"_bounce" "0"
+"_bouncecolorscale" "0"
+"_bouncescale" "1"
+"_bouncestyled" "1"
+"_maxlight" "0"
+"_minlight" "0"
+"_minlight_color" "255 255 255"
+"_minlight_dirt" "1"
+"_skyfog" "0"
+"_sunlight" "0"
+"_sunlight2" "0"
+"_sunlight3" "0"
+"_sunlight_color" "255 255 255"
+"_sunlight2_color" "255 255 255"
+"_sunlight3_color" "255 255 255"
+"_sunlight_penumbra" "0"
+"_sun_angle" "0 -90 0"
+"_wateralpha" "1"
+"_lavaalpha" "1"
+"_telealpha" "1"
+"_surflight_radiosity" "1"
+"fog" "0.0 0.0 0.0 0.0"
+"fog_color" "255 255 255"
+"fog_density" "0"
+// brush 0
+{
+( -64 -64 0 ) ( -64 -63 0 ) ( -64 -64 1 ) wall_green_b [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -64 0 ) ( -64 -64 1 ) ( -63 -64 0 ) wall_green_b [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -64 0 ) ( -63 -64 0 ) ( -64 -63 0 ) wall_green_b [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 64 32 ) ( 64 65 32 ) ( 65 64 32 ) wall_green_b [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 64 32 ) ( 65 64 32 ) ( 64 64 33 ) wall_green_b [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 64 32 ) ( 64 64 33 ) ( 64 65 32 ) wall_green_b [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 1
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "brb"
+"_tb_id" "4"
+"_tb_linked_group_id" "{240fb8b1-a60e-4484-a2cc-e039a2c48096}"
+"_tb_transformation" "1 0 0 0 0 1 0 -64 0 0 1 0 0 0 0 1"
+// brush 0
+{
+( -64 -128 0 ) ( -64 -127 0 ) ( -64 -128 1 ) wall_green_b [ 0 -1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( -64 -128 0 ) ( -64 -128 1 ) ( -63 -128 0 ) wall_green_b [ 1 0 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( -64 -128 0 ) ( -63 -128 0 ) ( -64 -127 0 ) wall_green_b [ -1 0 0 0 ] [ 0 -1 0 0 ] 270 1 1
+( 64 0 64 ) ( 64 1 64 ) ( 65 0 64 ) wall_green_b [ 1 0 0 0 ] [ 0 -1 0 0 ] 270 1 1
+( 64 0 64 ) ( 65 0 64 ) ( 64 0 65 ) wall_green_b [ -1 0 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( 64 0 64 ) ( 64 0 65 ) ( 64 1 64 ) wall_green_b [ 0 1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+}
+}
+// entity 2
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "unrendered"
+"_tb_id" "3"
+"_tb_layer_sort_index" "0"
+"_tb_layer_omit_from_export" "1"
+}

@@ -15,7 +15,10 @@ build/
 *-compile.map
 *-crash*.map
 *-crash*.txt
-mapsrc/
+# FIXME
+maps/*/mapsrc/*
+maps/qbj2_rabbit/files/mapsrc
+!maps/mpj2_rabbit/mapsrc/**
 
 # */maps/**
 # !*/maps/*.bsp
