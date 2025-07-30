@@ -1,5 +1,7 @@
+# todo
+
 - [ ] graybox
-- [ ] changelevel is set to start
+- [x] changelevel is set to start
 - [ ] texture
 - [ ] seal
 - [ ] lighting
@@ -19,3 +21,7 @@
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] replace all proto textures
+
+# other
+
+- [ ] instrument door/train SFX?
