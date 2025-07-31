@@ -13,6 +13,8 @@
 | VIS   | ``   |
 | LIGHT | ``   |
 
-# <<>>
+# credit
+
+- music SFX from [msx.horse](https://msx.horse)
 
 # DON'T WORRY — BE FURRY

@@ -1,8 +1,8 @@
 # todo
 
-- [ ] graybox
+- [x] graybox
 - [x] changelevel is set to start
-- [ ] texture
+- [-] texture
 - [ ] seal
 - [ ] lighting
 - [ ] secrets
