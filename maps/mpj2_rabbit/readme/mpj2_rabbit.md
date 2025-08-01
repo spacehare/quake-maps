@@ -20,4 +20,8 @@
 - "kerclunk" button sound from my friend
 - [Rabbit Emoji](https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f407.svg)
 
+# notes
+
+wow. `func_door`s and `func_train`s are REALLY easy to desync, huh.
+
 # DON'T WORRY — BE FURRY
