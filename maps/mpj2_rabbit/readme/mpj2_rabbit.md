@@ -15,6 +15,8 @@
 
 # credit
 
-- music SFX from [msx.horse](https://msx.horse)
+- music/instrument SFX from [msx.horse](https://msx.horse)
+- "kerclunk" button sound from my friend
+- [Rabbit Emoji](https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f407.svg)
 
 # DON'T WORRY — BE FURRY

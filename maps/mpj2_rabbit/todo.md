@@ -25,3 +25,4 @@
 # other
 
 - [ ] instrument door/train SFX?
+- coop
