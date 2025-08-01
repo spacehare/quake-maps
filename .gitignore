@@ -29,6 +29,7 @@ _ignore
 *.blend1
 # Krita
 *.kra~
+*.*~
 # OpenMPT
 *.bak
 *.Autosave.*
