@@ -24,5 +24,11 @@ maps/*/music/**
 
 _ignore
 
+# Blender
 *.blend1
+# Krita
 *.kra~
+# OpenMPT
+*.bak
+*.Autosave.*
+# ...

@@ -13,8 +13,8 @@
   - [ ] 0 easy
   - [ ] 1 normal
   - [ ] 2 hard
-- [ ] info_intermission, 1 or more
-- [ ] autosaves / checkpoints
+- [x] info_intermission, 1 or more
+- [x] autosaves / checkpoints
 - [-] phongs, phong_groups
 - [ ] sfx
 - [ ] music

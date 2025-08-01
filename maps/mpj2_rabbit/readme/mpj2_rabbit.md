@@ -15,7 +15,8 @@
 
 # credit
 
-- music/instrument SFX from [msx.horse](https://msx.horse)
+- music/instrument SFX (for doors and trains) from [msx.horse](https://msx.horse)
+- music made with samples from [msx.horse](https://msx.horse) and Half Life 2
 - "kerclunk" button sound from my friend
 - [Rabbit Emoji](https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f407.svg)
 
