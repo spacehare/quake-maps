@@ -3,7 +3,7 @@
 - [x] graybox
 - [x] changelevel is set to start
 - [-] texture
-- [ ] seal
+- [x] seal
 - [ ] lighting
 - [ ] secrets
 - playtest and balance
@@ -15,7 +15,7 @@
   - [ ] 2 hard
 - [ ] info_intermission, 1 or more
 - [ ] autosaves / checkpoints
-- [ ] phongs, phong_groups
+- [-] phongs, phong_groups
 - [ ] sfx
 - [ ] music
 - [ ] no MAP issues in TrenchBroom console
@@ -24,5 +24,5 @@
 
 # other
 
-- [ ] instrument door/train SFX?
-- coop
+- [x] instrument door/train SFX?
+- [ ] coop
