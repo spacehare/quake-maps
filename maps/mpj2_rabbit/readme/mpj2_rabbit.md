@@ -7,17 +7,21 @@
 
 ## compile settings
 
-| tool  | args |
-| ----- | ---- |
-| QBSP  | ``   |
-| VIS   | ``   |
-| LIGHT | ``   |
+| tool  | args                                                                                              |
+| ----- | ------------------------------------------------------------------------------------------------- |
+| QBSP  | `-leaktest -litwater -bsp2 ${WORK_DIR_PATH}/build/${MAP_BASE_NAME}.map maps/${MAP_BASE_NAME}.bsp` |
+| VIS   | `-noambient -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                                  |
+| LIGHT | `-extra4 -emissivequality high -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`               |
 
 # credit
 
-- music/instrument SFX (for doors and trains) from [msx.horse](https://msx.horse)
-- music made with samples from [msx.horse](https://msx.horse) and Half Life 2
+- track255 made by me in OpenMPT 1.31.10.00
+  - music/instrument SFX (for doors and trains) from [msx.horse](https://msx.horse)
+  - music made with samples from [msx.horse](https://msx.horse) and Half Life 2
 - "kerclunk" button sound from my friend
+- "bachu" button sound from another friend
+- prototype textures from [LibreQuake](https://github.com/lavenderdotpet/LibreQuake)
+- hazard stripe texture by me, made in Krita
 - [Rabbit Emoji](https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f407.svg)
 
 # notes

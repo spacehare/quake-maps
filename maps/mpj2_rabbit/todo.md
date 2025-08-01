@@ -5,6 +5,7 @@
 - [-] texture
 - [x] seal
 - [x] lighting
+  - it's good enough
 - [x] secrets
 - playtest and balance
   - [ ] QuakeSpasm
@@ -19,8 +20,8 @@
 - [x] sfx
 - [x] music
 - [x] no MAP issues in TrenchBroom console
-- [ ] readme
 - [-] replace all proto textures
+- [ ] readme
 
 # other
 
@@ -28,6 +29,7 @@
 - [x] coop playtest
 - [x] kill outdated co-op spawns
 - [x] enforcerPusher
-- [ ] make choir.wav quieter!
-- [ ] finish song
-- [ ] check for unused sounds (ex: arp)
+- [x] make choir.wav quieter!
+- [x] finish song
+  - it's good enough
+- [x] check for unused sounds (ex: arp)

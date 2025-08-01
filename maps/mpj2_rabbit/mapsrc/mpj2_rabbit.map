@@ -9987,7 +9987,6 @@
 "speed" "128"
 "pausetime" "-1"
 "spawnflags" "4"
-"noise" "rabbit/zif_jello_ba.wav"
 // brush 0
 {
 ( -928 -1424 416 ) ( -928 -1423 416 ) ( -928 -1424 417 ) floor_grey_a [ 0 -1 0 -32 ] [ 0 0 -1 -32 ] 90 1 1
@@ -10005,7 +10004,6 @@
 "speed" "128"
 "pausetime" "-1"
 "spawnflags" "4"
-"noise" "rabbit/zif_jello_ba.wav"
 // brush 0
 {
 ( -1376 -1376 432 ) ( -1376 -1375 432 ) ( -1376 -1376 433 ) floor_grey_a [ 0 1 0 32 ] [ 0 0 -1 -32 ] 270 1 1
@@ -10072,7 +10070,6 @@
 "speed" "128"
 "pausetime" "-1"
 "spawnflags" "4"
-"noise" "rabbit/zif_jello_ba.wav"
 // brush 0
 {
 ( -1248 -1152 432 ) ( -1248 -1152 433 ) ( -1248 -1153 432 ) floor_grey_a [ 0 -1 0 0 ] [ 0 0 -1 -32 ] 270 1 1
