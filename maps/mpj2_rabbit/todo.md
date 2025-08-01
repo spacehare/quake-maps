@@ -26,3 +26,4 @@
 
 - [x] instrument door/train SFX?
 - [ ] coop
+- [ ] make choir.wav quieter!
