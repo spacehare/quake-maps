@@ -21,3 +21,10 @@
 - [ ] replace all proto textures
 
 insp: starcraft brood war desert palette
+
+# music choices
+
+Tiberian Dawn
+
+- Act on Instinct
+- In the Line of Fire
