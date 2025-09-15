@@ -19,6 +19,9 @@
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] replace all proto textures
+- [ ] add stuff about rabbit_quake to README
+
+# other
 
 insp: starcraft brood war desert palette
 
