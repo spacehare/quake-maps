@@ -1,5 +1,5 @@
+- [x] changelevel is set to start
 - [ ] graybox
-- [ ] changelevel is set to start
 - [ ] texture
 - [ ] seal
 - [ ] lighting
@@ -20,6 +20,9 @@
 - [ ] readme
 - [ ] replace all proto textures
 - [ ] add stuff about rabbit_quake to README
+- [ ] utilize the drill rockets! they're cool
+- [ ] 8: shortcut from spawn to bridge (in case player falls?)
+- [ ] 8: vent door should also make a stair so you cant get stuck if you fall off
 
 # other
 
