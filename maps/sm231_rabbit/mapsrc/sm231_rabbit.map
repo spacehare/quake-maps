@@ -5,7 +5,7 @@
 "mapversion" "220"
 "wad" "I:\Quake\Dev\wad\makkon_nature_legacy.wad;I:\Quake\Dev\wad\makkon_nature.wad;I:\Quake\Dev\wad\prototype_1_3.wad;I:\Quake\Dev\wad\makkon_industrial.wad;I:\Quake\Dev\wad\makkon_tech.wad;I:\Quake\Dev\wad\makkon_trim_guide.wad;I:\Quake\Dev\wad\rabbit_sj2.wad"
 "classname" "worldspawn"
-"message" ""
+"message" "they/them canyon"
 "_dirt" "1"
 "_dirtdepth" "128"
 "_dirtgain" "1"
@@ -11872,7 +11872,7 @@
 {
 "classname" "trigger_monsterjump"
 "angle" "-90"
-"include" "monster_dog"
+"spawnflags" "8"
 "_tb_group" "78"
 // brush 0
 {
@@ -18661,6 +18661,12 @@
 }
 // entity 624
 {
+"classname" "info_intermission"
+"origin" "72 1080 408"
+"angles" "10 150 0"
+}
+// entity 625
+{
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "unrendered"
@@ -18668,7 +18674,7 @@
 "_tb_layer_sort_index" "0"
 "_tb_layer_omit_from_export" "1"
 }
-// entity 625
+// entity 626
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -18704,7 +18710,7 @@
 ( -2944 -2944 544 ) ( -2944 -2944 545 ) ( -2944 -2943 544 ) {ind_trs1_rst3 [ 0 1 0 128 ] [ 0 0 -1 256 ] 270 1 1
 }
 }
-// entity 626
+// entity 627
 {
 "classname" "func_detail"
 "_tb_layer" "9"
@@ -18718,7 +18724,7 @@
 ( -3168 -3616 520 ) ( -3168 -3552 536 ) ( -3168 -3552 512 ) techtrim2_rst3 [ -0.24253562503633275 -0.9411764599866651 -0.23529416005333598 -470.29028 ] [ 1.0601569261359245e-08 0.24253566617646458 -0.970142489860298 485.4831 ] 0 1 1
 }
 }
-// entity 627
+// entity 628
 {
 "classname" "func_detail"
 "_tb_layer" "9"
@@ -18732,7 +18738,7 @@
 ( -3168 -3392 520 ) ( -3168 -3392 521 ) ( -3168 -3391 520 ) techtrim2_rst3 [ 0 0.9999999999999969 8.742278018170069e-08 448 ] [ 0 8.742278018170069e-08 -0.9999999999999969 24.000427 ] 0 1 1
 }
 }
-// entity 628
+// entity 629
 {
 "classname" "func_detail"
 "_tb_layer" "9"
@@ -18746,7 +18752,7 @@
 ( -3136 -3200 520 ) ( -3136 -3200 521 ) ( -3136 -3199 520 ) techtrim2_rst3 [ 0 0.9999999999999969 8.742278018170069e-08 256 ] [ 0 8.742278018170069e-08 -0.9999999999999969 24.000366 ] 0 1 1
 }
 }
-// entity 629
+// entity 630
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18756,7 +18762,7 @@
 "_tb_transformation" "1 0 0 -512 0 1 0 -3584 0 0 1 0 0 0 0 1"
 "_tb_layer" "9"
 }
-// entity 630
+// entity 631
 {
 "classname" "func_detail_wall"
 "_phong" "1"
@@ -18826,7 +18832,7 @@
 ( -3232 -2976 544 ) ( -3228 -2980 544 ) ( -3228 -2980 672 ) techtrim2_rst3 [ -0.7071067811865476 0.7071067811865476 0 438.90338 ] [ 0 0 -1 96 ] 90 1 1
 }
 }
-// entity 631
+// entity 632
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18836,7 +18842,7 @@
 "_tb_transformation" "1 0 0 -512 0 1 0 -3712 0 0 1 0 0 0 0 1"
 "_tb_layer" "9"
 }
-// entity 632
+// entity 633
 {
 "classname" "func_detail_wall"
 "_phong" "1"
@@ -18906,7 +18912,7 @@
 ( -3232 -3104 544 ) ( -3228 -3108 544 ) ( -3228 -3108 672 ) techtrim2_rst3 [ -0.7071067811865476 0.7071067811865476 0 17.413025 ] [ 0 0 -1 96 ] 90 1 1
 }
 }
-// entity 633
+// entity 634
 {
 "classname" "func_group"
 "_tb_layer" "9"
@@ -18956,7 +18962,7 @@
 ( -3472 -3408 512 ) ( -3472 -3408 513 ) ( -3472 -3407 512 ) ind_w02_rst3 [ 0 -1.0000000000000002 0 -304 ] [ 0 0 -1.0000000000000002 224 ] 90 1 1
 }
 }
-// entity 634
+// entity 635
 {
 "classname" "func_detail_wall"
 "_tb_layer" "9"
@@ -18970,7 +18976,7 @@
 ( -3648 -3680 544 ) ( -3648 -3681 544 ) ( -3648 -3680 545 ) techtrim2_rst3 [ 6.123233728081692e-17 4.3711390063094775e-08 0.9999999999999992 -127.999695 ] [ 6.12323426339183e-17 -0.9999999999999992 4.3711390063094775e-08 -80 ] 270 1 1
 }
 }
-// entity 635
+// entity 636
 {
 "classname" "func_detail_fence"
 "_tb_layer" "9"
@@ -18984,7 +18990,7 @@
 ( -3456 -3008 704 ) ( -3456 -3008 705 ) ( -3456 -3007 704 ) {ind_trs1_rst3 [ -6.123233995736766e-17 6.123233995736766e-17 -1 128 ] [ 3.061616997868383e-16 -1 -6.123233995736766e-17 -320 ] 180 1 1
 }
 }
-// entity 636
+// entity 637
 {
 "classname" "func_detail_fence"
 "_tb_layer" "9"
@@ -18998,7 +19004,7 @@
 ( -3600 -3008 704 ) ( -3600 -3008 705 ) ( -3600 -3007 704 ) {ind_trs1_rst3 [ -6.123233995736766e-17 6.123233995736766e-17 -1 128 ] [ 3.061616997868383e-16 -1 -6.123233995736766e-17 -320 ] 270 1 1
 }
 }
-// entity 637
+// entity 638
 {
 "classname" "func_detail_fence"
 "_tb_layer" "9"

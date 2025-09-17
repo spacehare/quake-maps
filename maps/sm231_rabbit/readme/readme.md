@@ -17,7 +17,7 @@
 
 # credit
 
-- music:
+- music: "On Your Feet" by Frank Klepacki, from "Command & Conquer: Renegade"
 - button sound: `mousedown2.wav` from Starcraft: Brood War
 - [Rabbit Emoji](https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f407.svg)
 - [skybox](https://www.slipseer.com/index.php?resources/tga-conversion-of-bumbadidas-skyboxes.481/)

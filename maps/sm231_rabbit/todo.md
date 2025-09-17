@@ -10,6 +10,13 @@
 - [x] phongs, phong_groups
   - good enough for the time i have left
 - [x] sfx
+- [x] info_intermission, 1 or more
+- [x] utilize the drill rockets! they're cool
+- [x] 8: shortcut from spawn to bridge (in case player falls?)
+- [x] 8: vent door should also make a stair so you cant get stuck if you fall off
+- [x] fix BTN (button) group
+- [x] music
+- [x] no MAP issues in TrenchBroom console
 - playtest and balance
   - [ ] QuakeSpasm
   - [ ] IronWail
@@ -17,15 +24,8 @@
   - [ ] 0 easy
   - [ ] 1 normal
   - [ ] 2 hard
-- [ ] info_intermission, 1 or more
-- [ ] music
-- [ ] no MAP issues in TrenchBroom console
 - [ ] readme
-- [ ] add stuff about rabbit_quake to README
-- [ ] utilize the drill rockets! they're cool
-- [ ] 8: shortcut from spawn to bridge (in case player falls?)
-- [ ] 8: vent door should also make a stair so you cant get stuck if you fall off
-- [ ] fix BTN (button) group
+  - [ ] add stuff about rabbit_quake to README
 
 # other
 
@@ -33,7 +33,12 @@ insp: starcraft brood war desert palette
 
 # music choices
 
-Tiberian Dawn
+C&C Tiberian Dawn
 
 - Act on Instinct
 - In the Line of Fire
+
+C&C Renegade
+
+- On Your Feet
+- Stop Them Again
