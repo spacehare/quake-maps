@@ -21,11 +21,11 @@
   - [ ] add stuff about rabbit_quake to README
 - playtest and balance
   - [ ] QuakeSpasm
-  - [ ] IronWail
+  - [x] IronWail
   - other players playtested; count: 0
-  - [ ] 0 easy
-  - [ ] 1 normal
-  - [ ] 2 hard
+  - [x] 0 easy
+  - [x] 1 normal
+  - [x] 2 hard
 
 # other
 
