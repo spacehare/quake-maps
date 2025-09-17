@@ -1,7 +1,7 @@
 - [x] changelevel is set to start
-- [ ] graybox
+- [x] graybox
 - [ ] texture
-- [ ] seal
+- [x] seal
 - [ ] lighting
 - [x] secrets
 - playtest and balance
