@@ -24,6 +24,7 @@
 - [ ] 8: shortcut from spawn to bridge (in case player falls?)
 - [ ] 8: vent door should also make a stair so you cant get stuck if you fall off
 - [ ] fix BTN (button) group
+- [x] cap all rock walls and tops
 
 # other
 
