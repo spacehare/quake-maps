@@ -5,8 +5,11 @@
 - [x] replace all proto textures
 - [x] autosaves / checkpoints
 - [x] cap all rock walls and tops
-- [ ] texture
-- [ ] lighting
+- [x] texture
+- [x] lighting
+- [x] phongs, phong_groups
+  - good enough for the time i have left
+- [x] sfx
 - playtest and balance
   - [ ] QuakeSpasm
   - [ ] IronWail
@@ -15,8 +18,6 @@
   - [ ] 1 normal
   - [ ] 2 hard
 - [ ] info_intermission, 1 or more
-- [ ] phongs, phong_groups
-- [ ] sfx
 - [ ] music
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
