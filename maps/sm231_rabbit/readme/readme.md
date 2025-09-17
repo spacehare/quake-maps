@@ -9,17 +9,17 @@
 
 ## compile settings
 
-| tool  | args |
-| ----- | ---- |
-| QBSP  | ``   |
-| VIS   | ``   |
-| LIGHT | ``   |
+| tool  | args                                                                                                       |
+| ----- | ---------------------------------------------------------------------------------------------------------- |
+| QBSP  | `-leaktest -litwater -bsp2 ${WORK_DIR_PATH}/build/__${MAP_BASE_NAME}__BUILD.map maps/${MAP_BASE_NAME}.bsp` |
+| VIS   | `-noambient -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                                           |
+| LIGHT | `-extra4 -emissivequality high -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                        |
 
 # credit
 
 - music: "On Your Feet" by Frank Klepacki, from "Command & Conquer: Renegade"
 - button sound: `mousedown2.wav` from Starcraft: Brood War
 - [Rabbit Emoji](https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f407.svg)
-- [skybox](https://www.slipseer.com/index.php?resources/tga-conversion-of-bumbadidas-skyboxes.481/)
+- [skybox](https://www.slipseer.com/index.php?resources/tga-conversion-of-bumbadidas-skyboxes.481/) by bumbadida
 
 # DON'T WORRY — BE FURRY

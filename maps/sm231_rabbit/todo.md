@@ -17,6 +17,8 @@
 - [x] fix BTN (button) group
 - [x] music
 - [x] no MAP issues in TrenchBroom console
+- [x] readme
+  - [ ] add stuff about rabbit_quake to README
 - playtest and balance
   - [ ] QuakeSpasm
   - [ ] IronWail
@@ -24,8 +26,6 @@
   - [ ] 0 easy
   - [ ] 1 normal
   - [ ] 2 hard
-- [ ] readme
-  - [ ] add stuff about rabbit_quake to README
 
 # other
 
