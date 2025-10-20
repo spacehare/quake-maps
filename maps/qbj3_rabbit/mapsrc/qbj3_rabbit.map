@@ -3,9 +3,10 @@
 // entity 0
 {
 "mapversion" "220"
-"wad" "I:/Quake/Dev/wad/WORKING_foliage.wad"
+"wad" ""
 "classname" "worldspawn"
-"message" "TITLE GOES HERE"
+"message" ""
+// ericw
 "_dirt" "1"
 "_dirtdepth" "128"
 "_dirtgain" "1"
@@ -14,6 +15,7 @@
 "_bouncecolorscale" "0"
 "_bouncescale" "1"
 "_bouncestyled" "1"
+"_maxlight" "0"
 "_minlight" "0"
 "_minlight_color" "255 255 255"
 "_minlight_dirt" "1"
@@ -29,8 +31,11 @@
 "_wateralpha" "1"
 "_lavaalpha" "1"
 "_telealpha" "1"
+"_surflight_radiosity" "1"
+"fog" "0.0 0.0 0.0 0.0"
+"fog_color" "255 255 255"
+"fog_density" "0"
 }
-// entity 1
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
