@@ -13,6 +13,8 @@
 | VIS   | ``   |
 | LIGHT | ``   |
 
-# <<>>
+# credit
+
+- [textures by makkon](https://www.slipseer.com/index.php?resources/makkon-textures.28)
 
 # DON'T WORRY — BE FURRY

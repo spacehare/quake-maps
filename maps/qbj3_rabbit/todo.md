@@ -1,3 +1,19 @@
+# makkon
+
+update
+
+- [x] concrete
+- [x] gothic stone
+- [x] industrial
+- [x] medieval
+- [x] nature
+- [x] stone
+- [x] tech
+- [x] urban
+- [x] urban interior
+
+# main
+
 - [ ] graybox
 - [ ] changelevel is set to start
 - [ ] texture
@@ -19,3 +35,5 @@
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] replace all proto textures
+- [ ] fog
+- [ ] kill `_TRIGGER_ITEMS` after first weapon is acquired
