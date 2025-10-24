@@ -12,6 +12,16 @@ update
 - [x] urban
 - [x] urban interior
 
+# layout
+
+- [ ] intro overworld
+- [ ] ravine into dungeon
+- [ ] dungeon
+  - [ ] cistern
+  - [ ] oubliettes
+- [ ] more open "Junk Head"-esque area
+- [ ] outro overworld
+
 # main
 
 - [ ] graybox
@@ -36,4 +46,5 @@ update
 - [ ] readme
 - [ ] replace all proto textures
 - [ ] fog
+  - [ ] fog on info_player_start
 - [ ] kill `_TRIGGER_ITEMS` after first weapon is acquired
