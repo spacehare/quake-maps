@@ -22,6 +22,12 @@ update
 - [ ] more open "Junk Head"-esque area
 - [ ] outro overworld
 
+# other
+
+- [ ] use some power-ups!
+- [ ] kill `_TRIGGER_ITEMS` after first weapon is acquired
+- [ ] prototype qbj2-inspired 'half-donuts'
+
 # main
 
 - [ ] graybox
@@ -47,4 +53,3 @@ update
 - [ ] replace all proto textures
 - [ ] fog
   - [ ] fog on info_player_start
-- [ ] kill `_TRIGGER_ITEMS` after first weapon is acquired
