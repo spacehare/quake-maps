@@ -19,5 +19,5 @@ actions:
       for ent in entities:
         if ent.kv['classname'] == 'func_door':
           ent.kv.setdefault('_minlight', '50')
-          ent.kv.setdefault('sounds', '2')
+          ent.kv.setdefault('sounds', '3')
           ent.kv.setdefault('_dirt', '-1')
