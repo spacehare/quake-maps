@@ -14,13 +14,21 @@ update
 
 # layout
 
-- [ ] intro overworld
+- [ ] intro
+  - [ ] qbj1-esque spawn hallway
+  - [ ] wrench fight in the church
+  - [ ] wrench fight with a quad (qbj1 shotgun pillar)
+  - [ ] quasi-puzzle with the pistol
+- [ ] lake/pit
+- [ ] shambler pit (that reminds me of Halo for some reason)
 - [ ] ravine into dungeon
-- [ ] dungeon
+- [ ] DURF/OSR-esque dungeon
   - [ ] cistern
   - [ ] oubliettes
 - [ ] more open "Junk Head"-esque area
+- [ ] qbj2 kitbash
 - [ ] outro overworld
+- [ ] exit temple thing
 
 # other
 
