@@ -12,29 +12,36 @@ update
 - [x] urban
 - [x] urban interior
 
-# layout
+# graybox layout
 
 - [ ] intro
-  - [ ] qbj1-esque spawn hallway
-  - [ ] wrench fight in the church
+  - [x] qbj1-esque spawn hallway
+  - [x] wrench fight in the church
   - [ ] wrench fight with a quad (qbj1 shotgun pillar)
   - [ ] quasi-puzzle with the pistol
 - [ ] lake/pit
 - [ ] shambler pit (that reminds me of Halo for some reason)
 - [ ] ravine into dungeon
-- [ ] DURF/OSR-esque dungeon
-  - [ ] cistern
-  - [ ] oubliettes
-- [ ] more open "Junk Head"-esque area
-- [ ] qbj2 kitbash
+- [ ] DURF/OSR-esque dungeon (more free-form? rooms are puzzles? secret doors?)
+  - [x] cistern
+  - [x] oubliettes
+  - [ ] uneven terrain
+  - [ ] sploder ambush/jumpscare
+  - [ ] secret doors
+- [ ] qbj2 kitbash + more open "Junk Head"-esque area
+  - [ ] half-donuts; to platform over their gaps
 - [ ] outro overworld
 - [ ] exit temple thing
 
 # other
 
+- [x] kill `_TRIGGER_ITEMS` after first weapon is acquired
 - [ ] use some power-ups!
-- [ ] kill `_TRIGGER_ITEMS` after first weapon is acquired
 - [ ] prototype qbj2-inspired 'half-donuts'
+- [ ] graffiti
+- [ ] Maria Scanu's Madonna
+- [ ] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
+- [ ] [Donald Judd block](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Donald_Judd_Concrete_Blocks.jpg/1920px-Donald_Judd_Concrete_Blocks.jpg)
 
 # main
 
@@ -53,6 +60,7 @@ update
   - [ ] 2 hard
 - [ ] info_intermission, 1 or more
 - [ ] autosaves / checkpoints
+  - [ ] if co-op... also move the spawn-points ahead!
 - [ ] phongs, phong_groups
 - [ ] sfx
 - [ ] music
