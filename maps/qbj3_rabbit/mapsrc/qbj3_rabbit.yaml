@@ -21,3 +21,5 @@ actions:
           ent.kv.setdefault('_minlight', '50')
           ent.kv.setdefault('sounds', '3')
           ent.kv.setdefault('_dirt', '-1')
+        elif not ent.kv.get('use_angle'):
+          del ent.kv['angle']
