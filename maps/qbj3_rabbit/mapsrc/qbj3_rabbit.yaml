@@ -21,5 +21,10 @@ actions:
           ent.kv.setdefault('_minlight', '50')
           ent.kv.setdefault('sounds', '3')
           ent.kv.setdefault('_dirt', '-1')
-        elif not ent.kv.get('use_angle'):
+        if ent.kv['classname'].startswith('trigger') and not ent.kv.get('use_angle') and ent.kv.get('angle'):
           del ent.kv['angle']
+        if ent.kv.get('replace_texture_from'):
+          for brush in ent.brushes:
+            for face in brush.planes:
+              if face.texture_name == env.kv['replace_texture_from']:
+                face.texture_name = ent.kv['replace_texture_with']

@@ -39,6 +39,12 @@ update
 - [ ] use some power-ups!
 - [ ] prototype qbj2-inspired 'half-donuts'
 - [ ] graffiti
+  - [ ] Trenchbroom 2025.3
+  - sonas
+    - [ ] Io
+    - [ ] Zif
+    - [ ] Oolo
+  - [ ]
 - [ ] Maria Scanu's Madonna
 - [ ] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
 - [ ] [Donald Judd block](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Donald_Judd_Concrete_Blocks.jpg/1920px-Donald_Judd_Concrete_Blocks.jpg)
