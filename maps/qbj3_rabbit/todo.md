@@ -14,6 +14,7 @@ update
 
 # graybox layout
 
+- [x] big picture
 - [ ] intro
   - [x] qbj1-esque spawn hallway
   - [x] wrench fight in the church
@@ -31,7 +32,7 @@ update
 - [ ] qbj2 kitbash + more open "Junk Head"-esque area
   - [ ] half-donuts; to platform over their gaps
 - [ ] outro overworld
-- [ ] exit temple thing
+- [ ] changelevel temple thing
 
 # other
 
@@ -52,7 +53,7 @@ update
 # main
 
 - [ ] graybox
-- [ ] changelevel is set to start
+- [x] changelevel is set to start
 - [ ] texture
 - [ ] seal
 - [ ] lighting
@@ -74,4 +75,4 @@ update
 - [ ] readme
 - [ ] replace all proto textures
 - [ ] fog
-  - [ ] fog on info_player_start
+  - [x] fog on info_player_start
