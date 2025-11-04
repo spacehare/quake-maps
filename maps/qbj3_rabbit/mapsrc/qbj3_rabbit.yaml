@@ -1,6 +1,6 @@
 # required
 
-version: 0
+version: 1
 
 # optional
 
@@ -14,17 +14,5 @@ variables:
   blue: "0 0 255"
   up: -1
   down: -2
-actions:
-  - exec: |
-      for ent in entities:
-        if ent.kv['classname'] == 'func_door':
-          ent.kv.setdefault('_minlight', '50')
-          ent.kv.setdefault('sounds', '3')
-          ent.kv.setdefault('_dirt', '-1')
-        if ent.kv['classname'].startswith('trigger') and not ent.kv.get('use_angle') and ent.kv.get('angle'):
-          del ent.kv['angle']
-        if ent.kv.get('replace_texture_from'):
-          for brush in ent.brushes:
-            for face in brush.planes:
-              if face.texture_name == env.kv['replace_texture_from']:
-                face.texture_name = ent.kv['replace_texture_with']
+scripts:
+  - ./qbj3_rabbit.py

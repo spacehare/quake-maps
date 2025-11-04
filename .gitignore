@@ -33,4 +33,5 @@ _ignore
 # OpenMPT
 *.bak
 *.Autosave.*
-# ...
+# Python
+__pycache__
