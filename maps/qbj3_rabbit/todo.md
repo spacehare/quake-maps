@@ -21,6 +21,7 @@ update
   - [ ] wrench fight with a quad (qbj1 shotgun pillar)
   - [ ] quasi-puzzle with the pistol
 - [ ] lake/pit
+- [ ] graveyard
 - [ ] shambler pit (that reminds me of Halo for some reason)
 - [ ] ravine into dungeon
 - [ ] DURF/OSR-esque dungeon (more free-form? rooms are puzzles? secret doors?)
@@ -33,10 +34,12 @@ update
   - [ ] half-donuts; to platform over their gaps
 - [ ] outro overworld
 - [ ] changelevel temple thing
+- [ ] 10 ledges, 10 ogres
 
 # other
 
 - [x] kill `_TRIGGER_ITEMS` after first weapon is acquired
+- [ ] give player opportunity to bait fiends into pits
 - [ ] use some power-ups!
 - [ ] prototype qbj2-inspired 'half-donuts'
 - [ ] graffiti
