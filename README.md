@@ -24,3 +24,5 @@ inspired by [Chuma](https://github.com/ChumaSuey) to put my maps on github too
 | [mcj_rabbit](./maps/mcj_rabbit/)           |   ✅   | 2025-02 | [slipseer](https://www.slipseer.com/index.php?resources/minecraft-textures-jam.442/)      |
 | [mpj2_rabbit](./maps/mpj2_rabbit/)         |   ✅   | 2025-08 | [slipseer](https://www.slipseer.com/index.php?resources/moving-parts-jam-2.482/)          |
 | [sm231_rabbit](./maps/sm231_rabbit/)       |   ✅   | 2025-09 | [slipseer](https://www.slipseer.com/index.php?resources/sm231-starts-with-a-bang.494/)    |
+| [rabbit_dep](./maps/rabbit_dep/)           |   ❌   | 2025-09 |                                                                                           |
+| [qbj3_rabbit](./maps/qbj3_rabbit/)         |        | 2025-11 |                                                                                           |
