@@ -1,3 +1,5 @@
+# https://github.com/spacehare/rabbit_quake
+
 # required
 
 version: 1
@@ -9,10 +11,6 @@ prefix:
   variable_in: "%"
   variable_out: "%"
 variables:
-  red: "255 0 0"
-  green: "0 255 0"
-  blue: "0 0 255"
-  up: -1
-  down: -2
+  pillarheight: 544
 scripts:
   - ./qbj3_rabbit.py
