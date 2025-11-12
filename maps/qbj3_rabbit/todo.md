@@ -33,34 +33,24 @@ update
 - [x] qbj2 kitbash + more open "Junk Head"-esque area
 - pre-staircase
   - stickflip zone
-    - [ ] 12 ledges, 12 ogres
-    - [ ] amalgam ambush
-  - [ ] half-donuts; to platform over their gaps
-- [ ] outro overworld
-- [ ] changelevel temple thing
+    - [x] 12 ledges, 12 ogres
+    - [x] amalgam ambush
+  - [-] half-donuts; to platform over their gaps ("prototype qbj2-inspired 'half-donuts'")
+- [x] outro overworld
+- [x] changelevel temple thing
 
 # other
 
 - [x] kill `_TRIGGER_ITEMS` after first weapon is acquired
 - [ ] give player opportunity to bait fiends into pits
 - [x] use some power-ups!
-- [ ] prototype qbj2-inspired 'half-donuts'
-- [ ] graffiti ideas
-  - [ ] Trenchbroom 2025.3
-  - sonas
-    - [ ] Io
-    - [ ] Zif
-    - [ ] Oolo
-  - [ ] monster OC's symbol, with candles around it
 - [ ] Maria Scanu's Madonna
 - [ ] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
 - [ ] [Donald Judd block](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Donald_Judd_Concrete_Blocks.jpg/1920px-Donald_Judd_Concrete_Blocks.jpg)
 - [ ] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)
   - https://en.wikipedia.org/wiki/Hostile_architecture
   - https://en.wikipedia.org/wiki/Urine_deflector
-
-## from Obsidian
-
+- [ ] make the wrench-only berserk fight have enemies come in waves
 - [ ] tabernacle secret? spawn an item in it? hm
 - [ ] confessional
 - [ ] dog monsterjump into void
