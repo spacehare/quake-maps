@@ -54,6 +54,8 @@ update
 - [ ] tabernacle secret? spawn an item in it? hm
 - [ ] confessional
 - [ ] dog monsterjump into void
+- cistern:
+  > [5:31 PM]Makkon: you could make the upper part of the room brighter so you can see their silhouettes when they jump
 
 # main
 
@@ -73,6 +75,8 @@ update
 - [ ] info_intermission, 1 or more
 - [ ] autosaves / checkpoints
   - [ ] if co-op... also move the spawn-points ahead!
+- coop
+  - [ ] church podium `target_secret`
 - [ ] phongs, phong_groups
 - [ ] sfx
 - [ ] music
