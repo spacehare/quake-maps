@@ -46,7 +46,8 @@ update
 - [x] use some power-ups!
 - [ ] Maria Scanu's Madonna
 - [ ] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
-- [ ] [Donald Judd block](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Donald_Judd_Concrete_Blocks.jpg/1920px-Donald_Judd_Concrete_Blocks.jpg)
+- [x] [Donald Judd block](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Donald_Judd_Concrete_Blocks.jpg/1920px-Donald_Judd_Concrete_Blocks.jpg)
+- [ ] trickle in swarmers more, rather than having them go in... swarms. in the Judd block area
 - [ ] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)
   - https://en.wikipedia.org/wiki/Hostile_architecture
   - https://en.wikipedia.org/wiki/Urine_deflector
@@ -54,6 +55,7 @@ update
 - [ ] tabernacle secret? spawn an item in it? hm
 - [ ] confessional
 - [ ] dog monsterjump into void
+- [ ] @makkon_ladder key
 - cistern:
   > [5:31 PM]Makkon: you could make the upper part of the room brighter so you can see their silhouettes when they jump
 
