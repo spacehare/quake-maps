@@ -10,7 +10,6 @@ prefix:
   general: "@"
   variable_in: "%"
   variable_out: "%"
-variables:
-  pillarheight: 544
+variables: {}
 scripts:
   - ./qbj3_rabbit.py
