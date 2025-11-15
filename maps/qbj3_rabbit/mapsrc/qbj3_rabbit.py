@@ -104,6 +104,12 @@ def main(context: dict) -> list[Entity]:
         if ent.kv.get(var_prefix + 'clip') == '1':
             worldspawn.brushes += clip(ent)
 
+        # ladders
+        if ent.kv.get(var_prefix + 'makkon_ladder'):
+            keys = ['_mirrorinside', '_phong']
+            for key in keys:
+                ent.kv[key] = '1'
+
         # door
         if ent.classname == 'func_door':
             ent.kv.setdefault('_minlight', '50')
