@@ -10,6 +10,7 @@ prefix:
   general: "@"
   variable_in: "%"
   variable_out: "%"
-variables: {}
+variables:
+  swarmer_divisor: 2
 scripts:
   - ./qbj3_rabbit.py
