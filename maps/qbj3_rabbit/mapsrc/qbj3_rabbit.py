@@ -27,25 +27,33 @@ def autocount(trigger_counter: Entity, entities: list[Entity]) -> list[Entity] |
 
     # check who is targeting the trigger_counter
     for entity in [e for e in entities if e is not trigger_counter]:
-        for key in entity.kv:
-            if key.startswith('target') and entity.kv[key] == trigger_counter.kv['targetname']:
-                # skill flags
-                if possible_flags := entity.kv.get('spawnflags'):
-                    spawnflags: int = int(possible_flags)
+        monster_count: int = 1
 
-                    is_easy = not (EntitySkillflags.NOT_ON_EASY.value & spawnflags)
-                    is_normal = not (EntitySkillflags.NOT_ON_NORMAL.value & spawnflags)
-                    is_hard = not (EntitySkillflags.NOT_ON_HARD.value & spawnflags)
+        # respawning monsters, like in copper
+        if entity.classname.startswith('monster'):
+            if respawn_count := entity.kv.get('count'):
+                monster_count = int(respawn_count)
 
-                    skill_bools = (is_easy, is_normal, is_hard)
+        # skill flags
+        if possible_spawnflags := entity.kv.get('spawnflags'):
+            spawnflags: int = int(possible_spawnflags)
 
-                    for idx, skill_bool in enumerate(skill_bools):
-                        if skill_bool:
-                            totals[idx] += 1
+            is_easy = not (EntitySkillflags.NOT_ON_EASY.value & spawnflags)
+            is_normal = not (EntitySkillflags.NOT_ON_NORMAL.value & spawnflags)
+            is_hard = not (EntitySkillflags.NOT_ON_HARD.value & spawnflags)
 
-                else:
-                    totals = [i + 1 for i in totals]
+            monster_skill_bools = (is_easy, is_normal, is_hard)
+        else:
+            monster_skill_bools = (True, True, True)
 
+        # handle target1, target2, target4, target4, etc
+        for key in [k for k in entity.kv if k.startswith('target')]:
+            if entity.kv[key] == trigger_counter.kv['targetname']:
+                for idx, skill_bool in enumerate(monster_skill_bools):
+                    if skill_bool:
+                        totals[idx] += monster_count
+
+    # create new trigger_counter copies, per-skill
     clones = []
     for idx, skill_flag in enumerate(EntitySkillflags):
         if totals[idx] == 0:
@@ -91,16 +99,21 @@ def main(context: dict) -> list[Entity]:
     worldspawn: Entity = input_entities[0]
 
     for ent in input_entities:
+        # delete
         if ent.kv.get(var_prefix + 'delete') == '1':
             continue
+
+        # autocount
         elif result := autocount(ent, input_entities):
             output_entities += result
             continue
 
+        # eval
         for key in ent.kv:
             if ent.kv[key].startswith('eval'):
                 ent.kv[key] = eval(ent.kv[key].removeprefix('eval'))
 
+        # clip
         if ent.kv.get(var_prefix + 'clip') == '1':
             worldspawn.brushes += clip(ent)
 
