@@ -90,6 +90,7 @@ def main(context: dict) -> list[Entity]:
     print('🐇 running qbj3_rabbit.py')
 
     var_prefix: str = context['var_prefix']
+    EVAL_PREFIX = var_prefix + 'eval'
     input_entities: list[Entity] = context['entities']
     output_entities: list[Entity] = []
 
@@ -110,8 +111,8 @@ def main(context: dict) -> list[Entity]:
 
         # eval
         for key in ent.kv:
-            if ent.kv[key].startswith('eval'):
-                ent.kv[key] = eval(ent.kv[key].removeprefix('eval'))
+            if ent.kv[key].startswith(EVAL_PREFIX):
+                ent.kv[key] = eval(ent.kv[key].removeprefix(EVAL_PREFIX))
 
         # clip
         if ent.kv.get(var_prefix + 'clip') == '1':
