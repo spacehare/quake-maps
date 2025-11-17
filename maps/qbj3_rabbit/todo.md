@@ -59,7 +59,8 @@ update
 - cistern:
   > [5:31 PM]Makkon: you could make the upper part of the room brighter so you can see their silhouettes when they jump
 - [ ] use backpacks!
-- [ ] amalgam through concrete bars
+- [x] amalgam through concrete bars
+- [ ] buzzing loop near lights
 
 # playtest notes
 
@@ -80,9 +81,8 @@ playtime is about 35 minutes? not including deaths. estimate 40.
 - [ ] lighting
 - [ ] secrets
 - playtest and balance
-  - [ ] QuakeSpasm
-  - [ ] IronWail
-  - other players playtested; count: 0
+  - other players playtested; count: 2
+  - [x] IronWail
   - [ ] 0 easy
   - [ ] 1 normal
   - [ ] 2 hard
