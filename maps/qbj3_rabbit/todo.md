@@ -61,6 +61,31 @@ update
 - [ ] use backpacks!
 - [x] amalgam through concrete bars
 - [ ] buzzing loop near lights
+- [ ] pick a skybox
+- [ ] change ladder colors
+- [ ] fix ladders (AlexUnder)
+
+## merge wadcleaver
+
+`makkon_8_ind_lights`
+
+- `makkon_industrial_grn`
+- `makkon_industrial_wht`
+- `makkon_industrial_brn`
+- `makkon_industrial_pnk`
+- `makkon_industrial_fbb`
+- `makkon_industrial_fbo`
+- `makkon_industrial_fbr`
+- `makkon_industrial_fby`
+
+# art stuff
+
+- crosses
+  - [x] [Cross of Lorraine](https://en.wikipedia.org/wiki/Cross_of_Lorraine)
+  - [x] [Cross of Saint Peter](https://en.wikipedia.org/wiki/Cross_of_Saint_Peter)
+  - [x] [Tau Cross / Saint Anthony's Cross](https://en.wikipedia.org/wiki/Tau_cross)
+  - [x] [Forked Cross](https://en.wikipedia.org/wiki/Forked_cross)
+  - [x] [Latin Cross](https://en.wikipedia.org/wiki/Latin_cross)
 
 # playtest notes
 
