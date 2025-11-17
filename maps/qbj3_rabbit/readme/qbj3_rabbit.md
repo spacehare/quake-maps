@@ -16,5 +16,6 @@
 # credit
 
 - [textures by makkon](https://www.slipseer.com/index.php?resources/makkon-textures.28)
+- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! sky from bumbadida converted using imagemagick
 
 # DON'T WORRY — BE FURRY
