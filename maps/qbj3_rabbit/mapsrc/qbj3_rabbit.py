@@ -129,6 +129,7 @@ def main(context: dict) -> list[Entity]:
             ent.kv.setdefault('_minlight', '50')
             ent.kv.setdefault('sounds', '3')
             ent.kv.setdefault('_dirt', '-1')
+            ent.kv.setdefault('speed', '128')
 
         # purge angles
         if (
