@@ -42,28 +42,28 @@ update
 # other
 
 - [x] kill `_TRIGGER_ITEMS` after first weapon is acquired
-- [ ] give player opportunity to bait fiends into pits
 - [x] use some power-ups!
-- [ ] Maria Scanu's Madonna
-- [ ] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
+- [x] Maria Scanu's Madonna
 - [x] [Donald Judd block](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Donald_Judd_Concrete_Blocks.jpg/1920px-Donald_Judd_Concrete_Blocks.jpg)
 - [x] trickle in swarmers more, rather than having them go in... swarms. in the Judd block area
+- [x] make the wrench-only berserk fight have enemies come in waves
+- [x] dog monsterjump into void
+- [x] @makkon_ladder key
+- [x] amalgam through concrete bars
+- [x] pick a skybox
+- cistern:
+  > [5:31 PM]Makkon: you could make the upper part of the room brighter so you can see their silhouettes when they jump
+- [ ] give player opportunity to bait fiends into pits
+- [ ] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
 - [ ] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)
   - https://en.wikipedia.org/wiki/Hostile_architecture
   - https://en.wikipedia.org/wiki/Urine_deflector
-- [x] make the wrench-only berserk fight have enemies come in waves
 - [ ] tabernacle secret? spawn an item in it? hm
 - [ ] confessional
-- [x] dog monsterjump into void
-- [x] @makkon_ladder key
-- cistern:
-  > [5:31 PM]Makkon: you could make the upper part of the room brighter so you can see their silhouettes when they jump
 - [ ] use backpacks!
-- [x] amalgam through concrete bars
 - [ ] buzzing loop near lights
-- [ ] pick a skybox
 - [ ] change ladder colors
-- [ ] fix ladders (AlexUnder)
+- [?] fix ladders (AlexUnder)
 
 ## merge wadcleaver
 
@@ -99,14 +99,14 @@ playtime is about 35 minutes? not including deaths. estimate 40.
 
 # main
 
-- [ ] graybox
+- [x] graybox
 - [x] changelevel is set to start
 - [ ] texture
 - [ ] seal
 - [ ] lighting
 - [ ] secrets
 - playtest and balance
-  - other players playtested; count: 2
+  - other players playtested; count: 3 [AlexUnder, Clenow, Spootnik]
   - [x] IronWail
   - [ ] 0 easy
   - [ ] 1 normal
@@ -115,7 +115,7 @@ playtime is about 35 minutes? not including deaths. estimate 40.
 - [ ] autosaves / checkpoints
   - [ ] if co-op... also move the spawn-points ahead!
 - coop
-  - [ ] church podium `target_secret`
+  - [ ] test the church podium `target_secret`
 - [ ] phongs, phong_groups
 - [ ] sfx
 - [ ] music
@@ -124,3 +124,6 @@ playtime is about 35 minutes? not including deaths. estimate 40.
 - [ ] replace all proto textures
 - [ ] fog
   - [x] fog on info_player_start
+- credit
+  - makkon and stickflip for design feedback
+  - alexunder, clenow, spootnik for playtest feedback
