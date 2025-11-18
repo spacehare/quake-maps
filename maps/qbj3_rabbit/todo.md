@@ -65,6 +65,39 @@ update
 - [ ] change ladder colors
 - [?] fix ladders (AlexUnder)
 
+## feedback + observations
+
+- [ ] lower the pews
+- [ ] make picking up vamp open a progress door
+- [ ] rm msg from pillar btns
+- [ ] fix ladder tex after 4-button pillar
+- [ ] make shooting the 1st bridge wizard trigger the others w ALT
+- [ ] slab stair window (after graveyard) -> more walkable
+- [ ] add bevel to pit ladder (45 deg)
+- [ ] railing to osr gate, where vore was
+- [ ] secret to 2 backpacks in OSR (post blue key)
+- osr U
+  - [ ] shards on spinners
+  - [ ] drop-tower btn needs to sync w door
+  - [ ] change button platform sfx
+- [ ] +hp in lower jh intro maze
+- [ ] check under-trim on 3/4 jh stairs
+- [ ] on sk 2, amalgam vis thru ladder in h3vr room
+- [ ] post-h3vr ladder-dropdown needs back-tex
+- [ ] dog stuck on stairs @ qbj2 V
+- [ ] +hp in invoker arena
+- [ ] raise final arena floor (fiends get stuck)
+- [ ] sk 2 ass shamblers don't trigger each other
+- [ ] +hp at bottom of sk2 spiral stairs
+- [ ] rm top vore @ spiral ?
+- [ ] able to bhop over outdoor secret fight for 5 invoker ammo
+- [ ] more platforming
+- [ ] make smaller/cramped rooms (contrast large and small)
+- [ ] when invoker is prompted -> more enemies, tougher enemies
+- [ ] more monsters in cistern
+- [ ] add Avix to playtester credit
+- [ ] cut some fodder fiends (not memorable or interesting)
+
 ## merge wadcleaver
 
 `makkon_8_ind_lights`
@@ -106,7 +139,7 @@ playtime is about 35 minutes? not including deaths. estimate 40.
 - [ ] lighting
 - [ ] secrets
 - playtest and balance
-  - other players playtested; count: 3 [AlexUnder, Clenow, Spootnik]
+  - other players playtested; count: 4 [AlexUnder, Clenow, Spootnik, Avix]
   - [x] IronWail
   - [ ] 0 easy
   - [ ] 1 normal
