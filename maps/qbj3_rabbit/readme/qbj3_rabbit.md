@@ -18,12 +18,13 @@
 - [textures by makkon](https://www.slipseer.com/index.php?resources/makkon-textures.28)
 - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! sky from bumbadida converted using imagemagick
 
-Thank you for playtesting
+## Thank you for playtesting
 
 - AlexUnder
+- B0rdie
 - Clenow
 - Spootnik
-- Avix
+- Avix (worlds #1 family guy fan)
 - Softi
 - Wons
 
