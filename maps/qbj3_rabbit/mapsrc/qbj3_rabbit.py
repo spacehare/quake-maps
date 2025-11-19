@@ -91,7 +91,7 @@ def main(context: dict) -> list[Entity]:
 
     var_prefix: str = context['var_prefix']
     EVAL_PREFIX = var_prefix + 'eval'
-    input_entities: list[Entity] = context['entities']
+    input_entities: list[Entity] = list[Entity](context['entities'])
     output_entities: list[Entity] = []
 
     print('prefix: %s' % var_prefix)
@@ -123,6 +123,14 @@ def main(context: dict) -> list[Entity]:
             keys = ['_mirrorinside', '_phong']
             for key in keys:
                 ent.kv[key] = '1'
+
+        # blood
+        for brush in ent.brushes:
+            for face in brush.planes:
+                if face.texture_name == '*gore_blood02':
+                    for axis in face.uv:
+                        axis.scale = 2.0
+                        axis.offset = 0.0
 
         # door
         if ent.classname == 'func_door':
