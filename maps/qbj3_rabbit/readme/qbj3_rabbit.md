@@ -24,5 +24,7 @@ Thank you for playtesting
 - Clenow
 - Spootnik
 - Avix
+- Softi
+- Wons
 
 # DON'T WORRY — BE FURRY
