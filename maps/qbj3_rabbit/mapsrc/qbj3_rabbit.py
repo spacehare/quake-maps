@@ -16,6 +16,7 @@ class EntitySkillflags(Enum):
     NOT_ON_HARD = 1024  # '0b10000000000'
 
 
+SUSPENDED = 4
 SYMBOL_COUNT = '#'
 
 
@@ -118,9 +119,16 @@ def main(context: dict) -> list[Entity]:
         if ent.kv.get(var_prefix + 'clip') == '1':
             worldspawn.brushes += clip(ent)
 
+        # armor shards
+        if ent.classname == 'item_armor_shard':
+            default = ent.kv.setdefault('spawnflags', str(SUSPENDED))
+            shard_spawnflags = int(default)
+            shard_spawnflags |= SUSPENDED
+            ent.kv['spawnflags'] = str(shard_spawnflags)
+
         # ladders
         if ent.kv.get(var_prefix + 'makkon_ladder'):
-            keys = ['_mirrorinside', '_phong']
+            keys = ['_mirrorinside', '_phong', '_noclipfaces']
             for key in keys:
                 ent.kv[key] = '1'
 
