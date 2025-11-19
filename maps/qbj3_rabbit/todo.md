@@ -53,50 +53,51 @@ update
 - [x] pick a skybox
 - cistern:
   > [5:31 PM]Makkon: you could make the upper part of the room brighter so you can see their silhouettes when they jump
-- [ ] give player opportunity to bait fiends into pits
-- [ ] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
-- [ ] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)
-  - https://en.wikipedia.org/wiki/Hostile_architecture
-  - https://en.wikipedia.org/wiki/Urine_deflector
-- [ ] tabernacle secret? spawn an item in it? hm
+- [-] give player opportunity to bait fiends into pits
+- [-] tabernacle secret? spawn an item in it? hm
 - [ ] confessional
 - [ ] use backpacks!
 - [ ] buzzing loop near lights
-- [ ] change ladder colors
+- [?] change ladder colors
 - [?] fix ladders (AlexUnder)
 
 ## feedback + observations
 
-- [ ] lower the pews
-- [ ] make picking up vamp open a progress door
-- [ ] rm msg from pillar btns
-- [ ] fix ladder tex after 4-button pillar
-- [ ] make shooting the 1st bridge wizard trigger the others w ALT
-- [ ] slab stair window (after graveyard) -> more walkable
-- [ ] add bevel to pit ladder (45 deg)
-- [ ] railing to osr gate, where vore was
-- [ ] secret to 2 backpacks in OSR (post blue key)
+- [x] add Avix to playtester credit
+- [x] lower the pews
+- [x] make picking up vamp open a progress door
+- [x] rm msg from pillar btns
+- [x] fix ladder tex after 4-button pillar
+- [x] make shooting the 1st bridge wizard trigger the others w ALT
+- [x] slab stair window (after graveyard) -> more walkable
+- [x] add bevel to pit ladder (45 deg)
+- [x] railing to osr gate, where vore was
+- [x] secret to 2 backpacks in OSR (post blue key)
 - osr U
-  - [ ] shards on spinners
-  - [ ] drop-tower btn needs to sync w door
-  - [ ] change button platform sfx
-- [ ] +hp in lower jh intro maze
-- [ ] check under-trim on 3/4 jh stairs
-- [ ] on sk 2, amalgam vis thru ladder in h3vr room
-- [ ] post-h3vr ladder-dropdown needs back-tex
-- [ ] dog stuck on stairs @ qbj2 V
-- [ ] +hp in invoker arena
-- [ ] raise final arena floor (fiends get stuck)
-- [ ] sk 2 ass shamblers don't trigger each other
-- [ ] +hp at bottom of sk2 spiral stairs
-- [ ] rm top vore @ spiral ?
-- [ ] able to bhop over outdoor secret fight for 5 invoker ammo
+  - [x] shards on spinners
+  - [x] drop-tower btn needs to sync w door
+  - [x] change button platform sfx
+- [x] +hp in lower jh intro maze
+- [x] check under-trim on 3/4 jh stairs
+- [x] on sk 2, amalgam vis thru ladder in h3vr room
+- [x] post-h3vr ladder-dropdown needs back-tex
+- [x] dog stuck on stairs @ qbj2 V
+  - dog bbox too big for angles. replaced with swarmers.
+- [x] +hp in invoker arena
+- [x] raise final arena floor (fiends get stuck)
+- [x] sk 2 ass shamblers don't trigger each other
+- [x] +hp at bottom of sk2 spiral stairs
+- [x] rm top vore @ spiral ?
+- [x] able to bhop over outdoor secret fight for 5 invoker ammo
+- [x] more monsters in cistern
+- [x] when invoker is prompted -> more enemies, tougher enemies
+  - [x] post-qbj2 arena
+  - [x] 4 vores lined up
+  - [x] 12 ogres
+- [x] cut some fodder fiends (not memorable or interesting)
 - [ ] more platforming
 - [ ] make smaller/cramped rooms (contrast large and small)
-- [ ] when invoker is prompted -> more enemies, tougher enemies
-- [ ] more monsters in cistern
-- [ ] add Avix to playtester credit
-- [ ] cut some fodder fiends (not memorable or interesting)
+- [ ] harder on skill 2
 
 ## merge wadcleaver
 
@@ -134,9 +135,7 @@ playtime is about 35 minutes? not including deaths. estimate 40.
 
 - [x] graybox
 - [x] changelevel is set to start
-- [ ] texture
 - [ ] seal
-- [ ] lighting
 - [ ] secrets
 - playtest and balance
   - other players playtested; count: 4 [AlexUnder, Clenow, Spootnik, Avix]
@@ -149,14 +148,23 @@ playtime is about 35 minutes? not including deaths. estimate 40.
   - [ ] if co-op... also move the spawn-points ahead!
 - coop
   - [ ] test the church podium `target_secret`
-- [ ] phongs, phong_groups
-- [ ] sfx
-- [ ] music
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] replace all proto textures
-- [ ] fog
-  - [x] fog on info_player_start
 - credit
   - makkon and stickflip for design feedback
   - alexunder, clenow, spootnik for playtest feedback
+
+## art pass
+
+- [ ] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
+- [ ] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)
+  - https://en.wikipedia.org/wiki/Hostile_architecture
+  - https://en.wikipedia.org/wiki/Urine_deflector
+- [ ] fog
+  - [x] fog on info_player_start
+- [ ] phongs, phong_groups
+- [ ] texture
+- [ ] lighting
+- [ ] sfx
+- [ ] music
