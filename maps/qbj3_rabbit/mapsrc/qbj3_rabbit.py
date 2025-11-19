@@ -123,7 +123,7 @@ def main(context: dict) -> list[Entity]:
         if ent.classname == 'item_armor_shard':
             default = ent.kv.setdefault('spawnflags', '0')
             shard_spawnflags = int(default)
-            if (val := ent.kv.get(var_prefix + 'no_suspend')) and val == '1':
+            if ent.kv.get(var_prefix + 'no_suspend') == '1':
                 shard_spawnflags &= ~SUSPENDED
             else:
                 shard_spawnflags |= SUSPENDED
