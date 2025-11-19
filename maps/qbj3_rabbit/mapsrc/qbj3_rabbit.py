@@ -130,10 +130,14 @@ def main(context: dict) -> list[Entity]:
             ent.kv['spawnflags'] = str(shard_spawnflags)
 
         # ladders
-        if ent.kv.get(var_prefix + 'makkon_ladder'):
-            keys = ['_mirrorinside', '_phong', '_noclipfaces']
-            for key in keys:
-                ent.kv[key] = '1'
+        if val := ent.kv.get(var_prefix + 'makkon_ladder'):
+            match val:
+                case '1':
+                    keys = ['_mirrorinside', '_phong', '_noclipfaces']
+                    for key in keys:
+                        ent.kv[key] = '1'
+                case '2':
+                    pass
 
         # blood
         for brush in ent.brushes:

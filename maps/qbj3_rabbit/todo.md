@@ -99,6 +99,40 @@ update
 - [ ] make smaller/cramped rooms (contrast large and small)
 - [ ] harder on skill 2
 
+## playtest 2025-11-19
+
+- [x] cluster ammo around vamp in OSR 1st room
+- [x] lock player in room? drop? in OSR 1st room
+- [x] delay amalgam spawn more after early invoker esecret
+  - [?] more amalgams?
+- [x] fake dog 2nd door \_dirt
+- [x] oubliette array dogs on easy only?
+- [x] 7 drop shotgunners should be pistolers
+- [x] osr gold key door entrance needs symmetry
+- [x] holes in the wall, for jump buttons
+- [x] shambler-fiend pair before gold key should be a squad
+- [?] ladder to gold key needs `@makkon_ladder`
+- [?] `@makkon_ladder` to post-ass bridge
+- [x] 2nd HK on jh bridge move rt
+- [x] slit on both sides of Mary statue
+- [x] raise stairs? at jh side area after 12 dogs (can get stuck under slope)
+- [x] rm glass floor under qbj1 pillar
+- [x] upper jh more claustro
+- [x] lower jh shrink ceil
+- [x] qbj2 balcony -> qbj1 grunt couple
+- [x] qbj2 V swarmers to squad
+- [x] qbj2 upper B shotgunners into pistolers
+- [x] qbj2 after B needs white trim on middle-step
+- [ ] swap swarmers in invoker arena for something else, or change the arena design
+- [ ] swap 3 walls shambler for sth else
+- [ ] 3 walls room could be a lil tighter
+- [ ] ass shambler rt shotgunner -> pistol
+- [ ] ass shambler more platforming in that room
+- [ ] rm wiz from spiral
+- [ ] secret fight fiends can telefrag each other
+- [ ] fix pillar room molding/moat
+- [ ] too much shotgun ammo before OSR blue key
+
 ## merge wadcleaver
 
 `makkon_8_ind_lights`
@@ -123,7 +157,7 @@ update
 
 # playtest notes
 
-playtime is about 35 minutes? not including deaths. estimate 40.
+playtime is about 35-45 minutes? not including deaths. estimate 40.
 
 # weird fucking bugs
 
@@ -157,6 +191,7 @@ playtime is about 35 minutes? not including deaths. estimate 40.
 
 ## art pass
 
+- [ ] windows
 - [ ] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
 - [ ] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)
   - https://en.wikipedia.org/wiki/Hostile_architecture
