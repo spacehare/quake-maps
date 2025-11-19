@@ -121,9 +121,12 @@ def main(context: dict) -> list[Entity]:
 
         # armor shards
         if ent.classname == 'item_armor_shard':
-            default = ent.kv.setdefault('spawnflags', str(SUSPENDED))
+            default = ent.kv.setdefault('spawnflags', '0')
             shard_spawnflags = int(default)
-            shard_spawnflags |= SUSPENDED
+            if (val := ent.kv.get(var_prefix + 'no_suspend')) and val == '1':
+                shard_spawnflags &= ~SUSPENDED
+            else:
+                shard_spawnflags |= SUSPENDED
             ent.kv['spawnflags'] = str(shard_spawnflags)
 
         # ladders
