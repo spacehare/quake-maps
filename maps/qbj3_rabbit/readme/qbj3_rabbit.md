@@ -18,6 +18,12 @@
 - [textures by makkon](https://www.slipseer.com/index.php?resources/makkon-textures.28)
 - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! sky from bumbadida converted using imagemagick
 
+## Thank you for design feedback
+
+- makkon
+- avix
+- stickflip
+
 ## Thank you for playtesting
 
 - alexUnder (no surname, just Alex like Moses)

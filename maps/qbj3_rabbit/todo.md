@@ -58,8 +58,8 @@ update
 - [x] use backpacks!
 - [?] change ladder colors
 - [?] fix ladders (AlexUnder)
-- [ ] confessional
 - [x] buzzing loop near lights
+- [-] confessional
 
 ## feedback + observations
 
@@ -99,7 +99,7 @@ update
 - [-] make smaller/cramped rooms (contrast large and small)
 - [ ] harder on skill 2
 
-## playtest 2025-11-19
+## self-playtest 2025-11-19
 
 - [x] cluster ammo around vamp in OSR 1st room
 - [x] lock player in room? drop? in OSR 1st room
@@ -131,15 +131,15 @@ update
 - [x] secret fight fiends can telefrag each other
 - [x] fix pillar room molding/moat
 - [?] swap swarmers in invoker arena for something else, or change the arena design
-- [ ] too much shotgun ammo before OSR blue key
+- [~] too much shotgun ammo before OSR blue key
 
 ## jello 2015-11-20
 
-- [ ] why are the hot tub guys shooting each other when you shoot one...
-  - alt target pattern `monster_army*` infighting bug??
+- [x] why are the hot tub guys shooting each other when you shoot one...
+  - alt target pattern `monster_army*` infighting bug/behavior
 - [x] fish cant swim under bridge
 - [x] trap player in osr 1st room
-- "sections that are just a big room, with enemies to the sides, are less interesting"
+- [~] "sections that are just a big room, with enemies to the sides, are less interesting"
 
 ## merge wadcleaver
 
@@ -178,7 +178,7 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - [x] graybox
 - [x] changelevel is set to start
 - [ ] seal
-- [ ] secrets
+- [x] secrets
 - playtest and balance
   - other players playtested; count: 4 [AlexUnder, Clenow, Spootnik, Avix]
   - [x] IronWail
@@ -187,15 +187,12 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
   - [ ] 2 hard
 - [ ] info_intermission, 1 or more
 - [ ] autosaves / checkpoints
-  - [ ] if co-op... also move the spawn-points ahead!
+  - [-] if co-op... also move the spawn-points ahead! (CO-OP CUT FOR SCOPE)
 - coop
   - [ ] test the church podium `target_secret`
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
-- [ ] replace all proto textures
-- credit
-  - makkon and stickflip for design feedback
-  - alexunder, clenow, spootnik for playtest feedback
+- [ ] debug_mode for rabbitquake, so i no longer have to do this: "- [ ] replace all proto textures"
 
 ## art pass
 
