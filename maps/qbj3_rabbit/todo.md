@@ -55,11 +55,11 @@ update
   > [5:31 PM]Makkon: you could make the upper part of the room brighter so you can see their silhouettes when they jump
 - [-] give player opportunity to bait fiends into pits
 - [-] tabernacle secret? spawn an item in it? hm
-- [ ] confessional
-- [ ] use backpacks!
-- [ ] buzzing loop near lights
+- [x] use backpacks!
 - [?] change ladder colors
 - [?] fix ladders (AlexUnder)
+- [ ] confessional
+- [ ] buzzing loop near lights
 
 ## feedback + observations
 
@@ -123,15 +123,22 @@ update
 - [x] qbj2 V swarmers to squad
 - [x] qbj2 upper B shotgunners into pistolers
 - [x] qbj2 after B needs white trim on middle-step
+- [x] swap '3 walls' shambler for sth else
+- [x] 3 walls room could be a lil tighter
+- [x] ass shambler rt shotgunner -> pistol
+- [x] ass shambler more platforming in that room
+- [x] rm wiz from spiral
+- [x] secret fight fiends can telefrag each other
+- [x] fix pillar room molding/moat
 - [ ] swap swarmers in invoker arena for something else, or change the arena design
-- [ ] swap 3 walls shambler for sth else
-- [ ] 3 walls room could be a lil tighter
-- [ ] ass shambler rt shotgunner -> pistol
-- [ ] ass shambler more platforming in that room
-- [ ] rm wiz from spiral
-- [ ] secret fight fiends can telefrag each other
-- [ ] fix pillar room molding/moat
 - [ ] too much shotgun ammo before OSR blue key
+
+## jello 2015-11-20
+
+- [ ] why are the hot tub guys shooting each other when you shoot one...
+- [ ] fish cant swim under bridge
+- [ ] trap player in osr 1st room
+- "sections that are just a big room, with enemies to the sides, are less interesting"
 
 ## merge wadcleaver
 
@@ -191,6 +198,7 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 
 ## art pass
 
+- [ ] amniotic fluid; raphe
 - [ ] windows
 - [ ] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
 - [ ] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)

@@ -20,12 +20,13 @@
 
 ## Thank you for playtesting
 
-- AlexUnder
-- B0rdie
-- Clenow
-- Spootnik
-- Avix (worlds #1 family guy fan)
-- Softi
-- Wons
+- alexUnder
+- b0rdie
+- clenow
+- spootnik
+- avix (worlds #1 family guy fan)
+- softi
+- wons
+- awakeralex
 
 # DON'T WORRY — BE FURRY
