@@ -185,7 +185,7 @@ def main(context: dict) -> list[Entity]:
             for mod in group['mods']:
                 if mod['classname'] == ent.classname:
                     for mod_key, mod_value in mod['keys'].items():
-                        ent.kv[mod_key] = mod_value
+                        ent.kv.setdefault(mod_key, mod_value)
 
         # purge angles
         if (
