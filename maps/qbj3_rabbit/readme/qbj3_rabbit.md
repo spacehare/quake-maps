@@ -20,13 +20,13 @@
 
 ## Thank you for playtesting
 
-- alexUnder
+- alexUnder (no surname, just Alex like Moses)
 - b0rdie
 - clenow
 - spootnik
 - avix (worlds #1 family guy fan)
 - softi
-- wons
+- wons (white eminem theorist)
 - awakeralex
 
 # DON'T WORRY — BE FURRY
