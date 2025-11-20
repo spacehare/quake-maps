@@ -170,10 +170,10 @@ def main(context: dict) -> list[Entity]:
 
         # light groups
         if ent_yaml_group_name := ent.kv.get(VAR_PREFIX + 'yaml_group'):
-            group = yaml_groups[ent_yaml_group_name]
-            tex = group.get('texture')
-            if tex:
-                replace_texture(ent, 'ind_light_wht', tex)
+            group: dict = yaml_groups[ent_yaml_group_name]
+            group_tex: str | None = group.get('texture')
+            if group_tex:
+                replace_texture(ent, 'ind_light_wht', group_tex)
             for mod in group['mods']:
                 if mod['classname'] == ent.classname:
                     for mod_key, mod_value in mod['keys'].items():
