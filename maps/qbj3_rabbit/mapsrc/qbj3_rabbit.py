@@ -6,7 +6,9 @@
 
 import copy
 from enum import Enum
+from pathlib import Path
 
+import yaml
 from rabbitquake.app.parse import Brush, Entity
 
 
@@ -18,6 +20,7 @@ class EntitySkillflags(Enum):
 
 SUSPENDED = 4
 SYMBOL_COUNT = '#'
+RQ_VERSION = 1
 
 
 def autocount(trigger_counter: Entity, entities: list[Entity]) -> list[Entity] | None:
@@ -87,22 +90,33 @@ def clip(ent: Entity) -> list[Brush]:
     return output_brushes
 
 
+def replace_texture(ent: Entity, a: str, b: str):
+    for brush in ent.brushes:
+        for face in brush.planes:
+            if face.texture_name == a:
+                face.texture_name = b
+
+
 def main(context: dict) -> list[Entity]:
     print('🐇 running qbj3_rabbit.py')
 
-    var_prefix: str = context['var_prefix']
-    EVAL_PREFIX = var_prefix + 'eval'
+    PARENT = Path(__file__).parent
+    light_data: dict = yaml.safe_load(Path(PARENT / 'qbj3_rabbit_lights.yaml').open('r'))
+    yaml_groups: dict = light_data['groups']
+
+    VAR_PREFIX: str = context['var_prefix']
+    EVAL_PREFIX = VAR_PREFIX + 'eval'
     input_entities: list[Entity] = list[Entity](context['entities'])
     output_entities: list[Entity] = []
 
-    print('prefix: %s' % var_prefix)
+    print('prefix: %s' % VAR_PREFIX)
 
     assert input_entities[0].classname == 'worldspawn'
     worldspawn: Entity = input_entities[0]
 
     for ent in input_entities:
         # delete
-        if ent.kv.get(var_prefix + 'delete') == '1':
+        if ent.kv.get(VAR_PREFIX + 'delete') == '1':
             continue
 
         # autocount
@@ -116,21 +130,21 @@ def main(context: dict) -> list[Entity]:
                 ent.kv[key] = eval(ent.kv[key].removeprefix(EVAL_PREFIX))
 
         # clip
-        if ent.kv.get(var_prefix + 'clip') == '1':
+        if ent.kv.get(VAR_PREFIX + 'clip') == '1':
             worldspawn.brushes += clip(ent)
 
         # armor shards
         if ent.classname == 'item_armor_shard':
             default = ent.kv.setdefault('spawnflags', '0')
             shard_spawnflags = int(default)
-            if ent.kv.get(var_prefix + 'no_suspend') == '1':
+            if ent.kv.get(VAR_PREFIX + 'no_suspend') == '1':
                 shard_spawnflags &= ~SUSPENDED
             else:
                 shard_spawnflags |= SUSPENDED
             ent.kv['spawnflags'] = str(shard_spawnflags)
 
         # ladders
-        if val := ent.kv.get(var_prefix + 'makkon_ladder'):
+        if val := ent.kv.get(VAR_PREFIX + 'makkon_ladder'):
             match val:
                 case '1':
                     keys = ['_mirrorinside', '_phong', '_noclipfaces']
@@ -154,10 +168,21 @@ def main(context: dict) -> list[Entity]:
             ent.kv.setdefault('_dirt', '-1')
             ent.kv.setdefault('speed', '128')
 
+        # light groups
+        if ent_yaml_group_name := ent.kv.get(VAR_PREFIX + 'yaml_group'):
+            group = yaml_groups[ent_yaml_group_name]
+            tex = group.get('texture')
+            if tex:
+                replace_texture(ent, 'ind_light_wht', tex)
+            for mod in group['mods']:
+                if mod['classname'] == ent.classname:
+                    for mod_key, mod_value in mod['keys'].items():
+                        ent.kv[mod_key] = mod_value
+
         # purge angles
         if (
             ent.classname.startswith('trigger')
-            and not ent.kv.get(var_prefix + 'use_angle') == '1'
+            and not ent.kv.get(VAR_PREFIX + 'use_angle') == '1'
             and ent.kv.get('angle')
             and not ent.classname.endswith('monsterjump')
         ):
@@ -166,11 +191,8 @@ def main(context: dict) -> list[Entity]:
 
         # texture swapping
         # redundant bc of: https://pwitvoet.github.io/mess/entity-properties.html#_mess_replace_texture
-        if tex := ent.kv.get(var_prefix + 'replace_texture_from'):
-            for brush in ent.brushes:
-                for face in brush.planes:
-                    if face.texture_name == tex:
-                        face.texture_name = ent.kv[var_prefix + 'replace_texture_with']
+        if tex := ent.kv.get(VAR_PREFIX + 'replace_texture_from'):
+            replace_texture(ent, tex, ent.kv[VAR_PREFIX + 'replace_texture_with'])
 
         output_entities.append(ent)
 

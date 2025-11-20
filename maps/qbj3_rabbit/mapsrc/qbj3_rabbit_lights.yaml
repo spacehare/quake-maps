@@ -1,0 +1,23 @@
+# @yaml_group
+
+groups:
+  white:
+    texture: ind_light_wht
+    mods:
+      - classname: light
+        keys:
+          _color: 255 255 255
+          _deviance: "0"
+          light: "300"
+          delay: "0"
+          wait: "1"
+  brown:
+    texture: ind_light_brn
+    mods:
+      - classname: light
+        keys:
+          _color: 238 218 138
+          _deviance: "0"
+          light: "300"
+          delay: "0"
+          wait: "1"
