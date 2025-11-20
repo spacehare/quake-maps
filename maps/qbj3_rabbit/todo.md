@@ -59,7 +59,7 @@ update
 - [?] change ladder colors
 - [?] fix ladders (AlexUnder)
 - [ ] confessional
-- [ ] buzzing loop near lights
+- [x] buzzing loop near lights
 
 ## feedback + observations
 
@@ -95,8 +95,8 @@ update
   - [x] 4 vores lined up
   - [x] 12 ogres
 - [x] cut some fodder fiends (not memorable or interesting)
-- [ ] more platforming
-- [ ] make smaller/cramped rooms (contrast large and small)
+- [-] more platforming
+- [-] make smaller/cramped rooms (contrast large and small)
 - [ ] harder on skill 2
 
 ## playtest 2025-11-19
@@ -130,14 +130,15 @@ update
 - [x] rm wiz from spiral
 - [x] secret fight fiends can telefrag each other
 - [x] fix pillar room molding/moat
-- [ ] swap swarmers in invoker arena for something else, or change the arena design
+- [?] swap swarmers in invoker arena for something else, or change the arena design
 - [ ] too much shotgun ammo before OSR blue key
 
 ## jello 2015-11-20
 
 - [ ] why are the hot tub guys shooting each other when you shoot one...
-- [ ] fish cant swim under bridge
-- [ ] trap player in osr 1st room
+  - alt target pattern `monster_army*` infighting bug??
+- [x] fish cant swim under bridge
+- [x] trap player in osr 1st room
 - "sections that are just a big room, with enemies to the sides, are less interesting"
 
 ## merge wadcleaver

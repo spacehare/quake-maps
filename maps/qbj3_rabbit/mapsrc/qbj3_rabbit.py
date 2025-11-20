@@ -168,6 +168,14 @@ def main(context: dict) -> list[Entity]:
             ent.kv.setdefault('_dirt', '-1')
             ent.kv.setdefault('speed', '128')
 
+        # buzzing
+        if ent.kv.get(VAR_PREFIX + 'buzz') == '1':
+            buzzer = Entity()
+            buzzer.kv['classname'] = 'ambient_fluoro_buzz'
+            buzzer.kv['volume'] = '0.666'
+            buzzer.kv['origin'] = ent.kv['origin']
+            output_entities.append(buzzer)
+
         # light groups
         if ent_yaml_group_name := ent.kv.get(VAR_PREFIX + 'yaml_group'):
             group: dict = yaml_groups[ent_yaml_group_name]
