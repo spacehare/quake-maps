@@ -97,7 +97,7 @@ update
 - [x] cut some fodder fiends (not memorable or interesting)
 - [-] more platforming
 - [-] make smaller/cramped rooms (contrast large and small)
-- [ ] harder on skill 2
+- [?] harder on skill 2
 
 ## self-playtest 2025-11-19
 
