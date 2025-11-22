@@ -18,6 +18,16 @@
 - [textures by makkon](https://www.slipseer.com/index.php?resources/makkon-textures.28)
 - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! sky from bumbadida converted using imagemagick
 
+## media inspiration
+
+- Silksong
+- Hazbin Hotel
+- Halo
+- Half Life 2
+- H3VR Take & Hold Institution
+- Junk Head
+- Total Recall
+
 ## Thank you for design feedback
 
 - makkon
