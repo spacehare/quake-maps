@@ -179,6 +179,7 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - [x] changelevel is set to start
 - [x] secrets
 - [ ] seal
+  - [ ] optimize inside-vis
 - playtest and balance
   - other players playtested; count: 4 [AlexUnder, Clenow, Spootnik, Avix]
   - [x] IronWail
