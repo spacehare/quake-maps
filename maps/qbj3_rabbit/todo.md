@@ -173,12 +173,24 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - armor shards w targetnames not spawning when triggered
 - MML jumping becomes impossible for some reason at the end of 2 playtests so far
 
+# priority list
+
+1. [ ] big-picture texturing. blocky brushes. (can be granular later)
+1. [ ] lighting
+1. [ ] subversion
+1. [ ] [art pass]
+1. [ ] music
+1. [ ] sfx
+1. [ ] granular detailing
+1. [ ] phong, phong_groups
+1. [ ] [main]
+
 # main
 
 - [x] graybox
 - [x] changelevel is set to start
 - [x] secrets
-- [ ] seal
+- [x] seal
   - [ ] optimize inside-vis
 - playtest and balance
   - other players playtested; count: 4 [AlexUnder, Clenow, Spootnik, Avix]
@@ -197,6 +209,13 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 
 ## art pass
 
+```
+"I:\Quake\tools\qpakman-062b\qpakman.exe" I:\qbj3_data\tex\* -o I:\qbj3_data\wad\qbj3_decals.wad
+```
+
+- subversion
+  - [ ] 'worship of other idols' narrative
+  - [ ] graffiti/defacing of main structures
 - [ ] amniotic fluid; raphe
 - [ ] windows
 - [ ] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
@@ -206,7 +225,3 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - [ ] fog
   - [x] fog on info_player_start
 - [ ] phongs, phong_groups
-- [ ] texture
-- [ ] lighting
-- [ ] sfx
-- [ ] music
