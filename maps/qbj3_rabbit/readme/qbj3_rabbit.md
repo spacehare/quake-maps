@@ -44,5 +44,6 @@
 - softi
 - wons (white eminem theorist)
 - awakeralex
+- milestone
 
 # DON'T WORRY — BE FURRY
