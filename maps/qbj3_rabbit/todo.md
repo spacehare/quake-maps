@@ -157,6 +157,7 @@ update
 # art stuff
 
 - crosses
+  - https://en.wikipedia.org/wiki/Christian_cross_variants
   - [x] [Cross of Lorraine](https://en.wikipedia.org/wiki/Cross_of_Lorraine)
   - [x] [Cross of Saint Peter](https://en.wikipedia.org/wiki/Cross_of_Saint_Peter)
   - [x] [Tau Cross / Saint Anthony's Cross](https://en.wikipedia.org/wiki/Tau_cross)
@@ -213,6 +214,7 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 "I:\Quake\tools\qpakman-062b\qpakman.exe" I:\qbj3_data\tex\* -o I:\qbj3_data\wad\qbj3_decals.wad
 ```
 
+- maximalism, patterns
 - subversion
   - [ ] 'worship of other idols' narrative
   - [ ] graffiti/defacing of main structures
