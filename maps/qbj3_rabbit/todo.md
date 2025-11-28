@@ -227,3 +227,4 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - [ ] fog
   - [x] fog on info_player_start
 - [ ] phongs, phong_groups
+- [ ] unhinged scrawls on rooftops etc
