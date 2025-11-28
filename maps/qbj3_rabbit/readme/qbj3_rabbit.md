@@ -3,7 +3,7 @@
 # tools used
 
 - [TrenchBroom 2025.3](https://trenchbroom.github.io/)
-- [ericw-tools-2.0.0-alpha8-win64](https://github.com/ericwa/ericw-tools/releases/tag/2.0.0-alpha8)
+- [ericw-tools-2.0.0-alpha10-win64](https://github.com/ericwa/ericw-tools/releases/tag/2.0.0-alpha10)
 
 ## compile settings
 
