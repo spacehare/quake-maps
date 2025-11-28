@@ -185,6 +185,7 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 1. [ ] granular detailing
 1. [ ] phong, phong_groups
 1. [ ] [main]
+1. [ ] angles on ladders
 
 # main
 
