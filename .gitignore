@@ -16,7 +16,6 @@ build/
 *-crash*.map
 *-crash*.txt
 *.content.json
-
 # can't commit music because i don't own it
 maps/*/music/**
 # exceptions
