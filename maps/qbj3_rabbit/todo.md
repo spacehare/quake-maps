@@ -176,7 +176,7 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 
 # priority list
 
-1. [ ] big-picture texturing. blocky brushes. (can be granular later)
+1. [x] big-picture texturing. blocky brushes. (can be granular later)
 1. [ ] lighting
 1. [ ] subversion
 1. [ ] [art pass]
@@ -229,3 +229,9 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
   - [x] fog on info_player_start
 - [ ] phongs, phong_groups
 - [ ] unhinged scrawls on rooftops etc
+- [ ] make doors prettier. add recesses for -lips etc
+
+color theory
+
+- surface very gray and drab?
+- underground more colorful and lively?
