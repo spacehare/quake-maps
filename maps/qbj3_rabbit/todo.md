@@ -170,8 +170,9 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 
 # weird fucking bugs
 
-- SOME armor shards w/o targetnames not spawning
-- armor shards w targetnames not spawning when triggered
+- fgd hitbox is incorrectly small
+  - SOME armor shards w/o targetnames not spawning
+  - armor shards w targetnames not spawning when triggered
 - MML jumping becomes impossible for some reason at the end of 2 playtests so far
 
 # priority list
@@ -194,13 +195,13 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - [x] secrets
 - [x] seal
   - [ ] optimize inside-vis
+- [x] info_intermission, 1 or more
 - playtest and balance
   - other players playtested; count: 4 [AlexUnder, Clenow, Spootnik, Avix]
   - [x] IronWail
   - [ ] 0 easy
   - [ ] 1 normal
   - [ ] 2 hard
-- [ ] info_intermission, 1 or more
 - [ ] autosaves / checkpoints
   - [-] if co-op... also move the spawn-points ahead! (CO-OP CUT FOR SCOPE)
 - coop
@@ -215,13 +216,18 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 "I:\Quake\tools\qpakman-062b\qpakman.exe" I:\qbj3_data\tex\* -o I:\qbj3_data\wad\qbj3_decals.wad
 ```
 
+ideas
+
 - maximalism, patterns
+
+todo
+
+- [x] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
 - subversion
   - [ ] 'worship of other idols' narrative
   - [ ] graffiti/defacing of main structures
 - [ ] amniotic fluid; raphe
 - [ ] windows
-- [ ] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
 - [ ] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)
   - https://en.wikipedia.org/wiki/Hostile_architecture
   - https://en.wikipedia.org/wiki/Urine_deflector
