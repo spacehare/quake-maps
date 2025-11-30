@@ -266,6 +266,7 @@ todo
 - [ ] phongs, phong_groups
 - [ ] unhinged scrawls on rooftops etc
 - [ ] make doors prettier. add recesses for -lips etc
+- [ ] more crosses to graveyard
 
 color theory
 
