@@ -234,7 +234,7 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - [x] autosaves / checkpoints; len = 25
   - [-] if co-op... also move the spawn-points ahead! (CO-OP CUT FOR SCOPE)
 - coop
-  - [ ] test the church podium `target_secret`
+  - [x] test the church podium `target_secret` = yes both players get the secret
 - [ ] 40 secrets
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
