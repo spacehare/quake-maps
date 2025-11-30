@@ -141,6 +141,37 @@ update
 - [x] trap player in osr 1st room
 - [~] "sections that are just a big room, with enemies to the sides, are less interesting"
 
+## self 2025-11-29
+
+- [x] jacuzzi men trigger too early
+- [x] lower guys need stairs post-jacuzzi
+- [x] door in hallway post-pit should be closed if you're platforming for the secret
+- [x] missing tex in post-hallway room
+- [-] pre-ravine pressure, so the player can't camp at the fence in front of the building
+- [x] fish visible under 3-bridges
+- [x] missing tex under cistern ladder
+- [x] replace OSR door triskelion decal
+- [x] 2 vores in JH should aggro reinforcements as an Alt-Target
+- [x] wizard on floating stairs facing bad angle
+- [x] secret after doors/scissor-stairs bridge height fix
+- [x] 12 buttons -> target_secret + loot (cell?)
+- [x] tuck zombie into corner after spiral hallway (post-courtyard, pre-squagoda)
+- [x] secret fight: make the last spike taller in the secret fight (it looks conspicuous when it's actually just arbitrary)
+- [?] secret fight: return trip monsters gib each other
+- [x] water should move SLOWER in genesis
+- [x] shards in bad positions in genesis
+- [ ] fake-dog door lighting is black. but i want dirt because it's a fake-out!
+  - minlight?
+- [ ] more secrets!
+  - [ ] in general
+  - [?] to qbj2 areas, V, B, etc
+- [?] rm or delay spawn of enforcers in cool-doors room.
+- [?] player can hide in monster closets in the invoker arena. this makes the fight baby-mode
+- [?] mmml missable apparently
+- [?] pit swarmers trigger Really early
+- [?] door before vore pit? pistoler aggros too early
+- [?] too many health kits after hallway??
+
 ## merge wadcleaver
 
 `makkon_8_ind_lights`
@@ -185,27 +216,26 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 1. [ ] sfx
 1. [ ] granular detailing
 1. [ ] phong, phong_groups
-1. [ ] [main]
+1. [ ] [main](#main)
 1. [ ] angles on ladders
 
 # main
 
 - [x] graybox
 - [x] changelevel is set to start
-- [x] secrets
 - [x] seal
   - [ ] optimize inside-vis
 - [x] info_intermission, 1 or more
 - playtest and balance
-  - other players playtested; count: 4 [AlexUnder, Clenow, Spootnik, Avix]
   - [x] IronWail
   - [ ] 0 easy
-  - [ ] 1 normal
+  - [x] 1 normal
   - [ ] 2 hard
-- [ ] autosaves / checkpoints
+- [x] autosaves / checkpoints; len = 25
   - [-] if co-op... also move the spawn-points ahead! (CO-OP CUT FOR SCOPE)
 - coop
   - [ ] test the church podium `target_secret`
+- [ ] 40 secrets
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] debug_mode for rabbitquake, so i no longer have to do this: "- [ ] replace all proto textures"
