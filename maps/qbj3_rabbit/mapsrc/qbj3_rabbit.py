@@ -168,12 +168,6 @@ def main(context: dict) -> list[Entity]:
             ent.kv.setdefault('_dirt', '-1')
             ent.kv.setdefault('speed', '128')
 
-        # hurt
-        if ent.kv.get(VAR_PREFIX + 'hurt') == '1':
-            ent.kv.setdefault('delay', '1')
-            ent.kv.setdefault('dmg', '1')
-            ent.kv.setdefault('spawnflags', '10')
-
         # buzzing
         if ent.kv.get(VAR_PREFIX + 'buzz') == '1':
             buzzer = Entity()
