@@ -160,8 +160,8 @@ update
 - [?] secret fight: return trip monsters gib each other
 - [x] water should move SLOWER in genesis
 - [x] shards in bad positions in genesis
-- [ ] fake-dog door lighting is black. but i want dirt because it's a fake-out!
-  - minlight?
+- [x] fake-dog door lighting is black. but i want dirt because it's a fake-out!
+  - minlight? = `_minlight_exclude`
 - [ ] more secrets!
   - [ ] in general
   - [?] to qbj2 areas, V, B, etc
@@ -171,6 +171,11 @@ update
 - [?] pit swarmers trigger Really early
 - [?] door before vore pit? pistoler aggros too early
 - [?] too many health kits after hallway??
+
+## 2025-12-01
+
+- [ ] way to backtrack back into church / io shrine
+- [ ] tweak lighting in pre-vore-pit tile alcove
 
 ## merge wadcleaver
 
@@ -273,3 +278,16 @@ color theory
 
 - surface very gray and drab?
 - underground more colorful and lively?
+
+### light
+
+- [ ] surface with sky
+- [ ] surface interiors
+  - [ ] church
+  - [ ] wrench arena
+  - [ ] pistol room
+- [ ] underground
+  - [ ] OSR
+  - [ ] JH
+    - [ ] intro hallways [outer, upper, lower]
+    - [ ] otherkin symbol room

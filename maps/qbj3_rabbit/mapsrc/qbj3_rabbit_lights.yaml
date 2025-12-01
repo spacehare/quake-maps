@@ -14,6 +14,9 @@ groups:
   brown:
     texture: ind_light_brn
     mods:
+      - classname: func_detail_illusionary
+        keys:
+          _minlight_color: 238 218 138
       - classname: light
         keys:
           _color: 238 218 138
