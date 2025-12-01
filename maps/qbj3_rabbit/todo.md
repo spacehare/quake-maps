@@ -290,4 +290,4 @@ color theory
   - [ ] OSR
   - [ ] JH
     - [ ] intro hallways [outer, upper, lower]
-    - [ ] otherkin symbol room
+    - [x] otherkin symbol room
