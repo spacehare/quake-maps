@@ -174,8 +174,8 @@ update
 
 ## 2025-12-01
 
-- [ ] way to backtrack back into church / io shrine
-- [ ] tweak lighting in pre-vore-pit tile alcove
+- [x] way to backtrack back into church / io shrine
+- [x] tweak lighting in pre-vore-pit tile alcove
 
 ## merge wadcleaver
 
@@ -281,11 +281,13 @@ color theory
 
 ### light
 
-- [ ] surface with sky
-- [ ] surface interiors
-  - [ ] church
-  - [ ] wrench arena
-  - [ ] pistol room
+- [?] surface with sky
+- [x] start room
+- [ ] church interior
+- [x] wrench arena interior
+- [?] post-wrench, water platforming room 1
+- [x] pistol room interior
+- [x] pre vore pit tile alcove
 - [ ] underground
   - [ ] OSR
   - [ ] JH
