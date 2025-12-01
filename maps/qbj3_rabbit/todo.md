@@ -214,7 +214,8 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 # priority list
 
 1. [x] big-picture texturing. blocky brushes. (can be granular later)
-1. [ ] lighting
+1. [ ] lighting: main
+1. [ ] lighting: minlight floors under voids for flying enemies
 1. [ ] subversion
 1. [ ] [art pass]
 1. [ ] music
@@ -281,6 +282,7 @@ color theory
 
 ### light
 
+- candles to otherkin room? (makkon rq)
 - [?] surface with sky
 - [x] start room
 - [ ] church interior
@@ -288,7 +290,19 @@ color theory
 - [?] post-wrench, water platforming room 1
 - [x] pistol room interior
 - [x] pre vore pit tile alcove
-- [ ] underground
+- [ ] post-hallway room, beneath squagoda
+- [ ] squagoda interior
+- [ ] pre-ravine pond-room
+- underground
+  - no-ceiling ravine half
+    - [x] ladder lights
+  - yes-ceiling ravine half
+    - [x] 3 bridges
+    - [?] water
+    - [x] pre-osr platform/gate
+    - [x] gold key antechamber
+    - [-] high-up zif secret
+  - [ ] oubliette array
   - [ ] OSR
   - [ ] JH
     - [ ] intro hallways [outer, upper, lower]

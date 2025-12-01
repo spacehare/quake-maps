@@ -4,13 +4,13 @@ groups:
   white:
     texture: ind_light_wht
     mods:
+      - classname: func_detail_illusionary
+        keys:
+          _minlight_color: 255 255 255
       - classname: light
         keys:
           _color: 255 255 255
-          _deviance: "0"
-          light: "300"
-          delay: "0"
-          wait: "1"
+
   brown:
     texture: ind_light_brn
     mods:
@@ -20,7 +20,27 @@ groups:
       - classname: light
         keys:
           _color: 238 218 138
-          _deviance: "0"
-          light: "300"
-          delay: "0"
-          wait: "1"
+
+  fbo:
+    texture: ind_light_fbo
+
+  brn:
+    texture: ind_light_brn
+
+  fbb:
+    texture: ind_light_fbb
+
+  fbr:
+    texture: ind_light_fbr
+
+  fby:
+    texture: ind_light_fby
+
+  grn:
+    texture: ind_light_grn
+
+  pnk:
+    texture: ind_light_pnk
+
+  wht:
+    texture: ind_light_wht

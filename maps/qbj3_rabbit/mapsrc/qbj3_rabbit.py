@@ -189,7 +189,8 @@ def main(context: dict) -> list[Entity]:
             group_tex: str | None = group.get('texture')
             if group_tex:
                 replace_texture(ent, 'ind_light_wht', group_tex)
-            for mod in group['mods']:
+            mods = group.get('mods', [])
+            for mod in mods:
                 if mod['classname'] == ent.classname:
                     for mod_key, mod_value in mod['keys'].items():
                         ent.kv.setdefault(mod_key, mod_value)
