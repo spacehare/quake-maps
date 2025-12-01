@@ -267,6 +267,7 @@ todo
 - [ ] unhinged scrawls on rooftops etc
 - [ ] make doors prettier. add recesses for -lips etc
 - [ ] more crosses to graveyard
+- [ ] test cistern fogblend
 
 color theory
 

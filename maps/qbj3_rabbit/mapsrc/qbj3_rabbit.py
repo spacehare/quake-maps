@@ -1,6 +1,9 @@
 # this Python file contains code to process the MAP file at compile time
 # it runs after MESS, and before ericw-tools
 
+# works with this commit version:
+# https://github.com/spacehare/rabbit_quake/tree/c44606516e67bee92d3075ca2d9ab0b21482eef5
+# ---
 # https://github.com/spacehare/rabbit_quake
 
 
@@ -153,10 +156,10 @@ def main(context: dict) -> list[Entity]:
                 case '2':
                     pass
 
-        # blood
+        # scaling liquids
         for brush in ent.brushes:
             for face in brush.planes:
-                if face.texture_name == '*gore_blood02':
+                if face.texture_name in ['*gore_blood02', '*lava_tar01']:
                     for axis in face.uv:
                         axis.scale = 2.0
                         axis.offset = 0.0
@@ -164,9 +167,13 @@ def main(context: dict) -> list[Entity]:
         # door
         if ent.classname == 'func_door':
             ent.kv.setdefault('_minlight', '50')
-            ent.kv.setdefault('sounds', '3')
             ent.kv.setdefault('_dirt', '-1')
             ent.kv.setdefault('speed', '128')
+            ent.kv.setdefault('sounds', '3')
+
+        # void
+        if ent.classname == 'func_void':
+            ent.kv['lip'] = '1'
 
         # buzzing
         if ent.kv.get(VAR_PREFIX + 'buzz') == '1':
@@ -191,11 +198,12 @@ def main(context: dict) -> list[Entity]:
         if (
             ent.classname.startswith('trigger')
             and not ent.kv.get(VAR_PREFIX + 'use_angle') == '1'
-            and ent.kv.get('angle')
             and not ent.classname.endswith('monsterjump')
         ):
             print('clearing angle on %s' % ent.classname)
-            del ent.kv['angle']
+            for i in ['angle', 'angles']:
+                if ent.kv.get(i):
+                    del ent.kv[i]
 
         # texture swapping
         # redundant bc of: https://pwitvoet.github.io/mess/entity-properties.html#_mess_replace_texture
