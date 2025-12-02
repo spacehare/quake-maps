@@ -303,8 +303,13 @@ color theory
     - [x] pre-osr platform/gate
     - [x] gold key antechamber
     - [-] high-up zif secret
-  - [ ] oubliette array
+  - [x] oubliette array
   - [ ] OSR
   - [ ] JH
     - [ ] intro hallways [outer, upper, lower]
     - [x] otherkin symbol room
+  - qbj2
+    - [ ] V
+    - [ ] bridge
+    - [ ] B
+  - [ ] invoker arena
