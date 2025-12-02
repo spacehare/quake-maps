@@ -172,10 +172,45 @@ update
 - [?] door before vore pit? pistoler aggros too early
 - [?] too many health kits after hallway??
 
-## 2025-12-01
+## 2025-12-01_1
 
 - [x] way to backtrack back into church / io shrine
 - [x] tweak lighting in pre-vore-pit tile alcove
+
+## 2025-12-01_2
+
+- [x] church: fix up-spotlights
+- [ ] pistol: green -> yellow/orange?
+  - [ ] void floor minlight
+- [ ] osr upper-post-U: white lights? or at least some lights, after door bridge
+- [ ] osr U: dark on button plats
+- [ ] osr post-blueKeyDoor: fix lights
+- [ ] osr intro room: too dark
+- [ ] jh: stairs below intro ledge too dark
+- [ ] jh: where to put and illum. DURF zif?
+- [ ] jh: 12 dog room too blue tbh
+- [ ] mmml arena: light it up
+- [ ] oolo shrine: alter lights -- white
+- [ ] transition room between mmml and h3vr room: too dark
+- [ ] h3vr: side-lights could use more color
+- [ ] qbj2 V: relight
+- [ ] qbj2 bridge: dim the plat light
+- [ ] post qbj2 bridge: relight
+- [ ] qbj2 B: relight
+- [ ] invoker arena: tweak lights
+- [ ] scissor: relight
+- [ ] scissor lower: relight
+- [ ] scissor upper secret: dim the lights?
+- [ ] ravine room A: relight
+- [ ] ravine room B: relight
+- [ ] ravine path to 3 bridges: relight
+- [ ] pre 12 ogres: relight
+- [ ] 12 ogres: make the floor light bigger? or place more
+- [ ] 12 ogres perpendicular walkway: add fixtures
+- [ ] amalgam ambush: add fixtures? relight?
+- [ ] spiral: make ceiling less ugly
+- [ ] spiral: fix minlight on exit door
+- [ ] genesis: fix lighting
 
 ## merge wadcleaver
 
@@ -263,7 +298,7 @@ todo
 - subversion
   - [ ] 'worship of other idols' narrative
   - [ ] graffiti/defacing of main structures
-- [ ] amniotic fluid; raphe
+- [-] amniotic fluid; raphe
 - [ ] windows
 - [ ] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)
   - https://en.wikipedia.org/wiki/Hostile_architecture
@@ -286,7 +321,7 @@ color theory
 - candles to otherkin room? (makkon rq)
 - [?] surface with sky
 - [x] start room
-- [ ] church interior
+- [x] church interior
 - [x] wrench arena interior
 - [?] post-wrench, water platforming room 1
 - [x] pistol room interior
@@ -304,8 +339,17 @@ color theory
     - [x] gold key antechamber
     - [-] high-up zif secret
   - [x] oubliette array
-  - [ ] OSR
-  - [ ] JH
+  - OSR
+    - [ ] initial room
+    - [ ] upper initial room, on way to array
+    - [ ] cistern
+    - [ ] gold key room
+    - [ ] U
+    - [ ] secret room
+    - [ ] post-blue-key antechamber
+  - [ ] ravine bridge room A/FROM
+  - [ ] ravine bridge room B/TO
+  - JH
     - [ ] intro hallways [outer, upper, lower]
     - [x] otherkin symbol room
   - qbj2
