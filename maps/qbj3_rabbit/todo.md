@@ -245,6 +245,7 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] debug_mode for rabbitquake, so i no longer have to do this: "- [ ] replace all proto textures"
+- [ ] test end portal fake-out
 
 ## art pass
 
