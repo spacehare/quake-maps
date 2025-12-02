@@ -180,8 +180,8 @@ update
 ## 2025-12-01_2
 
 - [x] church: fix up-spotlights
-- [ ] pistol: green -> yellow/orange?
-  - [ ] void floor minlight
+- [x] pistol: green -> yellow/orange?
+  - [x] void floor minlight = minlight 100, color white
 - [ ] osr upper-post-U: white lights? or at least some lights, after door bridge
 - [ ] osr U: dark on button plats
 - [ ] osr post-blueKeyDoor: fix lights
