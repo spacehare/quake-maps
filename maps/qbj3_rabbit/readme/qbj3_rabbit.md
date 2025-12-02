@@ -4,6 +4,10 @@
 
 - [TrenchBroom 2025.3](https://trenchbroom.github.io/)
 - [ericw-tools-2.0.0-alpha10-win64](https://github.com/ericwa/ericw-tools/releases/tag/2.0.0-alpha10)
+- [MESS 1.2.3](https://pwitvoet.github.io/mess/)
+- [Krita 5.2.13](https://krita.org/en/)
+- Python 3.13.7
+  - [some of my own jank scripts](github.com/spacehare/rabbit_quake)
 
 ## compile settings
 
@@ -16,7 +20,7 @@
 # credit
 
 - [textures by makkon](https://www.slipseer.com/index.php?resources/makkon-textures.28)
-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! sky from bumbadida converted using imagemagick
+- sky from [these TGA skies i converted from PNG, by bumbadida](https://www.slipseer.com/index.php?resources/tga-conversion-of-bumbadidas-skyboxes.481/) -- and again converted to grayscale TGA using imagemagick
 
 ## media inspiration
 
