@@ -21,6 +21,8 @@
 
 - [textures by makkon](https://www.slipseer.com/index.php?resources/makkon-textures.28)
 - sky from [these TGA skies i converted from PNG, by bumbadida](https://www.slipseer.com/index.php?resources/tga-conversion-of-bumbadidas-skyboxes.481/) -- and again converted to grayscale TGA using imagemagick
+- decals/graffiti by me
+- music by twofold
 
 ## media inspiration
 
