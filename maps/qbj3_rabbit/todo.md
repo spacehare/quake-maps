@@ -186,7 +186,7 @@ update
 - [x] osr U: dark on button plats
 - [x] osr post-blueKeyDoor: fix lights
 - [x] osr intro room: too dark
-- [ ] jh: stairs below intro ledge too dark
+- [x] jh: stairs below intro ledge too dark
 - [ ] jh: where to put and illum. DURF zif?
 - [ ] jh: 12 dog room too blue tbh
 - [ ] mmml arena: light it up
