@@ -182,10 +182,10 @@ update
 - [x] church: fix up-spotlights
 - [x] pistol: green -> yellow/orange?
   - [x] void floor minlight = minlight 100, color white
-- [ ] osr upper-post-U: white lights? or at least some lights, after door bridge
-- [ ] osr U: dark on button plats
-- [ ] osr post-blueKeyDoor: fix lights
-- [ ] osr intro room: too dark
+- [x] osr upper-post-U: white lights? or at least some lights, after door bridge
+- [x] osr U: dark on button plats
+- [x] osr post-blueKeyDoor: fix lights
+- [x] osr intro room: too dark
 - [ ] jh: stairs below intro ledge too dark
 - [ ] jh: where to put and illum. DURF zif?
 - [ ] jh: 12 dog room too blue tbh
@@ -340,13 +340,13 @@ color theory
     - [-] high-up zif secret
   - [x] oubliette array
   - OSR
-    - [ ] initial room
-    - [ ] upper initial room, on way to array
+    - [x] initial room
+    - [x] upper initial room, on way to array
+    - [x] gold key room
+    - [x] U
+    - [x] secret room
+    - [x] post-blue-key antechamber
     - [ ] cistern
-    - [ ] gold key room
-    - [ ] U
-    - [ ] secret room
-    - [ ] post-blue-key antechamber
   - [ ] ravine bridge room A/FROM
   - [ ] ravine bridge room B/TO
   - JH
