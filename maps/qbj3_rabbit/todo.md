@@ -196,10 +196,10 @@ update
 - [?] post qbj2 bridge: relight
 - [x] qbj2 B: relight
 - [x] invoker arena: tweak lights
-- [ ] scissor: relight
-- [ ] scissor lower: relight
-- [ ] scissor upper secret: dim the lights?
-- [ ] ravine room A: relight
+- [x] scissor: relight
+- [x] scissor lower: relight
+- [x] scissor upper secret: dim the lights?
+- [x] ravine room A: relight
 - [ ] ravine room B: relight
 - [ ] ravine path to 3 bridges: relight
 - [ ] pre 12 ogres: relight
