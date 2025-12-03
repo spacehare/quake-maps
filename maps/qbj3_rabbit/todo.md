@@ -189,12 +189,10 @@ update
 - [x] jh: stairs below intro ledge too dark
 - [x] jh: where to put and illum. DURF zif?
 - [x] oolo shrine: alter lights -- white
-- [ ] jh: 12 dog room too blue tbh
-- [ ] mmml arena: light it up
-- [ ] transition room between mmml and h3vr room: too dark
-- [ ] h3vr: side-lights could use more color
-- [ ] qbj2 V: relight
-- [ ] qbj2 bridge: dim the plat light
+- [x] mmml arena: light it up
+- [x] h3vr: side-lights could use more color
+- [x] qbj2 V: relight
+- [x] qbj2 bridge: dim the plat light
 - [ ] post qbj2 bridge: relight
 - [ ] qbj2 B: relight
 - [ ] invoker arena: tweak lights
@@ -211,6 +209,8 @@ update
 - [ ] spiral: make ceiling less ugly
 - [ ] spiral: fix minlight on exit door
 - [ ] genesis: fix lighting
+- [ ] transition room between mmml and h3vr room: too dark
+- [ ] jh: 12 dog room too blue tbh
 
 ## merge wadcleaver
 
