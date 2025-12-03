@@ -187,10 +187,10 @@ update
 - [x] osr post-blueKeyDoor: fix lights
 - [x] osr intro room: too dark
 - [x] jh: stairs below intro ledge too dark
-- [ ] jh: where to put and illum. DURF zif?
+- [x] jh: where to put and illum. DURF zif?
+- [x] oolo shrine: alter lights -- white
 - [ ] jh: 12 dog room too blue tbh
 - [ ] mmml arena: light it up
-- [ ] oolo shrine: alter lights -- white
 - [ ] transition room between mmml and h3vr room: too dark
 - [ ] h3vr: side-lights could use more color
 - [ ] qbj2 V: relight
