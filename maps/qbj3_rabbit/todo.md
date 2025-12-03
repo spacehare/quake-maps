@@ -347,7 +347,7 @@ color theory
     - [x] secret room
     - [x] post-blue-key antechamber
     - [ ] cistern
-  - [ ] ravine bridge room A/FROM
+  - [x] ravine bridge room A/FROM
   - [ ] ravine bridge room B/TO
   - JH
     - [x] intro hallways [outer, upper, lower]
