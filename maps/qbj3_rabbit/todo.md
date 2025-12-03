@@ -200,8 +200,8 @@ update
 - [x] scissor lower: relight
 - [x] scissor upper secret: dim the lights?
 - [x] ravine room A: relight
-- [ ] ravine room B: relight
-- [ ] ravine path to 3 bridges: relight
+- [x] ravine room B: relight
+- [x] ravine path to 3 bridges: relight
 - [ ] pre 12 ogres: relight
 - [ ] 12 ogres: make the floor light bigger? or place more
 - [ ] 12 ogres perpendicular walkway: add fixtures
