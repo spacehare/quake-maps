@@ -193,9 +193,9 @@ update
 - [x] h3vr: side-lights could use more color
 - [x] qbj2 V: relight
 - [x] qbj2 bridge: dim the plat light
-- [ ] post qbj2 bridge: relight
-- [ ] qbj2 B: relight
-- [ ] invoker arena: tweak lights
+- [?] post qbj2 bridge: relight
+- [x] qbj2 B: relight
+- [x] invoker arena: tweak lights
 - [ ] scissor: relight
 - [ ] scissor lower: relight
 - [ ] scissor upper secret: dim the lights?
@@ -328,7 +328,7 @@ color theory
 - [x] pre vore pit tile alcove
 - [ ] post-hallway room, beneath squagoda
 - [ ] squagoda interior
-- [ ] pre-ravine pond-room
+- [x] pre-ravine pond-room
 - underground
   - no-ceiling ravine half
     - [x] ladder lights
@@ -350,10 +350,10 @@ color theory
   - [ ] ravine bridge room A/FROM
   - [ ] ravine bridge room B/TO
   - JH
-    - [ ] intro hallways [outer, upper, lower]
+    - [x] intro hallways [outer, upper, lower]
     - [x] otherkin symbol room
   - qbj2
-    - [ ] V
-    - [ ] bridge
-    - [ ] B
-  - [ ] invoker arena
+    - [x] V
+    - [x] bridge
+    - [x] B
+  - [x] invoker arena
