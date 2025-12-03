@@ -172,7 +172,7 @@ def main(context: dict) -> list[Entity]:
             ent.kv.setdefault('sounds', '3')
 
         # void
-        if ent.classname == 'func_void':
+        elif ent.classname == 'func_void':
             ent.kv['lip'] = '1'
 
         # buzzing
