@@ -202,7 +202,7 @@ update
 - [x] ravine room A: relight
 - [x] ravine room B: relight
 - [x] ravine path to 3 bridges: relight
-- [ ] pre 12 ogres: relight
+- [x] pre 12 ogres: relight
 - [ ] 12 ogres: make the floor light bigger? or place more
 - [ ] 12 ogres perpendicular walkway: add fixtures
 - [ ] amalgam ambush: add fixtures? relight?
@@ -282,6 +282,7 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - [ ] debug_mode for rabbitquake, so i no longer have to do this: "- [ ] replace all proto textures"
 - [ ] test end portal fake-out
 - [ ] move otherkin supersecret
+- [ ] test light buzz script and volumes
 
 ## art pass
 
