@@ -212,6 +212,11 @@ update
 - [ ] transition room between mmml and h3vr room: too dark
 - [ ] jh: 12 dog room too blue tbh
 
+# 2025-12-04
+
+- [ ] fog triggers in ravine instead of cellar?
+- [x] cistern exit walkway is pitch black
+
 ## merge wadcleaver
 
 `makkon_8_ind_lights`
@@ -249,8 +254,8 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 # priority list
 
 1. [x] big-picture texturing. blocky brushes. (can be granular later)
-1. [ ] lighting: main
-1. [ ] lighting: minlight floors under voids for flying enemies
+1. [x] lighting: main
+1. [?] lighting: minlight floors under voids for flying enemies
 1. [ ] subversion
 1. [ ] [art pass]
 1. [ ] music
@@ -329,8 +334,8 @@ color theory
 - [?] post-wrench, water platforming room 1
 - [x] pistol room interior
 - [x] pre vore pit tile alcove
-- [ ] post-hallway room, beneath squagoda
-- [ ] squagoda interior
+- [x] post-hallway room, beneath squagoda
+- [x] squagoda interior
 - [x] pre-ravine pond-room
 - underground
   - no-ceiling ravine half
@@ -349,9 +354,9 @@ color theory
     - [x] U
     - [x] secret room
     - [x] post-blue-key antechamber
-    - [ ] cistern
+    - [x] cistern
   - [x] ravine bridge room A/FROM
-  - [ ] ravine bridge room B/TO
+  - [x] ravine bridge room B/TO
   - JH
     - [x] intro hallways [outer, upper, lower]
     - [x] otherkin symbol room

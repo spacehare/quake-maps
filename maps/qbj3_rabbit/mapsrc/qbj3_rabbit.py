@@ -211,6 +211,10 @@ def main(context: dict) -> list[Entity]:
         if tex := ent.kv.get(VAR_PREFIX + 'replace_texture_from'):
             replace_texture(ent, tex, ent.kv[VAR_PREFIX + 'replace_texture_with'])
 
+        for key in ent.kv:
+            if key.startswith(VAR_PREFIX):
+                del ent.kv[key]
+
         output_entities.append(ent)
 
     return output_entities
