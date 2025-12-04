@@ -162,8 +162,8 @@ update
 - [x] shards in bad positions in genesis
 - [x] fake-dog door lighting is black. but i want dirt because it's a fake-out!
   - minlight? = `_minlight_exclude`
-- [ ] more secrets!
-  - [ ] in general
+- [x] more secrets!
+  - [x] in general
   - [?] to qbj2 areas, V, B, etc
 - [?] rm or delay spawn of enforcers in cool-doors room.
 - [?] player can hide in monster closets in the invoker arena. this makes the fight baby-mode
@@ -209,15 +209,15 @@ update
 - [x] spiral: make ceiling less ugly
 - [x] spiral: fix minlight on exit door
 - [x] genesis: fix lighting
-- [ ] transition room between mmml and h3vr room: too dark
-- [ ] jh: 12 dog room too blue tbh
+- [?] transition room between mmml and h3vr room: too dark
+- [?] jh: 12 dog room too blue tbh
 
 # 2025-12-04
 
 - [ ] fog triggers in ravine instead of cellar?
 - [x] cistern exit walkway is pitch black
 
-## merge wadcleaver
+# merge wadcleaver
 
 `makkon_8_ind_lights`
 
@@ -281,14 +281,15 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
   - [-] if co-op... also move the spawn-points ahead! (CO-OP CUT FOR SCOPE)
 - coop
   - [x] test the church podium `target_secret` = yes both players get the secret
+- [x] prettify genesis arena
+- [-] move otherkin supersecret
 - [ ] 40 secrets
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] debug_mode for rabbitquake, so i no longer have to do this: "- [ ] replace all proto textures"
 - [ ] test end portal fake-out
-- [ ] move otherkin supersecret
 - [ ] test light buzz script and volumes
-- [x] prettify genesis arena
+- [ ] rm triskelion on gravestone
 
 ## art pass
 
