@@ -208,7 +208,7 @@ update
 - [x] amalgam ambush: add fixtures? relight?
 - [x] spiral: make ceiling less ugly
 - [x] spiral: fix minlight on exit door
-- [ ] genesis: fix lighting
+- [x] genesis: fix lighting
 - [ ] transition room between mmml and h3vr room: too dark
 - [ ] jh: 12 dog room too blue tbh
 
@@ -283,6 +283,7 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - [ ] test end portal fake-out
 - [ ] move otherkin supersecret
 - [ ] test light buzz script and volumes
+- [x] prettify genesis arena
 
 ## art pass
 
