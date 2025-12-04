@@ -203,9 +203,9 @@ update
 - [x] ravine room B: relight
 - [x] ravine path to 3 bridges: relight
 - [x] pre 12 ogres: relight
-- [ ] 12 ogres: make the floor light bigger? or place more
-- [ ] 12 ogres perpendicular walkway: add fixtures
-- [ ] amalgam ambush: add fixtures? relight?
+- [-] 12 ogres: make the floor light bigger? or place more
+- [x] 12 ogres perpendicular walkway: add fixtures
+- [x] amalgam ambush: add fixtures? relight?
 - [ ] spiral: make ceiling less ugly
 - [ ] spiral: fix minlight on exit door
 - [ ] genesis: fix lighting
