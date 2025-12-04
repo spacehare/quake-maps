@@ -206,8 +206,8 @@ update
 - [-] 12 ogres: make the floor light bigger? or place more
 - [x] 12 ogres perpendicular walkway: add fixtures
 - [x] amalgam ambush: add fixtures? relight?
-- [ ] spiral: make ceiling less ugly
-- [ ] spiral: fix minlight on exit door
+- [x] spiral: make ceiling less ugly
+- [x] spiral: fix minlight on exit door
 - [ ] genesis: fix lighting
 - [ ] transition room between mmml and h3vr room: too dark
 - [ ] jh: 12 dog room too blue tbh
