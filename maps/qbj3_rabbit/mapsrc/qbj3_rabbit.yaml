@@ -16,7 +16,7 @@ variables:
   surface_fog_density: "0.00666"
   surface_fog_sky: "0.11"
   cistern_fog_color: "0 0 0"
-  cistern_fog_density: "0"
+  cistern_fog_density: "-1"
   cistern_fog_sky: "0.11"
 scripts:
   - ./qbj3_rabbit.py

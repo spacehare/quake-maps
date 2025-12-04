@@ -214,8 +214,12 @@ update
 
 # 2025-12-04
 
-- [ ] fog triggers in ravine instead of cellar?
 - [x] cistern exit walkway is pitch black
+- [x] fog triggers in ravine instead of cellar?
+- [x] test and fix fog triggers
+- [ ] find places for unused decals and scrawls
+- [ ] negative surflight the voids
+- [ ] fix no light under oubliette fiends
 
 # merge wadcleaver
 
@@ -263,14 +267,14 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 1. [ ] granular detailing
 1. [ ] phong, phong_groups
 1. [ ] [main](#main)
-1. [ ] angles on ladders
+1. [?] angles on ladders
 
 # main
 
 - [x] graybox
 - [x] changelevel is set to start
 - [x] seal
-  - [ ] optimize inside-vis
+  - [?] optimize inside-vis
 - [x] info_intermission, 1 or more
 - playtest and balance
   - [x] IronWail
@@ -301,9 +305,12 @@ ideas
 
 - maximalism, patterns
 
-todo
+### art todo
 
 - [x] triskelions (old symbol. apparently, eventually in medieval ages, xtians related it to holy trinity.)
+- [x] fog
+  - [x] fog on info_player_start
+  - [x] test fogblend
 - subversion
   - [ ] 'worship of other idols' narrative
   - [ ] graffiti/defacing of main structures
@@ -312,8 +319,6 @@ todo
 - [ ] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)
   - https://en.wikipedia.org/wiki/Hostile_architecture
   - https://en.wikipedia.org/wiki/Urine_deflector
-- [ ] fog
-  - [x] fog on info_player_start
 - [ ] phongs, phong_groups
 - [ ] unhinged scrawls on rooftops etc
 - [ ] make doors prettier. add recesses for -lips etc
