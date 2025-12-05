@@ -39,6 +39,7 @@
 - makkon
 - avix
 - stickflip
+- sze
 
 ## Thank you for playtesting
 

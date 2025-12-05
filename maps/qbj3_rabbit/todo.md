@@ -217,9 +217,34 @@ update
 - [x] cistern exit walkway is pitch black
 - [x] fog triggers in ravine instead of cellar?
 - [x] test and fix fog triggers
-- [ ] find places for unused decals and scrawls
-- [ ] negative surflight the voids
-- [ ] fix no light under oubliette fiends
+- [x] negative surflight the voids
+- [x] fix supersecret light being reversed
+- [?] find places for unused decals and scrawls
+- [x] fix no light under oubliette fiends
+  - [x] increase oubliette blue minlight on pits
+- these are actually issues with negative surflights, they already have `_minlight`, but now they need `_lightignore`
+  - [x] minlight under pistol bridge void
+  - [x] minlight over osr intro room pits
+  - [x] minlight floor in pillar amalgam ambush
+  - [x] qbj2 bridge gentle purple minlight void floor
+  - [x] jh void minlight floor
+  - [x] h3vr void minlight floor
+- [x] ladder angle on lower-pistol baptism room
+- [x] ladder angle on osr secret room
+- [x] ladder angle on ravine B
+- [?] more enforcers in shotgun-get arena
+- [?] lots of enemies get stuck around the vore pit
+- [x] fix trim on lowest 3rd bridge
+- [?] cistenr enemies should trigger past 1st row of columns, not just when you grab the rebar gun
+- [?] secret early invoker light starts off??
+- [?] make qbj1 shootbutton door Start Open? (for lighting)
+- [?] a lil more hp in jh tunnels area
+- [?] move readme obelisk
+- [x] thank sze for feedback in readme
+- 1.4.1
+  - [x] test rocket jumping
+  - [x] test grenade splash damage
+- [ ] add 3 more secrets
 
 # merge wadcleaver
 
@@ -260,7 +285,7 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 1. [x] big-picture texturing. blocky brushes. (can be granular later)
 1. [x] lighting: main
 1. [?] lighting: minlight floors under voids for flying enemies
-1. [ ] subversion
+1. [?] subversion
 1. [ ] [art pass]
 1. [ ] music
 1. [ ] sfx
@@ -287,13 +312,14 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
   - [x] test the church podium `target_secret` = yes both players get the secret
 - [x] prettify genesis arena
 - [-] move otherkin supersecret
+- [x] test end portal fake-out
+- [x] rm triskelion on gravestone
 - [ ] 40 secrets
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] debug_mode for rabbitquake, so i no longer have to do this: "- [ ] replace all proto textures"
-- [ ] test end portal fake-out
 - [ ] test light buzz script and volumes
-- [ ] rm triskelion on gravestone
+- [ ] test smiley faux-secret
 
 ## art pass
 
@@ -315,15 +341,15 @@ ideas
   - [ ] 'worship of other idols' narrative
   - [ ] graffiti/defacing of main structures
 - [-] amniotic fluid; raphe
-- [ ] windows
+- [-] more crosses to graveyard
+- [-] test cistern fogblend
+- [?] windows
+- [?] unhinged scrawls on rooftops etc
 - [ ] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)
   - https://en.wikipedia.org/wiki/Hostile_architecture
   - https://en.wikipedia.org/wiki/Urine_deflector
 - [ ] phongs, phong_groups
-- [ ] unhinged scrawls on rooftops etc
 - [ ] make doors prettier. add recesses for -lips etc
-- [ ] more crosses to graveyard
-- [ ] test cistern fogblend
 
 color theory
 
