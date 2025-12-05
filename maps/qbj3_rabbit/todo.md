@@ -244,7 +244,7 @@ update
 - 1.4.1
   - [x] test rocket jumping
   - [x] test grenade splash damage
-- [ ] add 3 more secrets
+- [x] add 3 more secrets
 
 # merge wadcleaver
 
@@ -314,12 +314,12 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - [-] move otherkin supersecret
 - [x] test end portal fake-out
 - [x] rm triskelion on gravestone
-- [ ] 40 secrets
+- [x] 40 secrets
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] debug_mode for rabbitquake, so i no longer have to do this: "- [ ] replace all proto textures"
 - [ ] test light buzz script and volumes
-- [ ] test smiley faux-secret
+- [x] test smiley faux-secret
 
 ## art pass
 
