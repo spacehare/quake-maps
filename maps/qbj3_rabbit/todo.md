@@ -246,7 +246,7 @@ update
   - [x] test grenade splash damage
 - [x] add 3 more secrets
 
-## 2025-12-05
+## 2025-12-05 and 2025-12-06
 
 me
 
@@ -264,10 +264,15 @@ me
 - [x] test: OSR door minlight
 - [x] fix: remove dogs from oubliette array, replace with fiends and give player a pent
 - [x] fix: blue key door clipping through the top of the roof
-- [ ] test: graveyard tile minlight
-- [ ] test: buzzing volume 0.34
-- [ ] test: ravine A door switchable shadow
-- [ ] test: minlight on genesis double doors
+- [?] test: buzzing volume 0.34
+- [x] test: ravine A door switchable shadow
+- [~] test: minlight on genesis double doors
+- [x] test: black light on jh partial ceiling
+- [x] test: fix blue light beneath the 4 vores
+- [x] test: oubliettes pickups per-skill
+- [~] 4 vores room, check ceiling visuals
+- [x] test: oubliette array; can i squeeze through the swarmers to get the key?
+- [x] test: graveyard tile minlight -> ok, 100 seems good
 
 Softi, Skill 2
 
