@@ -253,7 +253,15 @@ me
 - [x] test: timing/delay fix on the supersecret
 - [x] test: look-trigger secret
 - [x] test: invoker arena staggered doors
-- [ ] test: adjust WAIT on negative surflights
+- [x] test: oubliettes ring-take
+- [x] test: cross tele pent-take
+- [x] test: OSR door switchableshadow
+- [x] test: genesis arena ammo spawns
+- [x] test: tweak negative surflights
+  - [x] check qbj2 balcony couple room's lighting
+- [ ] test: OSR blue key light
+- [ ] test: minlight color on osr secret room door
+- [ ] test: OSR door minlight
 
 Softi, Skill 2
 
@@ -263,7 +271,7 @@ Softi, Skill 2
 - [x] you can see the blue textures from the squagoda balcony
 - [x] other side of ravine drop-down walkway: make drop-down more obvious
 - [x] test: fix light sounds, to be a different sfx
-- [ ] 2nd half of map is "stingy w health and ammo"
+- [-] 2nd half of map is "stingy w health and ammo"
   - "But honestly having reduced resources in a quake map is fine, i think its fun to conserve ammo and have to think more about who you should shoot with what"
 
 "Its moreso the number of enemies that are overwhelming i feel like"
@@ -313,9 +321,9 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 1. [x] [art pass]
 1. [?] sfx
 1. [?] angles on ladders
+1. [?] phong, phong_groups
 1. [ ] music
 1. [ ] granular detailing
-1. [ ] phong, phong_groups
 
 # main
 
@@ -368,11 +376,11 @@ ideas
 - [-] test cistern fogblend
 - [?] windows
 - [?] unhinged scrawls on rooftops etc
-- [ ] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)
+- [?] phongs, phong_groups
+- [~] hostile architecture (urine deflectors, sitting/sleeping spikes/deterrents)
   - https://en.wikipedia.org/wiki/Hostile_architecture
   - https://en.wikipedia.org/wiki/Urine_deflector
-- [ ] phongs, phong_groups
-- [ ] make doors prettier. add recesses for -lips etc
+- [~] make doors prettier. add recesses for -lips etc
 - [?] fix osr arena ceiling
 
 color theory

@@ -159,7 +159,7 @@ def main(context: dict) -> list[Entity]:
         # scaling liquids
         for brush in ent.brushes:
             for face in brush.planes:
-                if face.texture_name in ['*gore_blood02', '*lava_tar01']:
+                if face.texture_name in ['*gore_blood02', '*lava_tar01', '*tele128_blu1']:
                     for axis in face.uv:
                         axis.scale = 2.0
                         axis.offset = 0.0
