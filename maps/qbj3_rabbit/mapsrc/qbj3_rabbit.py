@@ -26,6 +26,29 @@ SYMBOL_COUNT = '#'
 RQ_VERSION = 1
 
 
+TEX_DEV: set = {
+    'trim_band_blk',
+    '128_blood_2',
+    '128_blood_3',
+    '16_blood_1',
+    '16_blood_2',
+    '16_cyan_1',
+    '16_grey_3',
+    'grey_1',
+    'zif_check_1',
+    'zif_check_b',
+    'zif_dot_b',
+    'zif_stripe_b',
+}
+TEX_DEV_REPLACE = 'conc_c01_wht1'
+# for upscaling
+TEX_LIQUIDS: set = {
+    '*gore_blood02',
+    '*lava_tar01',
+    '*tele128_blu1',
+}
+
+
 def autocount(trigger_counter: Entity, entities: list[Entity]) -> list[Entity] | None:
     if not ((count_value := trigger_counter.kv.get('count')) and count_value.startswith(SYMBOL_COUNT)):
         return
@@ -156,13 +179,17 @@ def main(context: dict) -> list[Entity]:
                 case '2':
                     pass
 
-        # scaling liquids
         for brush in ent.brushes:
             for face in brush.planes:
-                if face.texture_name in ['*gore_blood02', '*lava_tar01', '*tele128_blu1']:
+                # scaling liquids
+                if face.texture_name in TEX_LIQUIDS:
                     for axis in face.uv:
                         axis.scale = 2.0
                         axis.offset = 0.0
+
+                # replace dev textures
+                elif face.texture_name in TEX_DEV:
+                    face.texture_name = TEX_DEV_REPLACE
 
         # door
         if ent.classname == 'func_door':
