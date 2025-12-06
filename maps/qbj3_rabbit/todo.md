@@ -212,7 +212,7 @@ update
 - [?] transition room between mmml and h3vr room: too dark
 - [?] jh: 12 dog room too blue tbh
 
-# 2025-12-04
+## 2025-12-04
 
 - [x] cistern exit walkway is pitch black
 - [x] fog triggers in ravine instead of cellar?
@@ -245,6 +245,30 @@ update
   - [x] test rocket jumping
   - [x] test grenade splash damage
 - [x] add 3 more secrets
+
+## 2025-12-05
+
+me
+
+- [x] test: timing/delay fix on the supersecret
+- [x] test: look-trigger secret
+- [x] test: invoker arena staggered doors
+- [ ] test: adjust WAIT on negative surflights
+
+Softi, Skill 2
+
+- [?] invoker arena too many enemies? Reduce for skills < 2
+- [?] amalgam ambush too many enemies? Reduce for skills < 2
+- [?] double check that i give the player bombs before zombie groups
+- [x] you can see the blue textures from the squagoda balcony
+- [x] other side of ravine drop-down walkway: make drop-down more obvious
+- [x] test: fix light sounds, to be a different sfx
+- [ ] 2nd half of map is "stingy w health and ammo"
+  - "But honestly having reduced resources in a quake map is fine, i think its fun to conserve ammo and have to think more about who you should shoot with what"
+
+"Its moreso the number of enemies that are overwhelming i feel like"
+
+softi thinks the second half of the map is too hard. too many enemies, too unfair.
 
 # merge wadcleaver
 
@@ -286,13 +310,12 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 1. [x] lighting: main
 1. [?] lighting: minlight floors under voids for flying enemies
 1. [?] subversion
-1. [ ] [art pass]
+1. [x] [art pass]
+1. [?] sfx
+1. [?] angles on ladders
 1. [ ] music
-1. [ ] sfx
 1. [ ] granular detailing
 1. [ ] phong, phong_groups
-1. [ ] [main](#main)
-1. [?] angles on ladders
 
 # main
 
@@ -315,11 +338,11 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - [x] test end portal fake-out
 - [x] rm triskelion on gravestone
 - [x] 40 secrets
-- [ ] no MAP issues in TrenchBroom console
-- [ ] readme
-- [ ] debug_mode for rabbitquake, so i no longer have to do this: "- [ ] replace all proto textures"
-- [ ] test light buzz script and volumes
 - [x] test smiley faux-secret
+- [x] test light buzz script and volumes
+- [x] no MAP issues in TrenchBroom console
+- [x] readme
+- [ ] debug_mode for rabbitquake, so i no longer have to do this: "- [ ] replace all proto textures"
 
 ## art pass
 
@@ -338,8 +361,8 @@ ideas
   - [x] fog on info_player_start
   - [x] test fogblend
 - subversion
-  - [ ] 'worship of other idols' narrative
-  - [ ] graffiti/defacing of main structures
+  - [?] 'worship of other idols' narrative
+  - [?] graffiti/defacing of main structures
 - [-] amniotic fluid; raphe
 - [-] more crosses to graveyard
 - [-] test cistern fogblend
@@ -350,6 +373,7 @@ ideas
   - https://en.wikipedia.org/wiki/Urine_deflector
 - [ ] phongs, phong_groups
 - [ ] make doors prettier. add recesses for -lips etc
+- [?] fix osr arena ceiling
 
 color theory
 

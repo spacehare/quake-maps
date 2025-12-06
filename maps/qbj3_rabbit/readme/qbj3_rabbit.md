@@ -11,18 +11,20 @@
 
 ## compile settings
 
-| tool  | args |
-| ----- | ---- |
-| QBSP  | ``   |
-| VIS   | ``   |
-| LIGHT | ``   |
+| tool  | args                                                                                                       |
+| ----- | ---------------------------------------------------------------------------------------------------------- |
+| QBSP  | `-leaktest -litwater -bsp2 ${WORK_DIR_PATH}/build/__${MAP_BASE_NAME}__BUILD.map maps/${MAP_BASE_NAME}.bsp` |
+| VIS   | `-noambient -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                                           |
+| LIGHT | `-extra -emissivequality high -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                         |
 
 # credit
 
 - [textures by makkon](https://www.slipseer.com/index.php?resources/makkon-textures.28)
-- sky from [these TGA skies i converted from PNG, by bumbadida](https://www.slipseer.com/index.php?resources/tga-conversion-of-bumbadidas-skyboxes.481/) -- and again converted to grayscale TGA using imagemagick
+- sky from [these TGA skies i converted from PNG, by bumbadida](https://www.slipseer.com/index.php?resources/tga-conversion-of-bumbadidas-skyboxes.481/) -- and again converted to grayscale TGA using ImageMagick
 - decals/graffiti by me
 - music by twofold
+  - https://2xtwofold.bandcamp.com
+  - https://soundcloud.com/2xtwofold
 
 ## media inspiration
 
@@ -52,5 +54,25 @@
 - wons (white eminem theorist)
 - awakeralex
 - milestone
+
+# misc
+
+In the decals/art, i feature my characters.
+
+Sonas (short for fursona, goblin-sona, etc) / OCs (original characters) featured:
+
+- Io, the space hare (they/them/their, it/it/its)
+- Zifix, the cave goblin (they/them/their)
+- Oolo, the imp (ey/em/eir, e/em/eir)
+- The Monster (it/it/its)
+  - i still haven't come up with a name yet lol
+- Moss, the night fury (they/them/their)
+
+Other symbols include
+
+- Toki Pona writing (sitelen pona)
+- Therian symbol
+- Otherkin symbol
+- Alterhuman symbol
 
 # DON'T WORRY — BE FURRY
