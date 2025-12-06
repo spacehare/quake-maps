@@ -262,6 +262,12 @@ me
 - [x] test: OSR blue key light
 - [x] test: minlight color on osr secret room door
 - [x] test: OSR door minlight
+- [x] fix: remove dogs from oubliette array, replace with fiends and give player a pent
+- [x] fix: blue key door clipping through the top of the roof
+- [ ] test: graveyard tile minlight
+- [ ] test: buzzing volume 0.34
+- [ ] test: ravine A door switchable shadow
+- [ ] test: minlight on genesis double doors
 
 Softi, Skill 2
 
@@ -322,8 +328,13 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 1. [?] sfx
 1. [?] angles on ladders
 1. [?] phong, phong_groups
+1. [-] granular detailing
 1. [ ] music
-1. [ ] granular detailing
+
+music
+
+- 44100 MP3, or 48000 OPUS
+- don't upsample
 
 # main
 
@@ -334,7 +345,7 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 - [x] info_intermission, 1 or more
 - playtest and balance
   - [x] IronWail
-  - [ ] 0 easy
+  - [?] 0 easy
   - [x] 1 normal
   - [ ] 2 hard
 - [x] autosaves / checkpoints; len = 25

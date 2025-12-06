@@ -179,7 +179,7 @@ def main(context: dict) -> list[Entity]:
         if ent.kv.get(VAR_PREFIX + 'buzz') == '1':
             buzzer = Entity()
             buzzer.kv['classname'] = 'ambient_light_buzz'
-            buzzer.kv['volume'] = '0.25'
+            buzzer.kv['volume'] = '0.34'
             buzzer.kv['origin'] = ent.kv['origin']
             output_entities.append(buzzer)
 
