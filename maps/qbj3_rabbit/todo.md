@@ -259,9 +259,9 @@ me
 - [x] test: genesis arena ammo spawns
 - [x] test: tweak negative surflights
   - [x] check qbj2 balcony couple room's lighting
-- [ ] test: OSR blue key light
-- [ ] test: minlight color on osr secret room door
-- [ ] test: OSR door minlight
+- [x] test: OSR blue key light
+- [x] test: minlight color on osr secret room door
+- [x] test: OSR door minlight
 
 Softi, Skill 2
 
