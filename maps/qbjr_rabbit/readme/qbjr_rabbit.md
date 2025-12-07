@@ -3,7 +3,7 @@
 # tools used
 
 - MAPPING: [TrenchBroom-Win64-AMD64-v2025.3-Release](https://trenchbroom.github.io/)
-- COMPILING: [ericw-tools-2.0.0-alpha8-win64](https://github.com/ericwa/ericw-tools/releases/tag/2.0.0-alpha8)
+- COMPILING: [ericw-tools-2.0.0-alpha10-win64](https://github.com/ericwa/ericw-tools/releases/tag/2.0.0-alpha10)
 - MUSIC: [OpenMPT 1.31.10.00](https://openmpt.org/)
 
 ## compile settings
