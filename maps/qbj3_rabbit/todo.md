@@ -289,6 +289,14 @@ Softi, Skill 2
 
 softi thinks the second half of the map is too hard. too many enemies, too unfair.
 
+## 2025-12-06
+
+- [x] test: lower bath doors locker
+- [-] test: healthkit in blood bath
+- [~] test: minlight on oubliette grates
+- [x] test: oubliette grenades and nails spawn
+- [?] test: invoker fight
+
 # merge wadcleaver
 
 `makkon_8_ind_lights`
@@ -352,7 +360,7 @@ music
   - [x] IronWail
   - [?] 0 easy
   - [x] 1 normal
-  - [ ] 2 hard
+  - [x] 2 hard
 - [x] autosaves / checkpoints; len = 25
   - [-] if co-op... also move the spawn-points ahead! (CO-OP CUT FOR SCOPE)
 - coop
@@ -366,7 +374,7 @@ music
 - [x] test light buzz script and volumes
 - [x] no MAP issues in TrenchBroom console
 - [x] readme
-- [ ] debug_mode for rabbitquake, so i no longer have to do this: "- [ ] replace all proto textures"
+- [~] debug_mode for rabbitquake, so i no longer have to do this: "- [ ] replace all proto textures"
 
 ## art pass
 
