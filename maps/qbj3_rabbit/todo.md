@@ -297,6 +297,7 @@ softi thinks the second half of the map is too hard. too many enemies, too unfai
 - [x] test: oubliette grenades and nails spawn
 - [?] test: invoker fight
 - [x] test: bezier plat lighting
+- [x] fix blue key door clipping into hider
 
 # merge wadcleaver
 
