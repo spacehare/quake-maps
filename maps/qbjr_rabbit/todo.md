@@ -2,8 +2,13 @@ bsp build from 2025-06-13
 
 - [x] check IT file playback in ironwail
   - i need to use OPUS, because the VSTs (like reverb) aren't working
-- [ ] shrink sky resolution
-- negative surflight for void (just copy it from the qbj3 map)
+- [x] shrink sky resolution
+- [x] negative surflight for void (just copy it from the qbj3 map)
+  - modified light to -300 instead of -100
+- [ ] test: lighting on outdoor ambush freight elevator
+- [ ] test: conduit lights
+
+---
 
 # from Obsidian
 
