@@ -16,7 +16,10 @@
 
 # credit
 
-- track255 by me, made in OpenMPT
+- track255 by me and twofold, made in OpenMPT
+  - twofold
+    - https://2xtwofold.bandcamp.com
+    - https://soundcloud.com/2xtwofold
   - sounds from [msx.horse](https://msx.horse/)
   - also used a 'footstep on wood' sound from the original Sam & Max 100 series games
 - some sfx from Half Life
@@ -34,6 +37,5 @@
 - some minor geo/brushwork changes
 - refactored all the entities (enemies, weapons, armor, ammo, etc)
 - altered some secrets
-- there is a bug present where you will end up with more kills than the max kill count. you might see 257/250 kills. i think this is a bug with the mod? or something? i don't know how to fix it, at least
 
 # DON'T WORRY — BE FURRY
