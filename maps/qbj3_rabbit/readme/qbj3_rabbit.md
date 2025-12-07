@@ -25,6 +25,7 @@
 - music by twofold
   - https://2xtwofold.bandcamp.com
   - https://soundcloud.com/2xtwofold
+  - using Ableton Live
 
 ## media inspiration
 

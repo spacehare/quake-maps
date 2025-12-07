@@ -296,6 +296,7 @@ softi thinks the second half of the map is too hard. too many enemies, too unfai
 - [~] test: minlight on oubliette grates
 - [x] test: oubliette grenades and nails spawn
 - [?] test: invoker fight
+- [x] test: bezier plat lighting
 
 # merge wadcleaver
 
@@ -342,7 +343,8 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 1. [?] angles on ladders
 1. [?] phong, phong_groups
 1. [-] granular detailing
-1. [ ] music
+1. [ ] final music
+1. [ ] final compile
 
 music
 
