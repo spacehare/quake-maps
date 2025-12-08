@@ -8,11 +8,11 @@
 
 ## compile settings
 
-| tool  | args                                                                                |
-| ----- | ----------------------------------------------------------------------------------- |
-| QBSP  | `-leaktest -splitturb -bsp2 build/${MAP_BASE_NAME}.map maps/${MAP_BASE_NAME}.bsp`   |
-| VIS   | `-noambient -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                    |
-| LIGHT | `-extra4 -emissivequality high -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp` |
+| tool  | args                                                                               |
+| ----- | ---------------------------------------------------------------------------------- |
+| QBSP  | `-leaktest -litwater -bsp2 build/${MAP_BASE_NAME}.map maps/${MAP_BASE_NAME}.bsp`   |
+| VIS   | `-noambient -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                   |
+| LIGHT | `-extra -emissivequality high -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp` |
 
 # credit
 
@@ -20,8 +20,10 @@
   - twofold
     - https://2xtwofold.bandcamp.com
     - https://soundcloud.com/2xtwofold
-  - sounds from [msx.horse](https://msx.horse/)
-  - also used a 'footstep on wood' sound from the original Sam & Max 100 series games
+  - sounds from
+    - [msx.horse](https://msx.horse/)
+    - A 'footstep on wood' sound from the original Sam & Max 100 series games
+    - some half-life 2 concrete noises
 - some sfx from Half Life
 - most textures by Makkon
   - some textures modified by me (in 2022)
@@ -29,6 +31,7 @@
 - water textures from liquids.WAD via https://www.quaddicted.com/files/wads/
 - skybox = Overcast https://gamebanana.com/mods/380496
   - converted to .PNG in VIDE, then to .TGA in IrfanView (this was done in 2022 during the original QBJ)
+  - also scaled down by 50% using ImageMagick
 
 # notes, changes
 
