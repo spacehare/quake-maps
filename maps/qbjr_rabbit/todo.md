@@ -1,16 +1,17 @@
-bsp build from 2025-06-13
+2025-12
 
 - [x] check IT file playback in ironwail
   - i need to use OPUS, because the VSTs (like reverb) aren't working
 - [x] shrink sky resolution
 - [x] negative surflight for void (just copy it from the qbj3 map)
   - modified light to -300 instead of -100
-- [ ] test: lighting on outdoor ambush freight elevator
-- [ ] test: conduit lights
+- [x] test: lighting on outdoor ambush freight elevator
+- [x] test: conduit lights
+- [x] finalize music
 
 ---
 
-# from Obsidian
+# from Obsidian (2025-06)
 
 - [x] refactor combat (enemies)
 - [x] refactor weapons
