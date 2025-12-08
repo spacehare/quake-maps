@@ -344,8 +344,8 @@ playtime is about 35-45 minutes? not including deaths. estimate 40.
 1. [?] angles on ladders
 1. [?] phong, phong_groups
 1. [-] granular detailing
-1. [ ] final music
-1. [ ] final compile
+1. [x] final music
+1. [x] final compile
 
 music
 

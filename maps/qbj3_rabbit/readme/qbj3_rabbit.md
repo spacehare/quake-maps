@@ -7,15 +7,24 @@
 - [MESS 1.2.3](https://pwitvoet.github.io/mess/)
 - [Krita 5.2.13](https://krita.org/en/)
 - Python 3.13.7
-  - [some of my own jank scripts](github.com/spacehare/rabbit_quake)
+  - [some of my own jank scripts](https://github.com/spacehare/rabbit_quake), like `pp.py` (pre-processor)
 
-## compile settings
+## TrenchBroom compile steps and arguments
 
-| tool  | args                                                                                                       |
-| ----- | ---------------------------------------------------------------------------------------------------------- |
-| QBSP  | `-leaktest -litwater -bsp2 ${WORK_DIR_PATH}/build/__${MAP_BASE_NAME}__BUILD.map maps/${MAP_BASE_NAME}.bsp` |
-| VIS   | `-noambient -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                                           |
-| LIGHT | `-extra -emissivequality high -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                         |
+| tool   | args                                                                                                                                                      |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Export | `${WORK_DIR_PATH}/build/__${MAP_BASE_NAME}__BUILD.map`                                                                                                    |
+| MESS   | `-config quake ${WORK_DIR_PATH}/build/__${MAP_BASE_NAME}__BUILD.map`                                                                                      |
+| pp.py  | `${WORK_DIR_PATH}/build/__${MAP_BASE_NAME}__BUILD.map ${WORK_DIR_PATH}/build/__${MAP_BASE_NAME}__BUILD.map ${WORK_DIR_PATH}/mapsrc/${MAP_BASE_NAME}.yaml` |
+| QBSP   | `-leaktest -litwater -bsp2 ${WORK_DIR_PATH}/build/__${MAP_BASE_NAME}__BUILD.map maps/${MAP_BASE_NAME}.bsp`                                                |
+| VIS    | `-noambient -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                                                                                          |
+| LIGHT  | `-extra -emissivequality high -threads ${CPU_COUNT - 1} maps/${MAP_BASE_NAME}.bsp`                                                                        |
+
+### compile times
+
+- qbsp: 30.054s seconds elapsed
+- vis: 67.21s elapsed
+- light: 42077.130s seconds elapsed
 
 # credit
 
@@ -58,16 +67,14 @@
 
 # misc
 
-In the decals/art, i feature my characters.
+OCs (original characters) featured in art decals:
 
-Sonas (short for fursona, goblin-sona, etc) / OCs (original characters) featured:
-
-- Io, the space hare (they/them/their, it/it/its)
-- Zifix, the cave goblin (they/them/their)
-- Oolo, the imp (ey/em/eir, e/em/eir)
-- The Monster (it/it/its)
+- Io, the space hare (they/them/their, it/it/its); fursona
+- Zifix, the cave goblin (they/them/their); goblin-sona
+- Oolo, the imp (ey/em/eir, e/em/eir); imp-sona
+- The Monster (it/it/its); monster-sona
   - i still haven't come up with a name yet lol
-- Moss, the night fury (they/them/their)
+- Moss, the night fury (they/them/their); HTTYD OC
 
 Other symbols include
 
