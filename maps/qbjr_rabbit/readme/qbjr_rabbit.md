@@ -4,7 +4,7 @@
 
 - MAPPING: [TrenchBroom-Win64-AMD64-v2025.3-Release](https://trenchbroom.github.io/)
 - COMPILING: [ericw-tools-2.0.0-alpha10-win64](https://github.com/ericwa/ericw-tools/releases/tag/2.0.0-alpha10)
-- MUSIC: [OpenMPT 1.31.10.00](https://openmpt.org/)
+<!-- - MUSIC: [OpenMPT 1.31.10.00](https://openmpt.org/) -->
 
 ## compile settings
 
@@ -22,14 +22,17 @@
 
 # credit
 
-- track255 by me and twofold, made in OpenMPT
+  <!-- - track255 by me and twofold, made in OpenMPT
   - twofold
     - https://2xtwofold.bandcamp.com
     - https://soundcloud.com/2xtwofold
   - sounds from
     - [msx.horse](https://msx.horse/), and msx [instrument library](https://github.com/msx2plus/msx_iti_collection/tree/main)
     - A 'footstep on wood' sound from the original Sam & Max 100 series games
-    - some half-life 2 concrete noises
+    - some half-life 2 concrete noises -->
+
+- track255: Crystal Formations, by Realm of Mind (apterous)
+  - from [Runic Resonances](https://www.slipseer.com/index.php?resources/quake-music-jam-1-runic-resonances.292/)
 - some sfx from Half Life
 - [most textures by Makkon](https://www.slipseer.com/index.php?resources/makkon-textures.28/)
   - some textures modified by me (in 2022)
