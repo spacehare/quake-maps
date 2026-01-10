@@ -25,5 +25,5 @@ inspired by [Chuma](https://github.com/ChumaSuey) to put my maps on github too
 | [mpj2_rabbit](./maps/mpj2_rabbit/)         |   ✅   | 2025-08          | [slipseer](https://www.slipseer.com/index.php?resources/moving-parts-jam-2.482/)          |
 | [sm231_rabbit](./maps/sm231_rabbit/)       |   ✅   | 2025-09          | [slipseer](https://www.slipseer.com/index.php?resources/sm231-starts-with-a-bang.494/)    |
 | [rabbit_dep](./maps/rabbit_dep/)           |   ❌   | 2025-09          |                                                                                           |
-| [qbj3_rabbit](./maps/qbj3_rabbit/)         |   ✅   | 2025-11          |                                                                                           |
-| [qbjr_rabbit](./maps/qbjr_rabbit/)         |   ✅   | 2025-06, 2025-12 |                                                                                           |
+| [qbj3_rabbit](./maps/qbj3_rabbit/)         |   ✅   | 2025-11          | [slipseer](https://www.slipseer.com/index.php?resources/quake-brutalist-jam-iii.549/)     |
+| [qbjr_rabbit](./maps/qbjr_rabbit/)         |   ✅   | 2025-06, 2025-12 | [slipseer](https://www.slipseer.com/index.php?resources/quake-brutalist-jam-iii.549/)     |
