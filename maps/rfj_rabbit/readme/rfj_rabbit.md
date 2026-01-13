@@ -12,4 +12,8 @@
 
 # <<>>
 
+# thanks to
+
+- avix for the fogblend void solution
+
 # DON'T WORRY — BE FURRY

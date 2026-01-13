@@ -12,5 +12,9 @@ prefix:
   variable_out: "%"
 variables:
   swarmer_divisor: 2
+  fog_default_color: "255 255 255"
+  fog_default_density: "0.04"
+  fog_default_sky: "0"
+  fog_void_density: "1.0"
 scripts:
   - ./rfj_rabbit.py

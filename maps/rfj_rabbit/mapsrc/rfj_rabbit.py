@@ -24,29 +24,6 @@ SYMBOL_COUNT = '#'
 RQ_VERSION = 1
 
 
-TEX_DEV: set = {
-    'trim_band_blk',
-    '128_blood_2',
-    '128_blood_3',
-    '16_blood_1',
-    '16_blood_2',
-    '16_cyan_1',
-    '16_grey_3',
-    'grey_1',
-    'zif_check_1',
-    'zif_check_b',
-    'zif_dot_b',
-    'zif_stripe_b',
-}
-TEX_DEV_REPLACE = 'conc_c01_wht1'
-# for upscaling
-TEX_LIQUIDS: set = {
-    '*gore_blood02',
-    '*lava_tar01',
-    '*tele128_blu1',
-}
-
-
 def autocount(trigger_counter: Entity, entities: list[Entity]) -> list[Entity] | None:
     if not ((count_value := trigger_counter.kv.get('count')) and count_value.startswith(SYMBOL_COUNT)):
         return
@@ -122,7 +99,7 @@ def replace_texture(ent: Entity, a: str, b: str):
 
 
 def main(context: dict) -> list[Entity]:
-    print('🐇 running qbj3_rabbit.py')
+    print('running %s' % __file__)
 
     # PARENT = Path(__file__).parent
     # light_data: dict = yaml.safe_load(Path(PARENT / 'qbj3_rabbit_lights.yaml').open('r'))
@@ -132,8 +109,6 @@ def main(context: dict) -> list[Entity]:
     EVAL_PREFIX = VAR_PREFIX + 'eval'
     input_entities: list[Entity] = list[Entity](context['entities'])
     output_entities: list[Entity] = []
-
-    print('prefix: %s' % VAR_PREFIX)
 
     assert input_entities[0].classname == 'worldspawn'
     worldspawn: Entity = input_entities[0]
@@ -157,38 +132,6 @@ def main(context: dict) -> list[Entity]:
         if ent.kv.get(VAR_PREFIX + 'clip') == '1':
             worldspawn.brushes += clip(ent)
 
-        # armor shards
-        if ent.classname == 'item_armor_shard':
-            default = ent.kv.setdefault('spawnflags', '0')
-            shard_spawnflags = int(default)
-            if ent.kv.get(VAR_PREFIX + 'no_suspend') == '1':
-                shard_spawnflags &= ~SUSPENDED
-            else:
-                shard_spawnflags |= SUSPENDED
-            ent.kv['spawnflags'] = str(shard_spawnflags)
-
-        # ladders
-        if val := ent.kv.get(VAR_PREFIX + 'makkon_ladder'):
-            match val:
-                case '1':
-                    keys = ['_mirrorinside', '_phong', '_noclipfaces']
-                    for key in keys:
-                        ent.kv[key] = '1'
-                case '2':
-                    pass
-
-        for brush in ent.brushes:
-            for face in brush.planes:
-                # scaling liquids
-                if face.texture_name in TEX_LIQUIDS:
-                    for axis in face.uv:
-                        axis.scale = 2.0
-                        axis.offset = 0.0
-
-                # replace dev textures
-                elif face.texture_name in TEX_DEV:
-                    face.texture_name = TEX_DEV_REPLACE
-
         # door
         if ent.classname == 'func_door':
             # ent.kv.setdefault('_minlight', '50')
@@ -199,37 +142,6 @@ def main(context: dict) -> list[Entity]:
         # void
         elif ent.classname == 'func_void':
             ent.kv['lip'] = '1'
-
-        # buzzing
-        if ent.kv.get(VAR_PREFIX + 'buzz') == '1':
-            buzzer = Entity()
-            buzzer.kv['classname'] = 'ambient_light_buzz'
-            buzzer.kv['volume'] = '0.34'
-            buzzer.kv['origin'] = ent.kv['origin']
-            output_entities.append(buzzer)
-
-        # light groups
-        # if ent_yaml_group_name := ent.kv.get(VAR_PREFIX + 'yaml_group'):
-        #     group: dict = yaml_groups[ent_yaml_group_name]
-        #     group_tex: str | None = group.get('texture')
-        #     if group_tex:
-        #         replace_texture(ent, 'ind_light_wht', group_tex)
-        #     mods = group.get('mods', [])
-        #     for mod in mods:
-        #         if mod['classname'] == ent.classname:
-        #             for mod_key, mod_value in mod['keys'].items():
-        #                 ent.kv.setdefault(mod_key, mod_value)
-
-        # purge angles
-        # if (
-        #     ent.classname.startswith('trigger')
-        #     and not ent.kv.get(VAR_PREFIX + 'use_angle') == '1'
-        #     and not ent.classname.endswith('monsterjump')
-        # ):
-        #     print('clearing angle on %s' % ent.classname)
-        #     for i in ['angle', 'angles']:
-        #         if ent.kv.get(i):
-        #             del ent.kv[i]
 
         # texture swapping
         # redundant bc of: https://pwitvoet.github.io/mess/entity-properties.html#_mess_replace_texture
