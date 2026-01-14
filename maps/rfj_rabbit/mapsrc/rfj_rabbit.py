@@ -139,14 +139,13 @@ def main(context: dict) -> list[Entity]:
             ent.kv.setdefault('speed', '128')
             ent.kv.setdefault('sounds', '3')
 
-        # void
-        elif ent.classname == 'func_void':
-            ent.kv['lip'] = '1'
+        # button
+        if ent.classname == 'func_button':
+            ent.kv.setdefault('speed', '64')
+            ent.kv.setdefault('sounds', '2')
 
         # texture swapping
-        # redundant bc of: https://pwitvoet.github.io/mess/entity-properties.html#_mess_replace_texture
-        if tex := ent.kv.get(VAR_PREFIX + 'replace_texture_from'):
-            replace_texture(ent, tex, ent.kv[VAR_PREFIX + 'replace_texture_with'])
+        # https://pwitvoet.github.io/mess/entity-properties.html#_mess_replace_texture
 
         # delete keys to get rid of `developer 1` warnings
         trash_list = [key for key in ent.kv if key.startswith(VAR_PREFIX)]
