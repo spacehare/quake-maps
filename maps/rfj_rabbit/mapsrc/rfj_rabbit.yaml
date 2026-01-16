@@ -16,5 +16,6 @@ variables:
   fog_default_density: "0.04"
   fog_default_sky: "0"
   fog_void_density: "1.0"
+  checker_reset_delay: 2.5
 scripts:
   - ./rfj_rabbit.py
