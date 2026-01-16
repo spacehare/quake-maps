@@ -19,3 +19,4 @@
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] replace all proto textures
+- [ ] skybox
