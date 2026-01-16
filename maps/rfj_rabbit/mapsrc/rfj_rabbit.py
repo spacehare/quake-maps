@@ -132,17 +132,15 @@ def main(context: dict) -> list[Entity]:
         if ent.kv.get(VAR_PREFIX + 'clip') == '1':
             worldspawn.brushes += clip(ent)
 
-        # door
-        if ent.classname == 'func_door':
-            # ent.kv.setdefault('_minlight', '50')
-            # ent.kv.setdefault('_dirt', '-1')
-            ent.kv.setdefault('speed', '128')
-            ent.kv.setdefault('sounds', '3')
-
-        # button
-        if ent.classname == 'func_button':
-            ent.kv.setdefault('speed', '64')
-            ent.kv.setdefault('sounds', '2')
+        match ent.classname:
+            case 'func_door':
+                ent.kv.setdefault('speed', '128')
+                ent.kv.setdefault('sounds', '3')
+            case 'func_button':
+                ent.kv.setdefault('speed', '64')
+                ent.kv.setdefault('sounds', '2')
+            case 'trigger_slipppery':
+                ent.kv.setdefault('sounds', '1')
 
         # texture swapping
         # https://pwitvoet.github.io/mess/entity-properties.html#_mess_replace_texture
