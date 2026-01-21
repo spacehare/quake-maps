@@ -20,3 +20,7 @@
 - [ ] readme
 - [ ] replace all proto textures
 - [ ] skybox
+
+---
+
+- [ ] void fogblend (avix suggestion)
