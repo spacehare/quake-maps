@@ -1,5 +1,5 @@
-- [ ] graybox
-- [ ] changelevel is set to start
+- [x] graybox
+- [x] changelevel is set to start
 - [ ] texture
 - [ ] seal
 - [ ] lighting
@@ -19,8 +19,10 @@
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] replace all proto textures
-- [ ] skybox
+- [x] skybox
 
 ---
 
 - [ ] void fogblend (avix suggestion)
+  - [ ] plus maybe do planes
+- [ ] testing course grate: fix pointy texture seams

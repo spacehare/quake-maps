@@ -10,9 +10,11 @@
 | VIS   | ``   |
 | LIGHT | ``   |
 
-# <<>>
+# credit
 
-# thanks to
+- laser wall sounds made in [jsfxr](https://sfxr.me/)
+
+## thanks to
 
 - avix for the fogblend void solution
 
