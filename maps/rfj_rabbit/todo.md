@@ -26,3 +26,37 @@
 - [ ] void fogblend (avix suggestion)
   - [ ] plus maybe do planes
 - [ ] testing course grate: fix pointy texture seams
+
+# post-playtest-watching todo
+
+- [ ] make first grate easy to climb
+- [ ] make water in spawn cave safe
+- [ ] add regular **shotty**. maybe in first courtyard before the enforcer+dogs fight
+- [ ] rm enforcer OR add shotty to that fight
+- [ ] you can jump out of ice rink 1
+- [ ] add ammo for post-rink scrag ambush
+- [ ] remove ice from ice pillar at scrag ambush
+- [ ] the transparent ice in the water rendered fucked-up-edly
+- [ ] rink 2 needs ammo dude. at least on hard. make sure there's slack.
+- [ ] add health before room w 2 grunts
+- [ ] add health before thin-ice room?
+- [ ] health before, or in, rink 1
+- [ ] secret to "teeth" of post-rink-1 lake
+- [ ] laser-wall OFF sfx is quiet
+- [ ] black surfaces in 2-door trollShambler room
+- [ ] make scripts
+  - [ ] force enemy skins
+  - [ ] remove ammo backpack drops from all enforcers
+- [ ] investigate ALL water. should it be slime w/ different texture? water? not there at all? what does it add?
+- [ ] ogre after speedrun room should not aggro early
+- [ ] breadcrumbs to final platform before half-cylinder building
+- [ ] art: add lil spinning pieces to end portal
+- [ ] rm water in 4-corners room tbh
+- [ ] courtyard water is softlock i think. can't climb out.
+- [ ] grate-to-grate jump is too hard for some players
+- [ ] autosave before first rink
+- [ ] add autosaves!
+  - [ ] before speedrun post-ogre
+- [ ] courtyard pool: the light from the house shines on the wall. i need to cut it's length
+- [ ] put some HP outside of the trollShambler room
+- [ ] grate jump onto the weird things sticking out of the half-barrel building could be easier
