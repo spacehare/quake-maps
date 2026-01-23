@@ -142,6 +142,14 @@ def main(context: dict) -> list[Entity]:
             case 'trigger_slipppery':
                 ent.kv.setdefault('sounds', '1')
 
+            case 'monster_ogre':
+                ent.kv.setdefault('skin', '3')
+            case 'monster_army':
+                ent.kv.setdefault('skin', '2')
+            case 'monster_enforcer':
+                ent.kv.setdefault('skin', '2')
+                ent.kv['keep_ammo'] = '1'
+
         # texture swapping
         # https://pwitvoet.github.io/mess/entity-properties.html#_mess_replace_texture
 
