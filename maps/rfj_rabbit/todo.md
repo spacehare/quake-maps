@@ -59,7 +59,7 @@
 - [x] autosave before first rink
 - [x] add autosaves!
   - [x] before speedrun post-ogre
-- [ ] courtyard pool: the light from the house shines on the wall. i need to cut it's length
+- [x] courtyard pool: the light from the house shines on the wall. i need to cut it's length
 - [x] put some HP outside of the trollShambler room
 - [x] grate jump onto the weird things sticking out of the half-barrel building could be easier
 
@@ -77,3 +77,5 @@ artificial lights
 use a smaller amount of textures and let the brushes do the talking
 
 ## art todo
+
+- [ ] lower 'bottomless' floors to 666 max
