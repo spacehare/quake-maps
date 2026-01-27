@@ -79,3 +79,17 @@ use a smaller amount of textures and let the brushes do the talking
 ## art todo
 
 - [ ] lower 'bottomless' floors to 666 max
+
+### areas
+
+- [x] spawn cave
+- [ ] intro outside
+- [ ] playground / training course
+  - [ ] try white or blue lighting
+- [ ] thin ice
+- [ ] speedrun
+- [ ] large building
+- [ ] courtyard
+- [ ] circles
+- [ ] final building
+- [ ] portal platform
