@@ -6,12 +6,12 @@
 - [ ] secrets
 - playtest and balance
   - [ ] QuakeSpasm
-  - [ ] IronWail
+  - [x] IronWail
   - other players playtested; count: 5
   - [ ] 0 easy
   - [ ] 1 normal
-  - [ ] 2 hard
-- [ ] info_intermission, 1 or more
+  - [x] 2 hard
+- [x] info_intermission, 1 or more
 - [x] autosaves / checkpoints
 - [ ] phongs, phong_groups
 - [ ] sfx
@@ -20,12 +20,6 @@
 - [ ] readme
 - [ ] replace all proto textures
 - [x] skybox
-
----
-
-- [ ] void fogblend (avix suggestion)
-  - [ ] plus maybe do planes
-- [ ] testing course grate: fix pointy texture seams
 
 # post-playtest-watching todo
 
@@ -78,14 +72,22 @@ use a smaller amount of textures and let the brushes do the talking
 
 ## art todo
 
+- [ ] void fogblend (avix suggestion)
+  - [ ] plus maybe do planes
+- [-] testing course grate: fix pointy texture seams
+  - no one is gonna notice
 - [ ] lower 'bottomless' floors to 666 max
+- [ ] try avix's gradient idea
+- [ ] io external texture
+- [ ] twofold track
 
 ### areas
 
 - [x] spawn cave
-- [ ] intro outside
-- [ ] playground / training course
+- [x] intro outside courtyard
+- [x] playground / training course
   - [ ] try white or blue lighting
+  - [ ] lights w/ models to exit door and above thin laser wall
 - [ ] thin ice
 - [ ] speedrun
 - [ ] large building
