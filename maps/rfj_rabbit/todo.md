@@ -3,7 +3,7 @@
 - [ ] texture
 - [ ] seal
 - [ ] lighting
-- [ ] secrets
+- [x] secrets
 - playtest and balance
   - [ ] QuakeSpasm
   - [x] IronWail
@@ -72,26 +72,47 @@ use a smaller amount of textures and let the brushes do the talking
 
 ## art todo
 
-- [ ] void fogblend (avix suggestion)
-  - [ ] plus maybe do planes
+- [x] void fogblend (avix suggestion)
+  - [-] plus maybe do planes
 - [-] testing course grate: fix pointy texture seams
   - no one is gonna notice
-- [ ] lower 'bottomless' floors to 666 max
+- [x] lower 'bottomless' floors to 666 max
 - [ ] try avix's gradient idea
 - [ ] io external texture
 - [ ] twofold track
+- [ ] icicles
 
 ### areas
 
 - [x] spawn cave
 - [x] intro outside courtyard
+- [x] ice rink: fix doors not opening?? = IT WAS TOGGLE
 - [x] playground / training course
-  - [ ] try white or blue lighting
-  - [ ] lights w/ models to exit door and above thin laser wall
-- [ ] thin ice
+  - [?] try white or blue lighting
+  - [x] lights w/ models to exit door and above thin laser wall
+- [x] thin ice
+  - [x] cliffs
+  - [?] pre-blue-key doorways shouldn't clip into geo
 - [ ] speedrun
+  - [ ] the ice platforms shouldn't be floating
+  - [x] cliffs
+  - [x] GL platform
+  - [x] check lighting and visuals BEHIND the GL platform
+- [x] cliffs between 'thin ice' and 'circles'
+- [x] cliffs between 'speedrun' and 'circles' (near large building)
+- [x] cliffs atop 'large building'
 - [ ] large building
-- [ ] courtyard
+  - [ ] interior lighting
+  - [ ] lighting in hallway between two rooms
+- [ ] 2nd courtyard
+  - [x] cliffs?
+- [ ] pre-circles buildings
+  - [ ] shambler+fiend building
+  - [ ] hell knights building
 - [ ] circles
-- [ ] final building
-- [ ] portal platform
+  - [x] cliffs
+  - [x] weird sticky-outy bits from the barrel
+  - [ ] wiremeshes
+- [x] barrel semicircle building - interior
+- [ ] barrel semicircle building - exterior and underside
+- [x] portal platform
