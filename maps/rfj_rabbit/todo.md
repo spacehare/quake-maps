@@ -93,8 +93,8 @@ use a smaller amount of textures and let the brushes do the talking
 - [x] thin ice
   - [x] cliffs
   - [?] pre-blue-key doorways shouldn't clip into geo
-- [ ] speedrun
-  - [ ] the ice platforms shouldn't be floating
+- [x] speedrun
+  - [x] the ice platforms shouldn't be floating
   - [x] cliffs
   - [x] GL platform
   - [x] check lighting and visuals BEHIND the GL platform
@@ -116,3 +116,4 @@ use a smaller amount of textures and let the brushes do the talking
 - [x] barrel semicircle building - interior
 - [ ] barrel semicircle building - exterior and underside
 - [x] portal platform
+- [ ] end portal spinny bits
