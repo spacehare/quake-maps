@@ -81,6 +81,8 @@ use a smaller amount of textures and let the brushes do the talking
 - [ ] io external texture
 - [ ] twofold track
 - [ ] icicles
+- [ ] fix ice rink 1 cave being too hard to platform in
+- [ ] wiremeshes
 
 ### areas
 
@@ -101,19 +103,21 @@ use a smaller amount of textures and let the brushes do the talking
 - [x] cliffs between 'thin ice' and 'circles'
 - [x] cliffs between 'speedrun' and 'circles' (near large building)
 - [x] cliffs atop 'large building'
-- [ ] large building
-  - [ ] interior lighting
-  - [ ] lighting in hallway between two rooms
-- [ ] 2nd courtyard
+- [x] large building
+  - [x] interior lighting
+  - [x] lighting in hallway between two rooms
+  - [x] exit door
+- [x] 2nd courtyard
   - [x] cliffs?
-- [ ] pre-circles buildings
-  - [ ] shambler+fiend building
-  - [ ] hell knights building
-- [ ] circles
+- [x] pre-circles buildings
+  - [x] shambler+fiend building
+    - [x] frame the window top and bottom
+  - [x] hell knights building
+- [x] circles
   - [x] cliffs
   - [x] weird sticky-outy bits from the barrel
-  - [ ] wiremeshes
+  - [-] wiremeshes = removed
 - [x] barrel semicircle building - interior
-- [ ] barrel semicircle building - exterior and underside
+- [x] barrel semicircle building - exterior and underside
 - [x] portal platform
-- [ ] end portal spinny bits
+- [x] end portal spinny bits

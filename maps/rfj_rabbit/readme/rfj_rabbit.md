@@ -19,7 +19,6 @@ the map source is included in the files, [but it's also on github!](https://gith
 
 - laser wall sounds made in [jsfxr](https://sfxr.me/)
 - [textures by Makkon](https://www.slipseer.com/index.php?resources/makkon-textures.28)
-- skull decal texture by Sharkrifice
 - music by twofold
   - https://2xtwofold.bandcamp.com
   - https://soundcloud.com/2xtwofold
@@ -28,6 +27,10 @@ the map source is included in the files, [but it's also on github!](https://gith
   - [textures by Khreathor](https://www.slipseer.com/index.php?resources/prototype-wad.263/)
   - [trim guide textures by Kebby](https://www.slipseer.com/index.php?resources/kebbys-prototype-trim-guide-for-makkon-textures.408/)
   - [tool textures by 4LT](https://www.slipseer.com/index.php?resources/tool-textures.258/)
+- custom textures
+  - skull decal by Sharkrifice
+  - Mike's Hard Limeade texture by me (i took a photo of it on my desk and edited it in Krita)
+  - rainbow texture made by me in Krita
 
 ## thanks to
 
