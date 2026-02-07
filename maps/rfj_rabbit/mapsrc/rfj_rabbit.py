@@ -23,6 +23,14 @@ SUSPENDED = 4
 SYMBOL_COUNT = '#'
 RQ_VERSION = 1
 
+replace_proto = {
+    'trim_band_red': 'tch_t2_grey1',
+    '64_blood_1': 'tch_c1_grey1',
+    '16_honey_1': 'tch_c1_ylw1',
+    'honey_1': 'tch_c1_ylw1',
+    'blue_3': 'tch_c1_blu1',
+}
+
 
 def autocount(trigger_counter: Entity, entities: list[Entity]) -> list[Entity] | None:
     if not ((count_value := trigger_counter.kv.get('count')) and count_value.startswith(SYMBOL_COUNT)):
@@ -131,6 +139,10 @@ def main(context: dict) -> list[Entity]:
         # clip
         if ent.kv.get(VAR_PREFIX + 'clip') == '1':
             worldspawn.brushes += clip(ent)
+
+        # replace proto textures
+        for key in replace_proto:
+            replace_texture(ent, key, replace_proto[key])
 
         match ent.classname:
             case 'func_door':
