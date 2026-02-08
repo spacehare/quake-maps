@@ -7,13 +7,16 @@ the map source is included in the files, [but it's also on github!](https://gith
 - [MESS 1.2.3](https://pwitvoet.github.io/mess/)
 - [some of my own jank scripts](https://github.com/spacehare/rabbit_quake)
 
-## compile settings
+## compile stack
 
-| tool  | args |
-| ----- | ---- |
-| QBSP  | ``   |
-| VIS   | ``   |
-| LIGHT | ``   |
+| tool       | unique args                    |
+| ---------- | ------------------------------ |
+| Export Map |                                |
+| MESS       | `-config quake`                |
+| pp.py      |                                |
+| QBSP       | `-leaktest -litwater -bsp2`    |
+| VIS        | `-noambient`                   |
+| LIGHT      | `-extra -emissivequality high` |
 
 # credit
 

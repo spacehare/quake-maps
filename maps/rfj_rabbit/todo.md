@@ -2,7 +2,7 @@
 - [x] changelevel is set to start
 - [x] texture
 - [x] seal
-- [ ] lighting
+- [x] lighting
 - [x] secrets
 - playtest and balance
   - [ ] QuakeSpasm
@@ -13,12 +13,11 @@
   - [x] 2 hard
 - [x] info_intermission, 1 or more
 - [x] autosaves / checkpoints
-- [ ] phongs, phong_groups
-- [ ] sfx
+- [x] phongs, phong_groups
+- [x] sfx
 - [ ] music
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
-- [ ] replace all proto textures
 - [x] skybox
 
 # post-playtest-watching todo
@@ -82,7 +81,7 @@ use a smaller amount of textures and let the brushes do the talking
 - [ ] twofold track
 - [ ] icicles
 - [ ] fix ice rink 1 cave being too hard to platform in
-- [ ] wiremeshes
+- [x] wiremeshes
 
 ### areas
 
@@ -121,3 +120,15 @@ use a smaller amount of textures and let the brushes do the talking
 - [x] barrel semicircle building - exterior and underside
 - [x] portal platform
 - [x] end portal spinny bits
+
+## near-final self-playtest
+
+- [x] wiremesh in rink 1 cave
+- [x] rink 1 cave optional ammo -- make easy to get?
+- [x] test all secrets
+- [] final self-playtests
+  - [x] 0
+  - [x] 1
+  - [x] 2
+- [x] test end-ogre monsterjump
+- [x] check post rink-2 doorframe angles

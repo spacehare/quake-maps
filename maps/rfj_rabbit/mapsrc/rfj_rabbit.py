@@ -26,7 +26,7 @@ RQ_VERSION = 1
 replace_proto = {
     'trim_band_red': 'tch_t2_grey1',
     '64_blood_1': 'tch_c1_grey1',
-    '16_honey_1': 'tch_c1_ylw1',
+    '16_honey_1': 'sky1',
     'honey_1': 'tch_c1_ylw1',
     'blue_3': 'tch_c1_blu1',
 }
@@ -147,7 +147,7 @@ def main(context: dict) -> list[Entity]:
         match ent.classname:
             case 'func_door':
                 ent.kv.setdefault('speed', '128')
-                ent.kv.setdefault('sounds', '3')
+                ent.kv.setdefault('sounds', '2')
             case 'func_button':
                 ent.kv.setdefault('speed', '64')
                 ent.kv.setdefault('sounds', '2')
