@@ -80,7 +80,8 @@ use a smaller amount of textures and let the brushes do the talking
 - [ ] io external texture
 - [ ] twofold track
 - [ ] icicles
-- [ ] fix ice rink 1 cave being too hard to platform in
+- [ ] final lighting tweaks
+- [x] fix ice rink 1 cave being too hard to platform in
 - [x] wiremeshes
 
 ### areas
@@ -126,9 +127,20 @@ use a smaller amount of textures and let the brushes do the talking
 - [x] wiremesh in rink 1 cave
 - [x] rink 1 cave optional ammo -- make easy to get?
 - [x] test all secrets
-- [] final self-playtests
+- [x] final self-playtests
   - [x] 0
   - [x] 1
   - [x] 2
 - [x] test end-ogre monsterjump
 - [x] check post rink-2 doorframe angles
+- art
+  - [ ] slippery
+  - [ ] wiremesh
+  - [ ] trampoline
+  - [ ] hook
+- [-] test troll room platform lighting and exclusion
+  - it's not WORKINGGGGGGGGG
+  - i give up
+- [x] fix lighting directly around ceiling fixture in hell knight room, keep it dark and moody though
+- [ ] switchableshadows in 2-grunt hallway
+- [x] check penumbra adjustment
