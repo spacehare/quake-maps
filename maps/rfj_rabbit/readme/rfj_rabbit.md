@@ -34,6 +34,7 @@ the map source is included in the files, [but it's also on github!](https://gith
   - skull decal by Sharkrifice
   - Mike's Hard Limeade texture by me (i took a photo of it on my desk and edited it in Krita)
   - rainbow texture made by me in Krita
+  - io drawings by [Ryukocha](https://ryukocha.tumblr.com/)
 
 ## thanks to
 
