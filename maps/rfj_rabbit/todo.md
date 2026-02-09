@@ -15,9 +15,9 @@
 - [x] autosaves / checkpoints
 - [x] phongs, phong_groups
 - [x] sfx
-- [ ] music
+- [x] music
 - [ ] no MAP issues in TrenchBroom console
-- [ ] readme
+- [x] readme
 - [x] skybox
 
 # post-playtest-watching todo
@@ -76,11 +76,11 @@ use a smaller amount of textures and let the brushes do the talking
 - [-] testing course grate: fix pointy texture seams
   - no one is gonna notice
 - [x] lower 'bottomless' floors to 666 max
-- [ ] try avix's gradient idea
+- [-] try avix's gradient idea = no time X_x
 - [ ] io external texture
-- [ ] twofold track
-- [ ] icicles
-- [ ] final lighting tweaks
+- [x] twofold track
+- [?] icicles
+- [?] final lighting tweaks
 - [x] fix ice rink 1 cave being too hard to platform in
 - [x] wiremeshes
 
@@ -134,13 +134,13 @@ use a smaller amount of textures and let the brushes do the talking
 - [x] test end-ogre monsterjump
 - [x] check post rink-2 doorframe angles
 - art
-  - [ ] slippery
-  - [ ] wiremesh
+  - [x] slippery
+  - [x] wiremesh
   - [ ] trampoline
   - [ ] hook
 - [-] test troll room platform lighting and exclusion
   - it's not WORKINGGGGGGGGG
   - i give up
 - [x] fix lighting directly around ceiling fixture in hell knight room, keep it dark and moody though
-- [ ] switchableshadows in 2-grunt hallway
+- [x] switchableshadows in 2-grunt hallway
 - [x] check penumbra adjustment
