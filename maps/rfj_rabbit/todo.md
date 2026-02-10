@@ -16,7 +16,7 @@
 - [x] phongs, phong_groups
 - [x] sfx
 - [x] music
-- [ ] no MAP issues in TrenchBroom console
+- [x] no MAP issues in TrenchBroom console
 - [x] readme
 - [x] skybox
 
@@ -77,7 +77,7 @@ use a smaller amount of textures and let the brushes do the talking
   - no one is gonna notice
 - [x] lower 'bottomless' floors to 666 max
 - [-] try avix's gradient idea = no time X_x
-- [ ] io external texture
+- [x] io external texture
 - [x] twofold track
 - [?] icicles
 - [?] final lighting tweaks
