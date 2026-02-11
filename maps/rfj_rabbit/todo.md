@@ -136,8 +136,8 @@ use a smaller amount of textures and let the brushes do the talking
 - art
   - [x] slippery
   - [x] wiremesh
-  - [ ] trampoline
-  - [ ] hook
+  - [x] trampoline
+  - [x] hook
 - [-] test troll room platform lighting and exclusion
   - it's not WORKINGGGGGGGGG
   - i give up
