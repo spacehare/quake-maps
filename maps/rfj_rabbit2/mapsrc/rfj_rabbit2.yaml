@@ -1,0 +1,16 @@
+# https://github.com/spacehare/rabbit_quake
+
+# required
+
+config_version: 2
+
+# optional
+
+prefix:
+  general: "@"
+  variable_in: "%"
+  variable_out: "%"
+variables:
+  example: "a"
+scripts:
+  - ./rfj_rabbit2.py
