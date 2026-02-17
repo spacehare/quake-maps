@@ -1,0 +1,1 @@
+qpakman ./qpakman/* -o I:\Quake\dev\wad\per-map\rfj_rabbit2_io.wad
