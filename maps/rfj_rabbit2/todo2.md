@@ -9,8 +9,8 @@
 - [x] hook toggle
 - [x] hook fling
 - [x] hook-to-hook
-- [ ] trampoline
-- [ ] trampoline height maintain
+- [x] trampoline
+- [x] trampoline height maintain
 - [ ] trampoline no-jump
 - [ ] wiremesh
 - [ ] wiremesh look-angle
