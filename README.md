@@ -27,3 +27,5 @@ inspired by [Chuma](https://github.com/ChumaSuey) to put my maps on github too
 | [rabbit_dep](./maps/rabbit_dep/)           |   ❌   | 2025-09          |                                                                                           |
 | [qbj3_rabbit](./maps/qbj3_rabbit/)         |   ✅   | 2025-11          | [slipseer](https://www.slipseer.com/index.php?resources/quake-brutalist-jam-iii.549/)     |
 | [qbjr_rabbit](./maps/qbjr_rabbit/)         |   ✅   | 2025-06, 2025-12 | [slipseer](https://www.slipseer.com/index.php?resources/quake-brutalist-jam-iii.549/)     |
+| [rfj_rabbit](./maps/rfj_rabbit/)           |   ✅   | 2026-02          |                                                                                           |
+| [rfj_rabbit2](./maps/rfj_rabbit2/)         |   ✅   | 2026-02          |                                                                                           |
