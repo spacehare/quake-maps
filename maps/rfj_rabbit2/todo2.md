@@ -12,15 +12,16 @@
 - [x] trampoline
 - [x] trampoline height maintain
 - [ ] trampoline no-jump
-- [ ] wiremesh
-- [ ] wiremesh look-angle
-- [ ] slippery
+- [x] wiremesh wall
+- [x] wiremesh ceiling
+- [x] wiremesh concave
+- [ ] wiremesh convex
+- [x] wiremesh look-angle
+- [x] slippery
+- [x] slippery speed & height gaining
+- [ ] slippery edge friction
+- [x] slippery strafing
 - [ ] expected texture examples
-
-# script
-
-- [ ] `trigger_*` purge mangle
-- [ ] `trigger_*` purge angle
 
 # song ideas
 
