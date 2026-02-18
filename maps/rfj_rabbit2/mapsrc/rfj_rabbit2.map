@@ -5,7 +5,7 @@
 "mapversion" "220"
 "wad" "I:\Quake\dev\wad\lq_dev.wad;I:\Quake\dev\wad\lq_0.08\lq_dev.wad;I:\Quake\Game\engines\rm1.3\rm_mechanics.wad;I:\Quake\dev\wad\rabbit_dev_yoinked.wad;I:\Quake\dev\wad\per-map\rfj_rabbit2_io.wad"
 "classname" "worldspawn"
-"message" ""
+"message" "tomo pi tawa sona"
 "_dirt" "1"
 "_dirtdepth" "128"
 "_dirtgain" "2"
