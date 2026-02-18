@@ -64,6 +64,11 @@ def main(context: dict) -> list[Entity]:
         if ent.kv.get(VAR_PREFIX + 'clip') == '1':
             worldspawn.brushes += clip(ent)
 
+        # io decals
+        if ent.kv.get(VAR_PREFIX + 'io') == '1':
+            ent.kv['_minlight'] = '246'
+            ent.kv['_lightignore'] = '1'
+
         # replace proto textures
         for key in replace_proto:
             replace_texture(ent, key, replace_proto[key])
