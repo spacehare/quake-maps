@@ -66,7 +66,8 @@ def main(context: dict) -> list[Entity]:
 
         # io decals
         if ent.kv.get(VAR_PREFIX + 'io') == '1':
-            ent.kv['_minlight'] = '246'
+            ent.kv['_minlight'] = '255'
+            ent.kv['_maxlight'] = '255'
             ent.kv['_lightignore'] = '1'
 
         # replace proto textures
