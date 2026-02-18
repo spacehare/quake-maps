@@ -22,7 +22,8 @@ the map source is included in the files, [but it's also on github!](https://gith
 
 # credit
 
-- textures from [LibreQuake](https://github.com/lavenderdotpet/LibreQuake/releases/)
+- prototype textures from [LibreQuake](https://github.com/lavenderdotpet/LibreQuake/releases/)
+- mechanics textures from ReMobilize
 - music by twofold
   - https://2xtwofold.bandcamp.com
   - https://soundcloud.com/2xtwofold
