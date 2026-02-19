@@ -40,8 +40,6 @@ def replace_texture(ent: Entity, a: str, b: str):
 
 
 def main(context: dict) -> list[Entity]:
-    print('running %s' % __file__)
-
     VAR_PREFIX: str = context['var_prefix']
     EVAL_PREFIX = VAR_PREFIX + 'eval'
     input_entities: list[Entity] = list[Entity](context['entities'])
@@ -63,6 +61,14 @@ def main(context: dict) -> list[Entity]:
         # clip
         if ent.kv.get(VAR_PREFIX + 'clip') == '1':
             worldspawn.brushes += clip(ent)
+
+        for key in ent.kv:
+            # 40 char limit warning
+            if key == 'message':
+                split = ent.kv[key].split('\\n')
+                for line in split:
+                    if len(line) > 40:
+                        print('LINE GREATER THAN 40!\n%s' % line)
 
         # io decals
         if ent.kv.get(VAR_PREFIX + 'io') == '1':
