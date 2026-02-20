@@ -33,6 +33,11 @@ the map source is included in the files, [but it's also on github!](https://gith
     - io is the 4-eared 4-eyed hare, and my fursona
     - the same drawings are present in `rfj_rabbit`, but i recolored them for this tutorial map
 
-## thanks to
+## thanks to playtesters
+
+- Avix
+- LobotomyLobster
+- Clenow
+- wons
 
 # DON'T WORRY — BE FURRY

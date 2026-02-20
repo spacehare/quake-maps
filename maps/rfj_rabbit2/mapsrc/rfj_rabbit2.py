@@ -70,11 +70,11 @@ def main(context: dict) -> list[Entity]:
                     if len(line) > 40:
                         print('LINE GREATER THAN 40!\n%s' % line)
 
-        # io decals
-        if ent.kv.get(VAR_PREFIX + 'io') == '1':
-            ent.kv['_minlight'] = '255'
-            ent.kv['_maxlight'] = '255'
-            ent.kv['_lightignore'] = '1'
+        # # io decals
+        # if ent.kv.get(VAR_PREFIX + 'io') == '1':
+        #     ent.kv['_minlight'] = '255'
+        #     ent.kv['_maxlight'] = '255'
+        #     ent.kv['_lightignore'] = '1'
 
         # replace proto textures
         for key in replace_proto:

@@ -22,6 +22,6 @@
 
 ---
 
-- [ ] replace PNGs in `textures/` w TGAs
-  - [ ] rfj_rabbit
-  - [ ] rfj_rabbit2
+- [x] replace PNGs in `textures/` w TGAs
+  - [x] rfj_rabbit
+  - [x] rfj_rabbit2
