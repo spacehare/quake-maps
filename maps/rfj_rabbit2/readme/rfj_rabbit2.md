@@ -32,6 +32,7 @@ the map source is included in the files, [but it's also on github!](https://gith
   - io drawings by [Ryukocha](https://ryukocha.tumblr.com/)
     - io is the 4-eared 4-eyed hare, and my fursona
     - the same drawings are present in `rfj_rabbit`, but i recolored them for this tutorial map
+- door closing sound from https://freesound.org/people/mdsn/sounds/175277/
 
 ## thanks to playtesters
 
@@ -39,5 +40,6 @@ the map source is included in the files, [but it's also on github!](https://gith
 - LobotomyLobster
 - Clenow
 - wons
+- Inky
 
 # DON'T WORRY — BE FURRY
