@@ -21,3 +21,7 @@
 - [x] un-clip wiremeshes
 - [x] convex wiremesh note / demonstration
 - [ ] add arrow on "the angle is important" mesh jump-off
+
+# v3, purplemarshmallow
+
+- maybe immediately add a note like "you move where you aim" on wiremeshes?

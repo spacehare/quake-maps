@@ -24,14 +24,13 @@ the map source is included in the files, [but it's also on github!](https://gith
 
 - prototype textures from [LibreQuake](https://github.com/lavenderdotpet/LibreQuake/releases/)
 - mechanics textures from ReMobilize
+- io drawings by [Ryukocha](https://ryukocha.tumblr.com/)
+  - io is the 4-eared 4-eyed hare, and my fursona
+  - the same drawings are present in `rfj_rabbit`, but i recolored them for this tutorial map
 - music by twofold
   - https://2xtwofold.bandcamp.com
   - https://soundcloud.com/2xtwofold
   - using Ableton Live
-- custom textures
-  - io drawings by [Ryukocha](https://ryukocha.tumblr.com/)
-    - io is the 4-eared 4-eyed hare, and my fursona
-    - the same drawings are present in `rfj_rabbit`, but i recolored them for this tutorial map
 - door closing sound from https://freesound.org/people/mdsn/sounds/175277/
 
 ## thanks to playtesters
@@ -41,5 +40,6 @@ the map source is included in the files, [but it's also on github!](https://gith
 - Clenow
 - wons
 - Inky
+- purplemarshmallow
 
 # DON'T WORRY — BE FURRY
