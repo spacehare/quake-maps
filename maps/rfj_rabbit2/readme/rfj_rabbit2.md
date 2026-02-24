@@ -31,6 +31,7 @@ the map source is included in the files, [but it's also on github!](https://gith
   - https://2xtwofold.bandcamp.com
   - https://soundcloud.com/2xtwofold
   - using Ableton Live
+  - _and made just for this map! :3 just like `rfj_rabbit`'s music_
 - door closing sound from https://freesound.org/people/mdsn/sounds/175277/
 
 ## thanks to playtesters
