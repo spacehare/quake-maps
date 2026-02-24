@@ -11,14 +11,14 @@ the map source is included in the files, [but it's also on github!](https://gith
 
 ## compile stack
 
-| tool       | unique args                 |
-| ---------- | --------------------------- |
-| Export Map |                             |
-| MESS       | `-config quake`             |
-| pp.py      |                             |
-| QBSP       | `-leaktest -litwater -bsp2` |
-| VIS        | `-noambient`                |
-| LIGHT      | `-extra`                    |
+| tool       | unique args                    |
+| ---------- | ------------------------------ |
+| Export Map |                                |
+| MESS       | `-config quake`                |
+| pp.py      |                                |
+| QBSP       | `-leaktest -litwater -bsp2`    |
+| VIS        | `-noambient`                   |
+| LIGHT      | `-extra -emissivequality high` |
 
 # credit
 
