@@ -1,0 +1,67 @@
+// Game: Quake
+// Format: Valve
+// entity 0
+{
+"mapversion" "220"
+"wad" "I:\Quake\dev\wad\lq_0.09\lq_dev.wad;I:\Quake\dev\wad\rabbit_dev_yoinked.wad"
+"classname" "worldspawn"
+"message" ""
+"_dirt" "1"
+"_dirtdepth" "128"
+"_dirtgain" "1"
+"_dirtscale" "1"
+"_bounce" "1"
+"_bouncecolorscale" "0"
+"_bouncescale" "1"
+"_bouncestyled" "1"
+"_maxlight" "0"
+"_minlight" "0"
+"_minlight_color" "255 255 255"
+"_minlight_dirt" "1"
+"_skyfog" "0"
+"_sunlight" "0"
+"_sunlight2" "0"
+"_sunlight3" "0"
+"_sunlight_color" "255 255 255"
+"_sunlight2_color" "255 255 255"
+"_sunlight3_color" "255 255 255"
+"_sunlight_penumbra" "0"
+"_sun_angle" "0 -90 0"
+"_wateralpha" "1"
+"_lavaalpha" "1"
+"_telealpha" "1"
+"_slimealpha" "1"
+"_surflight_radiosity" "1"
+"fog" "0.0 0.0 0.0 0.0"
+"fog_color" "255 255 255"
+"fog_density" "0"
+"__general_prefix" "@"
+"__variable_suffix" "%"
+"__variable_prefix" "%"
+"_tb_def" "external:I:/Quake/Game/engines/alkdevkit-1.2.4/alkaline.fgd"
+"_tb_mod" "alkdevkit-1.2.4"
+"%door%" "600"
+// brush 0
+{
+( 0 64 -32 ) ( 0 65 -32 ) ( 0 64 -31 ) dot_blue_a [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 0 -32 ) ( 64 0 -31 ) ( 65 0 -32 ) dot_blue_a [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 64 -32 ) ( 65 64 -32 ) ( 64 65 -32 ) dot_blue_a [ -1 0 0 0 ] [ 0 -1 0 0 ] 90 1 1
+( 320 192 0 ) ( 320 193 0 ) ( 321 192 0 ) dot_blue_a [ 1 0 0 0 ] [ 0 -1 0 0 ] 90 1 1
+( 320 256 0 ) ( 321 256 0 ) ( 320 256 1 ) dot_blue_a [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 192 0 ) ( 256 192 1 ) ( 256 193 0 ) dot_blue_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "128 128 24"
+}
+// entity 2
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "unrendered"
+"_tb_id" "3"
+"_tb_layer_sort_index" "0"
+"_tb_layer_omit_from_export" "1"
+}
