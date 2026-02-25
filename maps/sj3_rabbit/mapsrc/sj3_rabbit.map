@@ -5,7 +5,7 @@
 "mapversion" "220"
 "wad" "I:\Quake\dev\wad\lq_0.09\lq_dev.wad;I:\Quake\dev\wad\rabbit_dev_yoinked.wad"
 "classname" "worldspawn"
-"message" ""
+"message" "triskelion drain"
 "_dirt" "1"
 "_dirtdepth" "128"
 "_dirtgain" "1"
@@ -32,36 +32,325 @@
 "_telealpha" "1"
 "_slimealpha" "1"
 "_surflight_radiosity" "1"
-"fog" "0.0 0.0 0.0 0.0"
-"fog_color" "255 255 255"
-"fog_density" "0"
 "__general_prefix" "@"
 "__variable_suffix" "%"
 "__variable_prefix" "%"
 "_tb_def" "external:I:/Quake/Game/engines/alkdevkit-1.2.4/alkaline.fgd"
 "_tb_mod" "alkdevkit-1.2.4"
-"%door%" "600"
+"reset_items" "1"
+"take_weapons" "14207"
+"ammo_cells" "-1"
+"ammo_nails" "-1"
+"ammo_rockets" "-1"
+"ammo_shells" "-1"
+"itemstyle" "2"
+"%default_fog_density%" "0.001"
+"%default_fog_color%" "255 255 255"
+"%default_fog_sky%" "0.01"
+"sounds" "255"
+"worldtype" "2"
 // brush 0
 {
-( 0 64 -32 ) ( 0 65 -32 ) ( 0 64 -31 ) dot_blue_a [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 64 0 -32 ) ( 64 0 -31 ) ( 65 0 -32 ) dot_blue_a [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 64 64 -32 ) ( 65 64 -32 ) ( 64 65 -32 ) dot_blue_a [ -1 0 0 0 ] [ 0 -1 0 0 ] 90 1 1
-( 320 192 0 ) ( 320 193 0 ) ( 321 192 0 ) dot_blue_a [ 1 0 0 0 ] [ 0 -1 0 0 ] 90 1 1
-( 320 256 0 ) ( 321 256 0 ) ( 320 256 1 ) dot_blue_a [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 256 192 0 ) ( 256 192 1 ) ( 256 193 0 ) dot_blue_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( -512 64 -32 ) ( -512 65 -32 ) ( -512 64 -31 ) wall_orange_a [ 0 -1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( 64 0 -32 ) ( 64 0 -31 ) ( 65 0 -32 ) wall_orange_a [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 64 -128 ) ( 65 64 -128 ) ( 64 65 -128 ) wall_orange_a [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 320 192 0 ) ( 320 193 0 ) ( 321 192 0 ) floor_grey_c [ 1 0 0 0 ] [ 0 -1 0 0 ] 90 1 1
+( 320 256 0 ) ( 321 256 0 ) ( 320 256 1 ) wall_orange_a [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 896 192 0 ) ( 896 192 1 ) ( 896 193 0 ) wall_orange_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 1
+{
+( -256 -576 0 ) ( -256 -575 0 ) ( -256 -576 1 ) *slimeskip [ 0 1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( -512 -1024 -32 ) ( -512 -1024 -31 ) ( -511 -1024 -32 ) *slimeskip [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -704 -256 ) ( -511 -704 -256 ) ( -512 -703 -256 ) *slimeskip [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 -576 0 ) ( -256 -575 0 ) ( -255 -576 0 ) *slime1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 180 1 1
+( -256 -512 0 ) ( -255 -512 0 ) ( -256 -512 1 ) *slimeskip [ -1 0 0 0 ] [ 0 0 -1 0 ] 90 1 1
+( 256 -576 0 ) ( 256 -576 1 ) ( 256 -575 0 ) *slimeskip [ 0 1 0 0 ] [ 0 0 -1 0 ] 180 1 1
+}
+// brush 2
+{
+( 768 64 -32 ) ( 768 65 -32 ) ( 768 64 -31 ) wall_orange_a [ 0 -1 0 0 ] [ 0 0 -1 0 ] 180 1 1
+( 832 0 -32 ) ( 832 0 -31 ) ( 833 0 -32 ) wall_orange_a [ 1 0 0 0 ] [ 0 0 -1 0 ] 180 1 1
+( 832 64 0 ) ( 833 64 0 ) ( 832 65 0 ) wall_orange_a [ -1 0 0 0 ] [ 0 -1 0 0 ] 180 1 1
+( 1088 192 64 ) ( 1088 193 64 ) ( 1089 192 64 ) floor_grey_c [ 1 0 0 0 ] [ 0 -1 0 0 ] 90 1 1
+( 1088 256 0 ) ( 1089 256 0 ) ( 1088 256 1 ) wall_orange_a [ -1 0 0 0 ] [ 0 0 -1 0 ] 180 1 1
+( 1024 192 0 ) ( 1024 192 1 ) ( 1024 193 0 ) wall_orange_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 90 1 1
+}
+// brush 3
+{
+( 256 256 0 ) ( 256 257 0 ) ( 256 256 1 ) wall_orange_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( 192 256 0 ) ( 192 256 1 ) ( 193 256 0 ) wall_orange_a [ 1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 0 ] 270 1 1
+( 192 256 0 ) ( 193 256 0 ) ( 192 257 0 ) wall_orange_a [ 0 1.0000000000000002 0 0 ] [ -1.0000000000000002 0 0 0 ] 270 1 1
+( 512 320 96 ) ( 512 321 96 ) ( 513 320 96 ) wall_orange_a [ 0 1.0000000000000002 0 0 ] [ 1.0000000000000002 0 0 0 ] 180 1 1
+( 512 320 64 ) ( 513 320 64 ) ( 512 320 65 ) wall_orange_a [ -1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 0 ] 270 1 1
+( 352 320 64 ) ( 352 320 65 ) ( 352 321 64 ) wall_orange_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 180 1 1
+}
+// brush 4
+{
+( 416 256 0 ) ( 416 257 0 ) ( 416 256 1 ) wall_orange_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( 384 256 0 ) ( 384 256 1 ) ( 385 256 0 ) wall_orange_a [ 1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
+( 384 256 0 ) ( 385 256 0 ) ( 384 257 0 ) wall_orange_a [ 0 1.0000000000000002 0 0 ] [ -1.0000000000000002 0 0 0 ] 0 1 1
+( 704 320 96 ) ( 704 321 96 ) ( 705 320 96 ) wall_orange_a [ 0 1.0000000000000002 0 0 ] [ 1.0000000000000002 0 0 0 ] 270 1 1
+( 704 320 64 ) ( 705 320 64 ) ( 704 320 65 ) wall_orange_a [ -1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
+( 512 320 64 ) ( 512 320 65 ) ( 512 321 64 ) wall_orange_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 5
+{
+( 256 256 128 ) ( 256 257 128 ) ( 256 256 129 ) wall_orange_a [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 128 ) ( 256 256 129 ) ( 257 256 128 ) wall_orange_a [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 96 ) ( 257 256 96 ) ( 256 257 96 ) wall_orange_a [ -1 0 0 0 ] [ 0 -1 0 0 ] 270 1 1
+( 512 320 192 ) ( 512 321 192 ) ( 513 320 192 ) wall_orange_a [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 320 192 ) ( 513 320 192 ) ( 512 320 193 ) wall_orange_a [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 320 192 ) ( 512 320 193 ) ( 512 321 192 ) wall_orange_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 6
+{
+( 192 0 0 ) ( 192 1 0 ) ( 192 0 1 ) wall_orange_a [ 0 -1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 180 1 1
+( 256 0 0 ) ( 256 0 1 ) ( 257 0 0 ) wall_orange_a [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 0 0 ) ( 257 0 0 ) ( 256 1 0 ) wall_orange_a [ 1.0000000000000002 0 0 0 ] [ 0 1.0000000000000002 0 0 ] 0 1 1
+( 512 96 160 ) ( 512 97 160 ) ( 513 96 160 ) wall_orange_a [ 1.0000000000000002 0 0 0 ] [ 0 -1.0000000000000002 0 0 ] 0 1 1
+( 512 64 32 ) ( 513 64 32 ) ( 512 64 33 ) wall_orange_a [ 1 0 0 0 ] [ 0 0 -1 0 ] 180 1 1
+( 576 96 32 ) ( 576 96 33 ) ( 576 97 32 ) wall_orange_a [ 0 1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 270 1 1
+}
+// brush 7
+{
+( 256 64 -32 ) ( 256 65 -32 ) ( 256 64 -31 ) wall_orange_a [ 0 -1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( 320 256 0 ) ( 320 256 1 ) ( 321 256 0 ) wall_orange_a [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 64 -128 ) ( 65 64 -128 ) ( 64 65 -128 ) wall_orange_a [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 320 192 0 ) ( 320 193 0 ) ( 321 192 0 ) floor_grey_c [ 1 0 0 0 ] [ 0 -1 0 0 ] 90 1 1
+( 320 512 0 ) ( 321 512 0 ) ( 320 512 1 ) wall_orange_a [ -1 0 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( 512 192 0 ) ( 512 192 1 ) ( 512 193 0 ) wall_orange_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 8
+{
+( -256 -512 -256 ) ( -256 -511 -256 ) ( -256 -512 -255 ) wall_orange_a [ 0 -1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( -256 -512 -256 ) ( -256 -512 -255 ) ( -255 -512 -256 ) wall_orange_a [ 1 0 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( -256 -512 -256 ) ( -255 -512 -256 ) ( -256 -511 -256 ) wall_orange_a [ -1 0 0 0 ] [ 0 -1 0 0 ] 270 1 1
+( 256 -256 0 ) ( 256 -255 0 ) ( 257 -256 0 ) floor_grey_c [ 1 0 0 0 ] [ 0 -1 0 0 ] 90 1 1
+( 256 -256 0 ) ( 257 -256 0 ) ( 256 -256 1 ) wall_orange_a [ -1 0 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( 256 -256 0 ) ( 256 -256 1 ) ( 256 -255 0 ) wall_orange_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+}
+// brush 9
+{
+( -256 -1280 -256 ) ( -256 -1279 -256 ) ( -256 -1280 -255 ) wall_orange_a [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -1280 -256 ) ( -256 -1280 -255 ) ( -255 -1280 -256 ) wall_orange_a [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -1280 -256 ) ( -255 -1280 -256 ) ( -256 -1279 -256 ) wall_orange_a [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 -1024 0 ) ( 256 -1023 0 ) ( 257 -1024 0 ) floor_grey_c [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 -1024 0 ) ( 257 -1024 0 ) ( 256 -1024 1 ) wall_orange_a [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -1024 0 ) ( 256 -1024 1 ) ( 256 -1023 0 ) wall_orange_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 10
+{
+( -256 -768 -512 ) ( -256 -767 -512 ) ( -256 -768 -511 ) wall_orange_a [ 0 -1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( -256 -1024 -512 ) ( -256 -1024 -511 ) ( -255 -1024 -512 ) wall_orange_a [ 1 0 0 0 ] [ 0 0 -1 0 ] 180 1 1
+( -256 -768 -512 ) ( -255 -768 -512 ) ( -256 -767 -512 ) wall_orange_a [ -1 0 0 0 ] [ 0 -1 0 0 ] 270 1 1
+( 256 -512 -256 ) ( 256 -511 -256 ) ( 257 -512 -256 ) floor_grey_c [ 1 0 0 0 ] [ 0 -1 0 0 ] 270 1 1
+( 256 -512 -256 ) ( 257 -512 -256 ) ( 256 -512 -255 ) wall_orange_a [ -1 0 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( 256 -512 -256 ) ( 256 -512 -255 ) ( 256 -511 -256 ) wall_orange_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 270 1 1
 }
 }
 // entity 1
 {
-"classname" "info_player_start"
-"origin" "128 128 24"
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "spawns"
+"_tb_id" "10"
+"_tb_linked_group_id" "{d07100ba-55ee-4376-9bdd-35d789904523}"
+"_tb_transformation" "1 0 0 -512 0 1 0 0 0 0 1 0 0 0 0 1"
 }
 // entity 2
 {
 "classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "spawn instance"
+"_tb_id" "7"
+"_tb_linked_group_id" "{910e94aa-3e0a-4197-a0c1-6c7ae61ef3f6}"
+"_tb_transformation" "1 0 0 -512 0 1 0 64 0 0 1 0 0 0 0 1"
+"_tb_group" "10"
+}
+// entity 3
+{
+"classname" "info_player_coop"
+"origin" "-384 192 24"
+"fog_color" "%default_fog_color%"
+"skyfog_density" "%default_fog_sky%"
+"fog_density" "%default_fog_density%"
+"_tb_group" "7"
+"_tb_protected_properties" "classname"
+}
+// entity 4
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "spawn instance"
+"_tb_id" "8"
+"_tb_linked_group_id" "{910e94aa-3e0a-4197-a0c1-6c7ae61ef3f6}"
+"_tb_transformation" "1 0 0 -576 0 1 0 32 0 0 1 0 0 0 0 1"
+"_tb_group" "10"
+}
+// entity 5
+{
+"classname" "info_player_coop"
+"origin" "-448 160 24"
+"fog_color" "%default_fog_color%"
+"skyfog_density" "%default_fog_sky%"
+"fog_density" "%default_fog_density%"
+"_tb_group" "8"
+"_tb_protected_properties" "classname"
+}
+// entity 6
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "spawn instance"
+"_tb_id" "6"
+"_tb_linked_group_id" "{910e94aa-3e0a-4197-a0c1-6c7ae61ef3f6}"
+"_tb_transformation" "1 0 0 -512 0 1 0 0 0 0 1 0 0 0 0 1"
+"_tb_group" "10"
+}
+// entity 7
+{
+"origin" "-384 128 24"
+"fog_color" "%default_fog_color%"
+"skyfog_density" "%default_fog_sky%"
+"fog_density" "%default_fog_density%"
+"classname" "info_player_start"
+"_tb_group" "6"
+"_tb_protected_properties" "classname"
+}
+// entity 8
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "spawn instance"
+"_tb_id" "9"
+"_tb_linked_group_id" "{910e94aa-3e0a-4197-a0c1-6c7ae61ef3f6}"
+"_tb_transformation" "1 0 0 -576 0 1 0 -32 0 0 1 0 0 0 0 1"
+"_tb_group" "10"
+}
+// entity 9
+{
+"classname" "info_player_coop"
+"origin" "-448 96 24"
+"fog_color" "%default_fog_color%"
+"skyfog_density" "%default_fog_sky%"
+"fog_density" "%default_fog_density%"
+"_tb_group" "9"
+"_tb_protected_properties" "classname"
+}
+// entity 10
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "spawn instance"
+"_tb_id" "4"
+"_tb_linked_group_id" "{910e94aa-3e0a-4197-a0c1-6c7ae61ef3f6}"
+"_tb_transformation" "1 0 0 -512 0 1 0 -64 0 0 1 0 0 0 0 1"
+"_tb_group" "10"
+}
+// entity 11
+{
+"classname" "info_player_coop"
+"origin" "-384 64 24"
+"fog_color" "%default_fog_color%"
+"skyfog_density" "%default_fog_sky%"
+"fog_density" "%default_fog_density%"
+"_tb_group" "4"
+"_tb_protected_properties" "classname"
+}
+// entity 12
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "globals"
+"_tb_id" "11"
+"_tb_linked_group_id" "{1bb866cc-2dfc-4854-955a-fd00772cf743}"
+}
+// entity 13
+{
+"classname" "target_autosave"
+"origin" "112 80 112"
+"targetname" "_AUTOSAVE"
+"_tb_group" "11"
+}
+// entity 14
+{
+"classname" "weapon_axe"
+"origin" "832 128 64"
+"target" "intro.onAxePickedUp"
+}
+// entity 15
+{
+"classname" "monster_axegrunt"
+"origin" "384 288 24"
+"angle" "270"
+"targetname" "intro.axeMan"
+"spawnflags" "224"
+}
+// entity 16
+{
+"classname" "func_breakable"
+"style" "5"
+"health" "9999"
+"targetname" "intro.boards"
+// brush 0
+{
+( 336 240 16 ) ( 336 241 16 ) ( 336 240 17 ) dot_red_a [ 0 -1 0 0 ] [ -0 -0 -1 0 ] 0 1 1
+( 320 248 16 ) ( 320 248 17 ) ( 321 248 16 ) dot_red_a [ 1 0 -0 0 ] [ 0 -0 -1 0 ] 0 1 1
+( 320 240 16 ) ( 321 240 16 ) ( 320 241 16 ) dot_red_a [ -1 0 0 0 ] [ -0 -1 -0 0 ] 0 1 1
+( 448 272 32 ) ( 448 273 32 ) ( 449 272 32 ) dot_red_a [ 1 0 0 0 ] [ 0 -1 0 0 ] 270 1 1
+( 448 256 48 ) ( 449 256 48 ) ( 448 256 49 ) dot_red_a [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 432 272 48 ) ( 432 272 49 ) ( 432 273 48 ) dot_red_a [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 17
+{
+"classname" "func_breakable"
+"style" "5"
+"health" "9999"
+"targetname" "intro.boards"
+// brush 0
+{
+( 336 240 40 ) ( 336 241 40 ) ( 336 240 41 ) dot_red_a [ 0 -1 0 0 ] [ 0 0 -1 8 ] 90 1 1
+( 320 248 40 ) ( 320 248 41 ) ( 321 248 40 ) dot_red_a [ 1 0 0 0 ] [ 0 0 -1 8 ] 90 1 1
+( 320 240 40 ) ( 321 240 40 ) ( 320 241 40 ) dot_red_a [ -1 0 0 0 ] [ 0 -1 0 0 ] 90 1 1
+( 448 272 56 ) ( 448 273 56 ) ( 449 272 56 ) dot_red_a [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 448 256 72 ) ( 449 256 72 ) ( 448 256 73 ) dot_red_a [ -1 0 0 0 ] [ 0 0 -1 8 ] 90 1 1
+( 432 272 72 ) ( 432 272 73 ) ( 432 273 72 ) dot_red_a [ 0 1 0 0 ] [ 0 0 -1 8 ] 90 1 1
+}
+}
+// entity 18
+{
+"classname" "trigger_once"
+"targetname" "intro.onAxePickedUp"
+"is_waiting" "1"
+"target" "intro.boards"
+"target2" "intro.axeMan"
+// brush 0
+{
+( 128 160 0 ) ( 128 161 0 ) ( 128 160 1 ) trigger [ 0 -1 0 0 ] [ 0 0 -1 0 ] 180 1 1
+( 320 64 0 ) ( 320 64 1 ) ( 321 64 0 ) trigger [ 1 0 0 0 ] [ 0 0 -1 0 ] 90 1 1
+( 320 160 0 ) ( 321 160 0 ) ( 320 161 0 ) trigger [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 448 256 128 ) ( 448 257 128 ) ( 449 256 128 ) trigger [ 1 0 0 0 ] [ 0 -1 0 0 ] 270 1 1
+( 448 256 32 ) ( 449 256 32 ) ( 448 256 33 ) trigger [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 640 256 32 ) ( 640 256 33 ) ( 640 257 32 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 180 1 1
+}
+}
+// entity 19
+{
+"classname" "func_group"
 "_tb_type" "_tb_layer"
-"_tb_name" "unrendered"
+"_tb_name" "scraps - unrendered"
 "_tb_id" "3"
 "_tb_layer_sort_index" "0"
+"_tb_layer_omit_from_export" "1"
+}
+// entity 20
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "prefabs - unrendered"
+"_tb_id" "12"
+"_tb_layer_sort_index" "1"
 "_tb_layer_omit_from_export" "1"
 }
