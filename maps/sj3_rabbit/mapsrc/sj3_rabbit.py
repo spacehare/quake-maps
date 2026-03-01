@@ -7,6 +7,7 @@
 import copy
 
 from rabbitquake.app.parse import Brush, Entity
+from rabbitquake.ppdefs.autocount import autocount
 
 replace_proto = {
     'a': 'b',
@@ -48,6 +49,11 @@ def main(context: dict) -> list[Entity]:
         for key in ent.kv:
             if ent.kv[key].startswith(EVAL_PREFIX):
                 ent.kv[key] = eval(ent.kv[key].removeprefix(EVAL_PREFIX))
+
+        # autocount
+        if result := autocount(ent, input_entities):
+            output_entities += result
+            continue
 
         # clip
         if ent.kv.get(VAR_PREFIX + 'clip') == '1':
