@@ -12,14 +12,14 @@ replace_proto = {
 }
 
 
-def replace_texture(ent: Entity, a: str, b: str):
+def replace_texture(ent: Entity, a: str, b: str) -> None:
     for brush in ent.brushes:
         for face in brush.planes:
             if face.texture_name == a:
                 face.texture_name = b
 
 
-def main(input: list[Entity], context: dict) -> list[Entity]:
+def main(input: list[Entity], context: dict) -> None:
     VAR_PREFIX: str = context['var_prefix']
     EVAL_PREFIX = VAR_PREFIX + 'eval'
     # input = list[Entity](context['entities'])
@@ -62,7 +62,3 @@ def main(input: list[Entity], context: dict) -> list[Entity]:
                     assert result[0] in input
                     input.remove(ent)
                     continue
-
-        # output_entities.append(ent)
-
-    return input
