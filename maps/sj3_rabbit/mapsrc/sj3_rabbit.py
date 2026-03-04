@@ -4,24 +4,12 @@
 # https://github.com/spacehare/rabbit_quake
 
 
-import copy
-
-from rabbitquake.app.parse import Brush, Entity
-from rabbitquake.ppdefs.autocount import autocount
+from rabbitquake.app.parse import Entity
+from rabbitquake.ppdefs import autocount, clip
 
 replace_proto = {
     'a': 'b',
 }
-
-
-def clip(ent: Entity) -> list[Brush]:
-    output_brushes: list[Brush] = []
-    for brush in ent.brushes:
-        clone = copy.deepcopy(brush)
-        for plane in clone.planes:
-            plane.texture_name = 'clip'
-        output_brushes.append(clone)
-    return output_brushes
 
 
 def replace_texture(ent: Entity, a: str, b: str):
@@ -31,41 +19,24 @@ def replace_texture(ent: Entity, a: str, b: str):
                 face.texture_name = b
 
 
-def main(context: dict) -> list[Entity]:
+def main(input: list[Entity], context: dict) -> list[Entity]:
     VAR_PREFIX: str = context['var_prefix']
     EVAL_PREFIX = VAR_PREFIX + 'eval'
-    input_entities: list[Entity] = list[Entity](context['entities'])
-    output_entities: list[Entity] = []
+    # input = list[Entity](context['entities'])
 
-    assert input_entities[0].classname == 'worldspawn'
-    worldspawn: Entity = input_entities[0]
+    assert input[0].classname == 'worldspawn'
+    worldspawn: Entity = input[0]
 
-    for ent in input_entities:
+    for ent in input:
         # delete
         if ent.kv.get(VAR_PREFIX + 'delete') == '1':
+            input.remove(ent)
             continue
 
         # eval
         for key in ent.kv:
             if ent.kv[key].startswith(EVAL_PREFIX):
                 ent.kv[key] = eval(ent.kv[key].removeprefix(EVAL_PREFIX))
-
-        # autocount
-        if result := autocount(ent, input_entities):
-            output_entities += result
-            continue
-
-        # clip
-        if ent.kv.get(VAR_PREFIX + 'clip') == '1':
-            worldspawn.brushes += clip(ent)
-
-        for key in ent.kv:
-            # 40 char limit warning
-            if key == 'message':
-                split = ent.kv[key].split('\\n')
-                for line in split:
-                    if len(line) > 40:
-                        print('LINE GREATER THAN 40!\n%s' % line)
 
         # replace proto textures
         for key in replace_proto:
@@ -80,7 +51,18 @@ def main(context: dict) -> list[Entity]:
                 ent.kv.setdefault('sounds', '2')
             case 'trigger_textstory':
                 del ent.kv['mangle']
+            case 'func_detail_illusionary':
+                if ent.kv.get(VAR_PREFIX + 'clip') == '1':
+                    worldspawn.brushes += clip.clip(ent)
+            case 'trigger_counter':
+                if result := autocount.autocount(ent, input):
+                    input += result
+                    print('template', ent.kv['origin'])
+                    print('copy 0', result[0].kv['origin'])
+                    assert result[0] in input
+                    input.remove(ent)
+                    continue
 
-        output_entities.append(ent)
+        # output_entities.append(ent)
 
-    return output_entities
+    return input
