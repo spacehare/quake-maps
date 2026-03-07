@@ -1,0 +1,1 @@
+qpakman ./qpakman/* -o I:\Quake\dev\wad\per-map\sj3_rabbit_tex.wad
