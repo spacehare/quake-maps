@@ -8,7 +8,7 @@ from rabbitquake.app.parse import Entity
 from rabbitquake.ppdefs import autocount, clip
 
 replace_proto = {
-    'a': 'b',
+    '*': 'skip',
 }
 
 
