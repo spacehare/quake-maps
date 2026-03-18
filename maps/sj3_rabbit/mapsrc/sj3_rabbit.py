@@ -11,7 +11,7 @@ replace_proto = {
     '*': 'skip',
 }
 
-waterlist = ['*sj3_toxic', '*sj3_water', '*sj3_tele']
+waterlist = ['*slime_sj3', '*sj3_water', '*tele_sj3']
 
 
 def replace_texture(ent: Entity, a: str, b: str) -> None:
