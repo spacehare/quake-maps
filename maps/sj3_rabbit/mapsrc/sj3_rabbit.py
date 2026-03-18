@@ -11,6 +11,8 @@ replace_proto = {
     '*': 'skip',
 }
 
+waterlist = ['*sj3_toxic', '*sj3_water', '*sj3_tele']
+
 
 def replace_texture(ent: Entity, a: str, b: str) -> None:
     for brush in ent.brushes:
@@ -44,7 +46,7 @@ def main(input: list[Entity], context: dict) -> None:
 
         for brush in ent.brushes:
             for face in brush.planes:
-                if face.texture_name in ['*sj3_toxic', '*sj3_water']:
+                if face.texture_name in waterlist:
                     face.uv.u.scale = 2.0
                     face.uv.v.scale = 2.0
                     face.uv.u.offset = 0.0
