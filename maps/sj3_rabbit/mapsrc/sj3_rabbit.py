@@ -9,6 +9,12 @@ from rabbitquake.ppdefs import autocount, clip
 
 replace_proto = {
     '*': 'skip',
+    'dot_grey_c': 'sj3_grayfloor',
+    'floor_grey_c': 'sj3_grayfloor',
+    'wall_grey_a': 'sj3_grayfloor',
+    'wall_grey_b': 'sj3_grayfloor',
+    'wall_orange_a': 'sj3_orange',
+    'wall_orange_b': 'sj3_orange',
 }
 
 waterlist = ['*slime_sj3', '*sj3_water', '*tele_sj3']
