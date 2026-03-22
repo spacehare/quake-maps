@@ -6,10 +6,10 @@
 - [x] fog
 - [?] secrets
 - [x] info_intermission, 1 or more
-- [ ] autosaves / checkpoints
+- [x] autosaves / checkpoints
 - [?] phongs, phong_groups
 - [-] sfx
-- [ ] music
+- [x] music
 - [x] no MAP issues in TrenchBroom console
-- [ ] readme
-- [ ] replace all proto textures
+- [x] readme
+- [x] replace all proto textures
