@@ -49,6 +49,9 @@ def main(input: list[Entity], context: dict) -> None:
                 face.uv.u.offset = 0.0
                 face.uv.v.offset = 0.0
 
+        if ent.classname.startswith('item'):
+            ent.kv.setdefault('angle', '0')
+
         match ent.classname:
             case 'func_door':
                 ent.kv.setdefault('speed', '128')
