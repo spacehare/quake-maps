@@ -9,7 +9,7 @@
   - [ ] QuakeSpasm
   - [ ] IronWail
   - other players playtested; count: 0
-  - [ ] 0 easy
+  - [x] 0 easy
   - [ ] 1 normal
   - [ ] 2 hard
 - [x] info_intermission, 1 or more
