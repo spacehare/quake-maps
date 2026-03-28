@@ -1,9 +1,9 @@
-- [ ] graybox
-- [ ] changelevel is set to start
-- [ ] texture
-- [ ] seal
-- [ ] lighting
-- [ ] fog
+- [x] graybox
+- [x] changelevel is set to start
+- [x] texture
+- [x] seal
+- [x] lighting
+- [x] fog
 - [ ] secrets
 - playtest and balance
   - [ ] QuakeSpasm
@@ -12,11 +12,11 @@
   - [ ] 0 easy
   - [ ] 1 normal
   - [ ] 2 hard
-- [ ] info_intermission, 1 or more
-- [ ] autosaves / checkpoints
+- [x] info_intermission, 1 or more
+- [-] autosaves / checkpoints
 - [ ] phongs, phong_groups
 - [ ] sfx
 - [ ] music
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
-- [ ] replace all proto textures
+- [-] replace all proto textures

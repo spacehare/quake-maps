@@ -64,3 +64,5 @@ def main(input: list[Entity], context: dict) -> None:
                     assert result[0] in input
                     input.remove(ent)
                     continue
+            case 'monster_enforcer':
+                ent.kv['ammo_nails'] = '-5'
