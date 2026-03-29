@@ -5,7 +5,7 @@
 
 
 from rabbitquake.app.parse import Entity
-from rabbitquake.ppdefs import autocount, clip
+from rabbitquake.ppdefs import clip
 
 replace_proto = {
     '*': 'sky_void',
@@ -44,28 +44,21 @@ def main(input: list[Entity], context: dict) -> None:
 
         for brush in ent.brushes:
             for face in brush.planes:
-                face.uv.u.scale = 1.0
-                face.uv.v.scale = 1.0
-                face.uv.u.offset = 0.0
-                face.uv.v.offset = 0.0
+                if face.texture_name != '*tele01':
+                    face.uv.u.scale = 0.25
+                    face.uv.v.scale = 0.25
+                    face.uv.u.offset = 0.0
+                    face.uv.v.offset = 0.0
 
         if ent.classname.startswith('item'):
-            ent.kv.setdefault('angle', '0')
+            ent.kv['angle'] = '0'
 
         match ent.classname:
             case 'func_door':
                 ent.kv.setdefault('speed', '128')
-                ent.kv.setdefault('sounds', '2')
+                ent.kv.setdefault('sounds', '1')
             case 'func_detail_illusionary':
                 if ent.kv.get(VAR_PREFIX + 'clip') == '1':
                     worldspawn.brushes += clip.clip(ent)
-            case 'trigger_counter':
-                if result := autocount.autocount(ent, input):
-                    input += result
-                    print('template', ent.kv['origin'])
-                    print('copy 0', result[0].kv['origin'])
-                    assert result[0] in input
-                    input.remove(ent)
-                    continue
             case 'monster_enforcer':
                 ent.kv['ammo_nails'] = '-5'
