@@ -4,19 +4,19 @@
 - [x] seal
 - [x] lighting
 - [x] fog
-- [ ] secrets
+- [-] secrets
 - playtest and balance
   - [ ] QuakeSpasm
-  - [ ] IronWail
+  - [x] IronWail
   - other players playtested; count: 0
   - [x] 0 easy
-  - [ ] 1 normal
-  - [ ] 2 hard
+  - [x] 1 normal
+  - [x] 2 hard
 - [x] info_intermission, 1 or more
 - [-] autosaves / checkpoints
-- [ ] phongs, phong_groups
-- [ ] sfx
-- [ ] music
-- [ ] no MAP issues in TrenchBroom console
-- [ ] readme
+- [?] phongs, phong_groups
+- [x] sfx
+- [x] music
+- [-] no MAP issues in TrenchBroom console
+- [x] readme
 - [-] replace all proto textures
