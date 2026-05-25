@@ -25,11 +25,11 @@ textures
 
 ## TrenchBroom compile stack
 
-| tool       | unique args                    |
-| ---------- | ------------------------------ |
-| Export Map |                                |
-| QBSP       | `-leaktest -litwater -bsp2`    |
-| VIS        | `-noambient`                   |
-| LIGHT      | `-extra -emissivequality high` |
+| tool       | unique args                     |
+| ---------- | ------------------------------- |
+| Export Map |                                 |
+| QBSP       | `-leaktest -litwater -bsp2`     |
+| VIS        | `-noambient`                    |
+| LIGHT      | `-extra4 -emissivequality high` |
 
 # DON'T WORRY — BE FURRY
