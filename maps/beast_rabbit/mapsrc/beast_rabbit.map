@@ -6,7 +6,6 @@
 "wad" ""
 "classname" "worldspawn"
 "message" ""
-// ericw
 "_dirt" "1"
 "_dirtdepth" "128"
 "_dirtgain" "1"
@@ -36,7 +35,24 @@
 "fog" "0.0 0.0 0.0 0.0"
 "fog_color" "255 255 255"
 "fog_density" "0"
+"_tb_mod" "copper1_35"
+"_tb_def" "external:I:/Quake/Game/engines/copper1_35/copper.fgd"
+// brush 0
+{
+( -256 -256 -512 ) ( -256 -255 -512 ) ( -256 -256 -511 ) _tile [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 -512 ) ( -256 -256 -511 ) ( -255 -256 -512 ) _tile [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 -512 ) ( -255 -256 -512 ) ( -256 -255 -512 ) _tile [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 256 -384 ) ( 256 257 -384 ) ( 257 256 -384 ) _tile [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 256 -384 ) ( 257 256 -384 ) ( 256 256 -383 ) _tile [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 -384 ) ( 256 256 -383 ) ( 256 257 -384 ) _tile [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "-240 -240 -360"
+}
+// entity 2
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
