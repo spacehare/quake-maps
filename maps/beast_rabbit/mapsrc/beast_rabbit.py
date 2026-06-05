@@ -42,17 +42,6 @@ def main(input: list[Entity], context: dict) -> None:
         for key in textures_to_replace:
             replace_texture(ent, key, textures_to_replace[key])
 
-        for brush in ent.brushes:
-            for face in brush.planes:
-                if face.texture_name != '*tele01':
-                    face.uv.u.scale = 0.25
-                    face.uv.v.scale = 0.25
-                    face.uv.u.offset = 0.0
-                    face.uv.v.offset = 0.0
-
-        if ent.classname.startswith('item'):
-            ent.kv['angle'] = '0'
-
         match ent.classname:
             case 'func_door':
                 ent.kv.setdefault('speed', '128')
