@@ -1,0 +1,1 @@
+qpakman ./png/* -o I:/quake/wads/byob/byob_start.wad

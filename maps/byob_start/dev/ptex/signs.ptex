@@ -1,0 +1,169 @@
+{
+	"connections": [
+		{
+			"from": "text",
+			"from_port": 0,
+			"to": "export",
+			"to_port": 0
+		},
+		{
+			"from": "text",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 0
+		},
+		{
+			"from": "pattern",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 1
+		}
+	],
+	"label": "Graph",
+	"longdesc": "",
+	"name": "@Node@293230",
+	"node_position": {
+		"x": 0.0,
+		"y": 0.0
+	},
+	"nodes": [
+		{
+			"export_paths": {
+
+			},
+			"name": "Material",
+			"node_position": {
+				"x": -36.363639831543,
+				"y": 27.2727298736572
+			},
+			"parameters": {
+				"albedo_color": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"ao": 1.0,
+				"depth_scale": 0.5,
+				"emission_energy": 1.0,
+				"flags_transparent": true,
+				"metallic": 0.0,
+				"normal": 1.0,
+				"roughness": 1.0,
+				"size": 9,
+				"sss": 1.0
+			},
+			"seed_int": 0,
+			"type": "material"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment",
+			"node_position": {
+				"x": -864.109985351563,
+				"y": -121.779998779297
+			},
+			"parameters": {
+
+			},
+			"seed_int": 0,
+			"size": {
+				"x": 300.0,
+				"y": 200.0
+			},
+			"text": "font\n\nhttps://damieng.com/typography/zx-origins/flamboyant/",
+			"title": "Comment",
+			"type": "comment"
+		},
+		{
+			"name": "text",
+			"node_position": {
+				"x": -746.281799316406,
+				"y": 137.12727355957
+			},
+			"parameters": {
+				"alignment": 0,
+				"bg": {
+					"a": 1.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				},
+				"center": false,
+				"fg": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"font": "I:/assets/fonts/Flamboyant/PC/Flamboyant.ttf",
+				"font_size": 128.0,
+				"line_spacing": 144.0,
+				"text": "ABCDEFGH\\nIJKLMNOP\\nQRSTUVWX\\nYZ012345\\nabcdefgh\\nijklmnop\\nqrstuvwx\\nyz6789-#",
+				"x": -0.5,
+				"y": -0.45
+			},
+			"seed_int": 0,
+			"type": "text"
+		},
+		{
+			"name": "export",
+			"node_position": {
+				"x": -299.258087158203,
+				"y": 135.45637512207
+			},
+			"parameters": {
+				"format": 0,
+				"size": 7,
+				"suffix": "hub_alphanum"
+			},
+			"seed_int": 0,
+			"type": "export"
+		},
+		{
+			"name": "pattern",
+			"node_position": {
+				"x": -769.175476074219,
+				"y": 438.266296386719
+			},
+			"parameters": {
+				"mix": 4.0,
+				"x_scale": 4.0,
+				"x_wave": 2.0,
+				"y_scale": 4.0,
+				"y_wave": 2.0
+			},
+			"seed_int": 0,
+			"type": "pattern"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2",
+			"node_position": {
+				"x": -413.720916748047,
+				"y": 404.629943847656
+			},
+			"parameters": {
+				"amount1": 0.5,
+				"blend_type1": 0.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		}
+	],
+	"parameters": {
+
+	},
+	"seed_int": 0,
+	"shortdesc": "",
+	"type": "graph"
+}
