@@ -1,0 +1,3958 @@
+{
+	"connections": [
+		{
+			"from": "shape",
+			"from_port": 0,
+			"to": "graph_2",
+			"to_port": 0
+		},
+		{
+			"from": "graph",
+			"from_port": 0,
+			"to": "graph_2",
+			"to_port": 1
+		},
+		{
+			"from": "shape",
+			"from_port": 0,
+			"to": "graph_3",
+			"to_port": 0
+		},
+		{
+			"from": "graph",
+			"from_port": 1,
+			"to": "graph_3",
+			"to_port": 1
+		},
+		{
+			"from": "graph",
+			"from_port": 2,
+			"to": "graph_4",
+			"to_port": 1
+		},
+		{
+			"from": "graph",
+			"from_port": 3,
+			"to": "graph_5",
+			"to_port": 1
+		},
+		{
+			"from": "graph",
+			"from_port": 4,
+			"to": "graph_6",
+			"to_port": 1
+		},
+		{
+			"from": "graph",
+			"from_port": 5,
+			"to": "graph_7",
+			"to_port": 1
+		},
+		{
+			"from": "graph",
+			"from_port": 6,
+			"to": "graph_8",
+			"to_port": 1
+		},
+		{
+			"from": "graph",
+			"from_port": 7,
+			"to": "graph_9",
+			"to_port": 1
+		},
+		{
+			"from": "graph",
+			"from_port": 8,
+			"to": "graph_10",
+			"to_port": 1
+		},
+		{
+			"from": "shape",
+			"from_port": 0,
+			"to": "graph_4",
+			"to_port": 0
+		},
+		{
+			"from": "shape",
+			"from_port": 0,
+			"to": "graph_5",
+			"to_port": 0
+		},
+		{
+			"from": "shape",
+			"from_port": 0,
+			"to": "graph_6",
+			"to_port": 0
+		},
+		{
+			"from": "shape",
+			"from_port": 0,
+			"to": "graph_7",
+			"to_port": 0
+		},
+		{
+			"from": "shape",
+			"from_port": 0,
+			"to": "graph_8",
+			"to_port": 0
+		},
+		{
+			"from": "shape",
+			"from_port": 0,
+			"to": "graph_9",
+			"to_port": 0
+		},
+		{
+			"from": "shape",
+			"from_port": 0,
+			"to": "graph_10",
+			"to_port": 0
+		},
+		{
+			"from": "graph_2",
+			"from_port": 0,
+			"to": "export",
+			"to_port": 0
+		},
+		{
+			"from": "graph_3",
+			"from_port": 0,
+			"to": "export_2",
+			"to_port": 0
+		},
+		{
+			"from": "graph_4",
+			"from_port": 0,
+			"to": "export_3",
+			"to_port": 0
+		},
+		{
+			"from": "graph_5",
+			"from_port": 0,
+			"to": "export_4",
+			"to_port": 0
+		},
+		{
+			"from": "graph_6",
+			"from_port": 0,
+			"to": "export_5",
+			"to_port": 0
+		},
+		{
+			"from": "graph_7",
+			"from_port": 0,
+			"to": "export_6",
+			"to_port": 0
+		},
+		{
+			"from": "graph_8",
+			"from_port": 0,
+			"to": "export_7",
+			"to_port": 0
+		},
+		{
+			"from": "graph_9",
+			"from_port": 0,
+			"to": "export_8",
+			"to_port": 0
+		},
+		{
+			"from": "graph_10",
+			"from_port": 0,
+			"to": "export_9",
+			"to_port": 0
+		}
+	],
+	"label": "Graph",
+	"longdesc": "",
+	"name": "_Node_835",
+	"node_position": {
+		"x": 0.0,
+		"y": 0.0
+	},
+	"nodes": [
+		{
+			"export_paths": {
+
+			},
+			"name": "Material",
+			"node_position": {
+				"x": 119.693649291992,
+				"y": -74.0284423828125
+			},
+			"parameters": {
+				"albedo_color": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"ao": 1.0,
+				"depth_scale": 0.5,
+				"emission_energy": 1.0,
+				"flags_transparent": true,
+				"metallic": 0.0,
+				"normal": 1.0,
+				"roughness": 1.0,
+				"size": 6.0,
+				"sss": 1.0
+			},
+			"seed_int": 0,
+			"type": "material"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment",
+			"node_position": {
+				"x": -1081.78784179688,
+				"y": 194.295303344727
+			},
+			"parameters": {
+
+			},
+			"seed_int": 0,
+			"size": {
+				"x": 591.489135742188,
+				"y": 190.682983398438
+			},
+			"text": "https://www.kreativekorp.com/software/fonts/fairfax/",
+			"title": "Comment",
+			"type": "comment"
+		},
+		{
+			"name": "export",
+			"node_position": {
+				"x": -370.756500244141,
+				"y": 573.586975097656
+			},
+			"parameters": {
+				"format": 0.0,
+				"size": 6.0,
+				"suffix": "skip"
+			},
+			"seed_int": 0,
+			"type": "export"
+		},
+		{
+			"name": "export_2",
+			"node_position": {
+				"x": -369.292236328125,
+				"y": 713.586975097656
+			},
+			"parameters": {
+				"format": 0.0,
+				"size": 6.0,
+				"suffix": "clip"
+			},
+			"seed_int": 0,
+			"type": "export"
+		},
+		{
+			"name": "export_3",
+			"node_position": {
+				"x": -369.292358398438,
+				"y": 853.587036132813
+			},
+			"parameters": {
+				"format": 0.0,
+				"size": 6.0,
+				"suffix": "trigger"
+			},
+			"seed_int": 0,
+			"type": "export"
+		},
+		{
+			"name": "export_4",
+			"node_position": {
+				"x": -369.292358398438,
+				"y": 993.587158203125
+			},
+			"parameters": {
+				"format": 0.0,
+				"size": 6.0,
+				"suffix": "region"
+			},
+			"seed_int": 0,
+			"type": "export"
+		},
+		{
+			"name": "export_5",
+			"node_position": {
+				"x": -369.292358398438,
+				"y": 1133.58703613281
+			},
+			"parameters": {
+				"format": 0.0,
+				"size": 6.0,
+				"suffix": "antiregion"
+			},
+			"seed_int": 0,
+			"type": "export"
+		},
+		{
+			"name": "export_6",
+			"node_position": {
+				"x": -369.292358398438,
+				"y": 1273.58715820313
+			},
+			"parameters": {
+				"format": 0.0,
+				"size": 6.0,
+				"suffix": "star_waterskip"
+			},
+			"seed_int": 0,
+			"type": "export"
+		},
+		{
+			"name": "export_7",
+			"node_position": {
+				"x": -369.292358398438,
+				"y": 1413.58679199219
+			},
+			"parameters": {
+				"format": 0.0,
+				"size": 6.0,
+				"suffix": "star_slimeskip"
+			},
+			"seed_int": 0,
+			"type": "export"
+		},
+		{
+			"name": "export_8",
+			"node_position": {
+				"x": -369.292358398438,
+				"y": 1553.5869140625
+			},
+			"parameters": {
+				"format": 0.0,
+				"size": 6.0,
+				"suffix": "star_lavaskip"
+			},
+			"seed_int": 0,
+			"type": "export"
+		},
+		{
+			"name": "export_9",
+			"node_position": {
+				"x": -369.292358398438,
+				"y": 1693.58740234375
+			},
+			"parameters": {
+				"format": 0.0,
+				"size": 6.0,
+				"suffix": "sky"
+			},
+			"seed_int": 0,
+			"type": "export"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.501960813999176,
+				"g": 0.501960813999176,
+				"r": 0.501960813999176,
+				"type": "Color"
+			},
+			"name": "comment_3",
+			"node_position": {
+				"x": -391.292358398438,
+				"y": 501.586822509766
+			},
+			"parameters": {
+
+			},
+			"seed_int": 0,
+			"size": {
+				"x": 242.464599609375,
+				"y": 1336.0
+			},
+			"text": "",
+			"title": "Frame",
+			"type": "comment"
+		},
+		{
+			"connections": [
+				{
+					"from": "text_5",
+					"from_port": 0,
+					"to": "reroute_2",
+					"to_port": 0
+				},
+				{
+					"from": "text_2",
+					"from_port": 0,
+					"to": "reroute",
+					"to_port": 0
+				},
+				{
+					"from": "text_3",
+					"from_port": 0,
+					"to": "reroute_3",
+					"to_port": 0
+				},
+				{
+					"from": "text_7",
+					"from_port": 0,
+					"to": "reroute_4",
+					"to_port": 0
+				},
+				{
+					"from": "text_9",
+					"from_port": 0,
+					"to": "reroute_5",
+					"to_port": 0
+				},
+				{
+					"from": "reroute",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 2
+				},
+				{
+					"from": "text_4",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 3
+				},
+				{
+					"from": "reroute_2",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 4
+				},
+				{
+					"from": "text_6",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 5
+				},
+				{
+					"from": "reroute_4",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 6
+				},
+				{
+					"from": "text_8",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 7
+				},
+				{
+					"from": "reroute_5",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 8
+				},
+				{
+					"from": "reroute_3",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 0
+				},
+				{
+					"from": "text",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 1
+				}
+			],
+			"label": "Strings",
+			"longdesc": "SKIP\nCLIP\nTRIGGER\nREGION\nANTIREGION\nWATER\nSLIME\nSKY",
+			"name": "graph",
+			"node_position": {
+				"x": -1088.53381347656,
+				"y": 1264.70886230469
+			},
+			"nodes": [
+				{
+					"name": "text_2",
+					"node_position": {
+						"x": -1936.60180664063,
+						"y": 396.814788818359
+					},
+					"parameters": {
+						"alignment": 1.0,
+						"bg": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						},
+						"center": true,
+						"fg": {
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"r": 1.0,
+							"type": "Color"
+						},
+						"font": "I:/assets/fonts/fairfax/FairfaxPona.ttf",
+						"font_size": "256 * 6",
+						"line_spacing": 0.0,
+						"text": "kama",
+						"x": 0.01,
+						"y": 0.01
+					},
+					"seed_int": 0,
+					"type": "text"
+				},
+				{
+					"name": "text_5",
+					"node_position": {
+						"x": -1936.60180664063,
+						"y": 729.333312988281
+					},
+					"parameters": {
+						"alignment": 1.0,
+						"bg": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						},
+						"center": true,
+						"fg": {
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"r": 1.0,
+							"type": "Color"
+						},
+						"font": "I:/assets/fonts/fairfax/FairfaxPona.ttf",
+						"font_size": "256 * 6",
+						"line_spacing": -200.0,
+						"text": "weka",
+						"x": 0.0,
+						"y": 0.0
+					},
+					"seed_int": 0,
+					"type": "text"
+				},
+				{
+					"name": "reroute",
+					"node_position": {
+						"x": -1430.53259277344,
+						"y": 433.661743164063
+					},
+					"parameters": {
+						"preview": 0.0
+					},
+					"seed_int": 0,
+					"type": "reroute"
+				},
+				{
+					"name": "reroute_2",
+					"node_position": {
+						"x": -1430.53259277344,
+						"y": 762.396301269531
+					},
+					"parameters": {
+						"preview": 0.0
+					},
+					"seed_int": 0,
+					"type": "reroute"
+				},
+				{
+					"name": "reroute_3",
+					"node_position": {
+						"x": -1430.53259277344,
+						"y": 94.2352981567383
+					},
+					"parameters": {
+						"preview": 0.0
+					},
+					"seed_int": 0,
+					"type": "reroute"
+				},
+				{
+					"name": "text_4",
+					"node_position": {
+						"x": -1672.17651367188,
+						"y": 471.442169189453
+					},
+					"parameters": {
+						"alignment": 0,
+						"bg": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						},
+						"center": true,
+						"fg": {
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"r": 1.0,
+							"type": "Color"
+						},
+						"font": "I:/assets/fonts/fairfax/FairfaxPona.ttf",
+						"font_size": "256 * 6",
+						"line_spacing": 0.0,
+						"text": "ma",
+						"x": 0.01,
+						"y": 0.01
+					},
+					"seed_int": 0,
+					"type": "text"
+				},
+				{
+					"name": "text_6",
+					"node_position": {
+						"x": -1672.17651367188,
+						"y": 805.095703125
+					},
+					"parameters": {
+						"alignment": 1.0,
+						"bg": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						},
+						"center": true,
+						"fg": {
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"r": 1.0,
+							"type": "Color"
+						},
+						"font": "I:/assets/fonts/fairfax/FairfaxPona.ttf",
+						"font_size": "256 * 6",
+						"line_spacing": 0.0,
+						"text": "telo",
+						"x": 0.0,
+						"y": 0.0
+					},
+					"seed_int": 0,
+					"type": "text"
+				},
+				{
+					"name": "text_7",
+					"node_position": {
+						"x": -1924.20080566406,
+						"y": 1068.15307617188
+					},
+					"parameters": {
+						"alignment": 1.0,
+						"bg": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						},
+						"center": true,
+						"fg": {
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"r": 1.0,
+							"type": "Color"
+						},
+						"font": "I:/assets/fonts/fairfax/FairfaxPona.ttf",
+						"font_size": "256 * 6",
+						"line_spacing": 0.0,
+						"text": "telo",
+						"x": 0.0,
+						"y": 0.0
+					},
+					"seed_int": 0,
+					"type": "text"
+				},
+				{
+					"name": "text_8",
+					"node_position": {
+						"x": -1672.17651367188,
+						"y": 1148.73645019531
+					},
+					"parameters": {
+						"alignment": 1.0,
+						"bg": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						},
+						"center": true,
+						"fg": {
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"r": 1.0,
+							"type": "Color"
+						},
+						"font": "I:/assets/fonts/fairfax/FairfaxPona.ttf",
+						"font_size": "256 * 6",
+						"line_spacing": 0.0,
+						"text": "telo",
+						"x": 0.0,
+						"y": 0.0
+					},
+					"seed_int": 0,
+					"type": "text"
+				},
+				{
+					"name": "text_9",
+					"node_position": {
+						"x": -1937.93286132813,
+						"y": 1399.39282226563
+					},
+					"parameters": {
+						"alignment": 1.0,
+						"bg": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						},
+						"center": true,
+						"fg": {
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"r": 1.0,
+							"type": "Color"
+						},
+						"font": "I:/assets/fonts/fairfax/FairfaxPona.ttf",
+						"font_size": "256 * 6",
+						"line_spacing": 0.0,
+						"text": "sewi2",
+						"x": 0.0,
+						"y": 0.0
+					},
+					"seed_int": 0,
+					"type": "text"
+				},
+				{
+					"name": "reroute_4",
+					"node_position": {
+						"x": -1430.53259277344,
+						"y": 1107.46008300781
+					},
+					"parameters": {
+						"preview": 0.0
+					},
+					"seed_int": 0,
+					"type": "reroute"
+				},
+				{
+					"name": "reroute_5",
+					"node_position": {
+						"x": -1430.53259277344,
+						"y": 1437.61437988281
+					},
+					"parameters": {
+						"preview": 0.0
+					},
+					"seed_int": 0,
+					"type": "reroute"
+				},
+				{
+					"name": "text",
+					"node_position": {
+						"x": -1672.17663574219,
+						"y": 137.567230224609
+					},
+					"parameters": {
+						"alignment": 1.0,
+						"bg": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						},
+						"center": true,
+						"fg": {
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"r": 1.0,
+							"type": "Color"
+						},
+						"font": "I:/assets/fonts/fairfax/FairfaxPona.ttf",
+						"font_size": "256 * 6",
+						"line_spacing": 0.0,
+						"text": "pini",
+						"x": 0.01,
+						"y": 0.01
+					},
+					"seed_int": 0,
+					"type": "text"
+				},
+				{
+					"name": "text_3",
+					"node_position": {
+						"x": -1936.60180664063,
+						"y": 53.4454574584961
+					},
+					"parameters": {
+						"alignment": 1.0,
+						"bg": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						},
+						"center": true,
+						"fg": {
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"r": 1.0,
+							"type": "Color"
+						},
+						"font": "I:/assets/fonts/fairfax/FairfaxPona.ttf",
+						"font_size": "256 * 6",
+						"line_spacing": 0.0,
+						"text": "ala",
+						"x": 0.0,
+						"y": 0.0
+					},
+					"seed_int": 0,
+					"type": "text"
+				},
+				{
+					"name": "gen_inputs",
+					"node_position": {
+						"x": -2467.7216796875,
+						"y": 566.139099121094
+					},
+					"parameters": {
+
+					},
+					"ports": [],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_outputs",
+					"node_position": {
+						"x": -1026.98132324219,
+						"y": 652.945617675781
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "port0",
+							"type": "rgba"
+						},
+						{
+							"name": "port1",
+							"type": "rgba"
+						},
+						{
+							"name": "port2",
+							"type": "rgba"
+						},
+						{
+							"name": "port3",
+							"type": "rgba"
+						},
+						{
+							"name": "port4",
+							"type": "rgba"
+						},
+						{
+							"name": "port5",
+							"type": "rgba"
+						},
+						{
+							"name": "port6",
+							"type": "rgba"
+						},
+						{
+							"name": "port7",
+							"type": "rgba"
+						},
+						{
+							"name": "port8",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_parameters",
+					"node_position": {
+						"x": -2480.59985351563,
+						"y": 445.082580566406
+					},
+					"parameters": {
+						"param0": "256 * 6",
+						"param1": "I:/assets/fonts/fairfax/FairfaxPona.ttf"
+					},
+					"seed_int": 0,
+					"type": "remote",
+					"widgets": [
+						{
+							"label": "font",
+							"linked_widgets": [
+								{
+									"node": "text_3",
+									"widget": "font"
+								},
+								{
+									"node": "text_2",
+									"widget": "font"
+								},
+								{
+									"node": "text",
+									"widget": "font"
+								},
+								{
+									"node": "text_4",
+									"widget": "font"
+								},
+								{
+									"node": "text_5",
+									"widget": "font"
+								},
+								{
+									"node": "text_6",
+									"widget": "font"
+								},
+								{
+									"node": "text_7",
+									"widget": "font"
+								},
+								{
+									"node": "text_8",
+									"widget": "font"
+								},
+								{
+									"node": "text_9",
+									"widget": "font"
+								}
+							],
+							"name": "param1",
+							"type": "linked_control"
+						},
+						{
+							"label": "size",
+							"linked_widgets": [
+								{
+									"node": "text_2",
+									"widget": "font_size"
+								},
+								{
+									"node": "text_3",
+									"widget": "font_size"
+								},
+								{
+									"node": "text",
+									"widget": "font_size"
+								},
+								{
+									"node": "text_4",
+									"widget": "font_size"
+								},
+								{
+									"node": "text_5",
+									"widget": "font_size"
+								},
+								{
+									"node": "text_6",
+									"widget": "font_size"
+								},
+								{
+									"node": "text_7",
+									"widget": "font_size"
+								},
+								{
+									"node": "text_8",
+									"widget": "font_size"
+								},
+								{
+									"node": "text_9",
+									"widget": "font_size"
+								}
+							],
+							"name": "param0",
+							"type": "linked_control"
+						}
+					]
+				}
+			],
+			"parameters": {
+				"param0": "256 * 6",
+				"param1": "I:/assets/fonts/fairfax/FairfaxPona.ttf"
+			},
+			"scroll_offset": {
+				"x": -1558.82836914063,
+				"y": 13.4653930664063
+			},
+			"seed_int": 0,
+			"shortdesc": "",
+			"type": "graph"
+		},
+		{
+			"name": "shape",
+			"node_position": {
+				"x": -1088.53381347656,
+				"y": 581.009521484375
+			},
+			"parameters": {
+				"edge": 0.0,
+				"radius": 0.96,
+				"shape": 1.0,
+				"sides": 4.0
+			},
+			"seed_int": 0,
+			"type": "shape"
+		},
+		{
+			"connections": [
+				{
+					"from": "blend2_2",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 0
+				},
+				{
+					"from": "invert",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 1
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 0
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 1,
+					"to": "invert",
+					"to_port": 0
+				},
+				{
+					"from": "pattern",
+					"from_port": 0,
+					"to": "colorize",
+					"to_port": 0
+				},
+				{
+					"from": "invert_2",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 2
+				},
+				{
+					"from": "blend2",
+					"from_port": 0,
+					"to": "invert_2",
+					"to_port": 0
+				},
+				{
+					"from": "uniform",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 1
+				},
+				{
+					"from": "colorize",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 0
+				}
+			],
+			"label": "Graph",
+			"longdesc": "",
+			"name": "graph_2",
+			"node_position": {
+				"x": -717.847900390625,
+				"y": 570.562377929688
+			},
+			"nodes": [
+				{
+					"name": "invert",
+					"node_position": {
+						"x": -861.108337402344,
+						"y": 473.971313476563
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "pattern",
+					"node_position": {
+						"x": -852.533874511719,
+						"y": 323.446746826172
+					},
+					"parameters": {
+						"mix": 4.0,
+						"x_scale": 1.0,
+						"x_wave": 2.0,
+						"y_scale": 1.0,
+						"y_wave": 2.0
+					},
+					"seed_int": 0,
+					"type": "pattern"
+				},
+				{
+					"name": "invert_2",
+					"node_position": {
+						"x": -535.866271972656,
+						"y": 467.974822998047
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "colorize",
+					"node_position": {
+						"x": -529.537963867188,
+						"y": 354.832916259766
+					},
+					"parameters": {
+						"gradient": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.0901960805058479,
+									"g": 0.874509811401367,
+									"pos": 0.0106060321514423,
+									"r": 0.937254905700684
+								},
+								{
+									"a": 1.0,
+									"b": 0.0588235296308994,
+									"g": 0.717647075653076,
+									"pos": 1.0,
+									"r": 0.796078443527222
+								}
+							],
+							"type": "Gradient"
+						}
+					},
+					"seed_int": 0,
+					"type": "colorize"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2",
+					"node_position": {
+						"x": -759.508117675781,
+						"y": 462.044006347656
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 2.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2_2",
+					"node_position": {
+						"x": -149.95817565918,
+						"y": 414.548461914063
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 0.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"name": "gen_inputs",
+					"node_position": {
+						"x": -1352.1083984375,
+						"y": 423.2958984375
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "port0",
+							"type": "f"
+						},
+						{
+							"name": "port1",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_outputs",
+					"node_position": {
+						"x": 109.876457214355,
+						"y": 425.114074707031
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "unnamed",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_parameters",
+					"node_position": {
+						"x": -1354.62866210938,
+						"y": 183.001342773438
+					},
+					"parameters": {
+						"param0": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.0901960805058479,
+									"g": 0.874509811401367,
+									"pos": 0.0106060321514423,
+									"r": 0.937254905700684
+								},
+								{
+									"a": 1.0,
+									"b": 0.0588235296308994,
+									"g": 0.717647075653076,
+									"pos": 1.0,
+									"r": 0.796078443527222
+								}
+							],
+							"type": "Gradient"
+						},
+						"param1": {
+							"a": 1.0,
+							"b": 0.0588235296308994,
+							"g": 0.0588235296308994,
+							"r": 0.0588235296308994,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "remote",
+					"widgets": [
+						{
+							"label": "Unnamed",
+							"linked_widgets": [
+								{
+									"node": "colorize",
+									"widget": "gradient"
+								}
+							],
+							"name": "param0",
+							"type": "linked_control"
+						},
+						{
+							"label": "Uniform",
+							"linked_widgets": [
+								{
+									"node": "uniform",
+									"widget": "color"
+								}
+							],
+							"name": "param1",
+							"type": "linked_control"
+						}
+					]
+				},
+				{
+					"name": "uniform",
+					"node_position": {
+						"x": -654.039123535156,
+						"y": 591.365966796875
+					},
+					"parameters": {
+						"color": {
+							"a": 1.0,
+							"b": 0.0588235296308994,
+							"g": 0.0588235296308994,
+							"r": 0.0588235296308994,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "uniform"
+				}
+			],
+			"parameters": {
+				"param0": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.0901960805058479,
+							"g": 0.874509811401367,
+							"pos": 0.0106060321514423,
+							"r": 0.937254905700684
+						},
+						{
+							"a": 1.0,
+							"b": 0.0588235296308994,
+							"g": 0.717647075653076,
+							"pos": 1.0,
+							"r": 0.796078443527222
+						}
+					],
+					"type": "Gradient"
+				},
+				"param1": {
+					"a": 1.0,
+					"b": 0.0588235296308994,
+					"g": 0.0588235296308994,
+					"r": 0.0588235296308994,
+					"type": "Color"
+				}
+			},
+			"scroll_offset": {
+				"x": -1107.01538085938,
+				"y": -153.890075683594
+			},
+			"seed_int": 0,
+			"shortdesc": "",
+			"type": "graph"
+		},
+		{
+			"connections": [
+				{
+					"from": "blend2_2",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 0
+				},
+				{
+					"from": "invert",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 1
+				},
+				{
+					"from": "uniform",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 1
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 0
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 1,
+					"to": "invert",
+					"to_port": 0
+				},
+				{
+					"from": "pattern",
+					"from_port": 0,
+					"to": "colorize",
+					"to_port": 0
+				},
+				{
+					"from": "invert_2",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 2
+				},
+				{
+					"from": "colorize",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 0
+				},
+				{
+					"from": "blend2",
+					"from_port": 0,
+					"to": "invert_2",
+					"to_port": 0
+				}
+			],
+			"label": "Graph",
+			"longdesc": "",
+			"name": "graph_3",
+			"node_position": {
+				"x": -717.22705078125,
+				"y": 677.605407714844
+			},
+			"nodes": [
+				{
+					"name": "invert",
+					"node_position": {
+						"x": -861.108337402344,
+						"y": 473.971313476563
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "pattern",
+					"node_position": {
+						"x": -852.533874511719,
+						"y": 323.446746826172
+					},
+					"parameters": {
+						"mix": 4.0,
+						"x_scale": 1.0,
+						"x_wave": 2.0,
+						"y_scale": 1.0,
+						"y_wave": 2.0
+					},
+					"seed_int": 0,
+					"type": "pattern"
+				},
+				{
+					"name": "invert_2",
+					"node_position": {
+						"x": -535.866271972656,
+						"y": 467.974822998047
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "colorize",
+					"node_position": {
+						"x": -529.537963867188,
+						"y": 354.832916259766
+					},
+					"parameters": {
+						"gradient": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.0,
+									"g": 0.0,
+									"pos": 0.0,
+									"r": 0.498039215803146
+								},
+								{
+									"a": 1.0,
+									"b": 0.0,
+									"g": 0.0,
+									"pos": 1.0,
+									"r": 0.43529412150383
+								}
+							],
+							"type": "Gradient"
+						}
+					},
+					"seed_int": 0,
+					"type": "colorize"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2",
+					"node_position": {
+						"x": -759.508117675781,
+						"y": 462.044006347656
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 2.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2_2",
+					"node_position": {
+						"x": -149.95817565918,
+						"y": 414.548461914063
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 0.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"name": "gen_inputs",
+					"node_position": {
+						"x": -1352.1083984375,
+						"y": 423.2958984375
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "port0",
+							"type": "f"
+						},
+						{
+							"name": "port1",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_outputs",
+					"node_position": {
+						"x": 109.876457214355,
+						"y": 425.114074707031
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "unnamed",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_parameters",
+					"node_position": {
+						"x": -1354.62866210938,
+						"y": 183.001342773438
+					},
+					"parameters": {
+						"param0": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.0,
+									"g": 0.0,
+									"pos": 0.0,
+									"r": 0.498039215803146
+								},
+								{
+									"a": 1.0,
+									"b": 0.0,
+									"g": 0.0,
+									"pos": 1.0,
+									"r": 0.43529412150383
+								}
+							],
+							"type": "Gradient"
+						},
+						"param1": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.309803932905197,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "remote",
+					"widgets": [
+						{
+							"label": "Unnamed",
+							"linked_widgets": [
+								{
+									"node": "colorize",
+									"widget": "gradient"
+								}
+							],
+							"name": "param0",
+							"type": "linked_control"
+						},
+						{
+							"label": "Uniform",
+							"linked_widgets": [
+								{
+									"node": "uniform",
+									"widget": "color"
+								}
+							],
+							"name": "param1",
+							"type": "linked_control"
+						}
+					]
+				},
+				{
+					"name": "uniform",
+					"node_position": {
+						"x": -654.039123535156,
+						"y": 591.365966796875
+					},
+					"parameters": {
+						"color": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.309803932905197,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "uniform"
+				}
+			],
+			"parameters": {
+				"param0": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"pos": 0.0,
+							"r": 0.498039215803146
+						},
+						{
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"pos": 1.0,
+							"r": 0.43529412150383
+						}
+					],
+					"type": "Gradient"
+				},
+				"param1": {
+					"a": 1.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.309803932905197,
+					"type": "Color"
+				}
+			},
+			"scroll_offset": {
+				"x": -1650.70812988281,
+				"y": -51.6864624023438
+			},
+			"seed_int": 0,
+			"shortdesc": "",
+			"type": "graph"
+		},
+		{
+			"connections": [
+				{
+					"from": "blend2_2",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 0
+				},
+				{
+					"from": "invert",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 1
+				},
+				{
+					"from": "uniform",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 1
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 0
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 1,
+					"to": "invert",
+					"to_port": 0
+				},
+				{
+					"from": "pattern",
+					"from_port": 0,
+					"to": "colorize",
+					"to_port": 0
+				},
+				{
+					"from": "invert_2",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 2
+				},
+				{
+					"from": "colorize",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 0
+				},
+				{
+					"from": "blend2",
+					"from_port": 0,
+					"to": "invert_2",
+					"to_port": 0
+				}
+			],
+			"label": "Graph",
+			"longdesc": "",
+			"name": "graph_4",
+			"node_position": {
+				"x": -717.22705078125,
+				"y": 781.241638183594
+			},
+			"nodes": [
+				{
+					"name": "invert",
+					"node_position": {
+						"x": -861.108337402344,
+						"y": 473.971313476563
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "pattern",
+					"node_position": {
+						"x": -852.533874511719,
+						"y": 323.446746826172
+					},
+					"parameters": {
+						"mix": 4.0,
+						"x_scale": 1.0,
+						"x_wave": 2.0,
+						"y_scale": 1.0,
+						"y_wave": 2.0
+					},
+					"seed_int": 0,
+					"type": "pattern"
+				},
+				{
+					"name": "invert_2",
+					"node_position": {
+						"x": -535.866271972656,
+						"y": 467.974822998047
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "colorize",
+					"node_position": {
+						"x": -529.537963867188,
+						"y": 354.832916259766
+					},
+					"parameters": {
+						"gradient": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.168627455830574,
+									"g": 0.560784339904785,
+									"pos": 0.0,
+									"r": 0.811764717102051
+								},
+								{
+									"a": 1.0,
+									"b": 0.137254908680916,
+									"g": 0.403921574354172,
+									"pos": 1.0,
+									"r": 0.686274528503418
+								}
+							],
+							"type": "Gradient"
+						}
+					},
+					"seed_int": 0,
+					"type": "colorize"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2",
+					"node_position": {
+						"x": -759.508117675781,
+						"y": 462.044006347656
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 2.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2_2",
+					"node_position": {
+						"x": -149.95817565918,
+						"y": 414.548461914063
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 0.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"name": "gen_inputs",
+					"node_position": {
+						"x": -1352.1083984375,
+						"y": 423.2958984375
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "port0",
+							"type": "f"
+						},
+						{
+							"name": "port1",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_outputs",
+					"node_position": {
+						"x": 109.876457214355,
+						"y": 425.114074707031
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "unnamed",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_parameters",
+					"node_position": {
+						"x": -1354.62866210938,
+						"y": 183.001342773438
+					},
+					"parameters": {
+						"param0": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.168627455830574,
+									"g": 0.560784339904785,
+									"pos": 0.0,
+									"r": 0.811764717102051
+								},
+								{
+									"a": 1.0,
+									"b": 0.137254908680916,
+									"g": 0.403921574354172,
+									"pos": 1.0,
+									"r": 0.686274528503418
+								}
+							],
+							"type": "Gradient"
+						},
+						"param1": {
+							"a": 1.0,
+							"b": 0.121568627655506,
+							"g": 0.796078443527222,
+							"r": 0.937254905700684,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "remote",
+					"widgets": [
+						{
+							"label": "Unnamed",
+							"linked_widgets": [
+								{
+									"node": "colorize",
+									"widget": "gradient"
+								}
+							],
+							"name": "param0",
+							"type": "linked_control"
+						},
+						{
+							"label": "Uniform",
+							"linked_widgets": [
+								{
+									"node": "uniform",
+									"widget": "color"
+								}
+							],
+							"name": "param1",
+							"type": "linked_control"
+						}
+					]
+				},
+				{
+					"name": "uniform",
+					"node_position": {
+						"x": -654.039123535156,
+						"y": 591.365966796875
+					},
+					"parameters": {
+						"color": {
+							"a": 1.0,
+							"b": 0.121568627655506,
+							"g": 0.796078443527222,
+							"r": 0.937254905700684,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "uniform"
+				}
+			],
+			"parameters": {
+				"param0": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.168627455830574,
+							"g": 0.560784339904785,
+							"pos": 0.0,
+							"r": 0.811764717102051
+						},
+						{
+							"a": 1.0,
+							"b": 0.137254908680916,
+							"g": 0.403921574354172,
+							"pos": 1.0,
+							"r": 0.686274528503418
+						}
+					],
+					"type": "Gradient"
+				},
+				"param1": {
+					"a": 1.0,
+					"b": 0.121568627655506,
+					"g": 0.796078443527222,
+					"r": 0.937254905700684,
+					"type": "Color"
+				}
+			},
+			"scroll_offset": {
+				"x": -1650.70812988281,
+				"y": -51.6864624023438
+			},
+			"seed_int": 0,
+			"shortdesc": "",
+			"type": "graph"
+		},
+		{
+			"connections": [
+				{
+					"from": "blend2_2",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 0
+				},
+				{
+					"from": "invert",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 1
+				},
+				{
+					"from": "uniform",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 1
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 0
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 1,
+					"to": "invert",
+					"to_port": 0
+				},
+				{
+					"from": "pattern",
+					"from_port": 0,
+					"to": "colorize",
+					"to_port": 0
+				},
+				{
+					"from": "invert_2",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 2
+				},
+				{
+					"from": "colorize",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 0
+				},
+				{
+					"from": "blend2",
+					"from_port": 0,
+					"to": "invert_2",
+					"to_port": 0
+				}
+			],
+			"label": "Graph",
+			"longdesc": "",
+			"name": "graph_5",
+			"node_position": {
+				"x": -717.910095214844,
+				"y": 881.241638183594
+			},
+			"nodes": [
+				{
+					"name": "invert",
+					"node_position": {
+						"x": -861.108337402344,
+						"y": 473.971313476563
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "pattern",
+					"node_position": {
+						"x": -852.533874511719,
+						"y": 323.446746826172
+					},
+					"parameters": {
+						"mix": 4.0,
+						"x_scale": 1.0,
+						"x_wave": 2.0,
+						"y_scale": 1.0,
+						"y_wave": 2.0
+					},
+					"seed_int": 0,
+					"type": "pattern"
+				},
+				{
+					"name": "invert_2",
+					"node_position": {
+						"x": -535.866271972656,
+						"y": 467.974822998047
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "colorize",
+					"node_position": {
+						"x": -529.537963867188,
+						"y": 354.832916259766
+					},
+					"parameters": {
+						"gradient": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.921568632125854,
+									"g": 0.921568632125854,
+									"pos": 0.0,
+									"r": 0.921568632125854
+								},
+								{
+									"a": 1.0,
+									"b": 0.796078443527222,
+									"g": 0.796078443527222,
+									"pos": 1.0,
+									"r": 0.796078443527222
+								}
+							],
+							"type": "Gradient"
+						}
+					},
+					"seed_int": 0,
+					"type": "colorize"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2",
+					"node_position": {
+						"x": -759.508117675781,
+						"y": 462.044006347656
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 2.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2_2",
+					"node_position": {
+						"x": -149.95817565918,
+						"y": 414.548461914063
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 0.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"name": "gen_inputs",
+					"node_position": {
+						"x": -1352.1083984375,
+						"y": 423.2958984375
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "port0",
+							"type": "f"
+						},
+						{
+							"name": "port1",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_outputs",
+					"node_position": {
+						"x": 109.876457214355,
+						"y": 425.114074707031
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "unnamed",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_parameters",
+					"node_position": {
+						"x": -1354.62866210938,
+						"y": 183.001342773438
+					},
+					"parameters": {
+						"param0": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.921568632125854,
+									"g": 0.921568632125854,
+									"pos": 0.0,
+									"r": 0.921568632125854
+								},
+								{
+									"a": 1.0,
+									"b": 0.796078443527222,
+									"g": 0.796078443527222,
+									"pos": 1.0,
+									"r": 0.796078443527222
+								}
+							],
+							"type": "Gradient"
+						},
+						"param1": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "remote",
+					"widgets": [
+						{
+							"label": "Unnamed",
+							"linked_widgets": [
+								{
+									"node": "colorize",
+									"widget": "gradient"
+								}
+							],
+							"name": "param0",
+							"type": "linked_control"
+						},
+						{
+							"label": "Uniform",
+							"linked_widgets": [
+								{
+									"node": "uniform",
+									"widget": "color"
+								}
+							],
+							"name": "param1",
+							"type": "linked_control"
+						}
+					]
+				},
+				{
+					"name": "uniform",
+					"node_position": {
+						"x": -654.039123535156,
+						"y": 591.365966796875
+					},
+					"parameters": {
+						"color": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "uniform"
+				}
+			],
+			"parameters": {
+				"param0": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.921568632125854,
+							"g": 0.921568632125854,
+							"pos": 0.0,
+							"r": 0.921568632125854
+						},
+						{
+							"a": 1.0,
+							"b": 0.796078443527222,
+							"g": 0.796078443527222,
+							"pos": 1.0,
+							"r": 0.796078443527222
+						}
+					],
+					"type": "Gradient"
+				},
+				"param1": {
+					"a": 1.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"scroll_offset": {
+				"x": -1650.70812988281,
+				"y": -51.6864624023438
+			},
+			"seed_int": 0,
+			"shortdesc": "",
+			"type": "graph"
+		},
+		{
+			"connections": [
+				{
+					"from": "blend2_2",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 0
+				},
+				{
+					"from": "invert",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 1
+				},
+				{
+					"from": "uniform",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 1
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 0
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 1,
+					"to": "invert",
+					"to_port": 0
+				},
+				{
+					"from": "pattern",
+					"from_port": 0,
+					"to": "colorize",
+					"to_port": 0
+				},
+				{
+					"from": "invert_2",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 2
+				},
+				{
+					"from": "colorize",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 0
+				},
+				{
+					"from": "blend2",
+					"from_port": 0,
+					"to": "invert_2",
+					"to_port": 0
+				}
+			],
+			"label": "Graph",
+			"longdesc": "",
+			"name": "graph_6",
+			"node_position": {
+				"x": -717.910095214844,
+				"y": 979.423400878906
+			},
+			"nodes": [
+				{
+					"name": "invert",
+					"node_position": {
+						"x": -861.108337402344,
+						"y": 473.971313476563
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "pattern",
+					"node_position": {
+						"x": -852.533874511719,
+						"y": 323.446746826172
+					},
+					"parameters": {
+						"mix": 4.0,
+						"x_scale": 1.0,
+						"x_wave": 2.0,
+						"y_scale": 1.0,
+						"y_wave": 2.0
+					},
+					"seed_int": 0,
+					"type": "pattern"
+				},
+				{
+					"name": "invert_2",
+					"node_position": {
+						"x": -535.866271972656,
+						"y": 467.974822998047
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "colorize",
+					"node_position": {
+						"x": -529.537963867188,
+						"y": 354.832916259766
+					},
+					"parameters": {
+						"gradient": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.0,
+									"g": 0.0,
+									"pos": 0.0,
+									"r": 0.0
+								},
+								{
+									"a": 1.0,
+									"b": 0.121568627655506,
+									"g": 0.121568627655506,
+									"pos": 1.0,
+									"r": 0.121568627655506
+								}
+							],
+							"type": "Gradient"
+						}
+					},
+					"seed_int": 0,
+					"type": "colorize"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2",
+					"node_position": {
+						"x": -759.508117675781,
+						"y": 462.044006347656
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 2.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2_2",
+					"node_position": {
+						"x": -149.95817565918,
+						"y": 414.548461914063
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 0.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"name": "gen_inputs",
+					"node_position": {
+						"x": -1352.1083984375,
+						"y": 423.2958984375
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "port0",
+							"type": "f"
+						},
+						{
+							"name": "port1",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_outputs",
+					"node_position": {
+						"x": 109.876457214355,
+						"y": 425.114074707031
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "unnamed",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_parameters",
+					"node_position": {
+						"x": -1354.62866210938,
+						"y": 183.001342773438
+					},
+					"parameters": {
+						"param0": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.0,
+									"g": 0.0,
+									"pos": 0.0,
+									"r": 0.0
+								},
+								{
+									"a": 1.0,
+									"b": 0.121568627655506,
+									"g": 0.121568627655506,
+									"pos": 1.0,
+									"r": 0.121568627655506
+								}
+							],
+							"type": "Gradient"
+						},
+						"param1": {
+							"a": 1.0,
+							"b": 0.921568632125854,
+							"g": 0.921568632125854,
+							"r": 0.921568632125854,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "remote",
+					"widgets": [
+						{
+							"label": "Unnamed",
+							"linked_widgets": [
+								{
+									"node": "colorize",
+									"widget": "gradient"
+								}
+							],
+							"name": "param0",
+							"type": "linked_control"
+						},
+						{
+							"label": "Uniform",
+							"linked_widgets": [
+								{
+									"node": "uniform",
+									"widget": "color"
+								}
+							],
+							"name": "param1",
+							"type": "linked_control"
+						}
+					]
+				},
+				{
+					"name": "uniform",
+					"node_position": {
+						"x": -654.039123535156,
+						"y": 591.365966796875
+					},
+					"parameters": {
+						"color": {
+							"a": 1.0,
+							"b": 0.921568632125854,
+							"g": 0.921568632125854,
+							"r": 0.921568632125854,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "uniform"
+				}
+			],
+			"parameters": {
+				"param0": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"pos": 0.0,
+							"r": 0.0
+						},
+						{
+							"a": 1.0,
+							"b": 0.121568627655506,
+							"g": 0.121568627655506,
+							"pos": 1.0,
+							"r": 0.121568627655506
+						}
+					],
+					"type": "Gradient"
+				},
+				"param1": {
+					"a": 1.0,
+					"b": 0.921568632125854,
+					"g": 0.921568632125854,
+					"r": 0.921568632125854,
+					"type": "Color"
+				}
+			},
+			"scroll_offset": {
+				"x": -1650.70812988281,
+				"y": -51.6864624023438
+			},
+			"seed_int": 0,
+			"shortdesc": "",
+			"type": "graph"
+		},
+		{
+			"connections": [
+				{
+					"from": "blend2_2",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 0
+				},
+				{
+					"from": "invert",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 1
+				},
+				{
+					"from": "uniform",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 1
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 0
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 1,
+					"to": "invert",
+					"to_port": 0
+				},
+				{
+					"from": "pattern",
+					"from_port": 0,
+					"to": "colorize",
+					"to_port": 0
+				},
+				{
+					"from": "invert_2",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 2
+				},
+				{
+					"from": "colorize",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 0
+				},
+				{
+					"from": "blend2",
+					"from_port": 0,
+					"to": "invert_2",
+					"to_port": 0
+				}
+			],
+			"label": "Graph",
+			"longdesc": "",
+			"name": "graph_7",
+			"node_position": {
+				"x": -717.22705078125,
+				"y": 1084.87805175781
+			},
+			"nodes": [
+				{
+					"name": "invert",
+					"node_position": {
+						"x": -861.108337402344,
+						"y": 473.971313476563
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "pattern",
+					"node_position": {
+						"x": -852.533874511719,
+						"y": 323.446746826172
+					},
+					"parameters": {
+						"mix": 4.0,
+						"x_scale": 1.0,
+						"x_wave": 2.0,
+						"y_scale": 1.0,
+						"y_wave": 2.0
+					},
+					"seed_int": 0,
+					"type": "pattern"
+				},
+				{
+					"name": "invert_2",
+					"node_position": {
+						"x": -535.866271972656,
+						"y": 467.974822998047
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "colorize",
+					"node_position": {
+						"x": -529.537963867188,
+						"y": 354.832916259766
+					},
+					"parameters": {
+						"gradient": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.796078443527222,
+									"g": 0.545098066329956,
+									"pos": 0.0,
+									"r": 0.545098066329956
+								},
+								{
+									"a": 1.0,
+									"b": 0.686274528503418,
+									"g": 0.482352942228317,
+									"pos": 1.0,
+									"r": 0.482352942228317
+								}
+							],
+							"type": "Gradient"
+						}
+					},
+					"seed_int": 0,
+					"type": "colorize"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2",
+					"node_position": {
+						"x": -759.508117675781,
+						"y": 462.044006347656
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 2.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2_2",
+					"node_position": {
+						"x": -149.95817565918,
+						"y": 414.548461914063
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 0.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"name": "gen_inputs",
+					"node_position": {
+						"x": -1352.1083984375,
+						"y": 423.2958984375
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "port0",
+							"type": "f"
+						},
+						{
+							"name": "port1",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_outputs",
+					"node_position": {
+						"x": 109.876457214355,
+						"y": 425.114074707031
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "unnamed",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_parameters",
+					"node_position": {
+						"x": -1354.62866210938,
+						"y": 183.001342773438
+					},
+					"parameters": {
+						"param0": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.796078443527222,
+									"g": 0.545098066329956,
+									"pos": 0.0,
+									"r": 0.545098066329956
+								},
+								{
+									"a": 1.0,
+									"b": 0.686274528503418,
+									"g": 0.482352942228317,
+									"pos": 1.0,
+									"r": 0.482352942228317
+								}
+							],
+							"type": "Gradient"
+						},
+						"param1": {
+							"a": 1.0,
+							"b": 0.498039215803146,
+							"g": 0.356862753629684,
+							"r": 0.356862753629684,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "remote",
+					"widgets": [
+						{
+							"label": "Unnamed",
+							"linked_widgets": [
+								{
+									"node": "colorize",
+									"widget": "gradient"
+								}
+							],
+							"name": "param0",
+							"type": "linked_control"
+						},
+						{
+							"label": "Uniform",
+							"linked_widgets": [
+								{
+									"node": "uniform",
+									"widget": "color"
+								}
+							],
+							"name": "param1",
+							"type": "linked_control"
+						}
+					]
+				},
+				{
+					"name": "uniform",
+					"node_position": {
+						"x": -654.039123535156,
+						"y": 591.365966796875
+					},
+					"parameters": {
+						"color": {
+							"a": 1.0,
+							"b": 0.498039215803146,
+							"g": 0.356862753629684,
+							"r": 0.356862753629684,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "uniform"
+				}
+			],
+			"parameters": {
+				"param0": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.796078443527222,
+							"g": 0.545098066329956,
+							"pos": 0.0,
+							"r": 0.545098066329956
+						},
+						{
+							"a": 1.0,
+							"b": 0.686274528503418,
+							"g": 0.482352942228317,
+							"pos": 1.0,
+							"r": 0.482352942228317
+						}
+					],
+					"type": "Gradient"
+				},
+				"param1": {
+					"a": 1.0,
+					"b": 0.498039215803146,
+					"g": 0.356862753629684,
+					"r": 0.356862753629684,
+					"type": "Color"
+				}
+			},
+			"scroll_offset": {
+				"x": -1650.70812988281,
+				"y": -51.6864624023438
+			},
+			"seed_int": 0,
+			"shortdesc": "",
+			"type": "graph"
+		},
+		{
+			"connections": [
+				{
+					"from": "blend2_2",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 0
+				},
+				{
+					"from": "invert",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 1
+				},
+				{
+					"from": "uniform",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 1
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 0
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 1,
+					"to": "invert",
+					"to_port": 0
+				},
+				{
+					"from": "pattern",
+					"from_port": 0,
+					"to": "colorize",
+					"to_port": 0
+				},
+				{
+					"from": "invert_2",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 2
+				},
+				{
+					"from": "colorize",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 0
+				},
+				{
+					"from": "blend2",
+					"from_port": 0,
+					"to": "invert_2",
+					"to_port": 0
+				}
+			],
+			"label": "Graph",
+			"longdesc": "",
+			"name": "graph_8",
+			"node_position": {
+				"x": -717.22705078125,
+				"y": 1186.6962890625
+			},
+			"nodes": [
+				{
+					"name": "invert",
+					"node_position": {
+						"x": -861.108337402344,
+						"y": 473.971313476563
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "pattern",
+					"node_position": {
+						"x": -852.533874511719,
+						"y": 323.446746826172
+					},
+					"parameters": {
+						"mix": 4.0,
+						"x_scale": 1.0,
+						"x_wave": 2.0,
+						"y_scale": 1.0,
+						"y_wave": 2.0
+					},
+					"seed_int": 0,
+					"type": "pattern"
+				},
+				{
+					"name": "invert_2",
+					"node_position": {
+						"x": -535.866271972656,
+						"y": 467.974822998047
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "colorize",
+					"node_position": {
+						"x": -529.537963867188,
+						"y": 354.832916259766
+					},
+					"parameters": {
+						"gradient": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.0588235296308994,
+									"g": 0.419607847929001,
+									"pos": 0.0,
+									"r": 0.419607847929001
+								},
+								{
+									"a": 1.0,
+									"b": 0.0431372560560703,
+									"g": 0.356862753629684,
+									"pos": 1.0,
+									"r": 0.356862753629684
+								}
+							],
+							"type": "Gradient"
+						}
+					},
+					"seed_int": 0,
+					"type": "colorize"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2",
+					"node_position": {
+						"x": -759.508117675781,
+						"y": 462.044006347656
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 2.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2_2",
+					"node_position": {
+						"x": -149.95817565918,
+						"y": 414.548461914063
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 0.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"name": "gen_inputs",
+					"node_position": {
+						"x": -1352.1083984375,
+						"y": 423.2958984375
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "port0",
+							"type": "f"
+						},
+						{
+							"name": "port1",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_outputs",
+					"node_position": {
+						"x": 109.876457214355,
+						"y": 425.114074707031
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "unnamed",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_parameters",
+					"node_position": {
+						"x": -1354.62866210938,
+						"y": 183.001342773438
+					},
+					"parameters": {
+						"param0": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.0588235296308994,
+									"g": 0.419607847929001,
+									"pos": 0.0,
+									"r": 0.419607847929001
+								},
+								{
+									"a": 1.0,
+									"b": 0.0431372560560703,
+									"g": 0.356862753629684,
+									"pos": 1.0,
+									"r": 0.356862753629684
+								}
+							],
+							"type": "Gradient"
+						},
+						"param1": {
+							"a": 1.0,
+							"b": 0.0274509806185961,
+							"g": 0.24705882370472,
+							"r": 0.24705882370472,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "remote",
+					"widgets": [
+						{
+							"label": "Unnamed",
+							"linked_widgets": [
+								{
+									"node": "colorize",
+									"widget": "gradient"
+								}
+							],
+							"name": "param0",
+							"type": "linked_control"
+						},
+						{
+							"label": "Uniform",
+							"linked_widgets": [
+								{
+									"node": "uniform",
+									"widget": "color"
+								}
+							],
+							"name": "param1",
+							"type": "linked_control"
+						}
+					]
+				},
+				{
+					"name": "uniform",
+					"node_position": {
+						"x": -654.039123535156,
+						"y": 591.365966796875
+					},
+					"parameters": {
+						"color": {
+							"a": 1.0,
+							"b": 0.0274509806185961,
+							"g": 0.24705882370472,
+							"r": 0.24705882370472,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "uniform"
+				}
+			],
+			"parameters": {
+				"param0": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.0588235296308994,
+							"g": 0.419607847929001,
+							"pos": 0.0,
+							"r": 0.419607847929001
+						},
+						{
+							"a": 1.0,
+							"b": 0.0431372560560703,
+							"g": 0.356862753629684,
+							"pos": 1.0,
+							"r": 0.356862753629684
+						}
+					],
+					"type": "Gradient"
+				},
+				"param1": {
+					"a": 1.0,
+					"b": 0.0274509806185961,
+					"g": 0.24705882370472,
+					"r": 0.24705882370472,
+					"type": "Color"
+				}
+			},
+			"scroll_offset": {
+				"x": -1650.70812988281,
+				"y": -51.6864624023438
+			},
+			"seed_int": 0,
+			"shortdesc": "",
+			"type": "graph"
+		},
+		{
+			"connections": [
+				{
+					"from": "blend2_2",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 0
+				},
+				{
+					"from": "invert",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 1
+				},
+				{
+					"from": "uniform",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 1
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 0
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 1,
+					"to": "invert",
+					"to_port": 0
+				},
+				{
+					"from": "pattern",
+					"from_port": 0,
+					"to": "colorize",
+					"to_port": 0
+				},
+				{
+					"from": "invert_2",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 2
+				},
+				{
+					"from": "colorize",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 0
+				},
+				{
+					"from": "blend2",
+					"from_port": 0,
+					"to": "invert_2",
+					"to_port": 0
+				}
+			],
+			"label": "Graph",
+			"longdesc": "",
+			"name": "graph_9",
+			"node_position": {
+				"x": -717.22705078125,
+				"y": 1299.42358398438
+			},
+			"nodes": [
+				{
+					"name": "invert",
+					"node_position": {
+						"x": -861.108337402344,
+						"y": 473.971313476563
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "pattern",
+					"node_position": {
+						"x": -852.533874511719,
+						"y": 323.446746826172
+					},
+					"parameters": {
+						"mix": 4.0,
+						"x_scale": 1.0,
+						"x_wave": 2.0,
+						"y_scale": 1.0,
+						"y_wave": 2.0
+					},
+					"seed_int": 0,
+					"type": "pattern"
+				},
+				{
+					"name": "invert_2",
+					"node_position": {
+						"x": -535.866271972656,
+						"y": 467.974822998047
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "colorize",
+					"node_position": {
+						"x": -529.537963867188,
+						"y": 354.832916259766
+					},
+					"parameters": {
+						"gradient": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.0,
+									"g": 0.0,
+									"pos": 0.0,
+									"r": 0.372549027204514
+								},
+								{
+									"a": 1.0,
+									"b": 0.0,
+									"g": 0.0,
+									"pos": 1.0,
+									"r": 0.309803932905197
+								}
+							],
+							"type": "Gradient"
+						}
+					},
+					"seed_int": 0,
+					"type": "colorize"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2",
+					"node_position": {
+						"x": -759.508117675781,
+						"y": 462.044006347656
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 2.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2_2",
+					"node_position": {
+						"x": -149.95817565918,
+						"y": 414.548461914063
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 0.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"name": "gen_inputs",
+					"node_position": {
+						"x": -1352.1083984375,
+						"y": 423.2958984375
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "port0",
+							"type": "f"
+						},
+						{
+							"name": "port1",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_outputs",
+					"node_position": {
+						"x": 109.876457214355,
+						"y": 425.114074707031
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "unnamed",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_parameters",
+					"node_position": {
+						"x": -1354.62866210938,
+						"y": 183.001342773438
+					},
+					"parameters": {
+						"param0": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 0.0,
+									"g": 0.0,
+									"pos": 0.0,
+									"r": 0.372549027204514
+								},
+								{
+									"a": 1.0,
+									"b": 0.0,
+									"g": 0.0,
+									"pos": 1.0,
+									"r": 0.309803932905197
+								}
+							],
+							"type": "Gradient"
+						},
+						"param1": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.498039215803146,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "remote",
+					"widgets": [
+						{
+							"label": "Unnamed",
+							"linked_widgets": [
+								{
+									"node": "colorize",
+									"widget": "gradient"
+								}
+							],
+							"name": "param0",
+							"type": "linked_control"
+						},
+						{
+							"label": "Uniform",
+							"linked_widgets": [
+								{
+									"node": "uniform",
+									"widget": "color"
+								}
+							],
+							"name": "param1",
+							"type": "linked_control"
+						}
+					]
+				},
+				{
+					"name": "uniform",
+					"node_position": {
+						"x": -654.039123535156,
+						"y": 591.365966796875
+					},
+					"parameters": {
+						"color": {
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"r": 0.498039215803146,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "uniform"
+				}
+			],
+			"parameters": {
+				"param0": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"pos": 0.0,
+							"r": 0.372549027204514
+						},
+						{
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"pos": 1.0,
+							"r": 0.309803932905197
+						}
+					],
+					"type": "Gradient"
+				},
+				"param1": {
+					"a": 1.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.498039215803146,
+					"type": "Color"
+				}
+			},
+			"scroll_offset": {
+				"x": -1650.70812988281,
+				"y": -51.6864624023438
+			},
+			"seed_int": 0,
+			"shortdesc": "",
+			"type": "graph"
+		},
+		{
+			"connections": [
+				{
+					"from": "blend2_2",
+					"from_port": 0,
+					"to": "gen_outputs",
+					"to_port": 0
+				},
+				{
+					"from": "invert",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 1
+				},
+				{
+					"from": "uniform",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 1
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 0,
+					"to": "blend2",
+					"to_port": 0
+				},
+				{
+					"from": "gen_inputs",
+					"from_port": 1,
+					"to": "invert",
+					"to_port": 0
+				},
+				{
+					"from": "pattern",
+					"from_port": 0,
+					"to": "colorize",
+					"to_port": 0
+				},
+				{
+					"from": "invert_2",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 2
+				},
+				{
+					"from": "colorize",
+					"from_port": 0,
+					"to": "blend2_2",
+					"to_port": 0
+				},
+				{
+					"from": "blend2",
+					"from_port": 0,
+					"to": "invert_2",
+					"to_port": 0
+				}
+			],
+			"label": "Graph",
+			"longdesc": "",
+			"name": "graph_10",
+			"node_position": {
+				"x": -718.327087402344,
+				"y": 1412.86901855469
+			},
+			"nodes": [
+				{
+					"name": "invert",
+					"node_position": {
+						"x": -861.108337402344,
+						"y": 473.971313476563
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "pattern",
+					"node_position": {
+						"x": -852.533874511719,
+						"y": 323.446746826172
+					},
+					"parameters": {
+						"mix": 4.0,
+						"x_scale": 1.0,
+						"x_wave": 2.0,
+						"y_scale": 1.0,
+						"y_wave": 2.0
+					},
+					"seed_int": 0,
+					"type": "pattern"
+				},
+				{
+					"name": "invert_2",
+					"node_position": {
+						"x": -535.866271972656,
+						"y": 467.974822998047
+					},
+					"parameters": {
+
+					},
+					"seed_int": 0,
+					"type": "invert"
+				},
+				{
+					"name": "colorize",
+					"node_position": {
+						"x": -529.537963867188,
+						"y": 354.832916259766
+					},
+					"parameters": {
+						"gradient": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 1.0,
+									"g": 0.749019622802734,
+									"pos": 0.0,
+									"r": 0.498039215803146
+								},
+								{
+									"a": 1.0,
+									"b": 1.0,
+									"g": 1.0,
+									"pos": 1.0,
+									"r": 0.843137264251709
+								}
+							],
+							"type": "Gradient"
+						}
+					},
+					"seed_int": 0,
+					"type": "colorize"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2",
+					"node_position": {
+						"x": -759.508117675781,
+						"y": 462.044006347656
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 2.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"generic_size": 1,
+					"name": "blend2_2",
+					"node_position": {
+						"x": -149.95817565918,
+						"y": 414.548461914063
+					},
+					"parameters": {
+						"amount1": 1.0,
+						"blend_type1": 0.0
+					},
+					"seed_int": 0,
+					"type": "blend2"
+				},
+				{
+					"name": "gen_inputs",
+					"node_position": {
+						"x": -1352.1083984375,
+						"y": 423.2958984375
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "port0",
+							"type": "f"
+						},
+						{
+							"name": "port1",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_outputs",
+					"node_position": {
+						"x": 109.876457214355,
+						"y": 425.114074707031
+					},
+					"parameters": {
+
+					},
+					"ports": [
+						{
+							"name": "unnamed",
+							"type": "rgba"
+						}
+					],
+					"seed_int": 0,
+					"type": "ios"
+				},
+				{
+					"name": "gen_parameters",
+					"node_position": {
+						"x": -1354.62866210938,
+						"y": 183.001342773438
+					},
+					"parameters": {
+						"param0": {
+							"interpolation": 1,
+							"points": [
+								{
+									"a": 1.0,
+									"b": 1.0,
+									"g": 0.749019622802734,
+									"pos": 0.0,
+									"r": 0.498039215803146
+								},
+								{
+									"a": 1.0,
+									"b": 1.0,
+									"g": 1.0,
+									"pos": 1.0,
+									"r": 0.843137264251709
+								}
+							],
+							"type": "Gradient"
+						},
+						"param1": {
+							"a": 1.0,
+							"b": 1.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "remote",
+					"widgets": [
+						{
+							"label": "Unnamed",
+							"linked_widgets": [
+								{
+									"node": "colorize",
+									"widget": "gradient"
+								}
+							],
+							"name": "param0",
+							"type": "linked_control"
+						},
+						{
+							"label": "Uniform",
+							"linked_widgets": [
+								{
+									"node": "uniform",
+									"widget": "color"
+								}
+							],
+							"name": "param1",
+							"type": "linked_control"
+						}
+					]
+				},
+				{
+					"name": "uniform",
+					"node_position": {
+						"x": -654.039123535156,
+						"y": 591.365966796875
+					},
+					"parameters": {
+						"color": {
+							"a": 1.0,
+							"b": 1.0,
+							"g": 0.0,
+							"r": 0.0,
+							"type": "Color"
+						}
+					},
+					"seed_int": 0,
+					"type": "uniform"
+				}
+			],
+			"parameters": {
+				"param0": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 1.0,
+							"g": 0.749019622802734,
+							"pos": 0.0,
+							"r": 0.498039215803146
+						},
+						{
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"pos": 1.0,
+							"r": 0.843137264251709
+						}
+					],
+					"type": "Gradient"
+				},
+				"param1": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"scroll_offset": {
+				"x": -1269.70812988281,
+				"y": -41.6864624023438
+			},
+			"seed_int": 0,
+			"shortdesc": "",
+			"type": "graph"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_2",
+			"node_position": {
+				"x": -740.327087402344,
+				"y": 498.562377929688
+			},
+			"parameters": {
+
+			},
+			"seed_int": 0,
+			"size": {
+				"x": 220.100036621094,
+				"y": 1035.306640625
+			},
+			"text": "",
+			"title": "Frame",
+			"type": "comment"
+		}
+	],
+	"parameters": {
+
+	},
+	"scroll_offset": {
+		"x": -945.679992675781,
+		"y": 221.617126464844
+	},
+	"seed_int": 0,
+	"shortdesc": "",
+	"type": "graph"
+}
