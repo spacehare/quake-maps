@@ -13,10 +13,10 @@
   - [ ] 1 normal
   - [ ] 2 hard
 - [x] info_intermission, 1 or more
-- [ ] autosaves / checkpoints
-- [ ] phongs, phong_groups
-- [ ] sfx
+- [x] autosaves / checkpoints
+- [x] phongs, phong_groups
+- [~] sfx
 - [ ] music
-- [ ] no MAP issues in TrenchBroom console
-- [ ] readme
-- [ ] replace all proto textures
+- [x] no MAP issues in TrenchBroom console
+- [x] readme
+- [?] replace all proto textures
