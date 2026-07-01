@@ -19,6 +19,10 @@
 | VIS   | ``   |
 | LIGHT | ``   |
 
-# <<>>
+# Thanks to playtesters
+
+- clenow
+- quiet
+- avix
 
 # DON'T WORRY — BE FURRY
