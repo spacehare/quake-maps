@@ -1,3 +1,4 @@
+import argparse
 from copy import deepcopy
 from pathlib import Path
 
@@ -19,7 +20,6 @@ atlas_dict[' '] = (15, 7)
 
 
 def shift(brush: Brush, size: int, idx: int, x: int, y: int, height: int) -> None:
-    print(x, y)
     for plane in brush.planes:
         if plane.texture_name == 'hub_flamboyant':
             plane.uv.u.offset = float((x - idx) * size)
@@ -30,6 +30,7 @@ def shift(brush: Brush, size: int, idx: int, x: int, y: int, height: int) -> Non
 
 
 def write(text: str) -> Entity:
+    text = text.replace('\\n', '\n')
     lines = text.splitlines()
     out: Entity = Entity()
     out.kv['classname'] = 'func_detail_wall'
@@ -43,4 +44,8 @@ def write(text: str) -> Entity:
     return out
 
 
-pyperclip.copy(write('your birthday is\nin 4 days!').dumps())
+if __name__ == '__main__':
+    ap = argparse.ArgumentParser()
+    ap.add_argument('text', type=str)
+    args = ap.parse_args()
+    pyperclip.copy(write(args.text).dumps())
