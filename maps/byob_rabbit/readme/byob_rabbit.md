@@ -30,6 +30,7 @@
 - clenow
 - quiet
 - avix
+- razzzor
 
 # yapping about the map
 
