@@ -32,6 +32,12 @@
 - avix
 - razzzor
 
+# Credit
+
+- textures by me
+- music by me
+- thank you to nick_w100 on the Material Maker discord for sharing their "Quake Palettize" and "Baked Lighting" nodes.
+
 # yapping about the map
 
 the pink grass is inspired by some areas in Noita. and green is my favorite color :D the stone temple theming is loosely inspired by some OC lore -- a pocket dimension created by Zif, my goblin mage character.
