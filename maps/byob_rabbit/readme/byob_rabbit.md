@@ -11,7 +11,6 @@
 - [Material Maker](https://www.materialmaker.org/)
 - [Blender](https://www.blender.org/)
 - [qpakman](https://openarena.ws/board/index.php?topic=1710.0)
-- [OpenMPT](https://openmpt.org/)
 - [some of my own jank python scripts](https://github.com/spacehare/rabbit_quake)
 
 ## TrenchBroom compile settings
@@ -35,7 +34,7 @@
 # Credit
 
 - textures by me
-- music by me
+- music "Amidst the Frozen Seas" by [Korp](https://www.doomworld.com/forum/topic/145673-korps-midi-library-over-300-free-to-use-pieces/)
 - thank you to nick_w100 on the Material Maker discord for sharing their "Quake Palettize" and "Baked Lighting" nodes.
 
 # yapping about the map
