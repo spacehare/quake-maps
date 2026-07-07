@@ -21,7 +21,7 @@
 	],
 	"label": "Graph",
 	"longdesc": "",
-	"name": "@Node@293230",
+	"name": "_Node_293230",
 	"node_position": {
 		"x": 0.0,
 		"y": 0.0
@@ -51,7 +51,7 @@
 				"metallic": 0.0,
 				"normal": 1.0,
 				"roughness": 1.0,
-				"size": 9,
+				"size": 9.0,
 				"sss": 1.0
 			},
 			"seed_int": 0,
@@ -75,10 +75,10 @@
 			},
 			"seed_int": 0,
 			"size": {
-				"x": 300.0,
-				"y": 200.0
+				"x": 559.0,
+				"y": 190.000030517578
 			},
-			"text": "font\n\nhttps://damieng.com/typography/zx-origins/flamboyant/",
+			"text": "font\n\nhttps://damieng.com/typography/zx-origins/flamboyant/\n\n[ended up using krita for this texture instead]",
 			"title": "Comment",
 			"type": "comment"
 		},
@@ -89,7 +89,7 @@
 				"y": 137.12727355957
 			},
 			"parameters": {
-				"alignment": 0,
+				"alignment": 0.0,
 				"bg": {
 					"a": 1.0,
 					"b": 0.0,
@@ -122,8 +122,8 @@
 				"y": 135.45637512207
 			},
 			"parameters": {
-				"format": 0,
-				"size": 7,
+				"format": 0.0,
+				"size": 7.0,
 				"suffix": "hub_alphanum"
 			},
 			"seed_int": 0,
