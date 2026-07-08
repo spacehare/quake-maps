@@ -5,6 +5,7 @@ p_dir = Path(r'I:\byob')
 p_submissions = p_dir / 'submissions'
 p_wads = p_dir / 'wads'
 p_mod = Path(r'I:\Quake\Game\engines\byobtest')
+p_copper = p_dir / 'copper1.35_base'
 
 whitelist_pairs = {
     '**/*.bsp': 'maps',
@@ -50,6 +51,9 @@ def main():
             if is_match:
                 print(p_destination / item.name)
                 item.copy(p_destination / item.name, preserve_metadata=True)
+
+    for item in p_copper.iterdir():
+        item.copy_into(p_mod)
 
 
 main()
