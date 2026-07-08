@@ -66,6 +66,8 @@ def main(input: list[Entity], context: dict) -> None:
                     face.uv.v.offset = 0.0
 
         match ent.classname:
+            case 'trigger_changelevel':
+                ent.kv['target'] = '_ITEMS.SHOTGUN25'
             case 'trigger_multiple':
                 message = ent.kv.get('message', '')
                 if message.startswith('$'):
