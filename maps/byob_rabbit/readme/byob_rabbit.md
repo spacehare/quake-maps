@@ -1,6 +1,8 @@
 # byob_rabbit
 
-- the map source is included in the files, [but it's also on github!](https://github.com/spacehare/quake-maps)
+map by rabbit [they/them]
+
+the map source is included in the files, [but it's also on github!](https://github.com/spacehare/quake-maps)
 
 # tools used
 
