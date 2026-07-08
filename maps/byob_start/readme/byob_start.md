@@ -15,6 +15,9 @@
 
 # credit
 
-sign font = https://damieng.com/typography/zx-origins/flamboyant/
+- map by **rabbit**
+- custom portals by **wons**
+- music by **Quiet**
+- sign font = https://damieng.com/typography/zx-origins/flamboyant/
 
 # DON'T WORRY — BE FURRY
