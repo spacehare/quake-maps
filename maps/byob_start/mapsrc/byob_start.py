@@ -4,6 +4,9 @@
 # https://github.com/spacehare/rabbit_quake
 
 
+import csv
+from pathlib import Path
+
 from rabbitquake.app.parse import Entity
 from rabbitquake.ppdefs import autocount
 
@@ -14,6 +17,14 @@ replace_proto = {
 }
 
 waterlist = ['*bun_portal', '*bun_slime', '*bun_water']
+SUBMISSIONS = Path(__file__).parent / 'BYOB - submissions.tsv'
+
+
+# https://docs.python.org/3/library/csv.html
+def read_csv() -> list[dict]:
+    reader = csv.DictReader(SUBMISSIONS.read_text().splitlines(), delimiter='\t')
+    obj = [row for row in reader]
+    return obj
 
 
 def replace_texture(ent: Entity, a: str, b: str) -> None:
@@ -28,6 +39,8 @@ def main(input: list[Entity], context: dict) -> None:
     EVAL_PREFIX = VAR_PREFIX + 'eval'
 
     assert input[0].classname == 'worldspawn'
+
+    data = read_csv()
 
     for ent in input:
         # delete
@@ -53,6 +66,16 @@ def main(input: list[Entity], context: dict) -> None:
                     face.uv.v.offset = 0.0
 
         match ent.classname:
+            case 'trigger_multiple':
+                message = ent.kv.get('message', '')
+                if message.startswith('$'):
+                    for item in data:
+                        if item['variable'] == message:
+                            nick = item['nickname']
+                            title = item['message']
+                            flavor = item['wons flavor']
+                            new_message = rf'[\b{title}\b]\nby \b{nick}\b\n\n{flavor}'
+                            ent.kv['message'] = new_message
             case 'func_wall':
                 if ent.kv.get(VAR_PREFIX + 'window') == '1':
                     ent.kv['alpha'] = str(1 / 3)
