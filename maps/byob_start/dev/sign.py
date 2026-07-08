@@ -12,6 +12,10 @@ brush_letter: Brush = Entity.loads(brush_path.read_text()).brushes[0]
 
 atlas_dict: dict[str, tuple[int, int]] = {}
 
+TEXTURENAME_SRC = 'hub_flamboyant'
+TEXTURENAME_NEW = '{hub_flamboyant'
+ENT_CLASS = 'func_detail_illusionary'
+
 for y, row in enumerate(splitted):
     for x, char in enumerate(row):
         atlas_dict[char] = (x, y)
@@ -21,7 +25,8 @@ atlas_dict[' '] = (15, 7)
 
 def shift(brush: Brush, size: int, idx: int, x: int, y: int, height: int) -> None:
     for plane in brush.planes:
-        if plane.texture_name == 'hub_flamboyant':
+        if plane.texture_name == TEXTURENAME_SRC:
+            plane.texture_name = TEXTURENAME_NEW
             plane.uv.u.offset = float((x - idx) * size)
             plane.uv.v.offset = float((y - height) * size)
         for point in plane.points:
@@ -33,7 +38,7 @@ def write(text: str) -> Entity:
     text = text.replace('\\n', '\n')
     lines = text.splitlines()
     out: Entity = Entity()
-    out.kv['classname'] = 'func_detail_wall'
+    out.kv['classname'] = ENT_CLASS
     for height, line in enumerate(lines):
         for idx, char in enumerate(line):
             coord = atlas_dict[char]
