@@ -20,3 +20,10 @@
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] replace all proto textures
+
+---
+
+- [ ] skill select
+- [ ] circular bench around main pillar
+- [ ] skylight
+- [x] convert chaosed0's jpg skies to TGA
