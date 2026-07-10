@@ -17,14 +17,17 @@ replace_proto = {
 }
 
 waterlist = ['*bun_portal', '*bun_slime', '*bun_water']
-SUBMISSIONS = Path(__file__).parent / 'BYOB - submissions.tsv'
 
 
 # https://docs.python.org/3/library/csv.html
 def read_csv() -> list[dict]:
+    SUBMISSIONS = Path(__file__).parent / 'BYOB - submissions.tsv'
     reader = csv.DictReader(SUBMISSIONS.read_text().splitlines(), delimiter='\t')
     obj = [row for row in reader]
     return obj
+
+
+submission_data: list[dict] = read_csv()
 
 
 def replace_texture(ent: Entity, a: str, b: str) -> None:
@@ -39,8 +42,6 @@ def main(input: list[Entity], context: dict) -> None:
     EVAL_PREFIX = VAR_PREFIX + 'eval'
 
     assert input[0].classname == 'worldspawn'
-
-    data = read_csv()
 
     for ent in input:
         # delete
@@ -71,7 +72,7 @@ def main(input: list[Entity], context: dict) -> None:
             case 'trigger_multiple':
                 message = ent.kv.get('message', '')
                 if message.startswith('$'):
-                    for item in data:
+                    for item in submission_data:
                         if item['variable'] == message:
                             nick = item['nickname']
                             title = item['message']
