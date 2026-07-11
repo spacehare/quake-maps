@@ -85,6 +85,7 @@ def do_it():
                 new_name += '_fbr'
 
             if file.stem.startswith('star_'):
+                file.copy(p_renamed / (new_name + file.suffix))
                 new_name = 'star_' + new_name
             elif file.stem.startswith('plus_'):
                 new_name = 'plus_' + file.stem[5] + new_name
@@ -97,6 +98,3 @@ def do_it():
 
 def pack():
     subprocess.run(['qpakman', str(p_renamed) + r'\*', '-o', p_merged_wad])
-
-
-do_it()
