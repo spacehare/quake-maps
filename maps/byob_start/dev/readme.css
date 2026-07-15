@@ -1,0 +1,41 @@
+:root {
+	--fg_true: rgb(44, 44, 44);
+	--bg_true: rgb(223, 223, 223);
+	@media (prefers-color-scheme: light) {
+		--fg: var(--fg_true);
+		--bg: var(--bg_true);
+	}
+	@media (prefers-color-scheme: dark) {
+		--fg: var(--bg_true);
+		--bg: var(--fg_true);
+	}
+	color: var(--fg);
+	background-color: var(--bg);
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+
+	tr:nth-child(even) {
+		background-color: rgba(0, 0, 0, 0.1);
+		@media (prefers-color-scheme: dark) {
+			background-color: rgba(255, 255, 255, 0.1);
+		}
+	}
+
+	th {
+		text-transform: uppercase;
+		background-color: rgba(0, 0, 0, 0.125);
+		@media (prefers-color-scheme: dark) {
+			background-color: rgba(255, 255, 255, 0.125);
+		}
+	}
+
+	td,
+	th {
+		border: 1px solid var(--fg);
+		border-collapse: collapse;
+		padding: 4px 8px;
+	}
+}
