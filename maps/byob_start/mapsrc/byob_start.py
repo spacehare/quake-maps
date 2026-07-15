@@ -19,6 +19,58 @@ replace_proto = {
 waterlist = ['*bun_portal', '*bun_slime', '*bun_water']
 
 
+messages = {
+    'msg_id': """
+žWe wish all the best to
+everyone impacted by the mass layoffs
+at MicrosoftžŸ
+
+We all love you very much
+""",
+    'msg_roj': """
+Here Lyeth the body of RecycledOJs map.
+Maye its beautiful arches and brickworke
+rest in peace.
+    """,
+    'msg_squid': """
+Here Lyeth the body of Squid V's map.
+Considere getting thyself a Tetanus shot
+after visiting mine Hallowed ground.
+""",
+    'msg_ehot': """
+Here lyeth the body of EHOTs map,
+even a crumbling castle can be
+fertile ground for moss to take root
+""",
+    'msg_4lt': """
+Here lyeth the body of 4lts map,
+i was once a house,
+flora groweth through me now.
+now i am a greenhouse!
+""",
+    'msg_shinko': """
+Here lyeth the body of Shinkos' map,
+In the great void,\
+noman shalt heareth thy shrill cry...
+""",
+    'msg_nova': """
+Here lyeth the map of Novafrost,
+Someday this door will open, til then --
+may these funny lil' dudes keep thee company.
+""",
+    'msg_moko': """
+Here lyeth the map of Moko...
+Patterns sharp, and colors bold,
+may this shelter shield thee from the cold...
+""",
+    'msg_auhsan': """
+Here lyeth the map of Auhsan,
+beautiful bricks of many a hue,
+may my glistening pool shineth light upon you!
+""",
+}
+
+
 # https://docs.python.org/3/library/csv.html
 def read_csv() -> list[dict]:
     SUBMISSIONS = Path(__file__).parent / 'BYOB - submissions.tsv'
@@ -71,7 +123,9 @@ def main(input: list[Entity], context: dict) -> None:
                 ent.kv['target'] = '_ITEMS.SHOTGUN25'
             case 'trigger_multiple':
                 message = ent.kv.get('message', '')
-                if message.startswith('$'):
+                if message.startswith('$msg_'):
+                    ent.kv['message'] = messages[message].replace('\n', r'\n')
+                elif message.startswith('$'):
                     for item in submission_data:
                         if item['variable'] == message:
                             nick = item['nickname']
