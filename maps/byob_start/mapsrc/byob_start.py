@@ -14,6 +14,7 @@ replace_proto = {
     # 'bun_proto1': 'bun_flat',
     # 'bun_proto2': 'bun_flat',
     'sky': 'sky_compat',
+    '64_cyan_1': 'hub_grass',
 }
 
 waterlist = ['*bun_portal', '*bun_slime', '*bun_water']
@@ -21,9 +22,9 @@ waterlist = ['*bun_portal', '*bun_slime', '*bun_water']
 
 messages = {
     'msg_id': """
-žWe wish all the best to
+We wish all the best to
 everyone impacted by the mass layoffs
-at MicrosoftžŸ
+at Microsoft
 
 We all love you very much
 """,
@@ -112,6 +113,9 @@ def main(input: list[Entity], context: dict) -> None:
 
         for brush in ent.brushes:
             for face in brush.planes:
+                if face.texture_name == 'hub_grass':
+                    face.uv.u.offset = 0.0
+                    face.uv.v.offset = 0.0
                 if face.texture_name in waterlist:
                     face.uv.u.scale = 2.0
                     face.uv.v.scale = 2.0
@@ -121,10 +125,15 @@ def main(input: list[Entity], context: dict) -> None:
         match ent.classname:
             case 'trigger_changelevel':
                 ent.kv['target'] = '_ITEMS.SHOTGUN25'
+
             case 'trigger_multiple':
+                if ent.kv.get('angles'):
+                    del ent.kv['angles']
+                if ent.kv.get('angle'):
+                    del ent.kv['angle']
                 message = ent.kv.get('message', '')
                 if message.startswith('$msg_'):
-                    ent.kv['message'] = messages[message].replace('\n', r'\n')
+                    ent.kv['message'] = messages[message[1:]].replace('\n', r'\n')
                 elif message.startswith('$'):
                     for item in submission_data:
                         if item['variable'] == message:
@@ -133,12 +142,15 @@ def main(input: list[Entity], context: dict) -> None:
                             flavor = item['wons flavor']
                             new_message = rf'[\b{title}\b]\nby \b{nick}\b\n\n{flavor}'
                             ent.kv['message'] = new_message
+
             case 'func_wall':
                 if ent.kv.get(VAR_PREFIX + 'window') == '1':
                     ent.kv['alpha'] = str(1 / 3)
+
             case 'func_door':
                 ent.kv.setdefault('speed', '128')
                 ent.kv.setdefault('sounds', '1')
+
             case 'trigger_counter':
                 if result := autocount.autocount(ent, input):
                     input += result
