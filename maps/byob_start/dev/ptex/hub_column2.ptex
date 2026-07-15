@@ -1,12 +1,6 @@
 {
 	"connections": [
 		{
-			"from": "fbm4",
-			"from_port": 0,
-			"to": "colorize",
-			"to_port": 0
-		},
-		{
 			"from": "graph_10",
 			"from_port": 0,
 			"to": "export",
@@ -23,12 +17,6 @@
 			"from_port": 0,
 			"to": "custom_uv2",
 			"to_port": 1
-		},
-		{
-			"from": "anisotropic_kuwahara",
-			"from_port": 0,
-			"to": "custom_uv2",
-			"to_port": 0
 		},
 		{
 			"from": "custom_uv2",
@@ -49,18 +37,6 @@
 			"to_port": 2
 		},
 		{
-			"from": "colorize",
-			"from_port": 0,
-			"to": "anisotropic_kuwahara",
-			"to_port": 0
-		},
-		{
-			"from": "colorize",
-			"from_port": 0,
-			"to": "blend2",
-			"to_port": 1
-		},
-		{
 			"from": "bricks3",
 			"from_port": 0,
 			"to": "invert",
@@ -71,6 +47,36 @@
 			"from_port": 0,
 			"to": "blend2",
 			"to_port": 2
+		},
+		{
+			"from": "fbm4",
+			"from_port": 0,
+			"to": "anisotropic_kuwahara",
+			"to_port": 0
+		},
+		{
+			"from": "colorize_4",
+			"from_port": 0,
+			"to": "custom_uv2",
+			"to_port": 0
+		},
+		{
+			"from": "anisotropic_kuwahara",
+			"from_port": 0,
+			"to": "brightness_contrast",
+			"to_port": 0
+		},
+		{
+			"from": "brightness_contrast",
+			"from_port": 0,
+			"to": "colorize_4",
+			"to_port": 0
+		},
+		{
+			"from": "colorize_4",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 1
 		}
 	],
 	"label": "Graph",
@@ -127,39 +133,8 @@
 				"scale_x": 2.0,
 				"scale_y": 2.0
 			},
-			"seed_int": 852259264,
+			"seed_int": 3897855232,
 			"type": "fbm4"
-		},
-		{
-			"name": "colorize",
-			"node_position": {
-				"x": -1334.95751953125,
-				"y": 289.920532226563
-			},
-			"parameters": {
-				"gradient": {
-					"interpolation": 1,
-					"points": [
-						{
-							"a": 1.0,
-							"b": 0.419607847929001,
-							"g": 0.419607847929001,
-							"pos": 0.0,
-							"r": 0.419607847929001
-						},
-						{
-							"a": 1.0,
-							"b": 0.921568632125854,
-							"g": 0.921568632125854,
-							"pos": 1.0,
-							"r": 0.921568632125854
-						}
-					],
-					"type": "Gradient"
-				}
-			},
-			"seed_int": 0,
-			"type": "colorize"
 		},
 		{
 			"name": "export",
@@ -9735,8 +9710,8 @@
 		{
 			"name": "anisotropic_kuwahara",
 			"node_position": {
-				"x": -1072.5595703125,
-				"y": 275.503784179688
+				"x": -1302.45959472656,
+				"y": 223.473770141602
 			},
 			"parameters": {
 				"eccentricity": 1.0,
@@ -9812,8 +9787,8 @@
 			"generic_size": 1,
 			"name": "custom_uv2",
 			"node_position": {
-				"x": -716.703735351563,
-				"y": 477.445098876953
+				"x": -716.721252441406,
+				"y": 476.762115478516
 			},
 			"parameters": {
 				"inputs": 2.0,
@@ -9838,6 +9813,50 @@
 			},
 			"seed_int": 0,
 			"type": "invert"
+		},
+		{
+			"name": "colorize_4",
+			"node_position": {
+				"x": -854.87255859375,
+				"y": 220.655487060547
+			},
+			"parameters": {
+				"gradient": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.30859375,
+							"g": 0.30859375,
+							"pos": 0.0,
+							"r": 0.30859375
+						},
+						{
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"pos": 1.0,
+							"r": 1.0
+						}
+					],
+					"type": "Gradient"
+				}
+			},
+			"seed_int": 0,
+			"type": "colorize"
+		},
+		{
+			"name": "brightness_contrast",
+			"node_position": {
+				"x": -1043.0537109375,
+				"y": 206.160858154297
+			},
+			"parameters": {
+				"brightness": 0.07,
+				"contrast": 0.69
+			},
+			"seed_int": 0,
+			"type": "brightness_contrast"
 		}
 	],
 	"parameters": {

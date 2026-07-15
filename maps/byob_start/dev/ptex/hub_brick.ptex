@@ -9772,10 +9772,10 @@
 				"bevel": 0.0,
 				"columns": 1.0,
 				"corner": 0.3,
-				"mortar": 0.02,
-				"pattern": 0,
+				"mortar": 0.01,
+				"pattern": 0.0,
 				"repeat": 2.0,
-				"round": 0.1,
+				"round": 0.08,
 				"row_offset": 0.5,
 				"rows": 2.0
 			},
@@ -9791,7 +9791,7 @@
 			},
 			"parameters": {
 				"amount1": 1.0,
-				"blend_type1": 0
+				"blend_type1": 0.0
 			},
 			"seed_int": 0,
 			"type": "blend2"
