@@ -15,9 +15,10 @@
 
 # credit
 
-- map by **rabbit**
 - custom portals by **wons**
 - music by **Quiet**
+- graves and Id statue by **Quiet**
 - sign font = https://damieng.com/typography/zx-origins/flamboyant/
+- anything else in the start map by **rabbit**
 
 # DON'T WORRY — BE FURRY
