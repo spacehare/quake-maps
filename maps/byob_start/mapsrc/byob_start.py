@@ -51,13 +51,14 @@ now i am a greenhouse!
 """,
     'msg_shinko': """
 Here lyeth the body of Shinkos' map,
-In the great void,\
+In the great void,
 noman shalt heareth thy shrill cry...
 """,
     'msg_nova': """
 Here lyeth the map of Novafrost,
 Someday this door will open, til then --
-may these funny lil' dudes keep thee company.
+may these funny lil' dudes
+keep thee company.
 """,
     'msg_moko': """
 Here lyeth the map of Moko...
@@ -67,7 +68,8 @@ may this shelter shield thee from the cold...
     'msg_auhsan': """
 Here lyeth the map of Auhsan,
 beautiful bricks of many a hue,
-may my glistening pool shineth light upon you!
+may my glistening pool
+shineth light upon you!
 """,
 }
 
@@ -96,6 +98,7 @@ def main(input: list[Entity], context: dict) -> None:
 
     assert input[0].classname == 'worldspawn'
 
+    i = 0
     for ent in input:
         # delete
         if ent.kv.get(VAR_PREFIX + 'delete') == '1':
@@ -113,18 +116,35 @@ def main(input: list[Entity], context: dict) -> None:
 
         for brush in ent.brushes:
             for face in brush.planes:
-                if face.texture_name == 'hub_grass':
-                    face.uv.u.offset = 0.0
-                    face.uv.v.offset = 0.0
                 if face.texture_name in waterlist:
                     face.uv.u.scale = 2.0
                     face.uv.v.scale = 2.0
                     face.uv.u.offset = 0.0
                     face.uv.v.offset = 0.0
+                else:
+                    match face.texture_name:
+                        case '{hub_flamboyant':
+                            face.texture_name = '{hub_flam2'
+                            if ent.classname == 'func_detail_illusionary':
+                                ent.kv.setdefault('_minlight', '255')
+                        case 'hub_grass':
+                            face.uv.u.offset = 0.0
+                            face.uv.v.offset = 0.0
 
         match ent.classname:
             case 'trigger_changelevel':
                 ent.kv['target'] = '_ITEMS.SHOTGUN25'
+
+            case 'func_button':
+                if ent.kv.get(VAR_PREFIX + 'nmbutton') == '1':
+                    button_name = f'nm_btn_{i}'
+                    ent.kv['targetname'] = button_name
+                    ent.kv['killtarget'] = button_name
+                    ent.kv['target'] = 'nm.counter'
+                    ent.kv['health'] = '1'
+                    ent.kv['wait'] = '-1'
+                    ent.kv['speed'] = '999'
+                    ent.kv['angle'] = '-2'
 
             case 'trigger_multiple':
                 if ent.kv.get('angles'):
@@ -157,3 +177,5 @@ def main(input: list[Entity], context: dict) -> None:
                     assert result[0] in input
                     input.remove(ent)
                     continue
+
+        i += 1

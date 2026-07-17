@@ -1,9 +1,8 @@
 - [ ] graybox
-- [ ] changelevel is set to start
 - [ ] texture
 - [ ] seal
 - [ ] lighting
-- [ ] fog
+- [?] fog
 - [ ] secrets
 - playtest and balance
   - [ ] QuakeSpasm
@@ -12,18 +11,22 @@
   - [ ] 0 easy
   - [ ] 1 normal
   - [ ] 2 hard
-- [ ] info_intermission, 1 or more
-- [ ] autosaves / checkpoints
+- [x] info_intermission, 1 or more
+- [?] autosaves / checkpoints
 - [ ] phongs, phong_groups
 - [ ] sfx
-- [ ] music
+- [x] music
 - [ ] no MAP issues in TrenchBroom console
 - [ ] readme
 - [ ] replace all proto textures
 
 ---
 
-- [ ] skill select
-- [ ] circular bench around main pillar
-- [ ] skylight
+- [x] skill select
+- [x] circular bench around main pillar
 - [x] convert chaosed0's jpg skies to TGA
+- [x] get non-fb tex from diced + add diced's clip texture
+- [ ] main jam readme
+  - [ ] licenses
+  - [x] music
+  - [ ] participants
