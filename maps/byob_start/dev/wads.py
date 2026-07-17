@@ -74,7 +74,8 @@ def find_dupes():
     print(dupes)
 
 
-def do_it():
+def rename_textures():
+    p_renamed.mkdir()
     for k, v in stuff.items():
         folder = p_extracted / k
         i = 0
