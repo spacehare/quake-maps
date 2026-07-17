@@ -131,6 +131,14 @@ def main(input: list[Entity], context: dict) -> None:
                             face.uv.u.offset = 0.0
                             face.uv.v.offset = 0.0
 
+        if ent.kv.get(EVAL_PREFIX + 'resetuv'):
+            for brush in ent.brushes:
+                for face in brush.planes:
+                    face.uv.u.offset = 0.0
+                    face.uv.v.offset = 0.0
+                    face.uv.u.scale = 0.0
+                    face.uv.v.scale = 0.0
+
         match ent.classname:
             case 'trigger_changelevel':
                 ent.kv['target'] = '_ITEMS.SHOTGUN25'
