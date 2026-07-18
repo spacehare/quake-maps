@@ -12,11 +12,23 @@ from rabbitquake.app.parse import Entity
 from rabbitquake.ppdefs import autocount
 
 replace_proto = {
-    # 'bun_proto1': 'bun_flat',
-    # 'bun_proto2': 'bun_flat',
     'sky': 'sky_compat',
     '64_cyan_1': 'hub_grass',
 }
+
+replace = [
+    'bun_proto1',
+    'bun_proto2',
+    'hub_check64',
+    'hub_check128',
+    '128_grey_2',
+    '32_grey_1',
+    '32_grey_2',
+    '64_blood_1',
+    '64_blood_2',
+    '64_blood_3',
+    '64_brown_3',
+]
 
 waterlist = ['*bun_portal', '*bun_slime', '*bun_water']
 
@@ -115,6 +127,8 @@ def main(input: list[Entity], context: dict) -> None:
         # replace proto textures
         for key in replace_proto:
             replace_texture(ent, key, replace_proto[key])
+        for tex in replace:
+            replace_texture(ent, tex, 'hub_noise_a')
 
         for brush in ent.brushes:
             for face in brush.planes:
