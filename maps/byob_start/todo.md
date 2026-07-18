@@ -32,6 +32,6 @@
 - [ ] main jam readme
   - [ ] licenses
   - [x] music
-  - [ ] participants
+  - [x] participants
 - [-] fix phong_angle on fences
   - just ended up removing `_phong`
