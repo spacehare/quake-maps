@@ -1,31 +1,31 @@
-stem	nickname	variable	message	wons flavor	flavor len	license	submission status	WAD filename pattern	track	track artist	track name
-	4LT						provided wad	byob_4lt.wad			
-	auhsan						provided wad	auh_*.wad			
-byob_avix	Avix	$avix	penis day at the gym 2: electric boogaloo	a castle of malicious tricks.	29	"do whatever, except no ai"	submitted	byob_avix.wad			
-byob_chaosed0	chaosed0	$chaos	Bath Time	come on in! the water's fine!	29		submitted	byob_chaosed0*.wad			
-byob_chuma	Chuma	$chuma	Kira Karazu in Neon	a chumastic rave.	17		submitted	byobchumastic.wad	27	Blood Instinct	Kaleidoscopic Array (Mr Freeze and Cammy)
-byob_clenow	Clenow	$clenow	England	a library invaded by Shub's soldiers.	37		submitted	library.wad	102	Wikimedia commons	God Save the King (1914)
-byob_cc	CommonCold	$cc	Handmade Haste	eerie and liminal spaces ahead.	31	CC0	submitted	byob_cc.wad	92	FREETRELLA	High and Dry
-byob_dicedpinecones	dicedpinecones	$diced	Realm of Apis	a surreal land.	15		submitted	byob_dicedpinecones.wad	32	dicedpinecones	Pernicious Journey Home
-	EHOT						provided wad	byob_EHOT.wad			
-byob_gnorlio	Gnorlio	$gnorlio	Woodrings	a noir stroll.	14		submitted	byob_gnorlio.wad	54	Realm of Mind	Crystal Formations
-byob_haikids	haikids	$haikids	Prototype Overgrown	a solid facility.	17		submitted	byob_haikids.wad	15	Aphex Twin	Blue Calx
+stem	nickname	license	variable	message	wons flavor	flavor len	submission status	WAD filename pattern	track	track artist	track name
+	4LT	YES					provided wad	byob_4lt.wad			
+	auhsan	YES					provided wad	auh_*.wad			
+byob_avix	Avix	"do whatever, except no ai"	$avix	penis day at the gym 2: electric boogaloo	a castle of malicious tricks.	29	submitted	byob_avix.wad			
+byob_chaosed0	chaosed0	YES	$chaos	Bath Time	come on in! the water's fine!	29	submitted	byob_chaosed0*.wad			
+byob_chuma	Chuma	YES	$chuma	Kira Karazu in Neon	a chumastic rave.	17	submitted	byobchumastic.wad	27	Blood Instinct	Kaleidoscopic Array (Mr Freeze and Cammy)
+byob_clenow	Clenow	YES	$clenow	England	a library invaded by Shub's soldiers.	37	submitted	library.wad	102	Wikimedia commons	God Save the King (1914)
+byob_cc	CommonCold	CC0	$cc	Handmade Haste	eerie and liminal spaces ahead.	31	submitted	byob_cc.wad	92	FREETRELLA	High and Dry
+byob_dicedpinecones	dicedpinecones	YES	$diced	Realm of Apis	a surreal land.	15	submitted	byob_dicedpinecones.wad	32	dicedpinecones	Pernicious Journey Home
+	EHOT	YES					provided wad	byob_EHOT.wad			
+byob_gnorlio	Gnorlio		$gnorlio	Woodrings	a noir stroll.	14	submitted	byob_gnorlio.wad	54	Realm of Mind	Crystal Formations
+byob_haikids	haikids	YES	$haikids	Prototype Overgrown	a solid facility.	17	submitted	byob_haikids.wad	15	Aphex Twin	Blue Calx
 	Immortal Chickens						dropped out				
-byob_puppluka_laura	Laura, Pup Luka	$pup	Skyward Spire (Luka's Version)	an aerial journey.	18		submitted	byob_puppluka_lauravix.wad	42	Pup Luka	Bottomless Descent
+byob_puppluka_laura	Laura, Pup Luka		$pup	Skyward Spire (Luka's Version)	an aerial journey.	18	submitted	byob_puppluka_lauravix.wad	42	Pup Luka	Bottomless Descent
 	Lobotomy-Lobster						dropped out				
 	moko						provided wad	moko.wad			
 	MrZuerg						dropped out				
-byob_naitelveni	Naitelveni	$nait	Flowers of Flesh and Blood	a stone-clad crypt.	19		submitted	byob_naitelveni.wad			
-	NovaFrost						provided wad	byob_novafrost.wad			
-byob_purplemarshmallow	purplemarshmallow	$pm	The Night with a Thousand Eyes	a lonely town.	14		submitted	byob_pm.wad			
-byob_quiet	Quiet	$quiet	Crazy Crayon Castle	a realm of joy and whimsy.	26		submitted	crayons1.wad	45	Quiet	funkywunkycrayoncastle
-byob_rabbit	rabbit	$rabbit	green dream	wonderful creature of aether inside.	36		submitted	byob_rabbit*.wad	255	Korp	Amidst the Frozen Seas
-byob_razzzor	Razzzor	$raz	Remnants of Atomic Dust (part 1)	twin stone megaliths.	21		submitted	razzzor_tex.wad	13	Jeremy Leaird-Koch + loregameaudio	Remnants of Atomic Dust
-	RecycledOJ						provided wad	byob_roj.wad			
-byob_redead	Redead-ITA	$redead	Short Gloomy Skypiercer	hometown of shinobi.	20	CC-BY-NC 4.0 INT	submitted	byob_redeadita.wad			
-byob_rorybabory	Rorybabory	$rory	Remnants of the Fallout	a brutalist husk of the past.	29	CC-BY	submitted	chornobyl.wad	94	Rorybabory	AAAAA
-	Shinko						provided wad	shinko_zed666.wad			
+byob_naitelveni	Naitelveni	YES	$nait	Flowers of Flesh and Blood	a stone-clad crypt.	19	submitted	byob_naitelveni.wad			
+	NovaFrost	YES					provided wad	byob_novafrost.wad			
+byob_purplemarshmallow	purplemarshmallow		$pm	The Night with a Thousand Eyes	a lonely town.	14	submitted	byob_pm.wad			
+byob_quiet	Quiet	CC0	$quiet	Crazy Crayon Castle	a realm of joy and whimsy.	26	submitted	crayons1.wad	45	Quiet	funkywunkycrayoncastle
+byob_rabbit	rabbit	YES	$rabbit	green dream	wonderful creature of aether inside.	36	submitted	byob_rabbit*.wad	255	Korp	Amidst the Frozen Seas
+byob_razzzor	Razzzor	YES	$raz	Remnants of Atomic Dust (part 1)	twin stone megaliths.	21	submitted	razzzor_tex.wad	13	Jeremy Leaird-Koch + loregameaudio	Remnants of Atomic Dust
+	RecycledOJ	YES					provided wad	byob_roj.wad			
+byob_redead	Redead-ITA	CC-BY-NC 4.0 INT	$redead	Short Gloomy Skypiercer	hometown of shinobi.	20	submitted	byob_redeadita.wad			
+byob_rorybabory	Rorybabory	CC-BY 4.0	$rory	Remnants of the Fallout	a brutalist husk of the past.	29	submitted	chornobyl.wad	94	Rorybabory	AAAAA
+	Shinko	YES					provided wad	shinko_zed666.wad			
 	silk						dropped out				
-	Squid V.						provided wad	byob_squidv.wad			
-byob_wons	wons	$wons	train and wave slop.	a metal, dark cave.	19		submitted	byob_wons.wad			
-start					0		submitted		254	Quiet	byoh (bring your own hub)
+	Squid V.	YES					provided wad	byob_squidv.wad			
+byob_wons	wons		$wons	train and wave slop.	a metal, dark cave.	19	submitted	byob_wons.wad			
+start		YES				0	submitted		254	Quiet	byoh (bring your own hub)
