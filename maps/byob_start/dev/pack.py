@@ -4,17 +4,25 @@ from pathlib import Path
 p_dir = Path(r'I:\byob')
 p_submissions = p_dir / 'submissions'
 p_wads = p_dir / 'wads'
-p_mod = Path(r'I:\Quake\Game\engines\byobtest')
+p_mod = Path(r'I:\Quake\Game\engines\byob')
 p_copper = p_dir / 'copper1.35_base'
+parent = Path(__file__).parent
+
+other_files = [
+    parent / 'descript.ion',
+    p_dir / 'readme.md',
+    p_dir / 'readme.html',
+]
 
 whitelist_pairs = {
     '**/*.bsp': 'maps',
     '**/*.lit': 'maps',
     '**/*.map': 'mapsrc',
-    '**/*.txt': '_extras/readmes',
-    '**/*.md': '_extras/readmes',
-    '**/*.html': '_extras/readmes',
-    '**/*.wad': '_extras/wads',
+    '**/*.py': 'mapsrc',
+    '**/*.txt': 'readmes',
+    '**/*.md': 'readmes',
+    '**/*.html': 'readmes',
+    '**/*.wad': 'wads',
     '**/*.mdl': 'progs',
     '**/gfx/env/*': 'gfx/env',
     '**/sound/*': 'sound',
@@ -38,8 +46,20 @@ def compress_skies():
                     glob_match.copy(item)
 
 
-def main():
+def copy_files():
     p_mod.mkdir(exist_ok=False)
+    mod_wads = p_mod / 'wads/'
+    mod_wads.mkdir(parents=True)
+
+    # copy misc
+    for file in other_files:
+        print('other file:', file)
+        file.copy(p_mod / file.name)
+
+    # copy wads
+    for wad in p_wads.iterdir():
+        print('wad:', wad)
+        wad.copy(mod_wads / wad.name, preserve_metadata=True)
 
     # iterate through submission files
     for pattern, dest_string in whitelist_pairs.items():
@@ -56,5 +76,15 @@ def main():
         item.copy_into(p_mod)
 
 
-main()
-compress_skies()
+def rename_files():
+    rename = {
+        'byob_start.bsp': 'start.bsp',
+        'byob_start.lit': 'start.lit',
+        'byob_start.md': 'start.md',
+        'byob_start.html': 'start.html',
+    }
+
+    for file in p_mod.rglob('*'):
+        for k, v in rename.items():
+            if file.name == k:
+                file.rename(file.with_name(v))
