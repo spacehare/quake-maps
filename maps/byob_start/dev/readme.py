@@ -3,15 +3,18 @@ from pathlib import Path
 
 import markdown2
 
+licenses = {
+    'YES': 'https://creativecommons.org/licenses/by/4.0/deed.en',
+    'CC0': 'https://creativecommons.org/publicdomain/zero/1.0/deed.en',
+    'CC-BY-NC 4.0 INT': 'https://creativecommons.org/licenses/by-nc/4.0/deed.en',
+    'CC-BY 4.0': 'https://creativecommons.org/licenses/by/4.0/deed.en',
+}
+
 
 # https://docs.python.org/3/library/csv.html
 def read_csv() -> list[dict]:
     SUBMISSIONS = Path(__file__).parent.parent / 'mapsrc/BYOB - submissions.tsv'
-    reader = csv.DictReader(
-        SUBMISSIONS.read_text().splitlines(),
-        delimiter='\t',
-        quotechar=None,
-    )
+    reader = csv.DictReader(SUBMISSIONS.read_text().splitlines(), delimiter='\t', quoting=csv.QUOTE_NONE)
     obj = [row for row in reader]
     return obj
 
@@ -36,11 +39,19 @@ def display_users(sheet: list[dict]) -> str:
             continue
         r_stem = f'`{row["stem"]}`' if row.get('stem') else ''
         r_wad = f'`{p}`' if (p := row.get('WAD filename pattern')) else ''
+
+        wad_license = ''
+        for k, v in licenses.items():
+            if row['license'] == k:
+                if k == 'YES':
+                    k = 'CC-BY 4.0'
+                wad_license = f'[{k}]({v})'
+
         subdata = [
             f'{row["nickname"]}',
             r_stem,
             row['message'],
-            row['license'],
+            wad_license,
             row['track'],
             row['track artist'],
             row['track name'],
