@@ -129,6 +129,7 @@ def main(input: list[Entity], context: dict) -> None:
                             face.texture_name = '{hub_flam2'
                             if ent.classname == 'func_detail_illusionary':
                                 ent.kv.setdefault('_minlight', '255')
+                                ent.kv.setdefault('_minlight_color', '255 239 206')
                         case 'hub_grass':
                             face.uv.u.offset = 0.0
                             face.uv.v.offset = 0.0
