@@ -5,6 +5,7 @@
 
 
 import csv
+from copy import deepcopy
 from pathlib import Path
 
 from rabbitquake.app.parse import Entity
@@ -94,9 +95,10 @@ def replace_texture(ent: Entity, a: str, b: str) -> None:
 
 def main(input: list[Entity], context: dict) -> None:
     VAR_PREFIX: str = context['var_prefix']
-    EVAL_PREFIX = VAR_PREFIX + 'eval'
+    EVAL = VAR_PREFIX + 'eval'
 
     assert input[0].classname == 'worldspawn'
+    append_ents: list[Entity] = []
 
     i = 0
     for ent in input:
@@ -107,8 +109,8 @@ def main(input: list[Entity], context: dict) -> None:
 
         # eval
         for key in ent.kv:
-            if ent.kv[key].startswith(EVAL_PREFIX):
-                ent.kv[key] = eval(ent.kv[key].removeprefix(EVAL_PREFIX))
+            if ent.kv[key].startswith(EVAL):
+                ent.kv[key] = eval(ent.kv[key].removeprefix(EVAL))
 
         # replace proto textures
         for key in replace_proto:
@@ -131,15 +133,34 @@ def main(input: list[Entity], context: dict) -> None:
                             face.uv.u.offset = 0.0
                             face.uv.v.offset = 0.0
 
-        if ent.kv.get(EVAL_PREFIX + 'resetuv'):
+        if ent.kv.get(VAR_PREFIX + 'resetuv'):
             for brush in ent.brushes:
                 for face in brush.planes:
                     face.uv.u.offset = 0.0
                     face.uv.v.offset = 0.0
-                    face.uv.u.scale = 0.0
-                    face.uv.v.scale = 0.0
+                    face.uv.u.scale = 1.0
+                    face.uv.v.scale = 1.0
+
+        if ent.kv.get('_surflight_group') == '1':
+            ent.kv['_minlight'] = '175'
+            ent.kv['_minlight_color'] = '255 239 206'
+            ent.kv['_dirt'] = '-1'
 
         match ent.classname:
+            case 'light':
+                # for the central pillar ceiling lights
+                if ent.kv.get(VAR_PREFIX + 'ceilinglight') == '1':
+                    ent.kv['delay'] = '5'
+                    ent.kv.setdefault('wait', str(2 / 3))
+                    ent.kv.setdefault('light', '100')
+                    dc = deepcopy(ent)
+                    dc.kv['delay'] = '0'
+                    dc.kv['wait'] = '1'
+                    dc.kv['light'] = '150'
+                    dc.kv['_color'] = '255 239 206'
+                    dc.kv['_bounce'] = '-1'
+                    append_ents.append(dc)
+
             case 'trigger_changelevel':
                 ent.kv['target'] = '_ITEMS.SHOTGUN25'
 
@@ -187,3 +208,4 @@ def main(input: list[Entity], context: dict) -> None:
                     continue
 
         i += 1
+    input += append_ents
