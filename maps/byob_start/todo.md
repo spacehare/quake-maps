@@ -1,9 +1,9 @@
-- [ ] graybox
-- [ ] texture
-- [ ] seal
-- [ ] lighting
+- [x] graybox
+- [x] texture
+- [x] seal
+- [x] lighting
 - [?] fog
-- [ ] secrets
+- [?] secrets
 - playtest and balance
   - [ ] QuakeSpasm
   - [ ] IronWail
@@ -12,13 +12,15 @@
   - [ ] 1 normal
   - [ ] 2 hard
 - [x] info_intermission, 1 or more
+  - DO I EVEN NEED THESE IN THE START MAP????? i dont think so??
 - [?] autosaves / checkpoints
-- [ ] phongs, phong_groups
-- [ ] sfx
+- [-] phongs, phong_groups
+  - `_phong_angle` doesn't fucking work
+- [x] sfx
 - [x] music
-- [ ] no MAP issues in TrenchBroom console
-- [ ] readme
-- [ ] replace all proto textures
+- [x] no MAP issues in TrenchBroom console
+- [x] readme
+- [x] replace all proto textures
 
 ---
 
@@ -26,7 +28,10 @@
 - [x] circular bench around main pillar
 - [x] convert chaosed0's jpg skies to TGA
 - [x] get non-fb tex from diced + add diced's clip texture
+- [x] descript.ion
 - [ ] main jam readme
   - [ ] licenses
   - [x] music
   - [ ] participants
+- [-] fix phong_angle on fences
+  - just ended up removing `_phong`
