@@ -4,7 +4,7 @@
 
 - custom portals by **wons**
 - music by **Quiet**
-- graves and Id statue by **Quiet**
+- lil trash bins, graves and Id statue by **Quiet**
 - sign font = https://damieng.com/typography/zx-origins/flamboyant/
 - basic white textures by **rabbit**
 - other textures by the participants of the BYOB jam
