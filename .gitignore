@@ -32,6 +32,7 @@ _ignore
 # Krita
 *.kra~
 *.*~
+*.mmcr
 # OpenMPT
 *.bak
 *.Autosave.*
