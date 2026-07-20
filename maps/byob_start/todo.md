@@ -61,14 +61,26 @@
 
 license stuff
 
-- [ ] get @byob to proofread the readme, talk about licenses = I DONT HAVE THE SPOONSS
-- [ ] add 'see below' section in readme for qbj3-like license for those who gave perms
+- [x] get @byob to proofread the readme, talk about licenses = I DONT HAVE THE SPOONSS
+- [x] add 'see below' section in readme for qbj3-like license for those who gave perms
 
 other
 
 - [ ] make sure to remove cfgs and `autosave/` in the release
-- [ ] add a thank-you for rc1 testers
+- [x] add a thank-you for rc1 testers
   - Readead-ITA
   - wons
   - razzzor
+  - Avix
+  - Makro
+  - Ilike80sRock
 - [ ] spacepirate idea; separate slipseer release of the WADs
+
+# final stuff
+
+- [x] -extra compile
+- [ ] slipseer draft
+- [ ] art banner
+- [x] update readme
+- [x] fix spotlight linked groups
+- [x] get moko perms, and then update TSV, and rerun readme.py

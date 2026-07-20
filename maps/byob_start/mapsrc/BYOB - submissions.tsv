@@ -6,7 +6,7 @@ stem	nickname	license	variable	message	wons flavor	flavor len	submission status	
 	4LT	YES					provided wad	byob_4lt.wad			
 	auhsan	YES					provided wad	auh_*.wad			
 	EHOT	YES					provided wad	byob_EHOT.wad			
-	moko						provided wad	moko.wad			
+	moko	YES					provided wad	moko.wad			
 	NovaFrost	YES					provided wad	byob_novafrost.wad			
 	RecycledOJ	See individual readme					provided wad	byob_roj.wad			
 	Shinko	YES					provided wad	shinko_zed666.wad			
@@ -28,4 +28,4 @@ byob_razzzor	Razzzor	YES	$raz	Remnants of Atomic Dust (part 1)	twin stone megali
 byob_redead	Redead-ITA	CC-BY-NC 4.0 INT	$redead	Short Gloomy Skypiercer	hometown of shinobi.	20	submitted	byob_redeadita.wad			
 byob_rorybabory	Rorybabory	CC-BY 4.0	$rory	Remnants of the Fallout	a brutalist husk of the past.	29	submitted	chornobyl.wad	94	Rorybabory	AAAAA
 byob_wons	wons	CC-BY-NC 4.0 INT	$wons	train and wave slop.	a metal, dark cave.	19	submitted	byob_wons.wad			
-start		YES				0	submitted		254	Quiet	byoh (bring your own hub)
+start	rabbit, wons, Quiet	YES		The Museum		0	submitted	byob_start.wad	254	Quiet	byoh (bring your own hub)

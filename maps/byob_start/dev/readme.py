@@ -43,10 +43,11 @@ def display_users(sheet: list[dict]) -> str:
         for k, v in licenses.items():
             if row['license'] == k:
                 wad_license = f'[{k}]({v})'
-        if row['license'] == 'YES':
-            wad_license = 'See below'
-        else:
-            wad_license = row['license']
+        if wad_license == '':
+            if row['license'] == 'YES':
+                wad_license = 'See below'
+            else:
+                wad_license = row['license']
 
         subdata = [
             f'{row["nickname"]}',

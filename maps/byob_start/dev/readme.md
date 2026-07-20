@@ -21,3 +21,12 @@ $submitters
 For WADs marked "see below":
 
 You have permission to use the textures included for this WAD. You may not use it for generative AI in any capacity. Attribution is appreciated and encouraged.
+
+# Thanks for help with finalizing the jam
+
+- Redead-ITA
+- wons
+- razzzor
+- Avix
+- Makro
+- iLike80sRock

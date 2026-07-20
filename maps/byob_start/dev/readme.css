@@ -39,3 +39,8 @@ table {
 		padding: 4px 8px;
 	}
 }
+
+a {
+	background-color: white;
+	padding: 0px 2px;
+}
