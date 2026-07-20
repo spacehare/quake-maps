@@ -44,7 +44,7 @@ def display_users(sheet: list[dict]) -> str:
         for k, v in licenses.items():
             if row['license'] == k:
                 if k == 'YES':
-                    k = 'CC-BY 4.0'
+                    k = 'See below'
                 wad_license = f'[{k}]({v})'
 
         subdata = [
@@ -57,7 +57,6 @@ def display_users(sheet: list[dict]) -> str:
             row['track name'],
             r_wad,
         ]
-        print(subdata)
         table_rows.append(f'|{" | ".join(subdata)}|')
     out += '\n'.join(table_rows)
     return out

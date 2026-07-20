@@ -17,3 +17,7 @@ extract the contents of the ZIP inside of your quake sourceport's folder. it sho
 # Participants
 
 $submitters
+
+For WADs marked "see below":
+
+You have permission to use the textures included for this WAD. You may not use it for generative AI in any capacity. Attribution is appreciated.

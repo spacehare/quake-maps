@@ -1,3 +1,4 @@
+import shutil
 import subprocess
 from pathlib import Path
 
@@ -34,7 +35,7 @@ def compress_skies():
     for item in p_mod.rglob('gfx/env/**'):
         if item.is_file():
             assert item.suffix == '.tga'
-            subprocess.run(['magick', 'mogrify', '-compress', 'rle', '-alpha', 'off', str(item)])
+            subprocess.run(['magick', 'mogrify', '-compress', 'rle', '-alpha', 'off', '-type', 'TrueColor', str(item)])
 
             for glob_match in p_submissions.rglob('**/' + item.name):
                 glob_match_size = glob_match.stat().st_size
@@ -88,3 +89,10 @@ def rename_files():
         for k, v in rename.items():
             if file.name == k:
                 file.rename(file.with_name(v))
+
+
+def clean_up():
+    shutil.rmtree(p_mod / 'autosave')
+    for item in p_mod.iterdir():
+        if item.match('*.cfg'):
+            item.unlink()

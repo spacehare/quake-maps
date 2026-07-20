@@ -30,8 +30,15 @@ replace = [
     '64_brown_3',
 ]
 
-waterlist = ['*bun_portal', '*bun_slime', '*bun_water']
-
+# for re-scaling
+water = {
+    '*pm_tele': 0.5,
+    '*rabbit_tele': 2.0,
+    '*razzz_tele': 2.0,
+    '*puppluka_tele': 2.0,
+    '*chaosed0_tele': 8.0,
+    '*cc_tele': 2.0,
+}
 
 messages = {
     'msg_id': """
@@ -132,21 +139,19 @@ def main(input: list[Entity], context: dict) -> None:
 
         for brush in ent.brushes:
             for face in brush.planes:
-                if face.texture_name in waterlist:
-                    face.uv.u.scale = 2.0
-                    face.uv.v.scale = 2.0
-                    face.uv.u.offset = 0.0
-                    face.uv.v.offset = 0.0
-                else:
-                    match face.texture_name:
-                        case '{hub_flamboyant':
-                            face.texture_name = '{hub_flam2'
-                            if ent.classname == 'func_detail_illusionary':
-                                ent.kv.setdefault('_minlight', '255')
-                                ent.kv.setdefault('_minlight_color', '255 239 206')
-                        case 'hub_grass':
-                            face.uv.u.offset = 0.0
-                            face.uv.v.offset = 0.0
+                for texname, size in water.items():
+                    if face.texture_name == texname:
+                        face.uv.u.scale = size
+                        face.uv.v.scale = size
+                match face.texture_name:
+                    case '{hub_flamboyant':
+                        face.texture_name = '{hub_flam2'
+                        if ent.classname == 'func_detail_illusionary':
+                            ent.kv.setdefault('_minlight', '255')
+                            ent.kv.setdefault('_minlight_color', '255 239 206')
+                    case 'hub_grass':
+                        face.uv.u.offset = 0.0
+                        face.uv.v.offset = 0.0
 
         if ent.kv.get(VAR_PREFIX + 'resetuv'):
             for brush in ent.brushes:

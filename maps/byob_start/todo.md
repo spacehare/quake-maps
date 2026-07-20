@@ -4,13 +4,6 @@
 - [x] lighting
 - [?] fog
 - [?] secrets
-- playtest and balance
-  - [ ] QuakeSpasm
-  - [ ] IronWail
-  - other players playtested; count: 0
-  - [ ] 0 easy
-  - [ ] 1 normal
-  - [ ] 2 hard
 - [x] info_intermission, 1 or more
   - DO I EVEN NEED THESE IN THE START MAP????? i dont think so??
 - [?] autosaves / checkpoints
@@ -35,3 +28,47 @@
   - [x] participants
 - [-] fix phong_angle on fences
   - just ended up removing `_phong`
+
+# rc1
+
+- [x] fix start map sky turning grayscale/bw ???
+  - `-type TrueColor`
+- [x] fix clenow portal texture misalignment
+- [x] CHECK: target_items rune on spawn1
+  - ok it fixed info_player_start2, yay. had to set an svflag
+- [x] credit Quiet for the trashcans lol
+- [x] CHECK: fix upscaled water textures on portals
+- [x] get @byob to check rc1
+- [x] quiet started at 50 fucking hp?? in my map?? = fixed w target_items
+- [x] make quick EASY NORMAL HARD NIGHTMARE textures in MM
+- x thicker skill doorframes?
+- [x] nightmare can only be unlocked once
+  - [x] add a doorframe for it prolly
+  - [x] also teleport the player to the frame instead of popping up a potentially-overridable message
+- [x] CHECK: abuse svflag 2
+- [?] graves non-int seams
+- [?] detail bottom of graves area
+- [?] lil fill light on avix's portal
+- [?] add small lights to portals with light textures
+- [x] update new submission (2026-07-19)
+- [?] nightmare is too confusing
+  - pm: extend out bricks
+  - pm: make silver key more visible
+- [?] give direct hint to hit the red stuff? idk? ppl seem confused
+- [x] use most recent version of TSV data
+
+---
+
+license stuff
+
+- [ ] get @byob to proofread the readme, talk about licenses = I DONT HAVE THE SPOONSS
+- [ ] add 'see below' section in readme for qbj3-like license for those who gave perms
+
+other
+
+- [ ] make sure to remove cfgs and `autosave/` in the release
+- [ ] add a thank-you for rc1 testers
+  - Readead-ITA
+  - wons
+  - razzzor
+- [ ] spacepirate idea; separate slipseer release of the WADs
