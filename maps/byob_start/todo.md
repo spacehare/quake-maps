@@ -79,8 +79,8 @@ other
 # final stuff
 
 - [x] -extra compile
-- [ ] slipseer draft
-- [ ] art banner
+- [x] slipseer draft
+- [x] art banner
 - [x] update readme
 - [x] fix spotlight linked groups
 - [x] get moko perms, and then update TSV, and rerun readme.py
