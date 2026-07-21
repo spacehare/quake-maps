@@ -1,0 +1,43 @@
+[center]
+[h1]Bring Your Own Bottle[/h1]
+
+[B]BYOB[/B] is a Quake jam where mappers were required to make their own textures.
+
+Co-hosted by Wons and Rabbit, with assistance from Quiet and the Quake Mapping Discord staff. The active mapping period lasted from June 18th to July 3rd.
+
+[i]With levels and WADs by:[/i]
+[b]
+Avix
+chaosed0
+Chuma
+Clenow
+CommonCold
+dicedpinecones
+Gnorlio
+haikids
+Laura and Pup Luka
+Naitelveni
+purplemarshmallow
+Quiet
+rabbit
+Razzzor
+Redead-ITA
+Rorybabory
+wons
+[/b]
+
+[i]and standalone WADs by:[/i]
+[b]
+4LT
+auhsan
+EHOT
+moko
+NovaFrost
+RecycledOJ
+Shinko
+Squid V.
+[/b]
+
+
+[COLOR=rgb(255, 0, 0)]Please read the [ICODE]readme[/ICODE] file included in the ZIP for further information.[/COLOR]
+[/center]
