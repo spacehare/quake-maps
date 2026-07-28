@@ -1,0 +1,6 @@
+- map by Avix
+- map artpass by Rabbit
+- skybox by Makkon
+- lava texture by Avix
+- miku texture by Avix
+- all other textures by Makkon
