@@ -3,9 +3,9 @@
 // entity 0
 {
 "mapversion" "220"
-"wad" "/home/deck/Desktop/qdm/lq_dev.wad;/home/deck/Desktop/qdm/lq_utility.wad;/home/deck/Desktop/qdm/avsky.wad;/home/deck/Desktop/qdm/miku.wad;/home/deck/Desktop/qdm/makgrate.wad"
+"wad" "I:\Quake\wads\q30dm_avix\avsky.wad;I:\Quake\wads\q30dm_avix\lq_dev.wad;I:\Quake\wads\q30dm_avix\lq_utility.wad;I:\Quake\wads\q30dm_avix\makgrate.wad;I:\Quake\wads\q30dm_avix\miku.wad"
 "classname" "worldspawn"
-"_tb_def" "external:/home/deck/Desktop/qdm/ktx.fgd"
+"_tb_def" "builtin:Quake.fgd"
 "_dirt" "1"
 "worldtype" "2"
 // brush 0
@@ -9257,4 +9257,13 @@
 ( -1024 288 800 ) ( -1023 288 800 ) ( -1024 288 801 ) trigger [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( -1024 288 800 ) ( -1024 288 801 ) ( -1024 289 800 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
+}
+// entity 183
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "prefabs"
+"_tb_id" "4"
+"_tb_layer_sort_index" "0"
+"_tb_layer_omit_from_export" "1"
 }
