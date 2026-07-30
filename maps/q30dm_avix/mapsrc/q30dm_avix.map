@@ -3,7 +3,7 @@
 // entity 0
 {
 "mapversion" "220"
-"wad" "I:\byob\wads\byob_avix.wad;I:\Quake\wads\q30dm_avix\avsky.wad;I:\Quake\wads\q30dm_avix\lq_dev.wad;I:\Quake\wads\q30dm_avix\miku.wad;I:\Quake\dev\wad\makkon_trim_guide.wad;I:\Quake\wads\makkon_industrial_extras.wad;I:\Quake\dev\wad\makkon_update-8\makkon_liquid.wad;I:\Quake\wads\q30dm_avix\q30dm_avix.wad;I:\Quake\wads\byob\byob_rabbit_dev.wad"
+"wad" "I:\Quake\wads\q30dm_avix\avsky.wad;I:\Quake\wads\q30dm_avix\lq_dev.wad;I:\Quake\wads\q30dm_avix\miku.wad;I:\Quake\wads\makkon_industrial_extras.wad;I:\Quake\wads\q30dm_avix\q30dm_avix.wad;I:\Quake\wads\byob\byob_rabbit_dev.wad"
 "classname" "worldspawn"
 "_tb_def" "external:I:/Quake/bmFbr.fgd"
 "_dirt" "1"
