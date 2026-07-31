@@ -91,6 +91,8 @@ def main(input: list[Entity], context: dict) -> None:
 
         if ent.kv.get('_color') in colors:
             ent.kv['_color'] = colors[ent.kv['_color']]
+        if ent.kv.get('_minlight_color') in colors:
+            ent.kv['_minlight_color'] = colors[ent.kv['_minlight_color']]
 
         match ent.classname:
             case 'light':
@@ -107,7 +109,7 @@ def main(input: list[Entity], context: dict) -> None:
         for brush in ent.brushes:
             for face in brush.planes:
                 match face.texture_name:
-                    case '*lava8':
+                    case '*lava8b' | '*tele128_blu1':
                         for coord in face.uv:
                             coord.offset = 0.0
                             coord.scale = 2.0

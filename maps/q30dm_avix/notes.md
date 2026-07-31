@@ -15,6 +15,9 @@ hud_framestats_show                   "1"
 outlet = orange
 inlet = blue
 
+vent access frames = 32u
+vent walls = 16u or 32u
+
 # floors
 
 # general
