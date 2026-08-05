@@ -21,6 +21,26 @@ def hex_rgb(string: str):
     return ' '.join(val)
 
 
+ent_light5 = Entity()
+ent_light2 = Entity()
+ent_light5.kv.update(
+    {
+        'classname': 'light',
+        'delay': '5',
+        'wait': '.67',
+        'light': '150',
+    }
+)
+ent_light2.kv.update(
+    {
+        'classname': 'light',
+        'delay': '2',
+        'wait': '2.25',
+        'light': '67',
+        '_bounce': '-1',
+    }
+)
+
 colors = {
     r'%rainbow_red': 'e31a0f',
     r'%rainbow_orange': 'f28a0f',
@@ -105,6 +125,15 @@ def main(input: list[Entity], context: dict) -> None:
                     dc.kv['_color'] = ent.kv.get('_color', '255 255 255')
                     dc.kv['_bounce'] = '-1'
                     add.append(dc)
+            case 'info_null':
+                if ent.kv.get(VAR_PREFIX + 'lite') == 'gen':
+                    l2 = copy.deepcopy(ent_light2)
+                    l5 = copy.deepcopy(ent_light5)
+                    for light in [l2, l5]:
+                        light.kv['origin'] = ent.kv['origin']
+                        if _color := ent.kv.get('_color'):
+                            light.kv['_color'] = _color
+                        add.append(light)
 
         for brush in ent.brushes:
             for face in brush.planes:
