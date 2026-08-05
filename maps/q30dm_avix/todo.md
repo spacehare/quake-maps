@@ -11,6 +11,8 @@
 - [ ] make sure miku is visible during lighting pass
 - [ ] add arrows to jump pad walls
 - [x] texture the quad door thing
+- [ ] refactor spawn point design
+- [ ] double-check fence culling w/ ezquake VS ironwail
 
 # zones
 

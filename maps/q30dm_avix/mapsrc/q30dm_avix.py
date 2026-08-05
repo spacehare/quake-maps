@@ -17,6 +17,7 @@ replace_proto = {
 
 def hex_rgb(string: str):
     # https://stackoverflow.com/questions/29643352/converting-hex-to-rgb-value-in-python
+    string = string[1:]
     val = [str(int(string[i : i + 2], 16)) for i in (0, 2, 4)]
     return ' '.join(val)
 
@@ -28,7 +29,7 @@ ent_light5.kv.update(
         'classname': 'light',
         'delay': '5',
         'wait': '.67',
-        'light': '150',
+        'light': '140',
     }
 )
 ent_light2.kv.update(
@@ -42,36 +43,39 @@ ent_light2.kv.update(
 )
 
 colors = {
-    r'%rainbow_red': 'e31a0f',
-    r'%rainbow_orange': 'f28a0f',
-    r'%rainbow_yellow': 'efe61f',
-    r'%rainbow_green': '79b925',
-    r'%rainbow_blue': '2857a5',
-    r'%rainbow_purple': '6d1e81',
-    r'%enby_yellow': 'fff42f',
-    r'%enby_white': 'ffffff',
-    r'%enby_purple': '9c58d1',
-    r'%enby_black': '292929',
-    r'%trans_blue': '5bcffa',
-    r'%trans_pink': 'f5aab9',
-    r'%trans_white': 'ffffff',
-    r'%bi_pink': 'd70071',
-    r'%bi_purple': '9c4e97',
-    r'%bi_blue': '0035a9',
-    r'%dis_gray': '595959',
-    r'%dis_green': '38b17e',
-    r'%dis_blue': '7cc3e1',
-    r'%dis_white': 'e9e9e9',
-    r'%dis_yellow': 'efdf78',
-    r'%dis_red': 'd07381',
-    r'%mlm5_1': '078d70',
-    r'%mlm5_2': '98e8c1',
-    r'%mlm5_3': 'ffffff',
-    r'%mlm5_4': '7bade2',
-    r'%mlm5_5': '3d1a78',
-    r'%it_green': '009344',
-    r'%it_white': 'ffffff',
-    r'%it_red': 'cf2734',
+    r'%rainbow_red': '#e31a0f',
+    r'%rainbow_orange': '#f28a0f',
+    r'%rainbow_yellow': '#efe61f',
+    r'%rainbow_green': '#79b925',
+    r'%rainbow_blue': '#2857a5',
+    r'%rainbow_purple': '#6d1e81',
+    r'%enby_yellow': '#fff42f',
+    r'%enby_white': '#ffffff',
+    r'%enby_purple': '#9c58d1',
+    r'%enby_black': '#292929',
+    r'%trans_blue': '#5bcffa',
+    r'%trans_pink': '#f5aab9',
+    r'%trans_white': '#ffffff',
+    r'%bi_pink': '#d70071',
+    r'%bi_purple': '#9c4e97',
+    r'%bi_blue': '#0035a9',
+    r'%dis_gray': '#595959',
+    r'%dis_green': '#38b17e',
+    r'%dis_blue': '#7cc3e1',
+    r'%dis_white': '#e9e9e9',
+    r'%dis_yellow': '#efdf78',
+    r'%dis_red': '#d07381',
+    r'%mlm5_1': '#078d70',
+    r'%mlm5_2': '#98e8c1',
+    r'%mlm5_3': '#ffffff',
+    r'%mlm5_4': '#7bade2',
+    r'%mlm5_5': '#3d1a78',
+    r'%it_green': '#009344',
+    r'%it_white': '#ffffff',
+    r'%it_red': '#cf2734',
+    r'%lava': '#ff4561',
+    r'%mid': '#b689ff',
+    r'%top': '#ff62b6',
 }
 for k, v in colors.items():
     colors[k] = hex_rgb(v)
@@ -130,9 +134,9 @@ def main(input: list[Entity], context: dict) -> None:
                     l2 = copy.deepcopy(ent_light2)
                     l5 = copy.deepcopy(ent_light5)
                     for light in [l2, l5]:
-                        light.kv['origin'] = ent.kv['origin']
-                        if _color := ent.kv.get('_color'):
-                            light.kv['_color'] = _color
+                        for key, val in ent.kv.items():
+                            if key not in ['classname', 'angle', '@lite']:
+                                light.kv[key] = val
                         add.append(light)
 
         for brush in ent.brushes:
