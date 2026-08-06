@@ -42,6 +42,7 @@ ent_light2.kv.update(
     }
 )
 
+
 colors = {
     r'%rainbow_red': '#e31a0f',
     r'%rainbow_orange': '#f28a0f',
@@ -100,12 +101,25 @@ def wall(ent: Entity) -> Entity:
     return new_ent
 
 
+def setup_alarm_light(original: Entity) -> list[Entity]:
+    lights = []
+    lights.append(copy.deepcopy(ent_light2))
+    lights.append(copy.deepcopy(ent_light5))
+    for light in lights:
+        light.kv['_color'] = '255 0 0'
+        light.kv['origin'] = original.kv['origin']
+        light.kv['targetname'] = 'quad_lights_red'
+        light.kv['spawnflags'] = '1'
+    return lights
+
+
 def main(input: list[Entity], context: dict) -> None:
     VAR_PREFIX: str = context['var_prefix']
     EVAL_PREFIX = VAR_PREFIX + 'eval'
 
     assert input[0].classname == 'worldspawn'
     add: list[Entity] = []
+    add2: list[Entity] = []
 
     for ent in input:
         # delete
@@ -165,3 +179,13 @@ def main(input: list[Entity], context: dict) -> None:
             add.append(wall(ent))
 
     input += add
+
+    for ent in input:
+        if ent.classname == 'info_null':
+            input.remove(ent)
+        if ent.classname == 'light':
+            ent.kv['targetname'] = 'quad_lights'
+            if ent.kv.get('delay') == '2':
+                add2 += setup_alarm_light(ent)
+
+    input += add2

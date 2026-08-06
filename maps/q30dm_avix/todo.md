@@ -1,22 +1,27 @@
 # todo
 
 - [x] replace all tunnel inlets/outlets
-- [ ] add little rabbit drawing somewhere, a la Miku
-- [ ] subtle pride flags
+- [x] add little rabbit drawing somewhere, a la Miku
 - [x] consistent tunnel interior
-- [ ] quad alarm
+- [x] quad alarm
 - [ ] color-code (or sth) item spawn locations
-- [ ] landing indicators? like from outlets and jump pads
+- [-] landing indicators? like from outlets and jump pads
 - [x] jump pads
-- [ ] make sure miku is visible during lighting pass
+- [x] make sure miku is visible during lighting pass
 - [ ] add arrows to jump pad walls
 - [x] texture the quad door thing
 - [ ] refactor spawn point design
 - [ ] double-check fence culling w/ ezquake VS ironwail
+- [ ] add some stencils
+- [ ] fences to 1 wall script
+- [ ] bspxlit
+- [ ] add rabbit suffix to file stem
 
-# zones
+# stencils
 
-- [ ] basement (lowest area)
+- [ ] PLUR
+- [ ] T4T
+- [ ] 68
 
 # generic
 
