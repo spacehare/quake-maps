@@ -6,7 +6,7 @@
 
 import copy
 
-from rabbitquake.app.parse import Brush, Entity
+from rabbitquake.app.parse import Entity
 
 replace_proto = {
     'bun_proto1': 'bun_flat',
@@ -77,6 +77,7 @@ colors = {
     r'%lava': '#ff4561',
     r'%mid': '#b689ff',
     r'%top': '#ff62b6',
+    r'%tunnel': '#fff4e4',
 }
 for k, v in colors.items():
     colors[k] = hex_rgb(v)
@@ -87,18 +88,6 @@ def replace_texture(ent: Entity, a: str, b: str) -> None:
         for face in brush.planes:
             if face.texture_name == a:
                 face.texture_name = b
-
-
-def wall(ent: Entity) -> Entity:
-    output_brushes: list[Brush] = []
-    new_ent = Entity()
-    for brush in ent.brushes:
-        clone = copy.deepcopy(brush)
-        new_ent.brushes.append(clone)
-        for plane in clone.planes:
-            plane.texture_name = 'skip'
-        output_brushes.append(clone)
-    return new_ent
 
 
 def setup_alarm_light(original: Entity) -> list[Entity]:
@@ -120,6 +109,14 @@ def main(input: list[Entity], context: dict) -> None:
     assert input[0].classname == 'worldspawn'
     add: list[Entity] = []
     add2: list[Entity] = []
+    one_wall = Entity()
+    one_wall.kv.update(
+        {
+            'classname': 'func_wall',
+            '_shadow': '1',
+        }
+    )
+    add.append(one_wall)
 
     for ent in input:
         # delete
@@ -174,18 +171,34 @@ def main(input: list[Entity], context: dict) -> None:
         for key in replace_proto:
             replace_texture(ent, key, replace_proto[key])
 
-        # wall
-        if ent.kv.get(VAR_PREFIX + 'wall') == '1':
-            add.append(wall(ent))
-
     input += add
 
     for ent in input:
-        if ent.classname == 'info_null':
-            input.remove(ent)
-        if ent.classname == 'light':
-            ent.kv['targetname'] = 'quad_lights'
-            if ent.kv.get('delay') == '2':
-                add2 += setup_alarm_light(ent)
+        match ent.classname:
+            case 'info_null':
+                input.remove(ent)
+            case 'light':
+                ent.kv['targetname'] = 'quad_lights'
+                if ent.kv.get('delay') == '2':
+                    add2 += setup_alarm_light(ent)
 
     input += add2
+
+    # ---
+
+    output = []
+
+    for ent in input:
+        # ezquake, fteqw
+        # faces that overlap with fences get culled in the above engines
+        if ent.classname == 'func_detail_fence':
+            one_wall.brushes += ent.brushes
+            continue
+        else:
+            output.append(ent)
+
+    for ent in output:
+        assert ent.classname != 'func_detail_fence'
+
+    input.clear()
+    input += output
