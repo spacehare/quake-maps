@@ -25,7 +25,7 @@
 ---
 
 - [x] quad plat lighting issues
-- [ ] rename files to `q30_junction`
+- [x] rename files to `q30_junction`
 
 # generic
 
