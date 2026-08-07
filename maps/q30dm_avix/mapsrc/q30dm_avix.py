@@ -90,16 +90,16 @@ def replace_texture(ent: Entity, a: str, b: str) -> None:
                 face.texture_name = b
 
 
-def setup_alarm_light(original: Entity) -> list[Entity]:
-    lights = []
-    lights.append(copy.deepcopy(ent_light2))
-    lights.append(copy.deepcopy(ent_light5))
-    for light in lights:
-        light.kv['_color'] = '255 0 0'
-        light.kv['origin'] = original.kv['origin']
-        light.kv['targetname'] = 'quad_lights_red'
-        light.kv['spawnflags'] = '1'
-    return lights
+def setup_alarm_light(original: Entity) -> Entity:
+    newlight = copy.deepcopy(original)
+    newlight.kv.update(
+        {
+            '_color': '255 0 0',
+            'targetname': 'quad_lights_red',
+            'spawnflags': '1',
+        }
+    )
+    return newlight
 
 
 def main(input: list[Entity], context: dict) -> None:
@@ -131,7 +131,6 @@ def main(input: list[Entity], context: dict) -> None:
 
         match ent.classname:
             case 'light':
-                # for the central pillar ceiling lights
                 if ent.kv.get(VAR_PREFIX + 'lite') == '1':
                     dc = copy.deepcopy(ent)
                     dc.kv['delay'] = '2'
@@ -178,9 +177,9 @@ def main(input: list[Entity], context: dict) -> None:
             case 'info_null':
                 input.remove(ent)
             case 'light':
-                ent.kv['targetname'] = 'quad_lights'
-                if ent.kv.get('delay') == '2':
-                    add2 += setup_alarm_light(ent)
+                if ent.kv.get('@noalarm') != '1':
+                    ent.kv['targetname'] = 'quad_lights'
+                    add2.append(setup_alarm_light(ent))
 
     input += add2
 

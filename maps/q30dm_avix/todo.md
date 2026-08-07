@@ -19,14 +19,19 @@
 - [x] double-check fence culling w/ ezquake VS ironwail
   - [x] fences to 1 wall script
   - ezquake and fteqw cull. ironwail and quakespasm do not cull.
+- [x] bspxlit
+  - also add this to readme steps
 
 ---
 
-- [ ] bspxlit
-- [ ] add rabbit suffix to file stem
+- [x] quad plat lighting issues
+- [ ] rename files to `q30_junction`
 
 # generic
 
 - [x] textures
 - [x] lighting
-- [ ] fog
+- [x] fog
+  - `r_fx_fog_usemap`
+- [x] readme
+  - [x] avix should review it too
