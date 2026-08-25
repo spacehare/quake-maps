@@ -7,4 +7,7 @@ from rabbitquake.app.parse import Entity
 
 
 def main(input: list[Entity], context: dict) -> None:
-    pass
+    for ent in input:
+        for key in ent.kv:
+            if ent.kv[key].startswith('eval'):
+                ent.kv[key] = eval(ent.kv[key].removeprefix('eval'))
