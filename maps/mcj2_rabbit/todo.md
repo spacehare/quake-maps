@@ -1,0 +1,7 @@
+- [ ] place decorative banners
+- [ ] fog
+- [ ] lighting
+- [ ] graybox
+- [ ] readme
+- [ ] woke wool
+- [ ] music
