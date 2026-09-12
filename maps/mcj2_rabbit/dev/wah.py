@@ -54,6 +54,9 @@ stems_dict = {
     # lanterns
     'lantern': '{lantern_fbr',
     'soul_lantern': '{lantern_soul_fbr',
+    # text
+    'ascii': '{ascii_fbr',
+    'ascii_invert': '{ascii_invert_fbr',
     '': '',
 }
 
