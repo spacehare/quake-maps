@@ -1,11 +1,14 @@
 from pathlib import Path
 from subprocess import run
 
-parent = Path(__file__).parent
+parent = Path(__file__).parent.absolute()
 textures = parent.parent / 'textures' / 'mcj2_rabbit'
+temp = parent / 'temp'
+qpakman = parent / 'qpakman'
 
-if not textures.exists():
-    textures.mkdir(parents=True)
+textures.mkdir(exist_ok=True, parents=True)
+temp.mkdir(exist_ok=True)
+qpakman.mkdir(exist_ok=True)
 
 
 stems_dict = {
@@ -48,26 +51,48 @@ stems_dict = {
     'pearlescent_froglight_top': 'frog_pearl_t',
     'verdant_froglight_side': 'frog_verdant_s',
     'verdant_froglight_top': 'frog_verdant_t',
+    # lanterns
+    'lantern': '{lantern_fbr',
+    'soul_lantern': '{lantern_soul_fbr',
     '': '',
 }
 
-#  clean the directory
-for file in textures.iterdir():
-    file.unlink()
+
+# clean up previous run
+for folder in [textures, temp, qpakman]:
+    for file in folder.iterdir():
+        file.unlink()
+
 
 # ImageMagick
 run(
-    rf'magick mogrify -scale 200% -format tga -alpha off -type TrueColor -compress rle -path {textures.absolute()} rip/*.png'.split(),
+    f'magick mogrify -scale 200% -format tga -compress rle -path {temp} rip/*.png'.split(),
     cwd=parent,
 )
 
 # rename files
-for file in textures.iterdir():
+for file in temp.iterdir():
     if file.stem in stems_dict:
         file.rename(file.with_stem(stems_dict[file.stem]))
 
-# qpakman
+# trans
 run(
-    rf'qpakman {textures.absolute()}/*.tga -o I:\Quake\wads\per-map\mcj2_rabbit.wad'.split(),
+    f'magick mogrify -background #9F5B53 -alpha remove -path {qpakman} temp/*.tga'.split(),
     cwd=parent,
 )
+
+# qpakman
+run(
+    rf'qpakman {qpakman}/*.tga -o I:\Quake\wads\per-map\mcj2_rabbit.wad'.split(),
+    cwd=parent,
+)
+
+# ImageMagick
+run(
+    f'magick mogrify -alpha off-if-opaque -type TrueColor -path {textures} temp/*.tga'.split(),
+    cwd=parent,
+)
+
+# clean up external texture names
+for file in textures.iterdir():
+    file.rename(file.with_stem(file.stem.removesuffix('_fbr')))
