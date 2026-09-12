@@ -12,6 +12,12 @@ dont_reset = [
     'mush_stem',
     'log_birch',
     'basalt_side',
+    'frog_pearl_s',
+    'frog_verdant_s',
+    'frog_ochre_s',
+    '{lever',
+    '{lantern',
+    '{lantern_soul',
 ]
 
 
