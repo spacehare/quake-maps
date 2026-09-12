@@ -7,7 +7,8 @@
   - the day afternoon
   - olympus
   - **liminal space** (BASSMIDI)
-- [ ] readme
+- [x] readme
+- [ ] polish
 
 ---
 
