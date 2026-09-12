@@ -64,7 +64,7 @@ for folder in [textures, temp, qpakman]:
         file.unlink()
 
 
-# ImageMagick
+# convert
 run(
     f'magick mogrify -scale 200% -format tga -compress rle -path {temp} rip/*.png'.split(),
     cwd=parent,
@@ -87,7 +87,7 @@ run(
     cwd=parent,
 )
 
-# ImageMagick
+# optimize file sizes
 run(
     f'magick mogrify -alpha off-if-opaque -type TrueColor -path {textures} temp/*.tga'.split(),
     cwd=parent,
