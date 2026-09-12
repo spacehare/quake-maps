@@ -89,7 +89,7 @@ run(
 
 # optimize file sizes
 run(
-    f'magick mogrify -alpha off-if-opaque -type TrueColor -path {textures} temp/*.tga'.split(),
+    f'magick mogrify -alpha off-if-opaque -path {textures} temp/*.tga'.split(),
     cwd=parent,
 )
 
