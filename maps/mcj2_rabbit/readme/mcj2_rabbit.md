@@ -7,6 +7,9 @@ banners
 - [enby 2](https://needcoolershoes.com/banner?=palsfMay)
 - [trans](https://needcoolershoes.com/banner?=pajBmyms)
 
-i used "CTRL+SHIFT+C" to remove the "skew" class from the div
+_i used "CTRL+SHIFT+C" to remove the "skew" class from the div_
 
 banners are 20x40 pixels and 1x2 blocks
+
+- music by Korp
+  https://www.doomworld.com/forum/topic/145673-korps-midi-library-over-300-free-to-use-pieces/

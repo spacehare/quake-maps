@@ -1,13 +1,13 @@
-- [ ] place decorative banners
-- [ ] fog
-- [ ] readme
-- [ ] music
-
----
-
 - [x] graybox
 - [x] woke wool
 - [x] lighting
+- [x] place decorative banners
+- [-] fog
+- [x] music
+  - the day afternoon
+  - olympus
+  - **liminal space** (BASSMIDI)
+- [ ] readme
 
 ---
 
