@@ -8,7 +8,11 @@
   - olympus
   - **liminal space** (BASSMIDI)
 - [x] readme
-- [ ] polish
+- [x] polish
+- [x] hide some more score around
+- [x] check slate pearl minlights
+- [x] fix score script
+- [ ] commit rabbitquake changes
 
 ---
 

@@ -9,6 +9,8 @@ the map source is included in the files, [but it's also on github!](https://gith
 - music: Liminal Space by [Korp](https://www.doomworld.com/forum/topic/145673-korps-midi-library-over-300-free-to-use-pieces/)
 - textures from Minecraft
 
+thanks to Avix for hosting this cool jam
+
 ## banners
 
 banners made in needcoolershoes

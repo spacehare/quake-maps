@@ -3,7 +3,7 @@
 
 # https://github.com/spacehare/rabbit_quake
 
-from rabbitquake.app.parse import Entity
+from rabbitquake.app.parse import Brush, Entity
 
 dont_reset = [
     'banners',
@@ -18,11 +18,37 @@ dont_reset = [
     '{lever',
     '{lantern',
     '{lantern_soul',
+    'sign',
+    '{ascii',
+    '{ascii_invert',
 ]
 
 
+def froggify(group: Entity, ent: Entity):
+    newbrushes: list[Brush] = []
+
+    for brush in ent.brushes:
+        for plane in brush.planes:
+            if brush in group.brushes:
+                continue
+
+            if plane.texture_name.startswith('frog'):
+                group.brushes.append(brush)
+
+            else:
+                newbrushes.append(brush)
+
+    ent.brushes.clear()
+    ent.brushes += newbrushes
+
+
 def main(input: list[Entity], context: dict) -> None:
-    score = 0
+    frog_group = Entity()
+    frog_group.kv['classname'] = 'func_group'
+    frog_group.kv['_minlight'] = '255'
+    frog_group.kv['_lightignore'] = '1'
+
+    score: int = 0
     vecs = [
         ((0.0, -1.0, 0.0), (0.0, 0.0, -1.0)),
         ((1.0, 0.0, 0.0), (0.0, 0.0, -1.0)),
@@ -31,12 +57,17 @@ def main(input: list[Entity], context: dict) -> None:
         ((-1.0, 0.0, 0.0), (0.0, 0.0, -1.0)),
         ((0.0, 1.0, 0.0), (0.0, 0.0, -1.0)),
     ]
+    # FIXME
+    # ericw alpha 11:
+    # WARNING: ... repairing invalid texture projection ("wool_pink" near 704 -1152 -704)
 
     for ent in input:
         # delete
         if ent.kv.get('@delete') == '1':
             input.remove(ent)
             continue
+
+        froggify(frog_group, ent)
 
         for brush in ent.brushes:
             for plane, numbers in zip(brush.planes, vecs):
@@ -64,9 +95,6 @@ def main(input: list[Entity], context: dict) -> None:
             case 'item_score':
                 score += 1000 if ent.kv.get('spawnflags') == '1' else 100
 
-            case 'target_scorecheck':
-                ent.kv['score'] = str(score)
-
             case 'trigger_teleport':
                 # X (RED)
                 # Y (GREEN)
@@ -87,6 +115,14 @@ def main(input: list[Entity], context: dict) -> None:
                                 pt.y += extend
                             case 5:
                                 pt.x += extend
+
+    for e in input:
+        if e.kv.get('targetname') == 'scorecheck':
+            e.kv['score'] = str(score)
+
+    print('score:', score)
+
+    input.append(frog_group)
 
 
 # i'm the best programmer ever
