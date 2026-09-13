@@ -31,7 +31,7 @@ banners are 20x40 pixels and 1x2 blocks
 - [TrenchBroom 2025.3](https://trenchbroom.github.io/)
 - [ericw-tools-2.0.0-alpha11-win64](https://github.com/ericwa/ericw-tools/releases/tag/2.0.0-alpha11)
 - [Krita](https://krita.org/en/)
-- [qpakman](https://openarena.ws/board/index.php?topic=1710.0)
+- [qpakman](https://github.com/LibreQuake/qpakman)
 - [ImageMagick](https://imagemagick.org)
 - [some of my own jank python scripts](https://github.com/spacehare/rabbit_quake)
 
