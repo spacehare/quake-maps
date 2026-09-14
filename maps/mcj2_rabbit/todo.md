@@ -12,7 +12,17 @@
 - [x] hide some more score around
 - [x] check slate pearl minlights
 - [x] fix score script
-- [ ] commit rabbitquake changes
+- [x] commit rabbitquake changes
+- [x] test backtracking from final room
+
+# avix feedback
+
+- [x] obsidian tunnel too dark
+- [x] obsidian tunnel top area too hard
+- [x] add `nofalldamage 1` to worldspawn
+- [x] remove the HP timer
+
+i can't fix the weird bug where some brushes aren't being found by my script, don't have time.
 
 ---
 
