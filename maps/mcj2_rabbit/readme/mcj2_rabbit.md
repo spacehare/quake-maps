@@ -7,6 +7,8 @@ the map source is included in the files, [but it's also on github!](https://gith
 # credits
 
 - music: Liminal Space by [Korp](https://www.doomworld.com/forum/topic/145673-korps-midi-library-over-300-free-to-use-pieces/)
+  - converted using foobar2000 and ffmpeg
+    - [foo_midi](https://www.foobar2000.org/components/view/foo_midi) with BASSMIDI, gzdoom.sf2, fluidsynth
 - textures from Minecraft
 
 thanks to Avix for hosting this cool jam
